@@ -22,7 +22,7 @@ const LESSONS: LessonType[] = [
     notionId: '89cf10ef71b54fbfa7c3e6b41d55b36f',
     slug: 'going-bankless',
     imageLinks: [
-      '/lesson/going-bankless/welcome-to-bankless-academy-cf9ea670.png',
+      '/lesson/going-bankless/welcome-to-InnovAccion-cf9ea670.png',
       '/lesson/going-bankless/upgrading-humanitys-coordination-protocols-2ef0d764.png',
       '/lesson/going-bankless/your-bankless-journey-9736d072.png'
     ],
@@ -31,7 +31,7 @@ const LESSONS: LessonType[] = [
         type: 'LEARN',
         notionId: '22f89665f8db4c5a9dec05200f8314e6',
         title: 'Welcome to Bankless Academy',
-        content: '<div class="bloc1"><p><strong><em>(Bankless Instructor Slide)</em></strong></p><ul><li>Bankless Academy is here to serve as your guide throughout your Bankless journey.</li><li>As the first step in your Bankless journey, we will discuss the shortcomings of the traditional financial system, what it means to go Bankless, and how cryptographic technology is positively transforming financial reality for people of all backgrounds across the globe.</li><li>We’ll finish with Bankless goals to mark on your map, and practical next steps.</li></ul></div><div class="bloc2"><img src=\'/lesson/going-bankless/welcome-to-bankless-academy-cf9ea670.png\'></div>'
+        content: '<div class="bloc1"><p><strong><em>(Bankless Instructor Slide)</em></strong></p><ul><li>Bankless Academy is here to serve as your guide throughout your Bankless journey.</li><li>As the first step in your Bankless journey, we will discuss the shortcomings of the traditional financial system, what it means to go Bankless, and how cryptographic technology is positively transforming financial reality for people of all backgrounds across the globe.</li><li>We’ll finish with Bankless goals to mark on your map, and practical next steps.</li></ul></div><div class="bloc2"><img src=\'/lesson/going-bankless/welcome-to-InnovAccion-cf9ea670.png\'></div>'
       },
       {
         type: 'LEARN',

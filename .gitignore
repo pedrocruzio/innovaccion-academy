@@ -15,6 +15,9 @@
 # production
 /build
 
+.idea
+.github
+
 # misc
 .DS_Store
 *.pem
@@ -38,5 +41,5 @@ yarn-error.log*
 # vercel
 .vercel
 
-# vscode 
+# vscode
 .vscode/

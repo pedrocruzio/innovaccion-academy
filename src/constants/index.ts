@@ -9,9 +9,10 @@ export const IS_WHITELABEL = !!WHITELABEL?.project_name
 
 export const LESSONS = IS_WHITELABEL ? WHITELABEL_LESSONS : DEFAULT_LESSONS
 
-export const PROJECT_NAME = WHITELABEL?.project_name || 'Bankless Academy'
+export const PROJECT_NAME = WHITELABEL?.project_name || 'InovvAccion Academy'
 
-export const DOMAIN_PROD = WHITELABEL?.domain_prod || 'app.banklessacademy.com'
+export const DOMAIN_PROD =
+  WHITELABEL?.domain_prod || 'https://innovaccionpr.org/'
 
 export const DOMAIN_URL =
   process.env.VERCEL_URL && process.env.VERCEL_ENV !== 'production'
@@ -24,23 +25,23 @@ export const DEFAULT_METADATA: MetaData = {
     WHITELABEL?.default_metadata_description ||
     'Level up your knowledge of Web3 and DeFi',
   image: `${DOMAIN_URL}${
-    WHITELABEL?.default_metadata_image || '/images/bankless_academy_v3.jpg'
+    WHITELABEL?.default_metadata_image || '/images/logo-horz-blue.png'
   }`,
 }
 
-export const FAVICON = WHITELABEL?.favicon || '/favicon.png'
+export const FAVICON = WHITELABEL?.favicon || '/logo-icon.png'
 
 export const APPLE_TOUCH_ICON =
   WHITELABEL?.apple_touch_icon || WHITELABEL?.favicon || '/app-icon.png'
 export const APPLE_TOUCH_STARTUP_IMAGE =
   WHITELABEL?.homepage_background || '/apple-touch-startup-image.jpg'
 
-export const LOGO = WHITELABEL?.logo || '/images/BanklessAcademy.svg'
+export const LOGO = WHITELABEL?.logo || '/images/logo-horz-white-org-icon.png'
 export const LOGO_SMALL =
-  WHITELABEL?.logo_small || '/images/BanklessAcademy_Logo.svg'
+  WHITELABEL?.logo_small || '/images/logo-horz-white-org-icon.png'
 
 export const HOMEPAGE_BACKGROUND =
-  WHITELABEL?.homepage_background || '/images/homepage_background_v3.jpg'
+  WHITELABEL?.homepage_background || '/images/logo-horz-blue.png'
 
 export const UMAMI_PROD =
   WHITELABEL?.umami_prod || '62d1cf48-425d-4658-9b86-3eea78ac9714'

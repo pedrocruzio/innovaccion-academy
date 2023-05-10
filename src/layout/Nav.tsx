@@ -72,7 +72,7 @@ const Nav: React.FC = () => {
         </ExternalLink>
       ) : null}
       <Box
-        bgColor="black"
+        bgColor="#6064fc"
         borderBottom="1px solid #222222"
         pr={isMobile ? 0 : 1}
       >

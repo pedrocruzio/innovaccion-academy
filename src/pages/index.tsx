@@ -76,20 +76,12 @@ const HomePage = (): JSX.Element => {
             alignItems="center"
             pt="20vh"
           >
-            <Image
-              style={{
-                filter: 'drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7))',
-              }}
-              maxW="90%"
-              src="/images/BanklessAcademy.svg"
-              alt="Bankless Academy"
-            />
-            <Box>
+            <Box mt={'20%'}>
               <InternalLink href={`/lessons`}>
                 <Button
                   variant="primary"
                   size="lg"
-                  style={{ padding: '0 23px' }}
+                  style={{ padding: '0 23px', marginTop: '20px' }}
                 >
                   Explore Lessons
                 </Button>

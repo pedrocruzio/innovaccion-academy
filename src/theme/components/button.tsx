@@ -8,7 +8,7 @@ const primaryStyle = {
   border: '1px solid #B85FF1',
   boxSizing: 'border-box',
   backdropFilter: 'blur(42px)',
-  background: 'linear-gradient(84.62deg, #B06FD8 7.42%, #597AEE 218.41%)',
+  background: 'linear-gradient(84.62deg, #white 7.42%, #597AEE 218.41%)',
   bgClip: 'text',
   color: '#F2E5FF',
   span: {
@@ -35,7 +35,7 @@ const padding = { paddingLeft: '15px', paddingRight: '15px' }
 const paddingBig = { paddingLeft: '23px', paddingRight: '23px' }
 
 const primary = {
-  background: 'linear-gradient(135.91deg, #B06FD8 29.97%, #597AEE 99.26%)',
+  background: 'linear-gradient(135.91deg, #FFA500 29.97%, #f87c1c 99.26%)',
   backdropFilter: 'blur(50px)',
   borderRadius: '8px',
   _hover: isMobile

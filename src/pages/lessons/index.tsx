@@ -1,5 +1,5 @@
 import { GetStaticProps } from 'next'
-import { SimpleGrid, Container, Heading } from '@chakra-ui/react'
+import { SimpleGrid, Container, Heading, Text } from '@chakra-ui/react'
 import styled from '@emotion/styled'
 
 import { MetaData } from 'components/Head'
@@ -22,7 +22,6 @@ const StyledHeading = styled(Heading)`
     flex-basis: 100%;
     align-items: center;
     margin: 48px 0;
-
     &:before,
     &:after {
       content: '';
@@ -45,7 +44,7 @@ function Lessons(): JSX.Element {
   return (
     <Container maxW="container.xl">
       <StyledHeading as="h1" size="2xl" textAlign="center" my={8}>
-        Lesson Selection
+        <Text color={'#FFA500'}>Lesson Selection</Text>
       </StyledHeading>
       <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={4} my={8} gap={6}>
         <LessonCards />

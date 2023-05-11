@@ -47,6 +47,8 @@ export type Post = {
 export const parseProperties = (database: QueryDatabaseResponse): Post[] => {
   return database.results.map((row) => {
     const id = row.id
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
     const titleCell = row?.properties.Title.title
     const title = titleCell?.[0].plain_text
     return { id, title }

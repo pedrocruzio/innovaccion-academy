@@ -31,15 +31,7 @@ import InstallAppModal from 'components/InstallAppModal'
 export const LessonCard = styled(Box)`
   position: relative;
   ::after {
-    background: linear-gradient(
-      107.1deg,
-      rgba(46, 33, 33, 0.3) -3.13%,
-      rgba(80, 73, 84, 0.3) 16.16%,
-      rgba(94, 89, 104, 0.3) 29.38%,
-      rgba(86, 81, 94, 0.3) 41.5%,
-      rgba(23, 21, 21, 0.3) 102.65%
-    );
-    opacity: 0.6;
+    background: #6064fc;
     border-radius: var(--chakra-radii-3xl);
     content: '';
     position: absolute;

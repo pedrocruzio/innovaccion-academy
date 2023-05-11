@@ -35,13 +35,13 @@ const OptionMenu = ({
     <Box zIndex="2">
       <Menu>
         <MenuButton
-          variant="secondary"
+          variant="primary"
           as={Button}
           size={isSmallScreen ? 'sm' : 'md'}
         >
           ...
         </MenuButton>
-        <MenuList>
+        <MenuList css={{ backgroundColor: '#5e62ff' }}>
           <ExternalLink href="/faq" color="white">
             <MenuItem>FAQ</MenuItem>
           </ExternalLink>

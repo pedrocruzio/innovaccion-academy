@@ -89,7 +89,7 @@ const HomePage = (): JSX.Element => {
             </Box>
           </Stack>
         </Center>
-        <Box bgColor="#1F2023" p="4" overflow="hidden">
+        <Box bgColor="#5e62ff" p="4" overflow="hidden">
           <Container maxW="container.lg">
             <Box mt="6">
               <Heading as="h2" size="xl" m="auto">

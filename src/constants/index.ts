@@ -36,9 +36,8 @@ export const APPLE_TOUCH_ICON =
 export const APPLE_TOUCH_STARTUP_IMAGE =
   WHITELABEL?.homepage_background || '/apple-touch-startup-image.jpg'
 
-export const LOGO = WHITELABEL?.logo || '/images/logo-horz-white-org-icon.png'
-export const LOGO_SMALL =
-  WHITELABEL?.logo_small || '/images/logo-horz-white-org-icon.png'
+export const LOGO = WHITELABEL?.logo || '/images/logo-horz-blue.png'
+export const LOGO_SMALL = WHITELABEL?.logo_small || '/images/logo-horz-blue.png'
 
 export const HOMEPAGE_BACKGROUND =
   WHITELABEL?.homepage_background || '/images/logo-horz-blue.png'

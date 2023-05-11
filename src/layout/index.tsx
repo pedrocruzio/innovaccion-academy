@@ -40,7 +40,7 @@ const Layout = ({
     <Box
       minH="100vh"
       paddingBottom={isSmallLesson && isLesson ? '81px' : '0'}
-      bgColor="#161515"
+      bgColor="white"
       overflowX="hidden"
     >
       <Nav />

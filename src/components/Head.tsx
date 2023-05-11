@@ -29,6 +29,7 @@ const umamiWebsiteId =
       UMAMI_PROD
     : // dev
       'e84c3a1e-0ab0-4502-b0fe-67d660765535'
+// TODO: Change with Real Domain
 const umamiDomain = 'https://stats.banklessacademy.com/stats.js'
 
 const Head = ({ metadata }: { metadata: MetaData }): React.ReactElement => {

@@ -71,11 +71,7 @@ const Nav: React.FC = () => {
           <Box w="100%" h="100%" position="absolute" zIndex="3" />
         </ExternalLink>
       ) : null}
-      <Box
-        bgColor="black"
-        borderBottom="1px solid #222222"
-        pr={isMobile ? 0 : 1}
-      >
+      <Box bgColor="white" pr={isMobile ? 0 : 1}>
         <Flex p={4}>
           <Box cursor={embed ? 'auto' : 'pointer'}>
             {embed ? (

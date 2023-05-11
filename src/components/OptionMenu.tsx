@@ -41,7 +41,7 @@ const OptionMenu = ({
         >
           ...
         </MenuButton>
-        <MenuList css={{ backgroundColor: '#5e62ff' }}>
+        <MenuList css={{ background: '#6064fc' }}>
           <ExternalLink href="/faq" color="white">
             <MenuItem>FAQ</MenuItem>
           </ExternalLink>

@@ -5,12 +5,12 @@ import {
 import { isMobile } from 'react-device-detect'
 
 const primaryStyle = {
-  border: '1px solid #B85FF1',
+  border: '1px solid #122b54',
   boxSizing: 'border-box',
   backdropFilter: 'blur(42px)',
   background: 'linear-gradient(84.62deg, #white 7.42%, #597AEE 218.41%)',
   bgClip: 'text',
-  color: '#F2E5FF',
+  color: '#122b54',
   span: {
     path: {
       fill: '#5c79ed',
@@ -19,7 +19,7 @@ const primaryStyle = {
 }
 
 const secondaryStyle = {
-  background: 'transparent',
+  background: '#122b54',
   border: '1px solid #F2E5FF',
   boxSizing: 'border-box',
   backdropFilter: 'blur(42px)',
@@ -93,7 +93,7 @@ const primaryBigLast = {
 }
 
 const secondary = {
-  background: '#3F3253',
+  background: '#5e62ff',
   backdropFilter: 'blur(50px)',
   borderRadius: '8px',
   _hover: isMobile

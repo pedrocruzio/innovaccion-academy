@@ -14,8 +14,8 @@ const { TABLES } = require('./db.js')
 const PROJECT_DIR = process.env.PROJECT_DIR || ''
 const IS_WHITELABEL = PROJECT_DIR !== ''
 const LESSON_FILENAME = IS_WHITELABEL ? 'whitelabel_lessons' : 'lessons'
-const DEFAULT_NOTION_ID = '114126fcfe3b464da891e8216f4d737b?v=fe9991ff77ca4bfdb2152ccb8c174e98'
-const POTION_API = 'https://www.notion.so/'
+const DEFAULT_NOTION_ID = '1dd77eb6ed4147f6bdfd6f23a30baa46'
+const POTION_API = 'https://potion.banklessacademy.com'
 
 const KEY_MATCHING = {
   'Kudos image': 'kudosImageLink',
@@ -82,15 +82,15 @@ const download_image = (url, image_path) =>
   })
 
 axios
-  .get(`${POTION_API}${NOTION_ID}`)
+  .get(`${POTION_API}/table?id=${NOTION_ID}`)
   .then((notionRows) => {
-      console.log('Yeppers', notionRows)
     const lessons = []
     if (IS_WHITELABEL && !fs.existsSync(`public/${PROJECT_DIR}lesson`)) {
       // create image directory dynamically in case it doesn't exist yet
       fs.mkdirSync(`public/${PROJECT_DIR}lesson`)
     }
     const promiseArray = notionRows.data.map(async (notion, index) => {
+      console.log('Blow Up Yeeters', notion)
       // DEV_MODE: only test first lesson
       // if (index > 0) return
 
@@ -100,13 +100,14 @@ axios
           Object.assign(obj, {
             // transform to number if the string contains a number
             [KEY_MATCHING[k]]: Number.isNaN(parseInt(notion.fields[k])) ||
-              // ignore type transform for ModuleId & mirrorNFTAddress
-              (k === 'Module' || k === 'Mirror NFT address')
+            // ignore type transform for ModuleId & mirrorNFTAddress
+            (k === 'Module' || k === 'Mirror NFT address')
               ? notion.fields[k]
               : parseInt(notion.fields[k]),
           }),
         {}
       )
+      console.log('Lesson Unyeet', lesson)
       if (lesson.publicationStatus === undefined) return
       notion.id = notion.id.replace(/-/g, '')
       console.log('Notion lesson link: ', `${POTION_API}/html?id=${notion.id}`)

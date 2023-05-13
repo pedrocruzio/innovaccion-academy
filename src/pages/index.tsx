@@ -35,6 +35,7 @@ import {useSmallScreen} from 'hooks/index'
 // import {queryDatabase} from "@notionhq/client/build/src/api-endpoints";
 import {parseProperties} from "../utils/notion";
 import {queryDatabase} from "./api/queryNotion";
+import {PageObjectResponse, PartialPageObjectResponse} from "@notionhq/client/build/src/api-endpoints";
 
 const Card = styled(Box)`
   border: 1px solid #72757b;
@@ -55,21 +56,21 @@ const NewsletterButton = styled(Button)`
   }
 `
 
-export async function getStaticProps() {
+// export async function getStaticProps(): Promise<{ props: { posts: (PageObjectResponse | PartialPageObjectResponse)[] } }> {
     // const response = await fetch('/api/queryNotion')
     // const database = response.json()
-    const database = await queryDatabase()
-    const posts = parseProperties(database);
+//     const database = await queryDatabase()
+//     const posts = parseProperties(database);
+//
+//     return {
+//         props: {
+//             posts,
+//         }
+//     }
+// }
 
-    return {
-        props: {
-            posts,
-        }
-    }
-}
-
-const HomePage = (props): JSX.Element => {
-    console.log('DidIgetAny', props)
+const HomePage = (): JSX.Element => {
+    // console.log('DidIgetAny', props)
     const [isSmallScreen] = useSmallScreen()
     const {isOpen, onOpen, onClose} = useDisclosure()
 

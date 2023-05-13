@@ -1,6 +1,7 @@
 import { notion } from '../../utils/notion'
-import { NextApiRequest, NextApiResponse } from 'next'
-import ApiResponseHandler from '../../utils/ApiResponseHandler'
+import {QueryDatabaseResponse} from "@notionhq/client/build/src/api-endpoints";
+// import { NextApiRequest, NextApiResponse } from 'next'
+// import ApiResponseHandler from '../../utils/ApiResponseHandler'
 
 // export const queryNotion = async (
 //   req: NextApiRequest,
@@ -15,7 +16,7 @@ import ApiResponseHandler from '../../utils/ApiResponseHandler'
 //     await ApiResponseHandler.error(req, res, error)
 //   }
 // }
-export const queryDatabase = async () =>
+export const queryDatabase = async (): Promise<QueryDatabaseResponse> =>
     await notion.databases.query({
       database_id: process.env.NOTION_DATABASE_ID ?? '',
     });

@@ -118,10 +118,10 @@ const parseProperties = (database: QueryDatabaseResponse) => {
     row.id = row.id.replace(/-/g, '')
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
-    console.log(
-      'Notion Lesson Link: ',
-      row.properties['Lesson link'].formula.string
-    )
+    // console.log(
+    //   'Notion Lesson Link: ',
+    //   row.properties['Lesson link'].formula.string
+    // )
   })
 }
 

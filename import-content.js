@@ -14,8 +14,8 @@ const { TABLES } = require('./db.js')
 const PROJECT_DIR = process.env.PROJECT_DIR || ''
 const IS_WHITELABEL = PROJECT_DIR !== ''
 const LESSON_FILENAME = IS_WHITELABEL ? 'whitelabel_lessons' : 'lessons'
-const DEFAULT_NOTION_ID = '1dd77eb6ed4147f6bdfd6f23a30baa46'
-const POTION_API = 'https://potion.banklessacademy.com'
+const DEFAULT_NOTION_ID = '114126fcfe3b464da891e8216f4d737b?v=fe9991ff77ca4bfdb2152ccb8c174e98'
+const POTION_API = 'https://www.notion.so/'
 
 const KEY_MATCHING = {
   'Kudos image': 'kudosImageLink',
@@ -82,8 +82,9 @@ const download_image = (url, image_path) =>
   })
 
 axios
-  .get(`${POTION_API}/table?id=${NOTION_ID}`)
+  .get(`${POTION_API}${NOTION_ID}`)
   .then((notionRows) => {
+      console.log('Yeppers', notionRows)
     const lessons = []
     if (IS_WHITELABEL && !fs.existsSync(`public/${PROJECT_DIR}lesson`)) {
       // create image directory dynamically in case it doesn't exist yet

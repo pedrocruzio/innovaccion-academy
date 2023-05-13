@@ -61,7 +61,7 @@ const NotionPage = ({
 }): JSX.Element => {
   if (!recordMap || Object.keys(recordMap).length === 0) {
     return (
-      <div>
+      <div style={{color: '#FFA500'}}>
         <h3>No data found.</h3>
         <div> Make sure the pageId is valid.</div>
         <div>Only public pages are supported in this example.</div>

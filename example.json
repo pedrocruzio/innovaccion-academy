@@ -1,0 +1,5377 @@
+[
+  {
+    "object": "page",
+    "id": "90a9cf9e-e68c-4afc-8d86-6d2574b09d5c",
+    "created_time": "2023-05-11T19:20:00.000Z",
+    "last_edited_time": "2023-05-11T19:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "🚢"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "114126fc-fe3b-464d-a891-e8216f4d737b"
+    },
+    "archived": false,
+    "properties": {
+      "Roadmap": {
+        "id": "%3E%3FcG",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson badge image": {
+        "id": "%3Eo%3Fa",
+        "type": "files",
+        "files": [
+          {
+            "name": "https://app.banklessacademy.com/images/intro-to-defi-poap.png",
+            "type": "external",
+            "external": {
+              "url": "https://app.banklessacademy.com/images/intro-to-defi-poap.png"
+            }
+          }
+        ]
+      },
+      "Lesson collected image": {
+        "id": "Acil",
+        "type": "files",
+        "files": []
+      },
+      "Live preview link": {
+        "id": "Erxl",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/preview?id=90a9cf9ee68c4afc8d866d2574b09d5c"
+        }
+      },
+      "End of Lesson redirect": {
+        "id": "KYUy",
+        "type": "url",
+        "url": null
+      },
+      "What will you be able to do after this lesson?": {
+        "id": "Ndkg",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Transfer crypto into your web3 wallet in order to be ready to interact with DeFi later",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Transfer crypto into your web3 wallet in order to be ready to interact with DeFi later",
+            "href": null
+          }
+        ]
+      },
+      "Kudos ID": {
+        "id": "R%5C~u",
+        "type": "number",
+        "number": 2562
+      },
+      "Mirror link": {
+        "id": "R%60sH",
+        "type": "url",
+        "url": null
+      },
+      "Course Pre-Reqs": {
+        "id": "STP%7D",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "POAP event ID": {
+        "id": "UWT%40",
+        "type": "number",
+        "number": 26972
+      },
+      "Pre-requisite for": {
+        "id": "U%5BQe",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "a47ce4a5-6233-4e47-819d-9760c7336daa"
+          },
+          {
+            "id": "e4db9d0b-47db-4dc5-96ba-707f92003632"
+          }
+        ],
+        "has_more": false
+      },
+      "Social image": {
+        "id": "XYv%5C",
+        "type": "files",
+        "files": [
+          {
+            "name": "https://app.banklessacademy.com/images/intro-to-defi-social.jpg",
+            "type": "external",
+            "external": {
+              "url": "https://app.banklessacademy.com/images/intro-to-defi-social.jpg"
+            }
+          }
+        ]
+      },
+      "Lesson link": {
+        "id": "Yp%7Bm",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/intro-to-defi"
+        }
+      },
+      "Landing page copy": {
+        "id": "%5BPze",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Move beyond centralized exchanges and start exploring the ever-expanding possibilities of decentralized finance.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Move beyond centralized exchanges and start exploring the ever-expanding possibilities of decentralized finance.",
+            "href": null
+          }
+        ]
+      },
+      "Lesson collectible video": {
+        "id": "%60j%7By",
+        "type": "files",
+        "files": []
+      },
+      "Status": {
+        "id": "bqeK",
+        "type": "select",
+        "select": {
+          "id": "m\\:E",
+          "name": "Complete",
+          "color": "green"
+        }
+      },
+      "Community discussion link": {
+        "id": "e%5C%40N",
+        "type": "url",
+        "url": "https://gm.xyz/c/BanklessAcademy?communityName=BanklessAcademy&sortBy=new&topicUuid=1ee6aa7e-8174-464c-b13c-69faef819b3e"
+      },
+      "Duration in minutes": {
+        "id": "e%7DAy",
+        "type": "number",
+        "number": 10
+      },
+      "Quest": {
+        "id": "gBdL",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Learning Objective": {
+        "id": "kAiI",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Learn what decentralized finance means and discover the game-changing possibilities that new blockchain-powered applications introduce to the world.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Learn what decentralized finance means and discover the game-changing possibilities that new blockchain-powered applications introduce to the world.",
+            "href": null
+          }
+        ]
+      },
+      "Order": {
+        "id": "k%5EG%5C",
+        "type": "number",
+        "number": 7
+      },
+      "Curriculum unit": {
+        "id": "kc%7CP",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Difficulty": {
+        "id": "mWkS",
+        "type": "select",
+        "select": {
+          "id": "950accf8-039d-4dd8-b692-c92593d32a25",
+          "name": "Easy",
+          "color": "gray"
+        }
+      },
+      "Enable Comments": {
+        "id": "oZii",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "AMAs": {
+        "id": "pjYI",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Description": {
+        "id": "pmtE",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Understand the basics of decentralized finance.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Understand the basics of decentralized finance.",
+            "href": null
+          }
+        ]
+      },
+      "Lesson sponsors": {
+        "id": "pp%3D%5C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Keywords": {
+        "id": "ta%5CR",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson collectible mint ID": {
+        "id": "u%60NU",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson image": {
+        "id": "vPLo",
+        "type": "files",
+        "files": [
+          {
+            "name": "https://app.banklessacademy.com/images/intro-to-defi-lesson.png",
+            "type": "external",
+            "external": {
+              "url": "https://app.banklessacademy.com/images/intro-to-defi-lesson.png"
+            }
+          }
+        ]
+      },
+      "End of Lesson text": {
+        "id": "vr%5Dk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible token address": {
+        "id": "w%5D~d",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Publication status": {
+        "id": "xRj%3D",
+        "type": "select",
+        "select": {
+          "id": "4a6f3946-b14d-4f86-890b-1e53944b19a2",
+          "name": "publish",
+          "color": "green"
+        }
+      },
+      "Keyword count": {
+        "id": "zBlU",
+        "type": "rollup",
+        "rollup": {
+          "type": "number",
+          "number": null,
+          "function": "count"
+        }
+      },
+      "🗓️ lesson Tasks": {
+        "id": "%7CL%3AK",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Roadmap status": {
+        "id": "%7CNva",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Mirror NFT address": {
+        "id": "%7DZfk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Featured order on homepage": {
+        "id": "~svn",
+        "type": "number",
+        "number": null
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Intro to DeFi",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Intro to DeFi",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Intro-to-DeFi-90a9cf9ee68c4afc8d866d2574b09d5c"
+  },
+  {
+    "object": "page",
+    "id": "cf1301e7-51ee-4e02-a2d7-2c6cee7a75e6",
+    "created_time": "2023-05-11T19:20:00.000Z",
+    "last_edited_time": "2023-05-11T19:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "🚢"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "114126fc-fe3b-464d-a891-e8216f4d737b"
+    },
+    "archived": false,
+    "properties": {
+      "Roadmap": {
+        "id": "%3E%3FcG",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson badge image": {
+        "id": "%3Eo%3Fa",
+        "type": "files",
+        "files": [
+          {
+            "name": "wallet-basics-poap.png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec340af0-6f71-480a-850b-6c78fe20d836/wallet-basics-poap.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=c56772fba7da45978298eed104fabee47d5220e5ae1f728bbd50f3a5b7db321c&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.274Z"
+            }
+          }
+        ]
+      },
+      "Lesson collected image": {
+        "id": "Acil",
+        "type": "files",
+        "files": []
+      },
+      "Live preview link": {
+        "id": "Erxl",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/preview?id=cf1301e751ee4e02a2d72c6cee7a75e6"
+        }
+      },
+      "End of Lesson redirect": {
+        "id": "KYUy",
+        "type": "url",
+        "url": null
+      },
+      "What will you be able to do after this lesson?": {
+        "id": "Ndkg",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Create and manage your own wallet\nConnect your wallet to a web3 website",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Create and manage your own wallet\nConnect your wallet to a web3 website",
+            "href": null
+          }
+        ]
+      },
+      "Kudos ID": {
+        "id": "R%5C~u",
+        "type": "number",
+        "number": 2561
+      },
+      "Mirror link": {
+        "id": "R%60sH",
+        "type": "url",
+        "url": null
+      },
+      "Course Pre-Reqs": {
+        "id": "STP%7D",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "POAP event ID": {
+        "id": "UWT%40",
+        "type": "number",
+        "number": 26971
+      },
+      "Pre-requisite for": {
+        "id": "U%5BQe",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "2eb7b028-211c-49fe-890e-7c3551026b83"
+          },
+          {
+            "id": "a2c5f9d5-a188-4fa0-b69f-a73a8599a311"
+          },
+          {
+            "id": "3242d8f8-549b-41f6-b376-3bbd831669fc"
+          }
+        ],
+        "has_more": false
+      },
+      "Social image": {
+        "id": "XYv%5C",
+        "type": "files",
+        "files": [
+          {
+            "name": "https://app.banklessacademy.com/images/wallet-basics-social.jpg",
+            "type": "external",
+            "external": {
+              "url": "https://app.banklessacademy.com/images/wallet-basics-social.jpg"
+            }
+          }
+        ]
+      },
+      "Lesson link": {
+        "id": "Yp%7Bm",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/wallet-basics"
+        }
+      },
+      "Landing page copy": {
+        "id": "%5BPze",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A crypto wallet is essential gear for Web3 and DeFi. Get basic training on how a wallet works and how to get started.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A crypto wallet is essential gear for Web3 and DeFi. Get basic training on how a wallet works and how to get started.",
+            "href": null
+          }
+        ]
+      },
+      "Lesson collectible video": {
+        "id": "%60j%7By",
+        "type": "files",
+        "files": []
+      },
+      "Status": {
+        "id": "bqeK",
+        "type": "select",
+        "select": {
+          "id": "m\\:E",
+          "name": "Complete",
+          "color": "green"
+        }
+      },
+      "Community discussion link": {
+        "id": "e%5C%40N",
+        "type": "url",
+        "url": "https://gm.xyz/c/BanklessAcademy?communityName=BanklessAcademy&sortBy=new&topicUuid=977d14c9-f368-4047-b058-5f97884125d5"
+      },
+      "Duration in minutes": {
+        "id": "e%7DAy",
+        "type": "number",
+        "number": 15
+      },
+      "Quest": {
+        "id": "gBdL",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Learning Objective": {
+        "id": "kAiI",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Find out what digital wallets are, what they allow you to do, and how to set up and protect your wallet as you get out and explore Web3.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Find out what digital wallets are, what they allow you to do, and how to set up and protect your wallet as you get out and explore Web3.",
+            "href": null
+          }
+        ]
+      },
+      "Order": {
+        "id": "k%5EG%5C",
+        "type": "number",
+        "number": 1
+      },
+      "Curriculum unit": {
+        "id": "kc%7CP",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Difficulty": {
+        "id": "mWkS",
+        "type": "select",
+        "select": {
+          "id": "950accf8-039d-4dd8-b692-c92593d32a25",
+          "name": "Easy",
+          "color": "gray"
+        }
+      },
+      "Enable Comments": {
+        "id": "oZii",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "AMAs": {
+        "id": "pjYI",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Description": {
+        "id": "pmtE",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Create and securely manage your first crypto wallet.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Create and securely manage your first crypto wallet.",
+            "href": null
+          }
+        ]
+      },
+      "Lesson sponsors": {
+        "id": "pp%3D%5C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Keywords": {
+        "id": "ta%5CR",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson collectible mint ID": {
+        "id": "u%60NU",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "64413093d296198479460ad0",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "64413093d296198479460ad0",
+            "href": null
+          }
+        ]
+      },
+      "Lesson image": {
+        "id": "vPLo",
+        "type": "files",
+        "files": [
+          {
+            "name": "https://app.banklessacademy.com/images/wallet-basics-lesson.png",
+            "type": "external",
+            "external": {
+              "url": "https://app.banklessacademy.com/images/wallet-basics-lesson.png"
+            }
+          }
+        ]
+      },
+      "End of Lesson text": {
+        "id": "vr%5Dk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible token address": {
+        "id": "w%5D~d",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "0x464b891cc07adabe10746aa6af73a34c6d473cd9",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "0x464b891cc07adabe10746aa6af73a34c6d473cd9",
+            "href": null
+          }
+        ]
+      },
+      "Publication status": {
+        "id": "xRj%3D",
+        "type": "select",
+        "select": {
+          "id": "4a6f3946-b14d-4f86-890b-1e53944b19a2",
+          "name": "publish",
+          "color": "green"
+        }
+      },
+      "Keyword count": {
+        "id": "zBlU",
+        "type": "rollup",
+        "rollup": {
+          "type": "number",
+          "number": null,
+          "function": "count"
+        }
+      },
+      "🗓️ lesson Tasks": {
+        "id": "%7CL%3AK",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Roadmap status": {
+        "id": "%7CNva",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Mirror NFT address": {
+        "id": "%7DZfk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Featured order on homepage": {
+        "id": "~svn",
+        "type": "number",
+        "number": null
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Wallet Basics",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Wallet Basics",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Wallet-Basics-cf1301e751ee4e02a2d72c6cee7a75e6"
+  },
+  {
+    "object": "page",
+    "id": "fab3fc6b-7411-4e02-86c8-8a458a78caaf",
+    "created_time": "2023-05-11T19:20:00.000Z",
+    "last_edited_time": "2023-05-11T19:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "👷‍♂️"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "114126fc-fe3b-464d-a891-e8216f4d737b"
+    },
+    "archived": false,
+    "properties": {
+      "Roadmap": {
+        "id": "%3E%3FcG",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson badge image": {
+        "id": "%3Eo%3Fa",
+        "type": "files",
+        "files": []
+      },
+      "Lesson collected image": {
+        "id": "Acil",
+        "type": "files",
+        "files": []
+      },
+      "Live preview link": {
+        "id": "Erxl",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/preview?id=fab3fc6b74114e0286c88a458a78caaf"
+        }
+      },
+      "End of Lesson redirect": {
+        "id": "KYUy",
+        "type": "url",
+        "url": null
+      },
+      "What will you be able to do after this lesson?": {
+        "id": "Ndkg",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Kudos ID": {
+        "id": "R%5C~u",
+        "type": "number",
+        "number": null
+      },
+      "Mirror link": {
+        "id": "R%60sH",
+        "type": "url",
+        "url": "https://mirror.xyz/banklessacademy.eth/zLajMWXQC44H4uQOXK5j9ROZhuC3xwgoddLtAQQo0k0"
+      },
+      "Course Pre-Reqs": {
+        "id": "STP%7D",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "POAP event ID": {
+        "id": "UWT%40",
+        "type": "number",
+        "number": null
+      },
+      "Pre-requisite for": {
+        "id": "U%5BQe",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "d79c7a05-e4b5-454f-87ed-97cc0dbdb0e1"
+          }
+        ],
+        "has_more": false
+      },
+      "Social image": {
+        "id": "XYv%5C",
+        "type": "files",
+        "files": [
+          {
+            "name": "explorerHandbook02.png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dca66823-a494-4d02-bd51-507e5e2de970/explorerHandbook02.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=0d1ff6b71485e07874a65d5d477fb29351553a5ad4164e70971d6c8218526d3d&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.274Z"
+            }
+          }
+        ]
+      },
+      "Lesson link": {
+        "id": "Yp%7Bm",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/using-revoke.cash"
+        }
+      },
+      "Landing page copy": {
+        "id": "%5BPze",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible video": {
+        "id": "%60j%7By",
+        "type": "files",
+        "files": []
+      },
+      "Status": {
+        "id": "bqeK",
+        "type": "select",
+        "select": {
+          "id": "6653d2f4-dfe4-4a9b-a43c-fae05071d8c5",
+          "name": "Up Next",
+          "color": "default"
+        }
+      },
+      "Community discussion link": {
+        "id": "e%5C%40N",
+        "type": "url",
+        "url": null
+      },
+      "Duration in minutes": {
+        "id": "e%7DAy",
+        "type": "number",
+        "number": 5
+      },
+      "Quest": {
+        "id": "gBdL",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Learning Objective": {
+        "id": "kAiI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Order": {
+        "id": "k%5EG%5C",
+        "type": "number",
+        "number": 6
+      },
+      "Curriculum unit": {
+        "id": "kc%7CP",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Difficulty": {
+        "id": "mWkS",
+        "type": "select",
+        "select": null
+      },
+      "Enable Comments": {
+        "id": "oZii",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "AMAs": {
+        "id": "pjYI",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Description": {
+        "id": "pmtE",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Learn how to fund your wallet on L2 via CEXs, third-party onramps, and bridges.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Learn how to fund your wallet on L2 via CEXs, third-party onramps, and bridges.",
+            "href": null
+          }
+        ]
+      },
+      "Lesson sponsors": {
+        "id": "pp%3D%5C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Keywords": {
+        "id": "ta%5CR",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson collectible mint ID": {
+        "id": "u%60NU",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson image": {
+        "id": "vPLo",
+        "type": "files",
+        "files": [
+          {
+            "name": "explorerHandbook02.png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ea6cb34d-8c8f-4bd9-856d-77c16ceb20b6/explorerHandbook02.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=82717ad3756917de2c5857b11e5f3575e25c6cde9fbc0f9628eaf669d7d0859d&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.297Z"
+            }
+          }
+        ]
+      },
+      "End of Lesson text": {
+        "id": "vr%5Dk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible token address": {
+        "id": "w%5D~d",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Publication status": {
+        "id": "xRj%3D",
+        "type": "select",
+        "select": {
+          "id": "56e84186-240b-4caf-b7c3-99d7d42e3671",
+          "name": "planned",
+          "color": "orange"
+        }
+      },
+      "Keyword count": {
+        "id": "zBlU",
+        "type": "rollup",
+        "rollup": {
+          "type": "number",
+          "number": null,
+          "function": "count"
+        }
+      },
+      "🗓️ lesson Tasks": {
+        "id": "%7CL%3AK",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Roadmap status": {
+        "id": "%7CNva",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Mirror NFT address": {
+        "id": "%7DZfk",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "0x235f3dfe5106f137d8b137c1b7fa115076e8b476",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "0x235f3dfe5106f137d8b137c1b7fa115076e8b476",
+            "href": null
+          }
+        ]
+      },
+      "Featured order on homepage": {
+        "id": "~svn",
+        "type": "number",
+        "number": 1
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Using Revoke.cash",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Using Revoke.cash",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Using-Revoke-cash-fab3fc6b74114e0286c88a458a78caaf"
+  },
+  {
+    "object": "page",
+    "id": "13df8d13-d074-46db-a422-bf8c66c0f73c",
+    "created_time": "2023-05-11T19:20:00.000Z",
+    "last_edited_time": "2023-05-11T19:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "👷‍♂️"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "114126fc-fe3b-464d-a891-e8216f4d737b"
+    },
+    "archived": false,
+    "properties": {
+      "Roadmap": {
+        "id": "%3E%3FcG",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson badge image": {
+        "id": "%3Eo%3Fa",
+        "type": "files",
+        "files": []
+      },
+      "Lesson collected image": {
+        "id": "Acil",
+        "type": "files",
+        "files": []
+      },
+      "Live preview link": {
+        "id": "Erxl",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/preview?id=13df8d13d07446dba422bf8c66c0f73c"
+        }
+      },
+      "End of Lesson redirect": {
+        "id": "KYUy",
+        "type": "url",
+        "url": null
+      },
+      "What will you be able to do after this lesson?": {
+        "id": "Ndkg",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Kudos ID": {
+        "id": "R%5C~u",
+        "type": "number",
+        "number": null
+      },
+      "Mirror link": {
+        "id": "R%60sH",
+        "type": "url",
+        "url": null
+      },
+      "Course Pre-Reqs": {
+        "id": "STP%7D",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "POAP event ID": {
+        "id": "UWT%40",
+        "type": "number",
+        "number": null
+      },
+      "Pre-requisite for": {
+        "id": "U%5BQe",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Social image": {
+        "id": "XYv%5C",
+        "type": "files",
+        "files": []
+      },
+      "Lesson link": {
+        "id": "Yp%7Bm",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/going-bankless"
+        }
+      },
+      "Landing page copy": {
+        "id": "%5BPze",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "What does it mean to go Bankless? In this lesson, we discuss why millions of people are investing in cryptocurrency - and practical first steps for joining the movement.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "What does it mean to go Bankless? In this lesson, we discuss why millions of people are investing in cryptocurrency - and practical first steps for joining the movement.",
+            "href": null
+          }
+        ]
+      },
+      "Lesson collectible video": {
+        "id": "%60j%7By",
+        "type": "files",
+        "files": []
+      },
+      "Status": {
+        "id": "bqeK",
+        "type": "select",
+        "select": {
+          "id": "[uJr",
+          "name": "In progress",
+          "color": "pink"
+        }
+      },
+      "Community discussion link": {
+        "id": "e%5C%40N",
+        "type": "url",
+        "url": null
+      },
+      "Duration in minutes": {
+        "id": "e%7DAy",
+        "type": "number",
+        "number": 10
+      },
+      "Quest": {
+        "id": "gBdL",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Learning Objective": {
+        "id": "kAiI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Order": {
+        "id": "k%5EG%5C",
+        "type": "number",
+        "number": 0
+      },
+      "Curriculum unit": {
+        "id": "kc%7CP",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Difficulty": {
+        "id": "mWkS",
+        "type": "select",
+        "select": null
+      },
+      "Enable Comments": {
+        "id": "oZii",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "AMAs": {
+        "id": "pjYI",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Description": {
+        "id": "pmtE",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "What does it mean to go Bankless? Take your first step, here.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "What does it mean to go Bankless? Take your first step, here.",
+            "href": null
+          }
+        ]
+      },
+      "Lesson sponsors": {
+        "id": "pp%3D%5C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Keywords": {
+        "id": "ta%5CR",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson collectible mint ID": {
+        "id": "u%60NU",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson image": {
+        "id": "vPLo",
+        "type": "files",
+        "files": []
+      },
+      "End of Lesson text": {
+        "id": "vr%5Dk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible token address": {
+        "id": "w%5D~d",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Publication status": {
+        "id": "xRj%3D",
+        "type": "select",
+        "select": null
+      },
+      "Keyword count": {
+        "id": "zBlU",
+        "type": "rollup",
+        "rollup": {
+          "type": "number",
+          "number": null,
+          "function": "count"
+        }
+      },
+      "🗓️ lesson Tasks": {
+        "id": "%7CL%3AK",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Roadmap status": {
+        "id": "%7CNva",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Mirror NFT address": {
+        "id": "%7DZfk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Featured order on homepage": {
+        "id": "~svn",
+        "type": "number",
+        "number": null
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Going Bankless",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Going Bankless",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Going-Bankless-13df8d13d07446dba422bf8c66c0f73c"
+  },
+  {
+    "object": "page",
+    "id": "a0b42523-3a23-4df7-abfb-9c1157eab043",
+    "created_time": "2023-05-11T19:20:00.000Z",
+    "last_edited_time": "2023-05-11T19:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "👷‍♂️"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "114126fc-fe3b-464d-a891-e8216f4d737b"
+    },
+    "archived": false,
+    "properties": {
+      "Roadmap": {
+        "id": "%3E%3FcG",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson badge image": {
+        "id": "%3Eo%3Fa",
+        "type": "files",
+        "files": []
+      },
+      "Lesson collected image": {
+        "id": "Acil",
+        "type": "files",
+        "files": []
+      },
+      "Live preview link": {
+        "id": "Erxl",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/preview?id=a0b425233a234df7abfb9c1157eab043"
+        }
+      },
+      "End of Lesson redirect": {
+        "id": "KYUy",
+        "type": "url",
+        "url": null
+      },
+      "What will you be able to do after this lesson?": {
+        "id": "Ndkg",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Kudos ID": {
+        "id": "R%5C~u",
+        "type": "number",
+        "number": null
+      },
+      "Mirror link": {
+        "id": "R%60sH",
+        "type": "url",
+        "url": "https://mirror.xyz/banklessacademy.eth/zLajMWXQC44H4uQOXK5j9ROZhuC3xwgoddLtAQQo0k0"
+      },
+      "Course Pre-Reqs": {
+        "id": "STP%7D",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "POAP event ID": {
+        "id": "UWT%40",
+        "type": "number",
+        "number": null
+      },
+      "Pre-requisite for": {
+        "id": "U%5BQe",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "d79c7a05-e4b5-454f-87ed-97cc0dbdb0e1"
+          }
+        ],
+        "has_more": false
+      },
+      "Social image": {
+        "id": "XYv%5C",
+        "type": "files",
+        "files": [
+          {
+            "name": "explorerHandbook02.png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dca66823-a494-4d02-bd51-507e5e2de970/explorerHandbook02.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=0d1ff6b71485e07874a65d5d477fb29351553a5ad4164e70971d6c8218526d3d&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.274Z"
+            }
+          }
+        ]
+      },
+      "Lesson link": {
+        "id": "Yp%7Bm",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/a-guide-to-stablecoins"
+        }
+      },
+      "Landing page copy": {
+        "id": "%5BPze",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible video": {
+        "id": "%60j%7By",
+        "type": "files",
+        "files": []
+      },
+      "Status": {
+        "id": "bqeK",
+        "type": "select",
+        "select": {
+          "id": "[uJr",
+          "name": "In progress",
+          "color": "pink"
+        }
+      },
+      "Community discussion link": {
+        "id": "e%5C%40N",
+        "type": "url",
+        "url": null
+      },
+      "Duration in minutes": {
+        "id": "e%7DAy",
+        "type": "number",
+        "number": 5
+      },
+      "Quest": {
+        "id": "gBdL",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Learning Objective": {
+        "id": "kAiI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Order": {
+        "id": "k%5EG%5C",
+        "type": "number",
+        "number": 6
+      },
+      "Curriculum unit": {
+        "id": "kc%7CP",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Difficulty": {
+        "id": "mWkS",
+        "type": "select",
+        "select": null
+      },
+      "Enable Comments": {
+        "id": "oZii",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "AMAs": {
+        "id": "pjYI",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Description": {
+        "id": "pmtE",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Learn how to fund your wallet on L2 via CEXs, third-party onramps, and bridges.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Learn how to fund your wallet on L2 via CEXs, third-party onramps, and bridges.",
+            "href": null
+          }
+        ]
+      },
+      "Lesson sponsors": {
+        "id": "pp%3D%5C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Keywords": {
+        "id": "ta%5CR",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson collectible mint ID": {
+        "id": "u%60NU",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson image": {
+        "id": "vPLo",
+        "type": "files",
+        "files": [
+          {
+            "name": "explorerHandbook02.png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ea6cb34d-8c8f-4bd9-856d-77c16ceb20b6/explorerHandbook02.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=82717ad3756917de2c5857b11e5f3575e25c6cde9fbc0f9628eaf669d7d0859d&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.289Z"
+            }
+          }
+        ]
+      },
+      "End of Lesson text": {
+        "id": "vr%5Dk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible token address": {
+        "id": "w%5D~d",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Publication status": {
+        "id": "xRj%3D",
+        "type": "select",
+        "select": {
+          "id": "56e84186-240b-4caf-b7c3-99d7d42e3671",
+          "name": "planned",
+          "color": "orange"
+        }
+      },
+      "Keyword count": {
+        "id": "zBlU",
+        "type": "rollup",
+        "rollup": {
+          "type": "number",
+          "number": null,
+          "function": "count"
+        }
+      },
+      "🗓️ lesson Tasks": {
+        "id": "%7CL%3AK",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Roadmap status": {
+        "id": "%7CNva",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Mirror NFT address": {
+        "id": "%7DZfk",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "0x235f3dfe5106f137d8b137c1b7fa115076e8b476",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "0x235f3dfe5106f137d8b137c1b7fa115076e8b476",
+            "href": null
+          }
+        ]
+      },
+      "Featured order on homepage": {
+        "id": "~svn",
+        "type": "number",
+        "number": 1
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A Guide to Stablecoins",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A Guide to Stablecoins",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/A-Guide-to-Stablecoins-a0b425233a234df7abfb9c1157eab043"
+  },
+  {
+    "object": "page",
+    "id": "3242d8f8-549b-41f6-b376-3bbd831669fc",
+    "created_time": "2023-05-11T19:20:00.000Z",
+    "last_edited_time": "2023-05-11T19:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "🚢"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "114126fc-fe3b-464d-a891-e8216f4d737b"
+    },
+    "archived": false,
+    "properties": {
+      "Roadmap": {
+        "id": "%3E%3FcG",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson badge image": {
+        "id": "%3Eo%3Fa",
+        "type": "files",
+        "files": [
+          {
+            "name": "web3SecurityPOAP.png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/046914ad-7eb7-44f4-bca8-1a606c27f981/web3SecurityPOAP.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=f157fd80b6b3308f3b65857a479d36411c3555a2e5ae707863110f1ce39b97ac&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.280Z"
+            }
+          }
+        ]
+      },
+      "Lesson collected image": {
+        "id": "Acil",
+        "type": "files",
+        "files": []
+      },
+      "Live preview link": {
+        "id": "Erxl",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/preview?id=3242d8f8549b41f6b3763bbd831669fc"
+        }
+      },
+      "End of Lesson redirect": {
+        "id": "KYUy",
+        "type": "url",
+        "url": null
+      },
+      "What will you be able to do after this lesson?": {
+        "id": "Ndkg",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Avoid the scams in web3 and keep your assets safe.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Avoid the scams in web3 and keep your assets safe.",
+            "href": null
+          }
+        ]
+      },
+      "Kudos ID": {
+        "id": "R%5C~u",
+        "type": "number",
+        "number": 2565
+      },
+      "Mirror link": {
+        "id": "R%60sH",
+        "type": "url",
+        "url": null
+      },
+      "Course Pre-Reqs": {
+        "id": "STP%7D",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "cf1301e7-51ee-4e02-a2d7-2c6cee7a75e6"
+          }
+        ],
+        "has_more": false
+      },
+      "POAP event ID": {
+        "id": "UWT%40",
+        "type": "number",
+        "number": null
+      },
+      "Pre-requisite for": {
+        "id": "U%5BQe",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Social image": {
+        "id": "XYv%5C",
+        "type": "files",
+        "files": [
+          {
+            "name": "web3Security_Banner_SocialMedia.jpg",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/62be8528-8e15-4a15-8757-19e9fd72a622/web3Security_Banner_SocialMedia.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=176c7fd4d62df35bf29e8773e536972584c74f3d65e408e04cca369b03c0fc75&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.287Z"
+            }
+          }
+        ]
+      },
+      "Lesson link": {
+        "id": "Yp%7Bm",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/web3-security"
+        }
+      },
+      "Landing page copy": {
+        "id": "%5BPze",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible video": {
+        "id": "%60j%7By",
+        "type": "files",
+        "files": []
+      },
+      "Status": {
+        "id": "bqeK",
+        "type": "select",
+        "select": {
+          "id": "m\\:E",
+          "name": "Complete",
+          "color": "green"
+        }
+      },
+      "Community discussion link": {
+        "id": "e%5C%40N",
+        "type": "url",
+        "url": "https://gm.xyz/c/BanklessAcademy?communityName=BanklessAcademy&sortBy=new&topicUuid=c5866aeb-f37d-41a0-995f-46223a9cc729"
+      },
+      "Duration in minutes": {
+        "id": "e%7DAy",
+        "type": "number",
+        "number": 15
+      },
+      "Quest": {
+        "id": "gBdL",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Learning Objective": {
+        "id": "kAiI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Order": {
+        "id": "k%5EG%5C",
+        "type": "number",
+        "number": 3
+      },
+      "Curriculum unit": {
+        "id": "kc%7CP",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Difficulty": {
+        "id": "mWkS",
+        "type": "select",
+        "select": {
+          "id": "950accf8-039d-4dd8-b692-c92593d32a25",
+          "name": "Easy",
+          "color": "gray"
+        }
+      },
+      "Enable Comments": {
+        "id": "oZii",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "AMAs": {
+        "id": "pjYI",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Description": {
+        "id": "pmtE",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Protect yourself and your wallet from the most common scams in web3.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Protect yourself and your wallet from the most common scams in web3.",
+            "href": null
+          }
+        ]
+      },
+      "Lesson sponsors": {
+        "id": "pp%3D%5C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Keywords": {
+        "id": "ta%5CR",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson collectible mint ID": {
+        "id": "u%60NU",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson image": {
+        "id": "vPLo",
+        "type": "files",
+        "files": [
+          {
+            "name": "web3Security_Banner.png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/61d56428-0ac4-464c-87ac-9a456809f012/web3Security_Banner.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=e7225071df75c4e4b3313e55e634e026e9cbe7adf3869310edcdb70cd5ae9cf2&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.293Z"
+            }
+          }
+        ]
+      },
+      "End of Lesson text": {
+        "id": "vr%5Dk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible token address": {
+        "id": "w%5D~d",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Publication status": {
+        "id": "xRj%3D",
+        "type": "select",
+        "select": {
+          "id": "4a6f3946-b14d-4f86-890b-1e53944b19a2",
+          "name": "publish",
+          "color": "green"
+        }
+      },
+      "Keyword count": {
+        "id": "zBlU",
+        "type": "rollup",
+        "rollup": {
+          "type": "number",
+          "number": null,
+          "function": "count"
+        }
+      },
+      "🗓️ lesson Tasks": {
+        "id": "%7CL%3AK",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Roadmap status": {
+        "id": "%7CNva",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Mirror NFT address": {
+        "id": "%7DZfk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Featured order on homepage": {
+        "id": "~svn",
+        "type": "number",
+        "number": null
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Web3 Security",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Web3 Security",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Web3-Security-3242d8f8549b41f6b3763bbd831669fc"
+  },
+  {
+    "object": "page",
+    "id": "5179bd81-3d39-4eec-8b8e-67f4a1ff0b4e",
+    "created_time": "2023-05-11T19:20:00.000Z",
+    "last_edited_time": "2023-05-11T19:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "114126fc-fe3b-464d-a891-e8216f4d737b"
+    },
+    "archived": false,
+    "properties": {
+      "Roadmap": {
+        "id": "%3E%3FcG",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson badge image": {
+        "id": "%3Eo%3Fa",
+        "type": "files",
+        "files": [
+          {
+            "name": "badge_a01_nftvideo.mp4",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a8deba18-8dbd-4c5d-ac03-9fce32f326c8/badge_a01_nftvideo.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=98527e3865db5649bd97e387610d41c5d80e283fc52467b0e14bfb00f9aeb486&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.274Z"
+            }
+          }
+        ]
+      },
+      "Lesson collected image": {
+        "id": "Acil",
+        "type": "files",
+        "files": []
+      },
+      "Live preview link": {
+        "id": "Erxl",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/preview?id=5179bd813d394eec8b8e67f4a1ff0b4e"
+        }
+      },
+      "End of Lesson redirect": {
+        "id": "KYUy",
+        "type": "url",
+        "url": null
+      },
+      "What will you be able to do after this lesson?": {
+        "id": "Ndkg",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Kudos ID": {
+        "id": "R%5C~u",
+        "type": "number",
+        "number": 14067
+      },
+      "Mirror link": {
+        "id": "R%60sH",
+        "type": "url",
+        "url": null
+      },
+      "Course Pre-Reqs": {
+        "id": "STP%7D",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "POAP event ID": {
+        "id": "UWT%40",
+        "type": "number",
+        "number": null
+      },
+      "Pre-requisite for": {
+        "id": "U%5BQe",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Social image": {
+        "id": "XYv%5C",
+        "type": "files",
+        "files": [
+          {
+            "name": "social-template.png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/feb50511-c642-480d-8069-bea08e16b169/social-template.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=f5571d0a87679df2dc46ba5b2281faf7f38dfb59d53109f223a2b903281b434c&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.289Z"
+            }
+          }
+        ]
+      },
+      "Lesson link": {
+        "id": "Yp%7Bm",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/kudos-testing"
+        }
+      },
+      "Landing page copy": {
+        "id": "%5BPze",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible video": {
+        "id": "%60j%7By",
+        "type": "files",
+        "files": []
+      },
+      "Status": {
+        "id": "bqeK",
+        "type": "select",
+        "select": {
+          "id": "e3bcfcfe-523b-42e7-b658-78d76e43098a",
+          "name": "Testing",
+          "color": "brown"
+        }
+      },
+      "Community discussion link": {
+        "id": "e%5C%40N",
+        "type": "url",
+        "url": null
+      },
+      "Duration in minutes": {
+        "id": "e%7DAy",
+        "type": "number",
+        "number": null
+      },
+      "Quest": {
+        "id": "gBdL",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Learning Objective": {
+        "id": "kAiI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Order": {
+        "id": "k%5EG%5C",
+        "type": "number",
+        "number": null
+      },
+      "Curriculum unit": {
+        "id": "kc%7CP",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Difficulty": {
+        "id": "mWkS",
+        "type": "select",
+        "select": null
+      },
+      "Enable Comments": {
+        "id": "oZii",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "AMAs": {
+        "id": "pjYI",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Description": {
+        "id": "pmtE",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "For testing purposes only",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "For testing purposes only",
+            "href": null
+          }
+        ]
+      },
+      "Lesson sponsors": {
+        "id": "pp%3D%5C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Keywords": {
+        "id": "ta%5CR",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson collectible mint ID": {
+        "id": "u%60NU",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson image": {
+        "id": "vPLo",
+        "type": "files",
+        "files": [
+          {
+            "name": "lesson-template.png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a324b1db-c0b7-44f1-8a47-ba37cd8094cd/lesson-template.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=e0b530f7a72a729b10439a3ed30dc9f4baf43140b6a918f39100b143a4677ddf&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.319Z"
+            }
+          }
+        ]
+      },
+      "End of Lesson text": {
+        "id": "vr%5Dk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible token address": {
+        "id": "w%5D~d",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Publication status": {
+        "id": "xRj%3D",
+        "type": "select",
+        "select": {
+          "id": "8fcd9401-6a8c-4ef4-9176-57d102b26bc5",
+          "name": "hidden",
+          "color": "gray"
+        }
+      },
+      "Keyword count": {
+        "id": "zBlU",
+        "type": "rollup",
+        "rollup": {
+          "type": "number",
+          "number": null,
+          "function": "count"
+        }
+      },
+      "🗓️ lesson Tasks": {
+        "id": "%7CL%3AK",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Roadmap status": {
+        "id": "%7CNva",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Mirror NFT address": {
+        "id": "%7DZfk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Featured order on homepage": {
+        "id": "~svn",
+        "type": "number",
+        "number": null
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Kudos testing",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Kudos testing",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Kudos-testing-5179bd813d394eec8b8e67f4a1ff0b4e"
+  },
+  {
+    "object": "page",
+    "id": "3b785456-81f2-4958-97c1-dfb17f19db1f",
+    "created_time": "2023-05-11T19:20:00.000Z",
+    "last_edited_time": "2023-05-11T19:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "🚢"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "114126fc-fe3b-464d-a891-e8216f4d737b"
+    },
+    "archived": false,
+    "properties": {
+      "Roadmap": {
+        "id": "%3E%3FcG",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson badge image": {
+        "id": "%3Eo%3Fa",
+        "type": "files",
+        "files": [
+          {
+            "name": "blockchainLayer1POAP.png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b2706d9e-f3e0-43a6-8eb3-a35c8f571a8e/blockchainLayer1POAP.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=8b92619d5210d73ba28cb69a93901ea720a0f6035553dff0ebb26396d15302f8&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.280Z"
+            }
+          }
+        ]
+      },
+      "Lesson collected image": {
+        "id": "Acil",
+        "type": "files",
+        "files": []
+      },
+      "Live preview link": {
+        "id": "Erxl",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/preview?id=3b78545681f2495897c1dfb17f19db1f"
+        }
+      },
+      "End of Lesson redirect": {
+        "id": "KYUy",
+        "type": "url",
+        "url": null
+      },
+      "What will you be able to do after this lesson?": {
+        "id": "Ndkg",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Kudos ID": {
+        "id": "R%5C~u",
+        "type": "number",
+        "number": 14611
+      },
+      "Mirror link": {
+        "id": "R%60sH",
+        "type": "url",
+        "url": null
+      },
+      "Course Pre-Reqs": {
+        "id": "STP%7D",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "2eb7b028-211c-49fe-890e-7c3551026b83"
+          }
+        ],
+        "has_more": false
+      },
+      "POAP event ID": {
+        "id": "UWT%40",
+        "type": "number",
+        "number": null
+      },
+      "Pre-requisite for": {
+        "id": "U%5BQe",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "d79c7a05-e4b5-454f-87ed-97cc0dbdb0e1"
+          }
+        ],
+        "has_more": false
+      },
+      "Social image": {
+        "id": "XYv%5C",
+        "type": "files",
+        "files": [
+          {
+            "name": "blockchainLayer1s_Banner_SocialMedia.jpg",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9f7b6d9c-5fcb-4988-88e8-c109a3a0918e/blockchainLayer1s_Banner_SocialMedia.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=67c93965bef0df2d42e3795ab8260a0800a73b1a80993876340f3565c308916d&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.287Z"
+            }
+          }
+        ]
+      },
+      "Lesson link": {
+        "id": "Yp%7Bm",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/layer-1-blockchains"
+        }
+      },
+      "Landing page copy": {
+        "id": "%5BPze",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible video": {
+        "id": "%60j%7By",
+        "type": "files",
+        "files": []
+      },
+      "Status": {
+        "id": "bqeK",
+        "type": "select",
+        "select": {
+          "id": "m\\:E",
+          "name": "Complete",
+          "color": "green"
+        }
+      },
+      "Community discussion link": {
+        "id": "e%5C%40N",
+        "type": "url",
+        "url": "https://gm.xyz/c/BanklessAcademy?communityName=BanklessAcademy&sortBy=new&topicUuid=cd3e1630-72a6-40c4-ac26-ce5809e19af6"
+      },
+      "Duration in minutes": {
+        "id": "e%7DAy",
+        "type": "number",
+        "number": 15
+      },
+      "Quest": {
+        "id": "gBdL",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Learning Objective": {
+        "id": "kAiI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Order": {
+        "id": "k%5EG%5C",
+        "type": "number",
+        "number": 4
+      },
+      "Curriculum unit": {
+        "id": "kc%7CP",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Difficulty": {
+        "id": "mWkS",
+        "type": "select",
+        "select": null
+      },
+      "Enable Comments": {
+        "id": "oZii",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "AMAs": {
+        "id": "pjYI",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Description": {
+        "id": "pmtE",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Understand how Layer 1 blockchains work - and learn their limitations!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Understand how Layer 1 blockchains work - and learn their limitations!",
+            "href": null
+          }
+        ]
+      },
+      "Lesson sponsors": {
+        "id": "pp%3D%5C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Keywords": {
+        "id": "ta%5CR",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson collectible mint ID": {
+        "id": "u%60NU",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson image": {
+        "id": "vPLo",
+        "type": "files",
+        "files": [
+          {
+            "name": "blockchainLayer1s_Banner.png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7f6de8bf-5081-4342-84b6-b0f21b5ffb02/blockchainLayer1s_Banner.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=ced871e6767ee692ac5e52389beb1fc013a78183b2ed3372042c819b9f8c1e83&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.293Z"
+            }
+          }
+        ]
+      },
+      "End of Lesson text": {
+        "id": "vr%5Dk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible token address": {
+        "id": "w%5D~d",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Publication status": {
+        "id": "xRj%3D",
+        "type": "select",
+        "select": {
+          "id": "4a6f3946-b14d-4f86-890b-1e53944b19a2",
+          "name": "publish",
+          "color": "green"
+        }
+      },
+      "Keyword count": {
+        "id": "zBlU",
+        "type": "rollup",
+        "rollup": {
+          "type": "number",
+          "number": null,
+          "function": "count"
+        }
+      },
+      "🗓️ lesson Tasks": {
+        "id": "%7CL%3AK",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Roadmap status": {
+        "id": "%7CNva",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Mirror NFT address": {
+        "id": "%7DZfk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Featured order on homepage": {
+        "id": "~svn",
+        "type": "number",
+        "number": null
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Layer 1 Blockchains",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Layer 1 Blockchains",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Layer-1-Blockchains-3b78545681f2495897c1dfb17f19db1f"
+  },
+  {
+    "object": "page",
+    "id": "2eb7b028-211c-49fe-890e-7c3551026b83",
+    "created_time": "2023-05-11T19:20:00.000Z",
+    "last_edited_time": "2023-05-11T19:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "🚢"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "114126fc-fe3b-464d-a891-e8216f4d737b"
+    },
+    "archived": false,
+    "properties": {
+      "Roadmap": {
+        "id": "%3E%3FcG",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson badge image": {
+        "id": "%3Eo%3Fa",
+        "type": "files",
+        "files": [
+          {
+            "name": "blockchainFundamentalsPOAP.png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0b14c0bf-2823-4df7-af1b-68c13ed150cb/blockchainFundamentalsPOAP.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=eeb37c4cb2304e9b69b3f41865d6523ea5f5047c1c8c529003abcd3c294a34d6&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.274Z"
+            }
+          }
+        ]
+      },
+      "Lesson collected image": {
+        "id": "Acil",
+        "type": "files",
+        "files": []
+      },
+      "Live preview link": {
+        "id": "Erxl",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/preview?id=2eb7b028211c49fe890e7c3551026b83"
+        }
+      },
+      "End of Lesson redirect": {
+        "id": "KYUy",
+        "type": "url",
+        "url": null
+      },
+      "What will you be able to do after this lesson?": {
+        "id": "Ndkg",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Kudos ID": {
+        "id": "R%5C~u",
+        "type": "number",
+        "number": 2563
+      },
+      "Mirror link": {
+        "id": "R%60sH",
+        "type": "url",
+        "url": null
+      },
+      "Course Pre-Reqs": {
+        "id": "STP%7D",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "cf1301e7-51ee-4e02-a2d7-2c6cee7a75e6"
+          }
+        ],
+        "has_more": false
+      },
+      "POAP event ID": {
+        "id": "UWT%40",
+        "type": "number",
+        "number": null
+      },
+      "Pre-requisite for": {
+        "id": "U%5BQe",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3b785456-81f2-4958-97c1-dfb17f19db1f"
+          }
+        ],
+        "has_more": false
+      },
+      "Social image": {
+        "id": "XYv%5C",
+        "type": "files",
+        "files": [
+          {
+            "name": "blockchainFundamentals_Banner_SocialMedia.jpeg",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/98cd4b58-e361-4718-8844-308919297893/blockchainFundamentals_Banner_SocialMedia.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=698b505a8586d4d341c81350cc32b61580ce38d09013cacddae759865c6170d5&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.297Z"
+            }
+          }
+        ]
+      },
+      "Lesson link": {
+        "id": "Yp%7Bm",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/blockchain-basics"
+        }
+      },
+      "Landing page copy": {
+        "id": "%5BPze",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Blockchains make cryptocurrency, DeFi, and Web3 possible. Discover how blockchain networks are built and how they work.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Blockchains make cryptocurrency, DeFi, and Web3 possible. Discover how blockchain networks are built and how they work.",
+            "href": null
+          }
+        ]
+      },
+      "Lesson collectible video": {
+        "id": "%60j%7By",
+        "type": "files",
+        "files": []
+      },
+      "Status": {
+        "id": "bqeK",
+        "type": "select",
+        "select": {
+          "id": "m\\:E",
+          "name": "Complete",
+          "color": "green"
+        }
+      },
+      "Community discussion link": {
+        "id": "e%5C%40N",
+        "type": "url",
+        "url": "https://gm.xyz/c/BanklessAcademy?communityName=BanklessAcademy&sortBy=new&topicUuid=b46a6fa7-1bf8-4f1e-8db3-a725fe98cac9"
+      },
+      "Duration in minutes": {
+        "id": "e%7DAy",
+        "type": "number",
+        "number": 15
+      },
+      "Quest": {
+        "id": "gBdL",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Learning Objective": {
+        "id": "kAiI",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Take a closer look at the concepts and technology that make blockchains work and gain a clearer understanding of what makes them revolutionary. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Take a closer look at the concepts and technology that make blockchains work and gain a clearer understanding of what makes them revolutionary. ",
+            "href": null
+          }
+        ]
+      },
+      "Order": {
+        "id": "k%5EG%5C",
+        "type": "number",
+        "number": 2
+      },
+      "Curriculum unit": {
+        "id": "kc%7CP",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Difficulty": {
+        "id": "mWkS",
+        "type": "select",
+        "select": {
+          "id": "950accf8-039d-4dd8-b692-c92593d32a25",
+          "name": "Easy",
+          "color": "gray"
+        }
+      },
+      "Enable Comments": {
+        "id": "oZii",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "AMAs": {
+        "id": "pjYI",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Description": {
+        "id": "pmtE",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Learn about the fundamental architecture of blockchain technology.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Learn about the fundamental architecture of blockchain technology.",
+            "href": null
+          }
+        ]
+      },
+      "Lesson sponsors": {
+        "id": "pp%3D%5C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Keywords": {
+        "id": "ta%5CR",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson collectible mint ID": {
+        "id": "u%60NU",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "6452a298d9f58a4ffff0225b",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "6452a298d9f58a4ffff0225b",
+            "href": null
+          }
+        ]
+      },
+      "Lesson image": {
+        "id": "vPLo",
+        "type": "files",
+        "files": [
+          {
+            "name": "blockchainFundamentals_Banner.png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9fa292a7-2255-427d-a809-55c2929cbdf1/blockchainFundamentals_Banner.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=a1c40846cb7e71966f711d69c859af7a84d22b20062110b8280d4b8bd6a366b1&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.314Z"
+            }
+          }
+        ]
+      },
+      "End of Lesson text": {
+        "id": "vr%5Dk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible token address": {
+        "id": "w%5D~d",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "0x863AA4D913Bc09993f69623BA6B4998B2f756a7D",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "0x863AA4D913Bc09993f69623BA6B4998B2f756a7D",
+            "href": null
+          }
+        ]
+      },
+      "Publication status": {
+        "id": "xRj%3D",
+        "type": "select",
+        "select": {
+          "id": "4a6f3946-b14d-4f86-890b-1e53944b19a2",
+          "name": "publish",
+          "color": "green"
+        }
+      },
+      "Keyword count": {
+        "id": "zBlU",
+        "type": "rollup",
+        "rollup": {
+          "type": "number",
+          "number": null,
+          "function": "count"
+        }
+      },
+      "🗓️ lesson Tasks": {
+        "id": "%7CL%3AK",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Roadmap status": {
+        "id": "%7CNva",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Mirror NFT address": {
+        "id": "%7DZfk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Featured order on homepage": {
+        "id": "~svn",
+        "type": "number",
+        "number": null
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Blockchain Basics",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Blockchain Basics",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Blockchain-Basics-2eb7b028211c49fe890e7c3551026b83"
+  },
+  {
+    "object": "page",
+    "id": "3fc1b46d-8bc2-4fa4-ba4c-2f79e4c7afb9",
+    "created_time": "2023-05-11T19:20:00.000Z",
+    "last_edited_time": "2023-05-11T19:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "👷‍♀️"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "114126fc-fe3b-464d-a891-e8216f4d737b"
+    },
+    "archived": false,
+    "properties": {
+      "Roadmap": {
+        "id": "%3E%3FcG",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson badge image": {
+        "id": "%3Eo%3Fa",
+        "type": "files",
+        "files": []
+      },
+      "Lesson collected image": {
+        "id": "Acil",
+        "type": "files",
+        "files": []
+      },
+      "Live preview link": {
+        "id": "Erxl",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/preview?id=3fc1b46d8bc24fa4ba4c2f79e4c7afb9"
+        }
+      },
+      "End of Lesson redirect": {
+        "id": "KYUy",
+        "type": "url",
+        "url": null
+      },
+      "What will you be able to do after this lesson?": {
+        "id": "Ndkg",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Kudos ID": {
+        "id": "R%5C~u",
+        "type": "number",
+        "number": null
+      },
+      "Mirror link": {
+        "id": "R%60sH",
+        "type": "url",
+        "url": null
+      },
+      "Course Pre-Reqs": {
+        "id": "STP%7D",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "POAP event ID": {
+        "id": "UWT%40",
+        "type": "number",
+        "number": null
+      },
+      "Pre-requisite for": {
+        "id": "U%5BQe",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Social image": {
+        "id": "XYv%5C",
+        "type": "files",
+        "files": []
+      },
+      "Lesson link": {
+        "id": "Yp%7Bm",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/ens-article"
+        }
+      },
+      "Landing page copy": {
+        "id": "%5BPze",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible video": {
+        "id": "%60j%7By",
+        "type": "files",
+        "files": []
+      },
+      "Status": {
+        "id": "bqeK",
+        "type": "select",
+        "select": null
+      },
+      "Community discussion link": {
+        "id": "e%5C%40N",
+        "type": "url",
+        "url": null
+      },
+      "Duration in minutes": {
+        "id": "e%7DAy",
+        "type": "number",
+        "number": null
+      },
+      "Quest": {
+        "id": "gBdL",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Learning Objective": {
+        "id": "kAiI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Order": {
+        "id": "k%5EG%5C",
+        "type": "number",
+        "number": null
+      },
+      "Curriculum unit": {
+        "id": "kc%7CP",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Difficulty": {
+        "id": "mWkS",
+        "type": "select",
+        "select": null
+      },
+      "Enable Comments": {
+        "id": "oZii",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "AMAs": {
+        "id": "pjYI",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Description": {
+        "id": "pmtE",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson sponsors": {
+        "id": "pp%3D%5C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Keywords": {
+        "id": "ta%5CR",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson collectible mint ID": {
+        "id": "u%60NU",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson image": {
+        "id": "vPLo",
+        "type": "files",
+        "files": []
+      },
+      "End of Lesson text": {
+        "id": "vr%5Dk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible token address": {
+        "id": "w%5D~d",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Publication status": {
+        "id": "xRj%3D",
+        "type": "select",
+        "select": null
+      },
+      "Keyword count": {
+        "id": "zBlU",
+        "type": "rollup",
+        "rollup": {
+          "type": "number",
+          "number": null,
+          "function": "count"
+        }
+      },
+      "🗓️ lesson Tasks": {
+        "id": "%7CL%3AK",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Roadmap status": {
+        "id": "%7CNva",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Mirror NFT address": {
+        "id": "%7DZfk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Featured order on homepage": {
+        "id": "~svn",
+        "type": "number",
+        "number": null
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "ENS article",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "ENS article",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/ENS-article-3fc1b46d8bc24fa4ba4c2f79e4c7afb9"
+  },
+  {
+    "object": "page",
+    "id": "76d93164-7e04-426c-932a-d1c1e7ea42b2",
+    "created_time": "2023-05-11T19:20:00.000Z",
+    "last_edited_time": "2023-05-11T19:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "👷‍♀️"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "114126fc-fe3b-464d-a891-e8216f4d737b"
+    },
+    "archived": false,
+    "properties": {
+      "Roadmap": {
+        "id": "%3E%3FcG",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson badge image": {
+        "id": "%3Eo%3Fa",
+        "type": "files",
+        "files": []
+      },
+      "Lesson collected image": {
+        "id": "Acil",
+        "type": "files",
+        "files": []
+      },
+      "Live preview link": {
+        "id": "Erxl",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/preview?id=76d931647e04426c932ad1c1e7ea42b2"
+        }
+      },
+      "End of Lesson redirect": {
+        "id": "KYUy",
+        "type": "url",
+        "url": null
+      },
+      "What will you be able to do after this lesson?": {
+        "id": "Ndkg",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Kudos ID": {
+        "id": "R%5C~u",
+        "type": "number",
+        "number": null
+      },
+      "Mirror link": {
+        "id": "R%60sH",
+        "type": "url",
+        "url": null
+      },
+      "Course Pre-Reqs": {
+        "id": "STP%7D",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "POAP event ID": {
+        "id": "UWT%40",
+        "type": "number",
+        "number": null
+      },
+      "Pre-requisite for": {
+        "id": "U%5BQe",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Social image": {
+        "id": "XYv%5C",
+        "type": "files",
+        "files": []
+      },
+      "Lesson link": {
+        "id": "Yp%7Bm",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/ens-subname"
+        }
+      },
+      "Landing page copy": {
+        "id": "%5BPze",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible video": {
+        "id": "%60j%7By",
+        "type": "files",
+        "files": []
+      },
+      "Status": {
+        "id": "bqeK",
+        "type": "select",
+        "select": null
+      },
+      "Community discussion link": {
+        "id": "e%5C%40N",
+        "type": "url",
+        "url": null
+      },
+      "Duration in minutes": {
+        "id": "e%7DAy",
+        "type": "number",
+        "number": null
+      },
+      "Quest": {
+        "id": "gBdL",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Learning Objective": {
+        "id": "kAiI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Order": {
+        "id": "k%5EG%5C",
+        "type": "number",
+        "number": null
+      },
+      "Curriculum unit": {
+        "id": "kc%7CP",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Difficulty": {
+        "id": "mWkS",
+        "type": "select",
+        "select": null
+      },
+      "Enable Comments": {
+        "id": "oZii",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "AMAs": {
+        "id": "pjYI",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Description": {
+        "id": "pmtE",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Learn how to create and associate an ENS Subname to an address",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Learn how to create and associate an ENS Subname to an address",
+            "href": null
+          }
+        ]
+      },
+      "Lesson sponsors": {
+        "id": "pp%3D%5C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Keywords": {
+        "id": "ta%5CR",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson collectible mint ID": {
+        "id": "u%60NU",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson image": {
+        "id": "vPLo",
+        "type": "files",
+        "files": []
+      },
+      "End of Lesson text": {
+        "id": "vr%5Dk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible token address": {
+        "id": "w%5D~d",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Publication status": {
+        "id": "xRj%3D",
+        "type": "select",
+        "select": null
+      },
+      "Keyword count": {
+        "id": "zBlU",
+        "type": "rollup",
+        "rollup": {
+          "type": "number",
+          "number": null,
+          "function": "count"
+        }
+      },
+      "🗓️ lesson Tasks": {
+        "id": "%7CL%3AK",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Roadmap status": {
+        "id": "%7CNva",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Mirror NFT address": {
+        "id": "%7DZfk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Featured order on homepage": {
+        "id": "~svn",
+        "type": "number",
+        "number": null
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "ENS Subname",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "ENS Subname",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/ENS-Subname-76d931647e04426c932ad1c1e7ea42b2"
+  },
+  {
+    "object": "page",
+    "id": "cf70f37e-979e-47c2-8487-ff2a187a5f99",
+    "created_time": "2023-05-11T19:20:00.000Z",
+    "last_edited_time": "2023-05-11T19:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "🚢"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "114126fc-fe3b-464d-a891-e8216f4d737b"
+    },
+    "archived": false,
+    "properties": {
+      "Roadmap": {
+        "id": "%3E%3FcG",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson badge image": {
+        "id": "%3Eo%3Fa",
+        "type": "files",
+        "files": []
+      },
+      "Lesson collected image": {
+        "id": "Acil",
+        "type": "files",
+        "files": []
+      },
+      "Live preview link": {
+        "id": "Erxl",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/preview?id=cf70f37e979e47c28487ff2a187a5f99"
+        }
+      },
+      "End of Lesson redirect": {
+        "id": "KYUy",
+        "type": "url",
+        "url": null
+      },
+      "What will you be able to do after this lesson?": {
+        "id": "Ndkg",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Kudos ID": {
+        "id": "R%5C~u",
+        "type": "number",
+        "number": null
+      },
+      "Mirror link": {
+        "id": "R%60sH",
+        "type": "url",
+        "url": "https://mirror.xyz/banklessacademy.eth/zLajMWXQC44H4uQOXK5j9ROZhuC3xwgoddLtAQQo0k0"
+      },
+      "Course Pre-Reqs": {
+        "id": "STP%7D",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "POAP event ID": {
+        "id": "UWT%40",
+        "type": "number",
+        "number": null
+      },
+      "Pre-requisite for": {
+        "id": "U%5BQe",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "d79c7a05-e4b5-454f-87ed-97cc0dbdb0e1"
+          }
+        ],
+        "has_more": false
+      },
+      "Social image": {
+        "id": "XYv%5C",
+        "type": "files",
+        "files": [
+          {
+            "name": "explorerHandbook02.png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dca66823-a494-4d02-bd51-507e5e2de970/explorerHandbook02.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=0d1ff6b71485e07874a65d5d477fb29351553a5ad4164e70971d6c8218526d3d&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.274Z"
+            }
+          }
+        ]
+      },
+      "Lesson link": {
+        "id": "Yp%7Bm",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/how-to-fund-a-wallet-on-layer-2"
+        }
+      },
+      "Landing page copy": {
+        "id": "%5BPze",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible video": {
+        "id": "%60j%7By",
+        "type": "files",
+        "files": []
+      },
+      "Status": {
+        "id": "bqeK",
+        "type": "select",
+        "select": {
+          "id": "m\\:E",
+          "name": "Complete",
+          "color": "green"
+        }
+      },
+      "Community discussion link": {
+        "id": "e%5C%40N",
+        "type": "url",
+        "url": null
+      },
+      "Duration in minutes": {
+        "id": "e%7DAy",
+        "type": "number",
+        "number": 5
+      },
+      "Quest": {
+        "id": "gBdL",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Learning Objective": {
+        "id": "kAiI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Order": {
+        "id": "k%5EG%5C",
+        "type": "number",
+        "number": 6
+      },
+      "Curriculum unit": {
+        "id": "kc%7CP",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Difficulty": {
+        "id": "mWkS",
+        "type": "select",
+        "select": null
+      },
+      "Enable Comments": {
+        "id": "oZii",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "AMAs": {
+        "id": "pjYI",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Description": {
+        "id": "pmtE",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Learn how to fund your wallet on L2 via CEXs, third-party onramps, and bridges.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Learn how to fund your wallet on L2 via CEXs, third-party onramps, and bridges.",
+            "href": null
+          }
+        ]
+      },
+      "Lesson sponsors": {
+        "id": "pp%3D%5C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Keywords": {
+        "id": "ta%5CR",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson collectible mint ID": {
+        "id": "u%60NU",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson image": {
+        "id": "vPLo",
+        "type": "files",
+        "files": [
+          {
+            "name": "explorerHandbook02.png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ea6cb34d-8c8f-4bd9-856d-77c16ceb20b6/explorerHandbook02.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=82717ad3756917de2c5857b11e5f3575e25c6cde9fbc0f9628eaf669d7d0859d&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.287Z"
+            }
+          }
+        ]
+      },
+      "End of Lesson text": {
+        "id": "vr%5Dk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible token address": {
+        "id": "w%5D~d",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Publication status": {
+        "id": "xRj%3D",
+        "type": "select",
+        "select": {
+          "id": "4a6f3946-b14d-4f86-890b-1e53944b19a2",
+          "name": "publish",
+          "color": "green"
+        }
+      },
+      "Keyword count": {
+        "id": "zBlU",
+        "type": "rollup",
+        "rollup": {
+          "type": "number",
+          "number": null,
+          "function": "count"
+        }
+      },
+      "🗓️ lesson Tasks": {
+        "id": "%7CL%3AK",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Roadmap status": {
+        "id": "%7CNva",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Mirror NFT address": {
+        "id": "%7DZfk",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "0x235f3dfe5106f137d8b137c1b7fa115076e8b476",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "0x235f3dfe5106f137d8b137c1b7fa115076e8b476",
+            "href": null
+          }
+        ]
+      },
+      "Featured order on homepage": {
+        "id": "~svn",
+        "type": "number",
+        "number": 1
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "How to Fund a Wallet on Layer 2",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "How to Fund a Wallet on Layer 2",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/How-to-Fund-a-Wallet-on-Layer-2-cf70f37e979e47c28487ff2a187a5f99"
+  },
+  {
+    "object": "page",
+    "id": "a2c5f9d5-a188-4fa0-b69f-a73a8599a311",
+    "created_time": "2023-05-11T19:20:00.000Z",
+    "last_edited_time": "2023-05-11T19:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "⏸️"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "114126fc-fe3b-464d-a891-e8216f4d737b"
+    },
+    "archived": false,
+    "properties": {
+      "Roadmap": {
+        "id": "%3E%3FcG",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson badge image": {
+        "id": "%3Eo%3Fa",
+        "type": "files",
+        "files": [
+          {
+            "name": "academyCommunityPOAP.png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c4b82c6b-9164-4731-92d4-e72a9aa58f72/academyCommunityPOAP.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=5c537db7906144aaf9c69ded71b7e331de664273d7f5f4f9c1e41daef90e38b7&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.274Z"
+            }
+          }
+        ]
+      },
+      "Lesson collected image": {
+        "id": "Acil",
+        "type": "files",
+        "files": []
+      },
+      "Live preview link": {
+        "id": "Erxl",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/preview?id=a2c5f9d5a1884fa0b69fa73a8599a311"
+        }
+      },
+      "End of Lesson redirect": {
+        "id": "KYUy",
+        "type": "url",
+        "url": null
+      },
+      "What will you be able to do after this lesson?": {
+        "id": "Ndkg",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Kudos ID": {
+        "id": "R%5C~u",
+        "type": "number",
+        "number": 2564
+      },
+      "Mirror link": {
+        "id": "R%60sH",
+        "type": "url",
+        "url": null
+      },
+      "Course Pre-Reqs": {
+        "id": "STP%7D",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "cf1301e7-51ee-4e02-a2d7-2c6cee7a75e6"
+          }
+        ],
+        "has_more": false
+      },
+      "POAP event ID": {
+        "id": "UWT%40",
+        "type": "number",
+        "number": null
+      },
+      "Pre-requisite for": {
+        "id": "U%5BQe",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Social image": {
+        "id": "XYv%5C",
+        "type": "files",
+        "files": [
+          {
+            "name": "academyCommunity_Banner_SocialMedia.jpeg",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0529db01-4f52-4bef-b10f-da36dba47500/academyCommunity_Banner_SocialMedia.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=c4ba27d820266902dff2a3c5e2b57d21d34dd9d02e69e8dd2bac67b4775da8a5&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.286Z"
+            }
+          }
+        ]
+      },
+      "Lesson link": {
+        "id": "Yp%7Bm",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/academy-community"
+        }
+      },
+      "Landing page copy": {
+        "id": "%5BPze",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible video": {
+        "id": "%60j%7By",
+        "type": "files",
+        "files": []
+      },
+      "Status": {
+        "id": "bqeK",
+        "type": "select",
+        "select": {
+          "id": "m\\:E",
+          "name": "Complete",
+          "color": "green"
+        }
+      },
+      "Community discussion link": {
+        "id": "e%5C%40N",
+        "type": "url",
+        "url": "https://gm.xyz/c/BanklessAcademy?communityName=BanklessAcademy&sortBy=new&topicUuid=6cda4b4c-5300-4e1e-9a12-a14eecd59ebf"
+      },
+      "Duration in minutes": {
+        "id": "e%7DAy",
+        "type": "number",
+        "number": 10
+      },
+      "Quest": {
+        "id": "gBdL",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Learning Objective": {
+        "id": "kAiI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Order": {
+        "id": "k%5EG%5C",
+        "type": "number",
+        "number": null
+      },
+      "Curriculum unit": {
+        "id": "kc%7CP",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Difficulty": {
+        "id": "mWkS",
+        "type": "select",
+        "select": {
+          "id": "950accf8-039d-4dd8-b692-c92593d32a25",
+          "name": "Easy",
+          "color": "gray"
+        }
+      },
+      "Enable Comments": {
+        "id": "oZii",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "AMAs": {
+        "id": "pjYI",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Description": {
+        "id": "pmtE",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Join the conversation in our Bankless Explorer Community.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Join the conversation in our Bankless Explorer Community.",
+            "href": null
+          }
+        ]
+      },
+      "Lesson sponsors": {
+        "id": "pp%3D%5C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Keywords": {
+        "id": "ta%5CR",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson collectible mint ID": {
+        "id": "u%60NU",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson image": {
+        "id": "vPLo",
+        "type": "files",
+        "files": [
+          {
+            "name": "academyCommunity_Banner.png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6c7d7756-9c71-4957-9ff1-ac7fce356185/academyCommunity_Banner.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=451da4c763fa4497fb7c0bf4ff8e8235148276cdab361d719ca3dcb488d421e4&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.293Z"
+            }
+          }
+        ]
+      },
+      "End of Lesson text": {
+        "id": "vr%5Dk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible token address": {
+        "id": "w%5D~d",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Publication status": {
+        "id": "xRj%3D",
+        "type": "select",
+        "select": null
+      },
+      "Keyword count": {
+        "id": "zBlU",
+        "type": "rollup",
+        "rollup": {
+          "type": "number",
+          "number": null,
+          "function": "count"
+        }
+      },
+      "🗓️ lesson Tasks": {
+        "id": "%7CL%3AK",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Roadmap status": {
+        "id": "%7CNva",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Mirror NFT address": {
+        "id": "%7DZfk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Featured order on homepage": {
+        "id": "~svn",
+        "type": "number",
+        "number": null
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Academy Community",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Academy Community",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Academy-Community-a2c5f9d5a1884fa0b69fa73a8599a311"
+  },
+  {
+    "object": "page",
+    "id": "e4db9d0b-47db-4dc5-96ba-707f92003632",
+    "created_time": "2023-05-11T19:20:00.000Z",
+    "last_edited_time": "2023-05-11T19:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "🚢"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "114126fc-fe3b-464d-a891-e8216f4d737b"
+    },
+    "archived": false,
+    "properties": {
+      "Roadmap": {
+        "id": "%3E%3FcG",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson badge image": {
+        "id": "%3Eo%3Fa",
+        "type": "files",
+        "files": [
+          {
+            "name": "dexAggregatorsPOAP.png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de125299-856e-4f5e-8f00-bd562b37ab6c/dexAggregatorsPOAP.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=630c2ff1d49f645fd6b9d1a1aedee4d7542cda5be9baa35b6866aba5850ba984&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.275Z"
+            }
+          }
+        ]
+      },
+      "Lesson collected image": {
+        "id": "Acil",
+        "type": "files",
+        "files": []
+      },
+      "Live preview link": {
+        "id": "Erxl",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/preview?id=e4db9d0b47db4dc596ba707f92003632"
+        }
+      },
+      "End of Lesson redirect": {
+        "id": "KYUy",
+        "type": "url",
+        "url": null
+      },
+      "What will you be able to do after this lesson?": {
+        "id": "Ndkg",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Kudos ID": {
+        "id": "R%5C~u",
+        "type": "number",
+        "number": 2608
+      },
+      "Mirror link": {
+        "id": "R%60sH",
+        "type": "url",
+        "url": null
+      },
+      "Course Pre-Reqs": {
+        "id": "STP%7D",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "90a9cf9e-e68c-4afc-8d86-6d2574b09d5c"
+          }
+        ],
+        "has_more": false
+      },
+      "POAP event ID": {
+        "id": "UWT%40",
+        "type": "number",
+        "number": null
+      },
+      "Pre-requisite for": {
+        "id": "U%5BQe",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Social image": {
+        "id": "XYv%5C",
+        "type": "files",
+        "files": [
+          {
+            "name": "dexAggregators_Banner_SocialMedia.jpg",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/683e0487-693f-486a-af62-48622a43831b/dexAggregators_Banner_SocialMedia.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=88947097f3f9facf631626f007f7f7b6f37223cca5faf6935ba3b5cbe82c5e4a&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.297Z"
+            }
+          }
+        ]
+      },
+      "Lesson link": {
+        "id": "Yp%7Bm",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/dex-aggregators"
+        }
+      },
+      "Landing page copy": {
+        "id": "%5BPze",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible video": {
+        "id": "%60j%7By",
+        "type": "files",
+        "files": []
+      },
+      "Status": {
+        "id": "bqeK",
+        "type": "select",
+        "select": {
+          "id": "m\\:E",
+          "name": "Complete",
+          "color": "green"
+        }
+      },
+      "Community discussion link": {
+        "id": "e%5C%40N",
+        "type": "url",
+        "url": "https://gm.xyz/c/BanklessAcademy?communityName=BanklessAcademy&sortBy=new&topicUuid=671cc928-93d6-4c9a-9718-28ed3d56af7c"
+      },
+      "Duration in minutes": {
+        "id": "e%7DAy",
+        "type": "number",
+        "number": 15
+      },
+      "Quest": {
+        "id": "gBdL",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Learning Objective": {
+        "id": "kAiI",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Students can use DEX aggregators to save money on token swaps.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Students can use DEX aggregators to save money on token swaps.",
+            "href": null
+          }
+        ]
+      },
+      "Order": {
+        "id": "k%5EG%5C",
+        "type": "number",
+        "number": 9
+      },
+      "Curriculum unit": {
+        "id": "kc%7CP",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Difficulty": {
+        "id": "mWkS",
+        "type": "select",
+        "select": null
+      },
+      "Enable Comments": {
+        "id": "oZii",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "AMAs": {
+        "id": "pjYI",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Description": {
+        "id": "pmtE",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Dive into DEX Aggregators, liquidity, and the DeFi exchange landscape.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Dive into DEX Aggregators, liquidity, and the DeFi exchange landscape.",
+            "href": null
+          }
+        ]
+      },
+      "Lesson sponsors": {
+        "id": "pp%3D%5C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Keywords": {
+        "id": "ta%5CR",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson collectible mint ID": {
+        "id": "u%60NU",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson image": {
+        "id": "vPLo",
+        "type": "files",
+        "files": [
+          {
+            "name": "dexAggregators_Banner (1).png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f04e86df-97a7-489e-a595-58fb3b76acbb/dexAggregators_Banner_%281%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=34dcc94b407c1591f5d59c9256cda6e321dab70b6103f1d26cd03a8b78e330e5&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.314Z"
+            }
+          }
+        ]
+      },
+      "End of Lesson text": {
+        "id": "vr%5Dk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible token address": {
+        "id": "w%5D~d",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Publication status": {
+        "id": "xRj%3D",
+        "type": "select",
+        "select": {
+          "id": "4a6f3946-b14d-4f86-890b-1e53944b19a2",
+          "name": "publish",
+          "color": "green"
+        }
+      },
+      "Keyword count": {
+        "id": "zBlU",
+        "type": "rollup",
+        "rollup": {
+          "type": "number",
+          "number": null,
+          "function": "count"
+        }
+      },
+      "🗓️ lesson Tasks": {
+        "id": "%7CL%3AK",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Roadmap status": {
+        "id": "%7CNva",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Mirror NFT address": {
+        "id": "%7DZfk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Featured order on homepage": {
+        "id": "~svn",
+        "type": "number",
+        "number": 3
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "DEX Aggregators",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "DEX Aggregators",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/DEX-Aggregators-e4db9d0b47db4dc596ba707f92003632"
+  },
+  {
+    "object": "page",
+    "id": "d79c7a05-e4b5-454f-87ed-97cc0dbdb0e1",
+    "created_time": "2023-05-11T19:20:00.000Z",
+    "last_edited_time": "2023-05-11T19:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "🚢"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "114126fc-fe3b-464d-a891-e8216f4d737b"
+    },
+    "archived": false,
+    "properties": {
+      "Roadmap": {
+        "id": "%3E%3FcG",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson badge image": {
+        "id": "%3Eo%3Fa",
+        "type": "files",
+        "files": [
+          {
+            "name": "blockchainLayer2POAP.png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/bf82beb3-64b1-4cdb-9aa2-3adc349fb722/blockchainLayer2POAP.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=28d69418e79c29f2222dd475a10d1f18ec448dbdb6fa0be1dba0e4ecc3cd8cec&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.280Z"
+            }
+          }
+        ]
+      },
+      "Lesson collected image": {
+        "id": "Acil",
+        "type": "files",
+        "files": []
+      },
+      "Live preview link": {
+        "id": "Erxl",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/preview?id=d79c7a05e4b5454f87ed97cc0dbdb0e1"
+        }
+      },
+      "End of Lesson redirect": {
+        "id": "KYUy",
+        "type": "url",
+        "url": "https://tally.so/r/mZ8orv"
+      },
+      "What will you be able to do after this lesson?": {
+        "id": "Ndkg",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Kudos ID": {
+        "id": "R%5C~u",
+        "type": "number",
+        "number": 14886
+      },
+      "Mirror link": {
+        "id": "R%60sH",
+        "type": "url",
+        "url": null
+      },
+      "Course Pre-Reqs": {
+        "id": "STP%7D",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3b785456-81f2-4958-97c1-dfb17f19db1f"
+          },
+          {
+            "id": "cf70f37e-979e-47c2-8487-ff2a187a5f99"
+          },
+          {
+            "id": "a0b42523-3a23-4df7-abfb-9c1157eab043"
+          },
+          {
+            "id": "fab3fc6b-7411-4e02-86c8-8a458a78caaf"
+          }
+        ],
+        "has_more": false
+      },
+      "POAP event ID": {
+        "id": "UWT%40",
+        "type": "number",
+        "number": null
+      },
+      "Pre-requisite for": {
+        "id": "U%5BQe",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Social image": {
+        "id": "XYv%5C",
+        "type": "files",
+        "files": [
+          {
+            "name": "blockchainLayer2_Banner_SocialMedia.jpg",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a98e4f38-09a3-4ce5-b91f-bebf41a0eaa5/blockchainLayer2_Banner_SocialMedia.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=85b10d2fe31754793dfadc2261065c94526308cc1b922f0c95c9c2c0a41b0257&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.299Z"
+            }
+          }
+        ]
+      },
+      "Lesson link": {
+        "id": "Yp%7Bm",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/layer-2-blockchains"
+        }
+      },
+      "Landing page copy": {
+        "id": "%5BPze",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The Layer 2 revolution has begun. Discover how the Layer 2 ecosystem can boost your transaction speed & reduce gas fees.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The Layer 2 revolution has begun. Discover how the Layer 2 ecosystem can boost your transaction speed & reduce gas fees.",
+            "href": null
+          }
+        ]
+      },
+      "Lesson collectible video": {
+        "id": "%60j%7By",
+        "type": "files",
+        "files": []
+      },
+      "Status": {
+        "id": "bqeK",
+        "type": "select",
+        "select": {
+          "id": "m\\:E",
+          "name": "Complete",
+          "color": "green"
+        }
+      },
+      "Community discussion link": {
+        "id": "e%5C%40N",
+        "type": "url",
+        "url": "https://gm.xyz/c/BanklessAcademy?communityName=BanklessAcademy&sortBy=new&topicUuid=8686372f-ad12-4b73-9648-9e92c8869d67"
+      },
+      "Duration in minutes": {
+        "id": "e%7DAy",
+        "type": "number",
+        "number": 15
+      },
+      "Quest": {
+        "id": "gBdL",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Learning Objective": {
+        "id": "kAiI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Order": {
+        "id": "k%5EG%5C",
+        "type": "number",
+        "number": 5
+      },
+      "Curriculum unit": {
+        "id": "kc%7CP",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Difficulty": {
+        "id": "mWkS",
+        "type": "select",
+        "select": null
+      },
+      "Enable Comments": {
+        "id": "oZii",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "AMAs": {
+        "id": "pjYI",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Description": {
+        "id": "pmtE",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Join the Layer 2 ecosystem to boost your transaction speed & reduce fees.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Join the Layer 2 ecosystem to boost your transaction speed & reduce fees.",
+            "href": null
+          }
+        ]
+      },
+      "Lesson sponsors": {
+        "id": "pp%3D%5C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Keywords": {
+        "id": "ta%5CR",
+        "type": "relation",
+        "relation": [],
+        "has_more": true
+      },
+      "Lesson collectible mint ID": {
+        "id": "u%60NU",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson image": {
+        "id": "vPLo",
+        "type": "files",
+        "files": [
+          {
+            "name": "blockchainLayer2s_Banner.png",
+            "type": "file",
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d1350d13-2e06-4c73-ba30-5b954e692f0a/blockchainLayer2s_Banner.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230513%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230513T145816Z&X-Amz-Expires=3600&X-Amz-Signature=5a66cbc80b591c88a16817289b1ae5b6063e6c7f803327c2966f57096fdf87f4&X-Amz-SignedHeaders=host&x-id=GetObject",
+              "expiry_time": "2023-05-13T15:58:16.328Z"
+            }
+          }
+        ]
+      },
+      "End of Lesson text": {
+        "id": "vr%5Dk",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "To learn more about Optimism and to give feedback about this lesson, click Next.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "To learn more about Optimism and to give feedback about this lesson, click Next.",
+            "href": null
+          }
+        ]
+      },
+      "Lesson collectible token address": {
+        "id": "w%5D~d",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Publication status": {
+        "id": "xRj%3D",
+        "type": "select",
+        "select": {
+          "id": "4a6f3946-b14d-4f86-890b-1e53944b19a2",
+          "name": "publish",
+          "color": "green"
+        }
+      },
+      "Keyword count": {
+        "id": "zBlU",
+        "type": "rollup",
+        "rollup": {
+          "type": "number",
+          "number": null,
+          "function": "count"
+        }
+      },
+      "🗓️ lesson Tasks": {
+        "id": "%7CL%3AK",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Roadmap status": {
+        "id": "%7CNva",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Mirror NFT address": {
+        "id": "%7DZfk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Featured order on homepage": {
+        "id": "~svn",
+        "type": "number",
+        "number": 2
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Layer 2 Blockchains",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Layer 2 Blockchains",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Layer-2-Blockchains-d79c7a05e4b5454f87ed97cc0dbdb0e1"
+  },
+  {
+    "object": "page",
+    "id": "a47ce4a5-6233-4e47-819d-9760c7336daa",
+    "created_time": "2023-05-11T19:20:00.000Z",
+    "last_edited_time": "2023-05-11T19:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "136d73bc-6efd-4a89-a40c-a490ed368451"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "👷‍♂️"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "114126fc-fe3b-464d-a891-e8216f4d737b"
+    },
+    "archived": false,
+    "properties": {
+      "Roadmap": {
+        "id": "%3E%3FcG",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson badge image": {
+        "id": "%3Eo%3Fa",
+        "type": "files",
+        "files": []
+      },
+      "Lesson collected image": {
+        "id": "Acil",
+        "type": "files",
+        "files": []
+      },
+      "Live preview link": {
+        "id": "Erxl",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/preview?id=a47ce4a562334e47819d9760c7336daa"
+        }
+      },
+      "End of Lesson redirect": {
+        "id": "KYUy",
+        "type": "url",
+        "url": null
+      },
+      "What will you be able to do after this lesson?": {
+        "id": "Ndkg",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Kudos ID": {
+        "id": "R%5C~u",
+        "type": "number",
+        "number": null
+      },
+      "Mirror link": {
+        "id": "R%60sH",
+        "type": "url",
+        "url": null
+      },
+      "Course Pre-Reqs": {
+        "id": "STP%7D",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "90a9cf9e-e68c-4afc-8d86-6d2574b09d5c"
+          }
+        ],
+        "has_more": false
+      },
+      "POAP event ID": {
+        "id": "UWT%40",
+        "type": "number",
+        "number": null
+      },
+      "Pre-requisite for": {
+        "id": "U%5BQe",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Social image": {
+        "id": "XYv%5C",
+        "type": "files",
+        "files": []
+      },
+      "Lesson link": {
+        "id": "Yp%7Bm",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "https://app.banklessacademy.com/lessons/decentralized-exchanges"
+        }
+      },
+      "Landing page copy": {
+        "id": "%5BPze",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "DEXs and AMMs have changed the landscape of traditional market trading. It’s time to understand why, and how you can use this technology to your own advantage.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "DEXs and AMMs have changed the landscape of traditional market trading. It’s time to understand why, and how you can use this technology to your own advantage.",
+            "href": null
+          }
+        ]
+      },
+      "Lesson collectible video": {
+        "id": "%60j%7By",
+        "type": "files",
+        "files": []
+      },
+      "Status": {
+        "id": "bqeK",
+        "type": "select",
+        "select": {
+          "id": "[uJr",
+          "name": "In progress",
+          "color": "pink"
+        }
+      },
+      "Community discussion link": {
+        "id": "e%5C%40N",
+        "type": "url",
+        "url": null
+      },
+      "Duration in minutes": {
+        "id": "e%7DAy",
+        "type": "number",
+        "number": 15
+      },
+      "Quest": {
+        "id": "gBdL",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Learning Objective": {
+        "id": "kAiI",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Order": {
+        "id": "k%5EG%5C",
+        "type": "number",
+        "number": 8
+      },
+      "Curriculum unit": {
+        "id": "kc%7CP",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Difficulty": {
+        "id": "mWkS",
+        "type": "select",
+        "select": null
+      },
+      "Enable Comments": {
+        "id": "oZii",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "AMAs": {
+        "id": "pjYI",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Description": {
+        "id": "pmtE",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Discover how smart-contract exchanges enable permissionless token swaps!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Discover how smart-contract exchanges enable permissionless token swaps!",
+            "href": null
+          }
+        ]
+      },
+      "Lesson sponsors": {
+        "id": "pp%3D%5C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Keywords": {
+        "id": "ta%5CR",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Lesson collectible mint ID": {
+        "id": "u%60NU",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson image": {
+        "id": "vPLo",
+        "type": "files",
+        "files": []
+      },
+      "End of Lesson text": {
+        "id": "vr%5Dk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Lesson collectible token address": {
+        "id": "w%5D~d",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Publication status": {
+        "id": "xRj%3D",
+        "type": "select",
+        "select": {
+          "id": "56e84186-240b-4caf-b7c3-99d7d42e3671",
+          "name": "planned",
+          "color": "orange"
+        }
+      },
+      "Keyword count": {
+        "id": "zBlU",
+        "type": "rollup",
+        "rollup": {
+          "type": "number",
+          "number": null,
+          "function": "count"
+        }
+      },
+      "🗓️ lesson Tasks": {
+        "id": "%7CL%3AK",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Roadmap status": {
+        "id": "%7CNva",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Mirror NFT address": {
+        "id": "%7DZfk",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Featured order on homepage": {
+        "id": "~svn",
+        "type": "number",
+        "number": null
+      },
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Decentralized Exchanges",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Decentralized Exchanges",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Decentralized-Exchanges-a47ce4a562334e47819d9760c7336daa"
+  }
+]

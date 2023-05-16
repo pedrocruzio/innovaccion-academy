@@ -15,14 +15,7 @@ const StyledBackground = styled(Box)<{
     props.islesson === 'true' &&
     `
   min-height: calc(100vh - ${props.issmallscreen === 'true' ? '146' : '154'}px);
-  background: linear-gradient(
-    107.1deg,
-    rgba(46, 33, 33, 0.3) -3.13%,
-    rgba(80, 73, 84, 0.3) 16.16%,
-    rgba(94, 89, 104, 0.3) 29.38%,
-    rgba(86, 81, 94, 0.3) 41.5%,
-    rgba(23, 21, 21, 0.3) 102.65%
-  );
+  background: #6064fc;
   box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.8);
     `};
 `

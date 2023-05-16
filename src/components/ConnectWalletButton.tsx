@@ -417,14 +417,14 @@ const ConnectWalletButton = ({
             <PopoverArrow />
             <PopoverBody>
               <Heading as="h2" size="md" textAlign="center" my="2">
-                Connect your wallet to proceed.
+                Conecta tu wallet para proceder
               </Heading>
-              <Text textAlign="center">
-                {`Don’t know how? `}
+              {/* <Text textAlign="center">
+                {`No sabes como `}
                 <ExternalLink href="/faq#edf3a4658d3d4aa78eac62e1dcf68978">
                   Get help here
                 </ExternalLink>
-              </Text>
+              </Text> */}
             </PopoverBody>
           </PopoverContent>
         </Popover>

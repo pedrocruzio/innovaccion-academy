@@ -181,7 +181,7 @@ const LessonCards: React.FC = () => {
                     variant="outline"
                     iskudosminted={isKudosMinted?.toString()}
                   >
-                    {isKudosMinted ? 'Done' : `${lesson.duration} minutes`}
+                    {isKudosMinted ? 'Done' : `${lesson.duration} minutos`}
                     {isKudosMinted ? (
                       <TagRightIcon as={CircleWavyCheck} weight="bold" />
                     ) : null}
@@ -246,7 +246,7 @@ const LessonCards: React.FC = () => {
                     }}
                     cursor={isNotified ? 'default' : 'pointer'}
                   >
-                    {isNotified ? 'Subscribed' : 'Notify me'}
+                    {isNotified ? 'Pronto' : 'Pronto'}
                   </Button>
                 ) : (
                   <InternalLink
@@ -263,10 +263,10 @@ const LessonCards: React.FC = () => {
                       {lesson?.isArticle
                         ? 'Read Entry'
                         : isKudosMinted
-                        ? 'Revisit Lesson'
+                        ? 'Revisitar Curso'
                         : isLessonStarted
-                        ? 'Resume Lesson'
-                        : 'Start Lesson'}
+                        ? 'Terminar Curso'
+                        : 'Comenzar Curso'}
                     </Button>
                   </InternalLink>
                 )}

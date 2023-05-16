@@ -66,10 +66,10 @@ const FeaturedLessons: React.FC = () => {
                     {lesson?.isArticle
                       ? 'Read Entry'
                       : isKudosMinted
-                      ? 'Revisit Lesson'
+                      ? 'Revisitar Curso'
                       : isLessonStarted
-                      ? 'Resume Lesson'
-                      : 'Start Lesson'}
+                      ? 'Terminar Curso'
+                      : 'Comenzar Curso'}
                   </Button>
                 </InternalLink>
               </Box>

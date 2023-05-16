@@ -183,9 +183,9 @@ const parseProperties = (database: QueryDatabaseResponse) => {
     // }
     // console.log('Going Into: lessonImageLink', lesson.lessonImageLink)
     if (lesson.lessonImageLink) {
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-ignore With description
       lesson.lessonImageLink = get_img(
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore With description
         lesson.lessonImageLink.files,
         lesson.slug,
         'lesson'

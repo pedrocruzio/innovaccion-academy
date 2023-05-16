@@ -1,3 +1,4 @@
+require('dotenv').config()
 import {QueryDatabaseResponse,} from '@notionhq/client/build/src/api-endpoints'
 import {Client} from '@notionhq/client'
 import {db, TABLES} from "./src/utils/db";
@@ -65,7 +66,6 @@ const download_image = (url, image_path) =>
 const get_img = (imageLink, slug, image_name) => {
     const [file_name] = imageLink[0].name.split("?");
     const file_extension = file_name.match(/\.(png|svg|jpg|jpeg|webp|mp4|gif)/)[1].replace("jpeg", "jpg");
-    // console.log(file_extension)
     // create "unique" hash based on Notion imageLink (different when re-uploaded)
     const hash = crc32(file_name);
     const image_dir = `/${PROJECT_DIR}lesson/${slug}`;
@@ -75,7 +75,6 @@ const get_img = (imageLink, slug, image_name) => {
         fs.mkdirSync(local_image_dir);
     }
     const image_path = `${image_dir}/${slugify(image_name)}-${hash}.${file_extension}`;
-    // console.log('image_path', image_path)
     const local_image_path = `public${image_path}`;
     if (!fs.existsSync(local_image_path)) {
         download_image(imageLink[0].name, local_image_path);
@@ -91,95 +90,92 @@ const parseProperties = (database: QueryDatabaseResponse) => {
         fs.mkdirSync(`public/${PROJECT_DIR}lesson`)
     }
     const promiseArray = database.results.map(async (row, index) => {
-        // TODO: Eliminate for Production
-        if (index > 2) return
-        // @ts-ignore
-        // @ts-ignore
-
         // @ts-ignore
         const lesson: LessonType = Object.keys(KEY_MATCHING).reduce((obj, k) =>
-                Object.assign(obj, {
+            // @ts-ignore
+            Object.assign(obj, {
                     // transform to number if the string contains a number
                     [KEY_MATCHING[k]]:
-                        k === 'Landing page copy' ||
-                        k === 'What will you be able to do after this lesson?'
-                            ?
-                            // @ts-ignore
-                            row.properties[k].rich_text[0].text.content
-                            :
-                            k === 'Featured order on homepage'
-                                // @ts-ignore
-                                ? row.properties[k].number
-                                :
-                                k === 'Enable Comments'
+                        (() => {
+                            switch (k) {
+                                case 'Landing page copy':
+                                case 'What will you be able to do after this lesson?':
+                                case 'Description':
+                                case 'End of Lesson text':
+                                case 'Mirror NFT address':
                                     // @ts-ignore
-                                    ? row.properties[k].checkbox
-                                    :
-                                    k === 'Mirror link'
-                                        // @ts-ignore
-                                        ? row.properties[k].url
-                                        :
-                                        k === 'name'
-                                            // @ts-ignore
-                                            ? row.properties[k].name.title[0].text.content
-                                            :
-                                            k === 'Kudos ID'
-                                                ?
-                                                // @ts-ignore
-                                                row.properties[k].number
-                                                :
-                                                // @ts-ignore
-                                                Number.isNaN(parseInt(row.properties[k])) ||
-                                                // ignore type transform for ModuleId & mirrorNFTAddress
-                                                k === 'Module' ||
-                                                k === 'Mirror NFT address'
-                                                    // @ts-ignore
-                                                    ? row.properties[k]
-                                                    // @ts-ignore
-                                                    :
-                                                    // @ts-ignore
-                                                    parseInt(row.properties[k]),
-                }),
-            {}
+                                    return row.properties[k]?.rich_text[0]?.text?.content || '';
+                                case 'Featured order on homepage':
+                                    // @ts-ignore
+                                    return row.properties[k].number;
+                                case 'Difficulty':
+                                    // @ts-ignore
+                                    return row.properties[k]?.select?.name || 'Easy'
+                                case 'Publication status':
+                                    // @ts-ignore
+                                    return row.properties[k]?.select?.name || 'hidden'
+                                case 'Enable Comments':
+                                case 'Quest':
+                                    // @ts-ignore
+                                    return row.properties[k]?.checkbox || false;
+                                case 'Mirror link':
+                                case 'End of Lesson redirect':
+                                    // @ts-ignore
+                                    return row.properties[k].url;
+                                case 'Name':
+                                    // @ts-ignore
+                                    return row.properties[k]?.name?.title[0]?.text?.content || 'No Name';
+                                case 'Kudos ID':
+                                case 'Duration in minutes':
+                                    // @ts-ignore
+                                    return row.properties[k].number;
+                                case 'Social image':
+                                case 'Kudos image':
+                                    // @ts-ignore
+                                    return row.properties[k]?.files[0]?.name || '';
+                                // case 'Module':
+                                // case 'Mirror NFT address':
+                                //     // @ts-ignore
+                                //     return row.properties[k];
+                            }
+                        })()
+                },
+                {})
         )
-        // TODO: Values coming out as undefined. But, the keys are good.
-        console.log('WhatAreTheLessons', lesson)
 
-        const mirrorId = lesson.mirrorLink?.includes('/') && lesson.mirrorLink?.split('/')?.pop()
-        console.log('Going Into: InsideMirrorLink', [lesson.mirrorLink, mirrorId])
-        if (lesson.mirrorLink?.includes('/') && mirrorId) {
-            lesson.isArticle = true
-            lesson.notionId = row.id
-            lesson.slug = slugify(lesson.name)
-        }
+        // const mirrorId = lesson.mirrorLink?.includes('/') && lesson.mirrorLink?.split('/')?.pop()
+        // console.log('Going Into: InsideMirrorLink', lesson.mirrorLink)
+        // if (lesson.mirrorLink?.includes('/') && mirrorId) {
+        //     lesson.isArticle = true
+        //     lesson.notionId = row.id
+        //     lesson.slug = slugify(lesson.name)
+        // }
 
 
-        console.log('Going Into: kudosImageLink', lesson.kudosImageLink)
-        if (lesson.kudosImageLink) {
-            // @ts-ignore
-            lesson.kudosImageLink = get_img(lesson.kudosImageLink.files, lesson.slug, 'kudos')
-        }
-        console.log('Going Into: lessonImageLink', lesson.lessonImageLink)
+        // console.log('Going Into: kudosImageLink', lesson.kudosImageLink)
+        // if (lesson.kudosImageLink) {
+        //     // @ts-ignore
+        //     lesson.kudosImageLink = get_img(lesson.kudosImageLink.files, lesson.slug, 'kudos')
+        // }
+        // console.log('Going Into: lessonImageLink', lesson.lessonImageLink)
         if (lesson.lessonImageLink) {
             // @ts-ignore
             lesson.lessonImageLink = get_img(lesson.lessonImageLink.files, lesson.slug, 'lesson')
         }
-        console.log('Going Into: socialImageLink', lesson.socialImageLink)
-        if (lesson.socialImageLink) {
-            // @ts-ignore
-            lesson.socialImageLink = get_img(lesson.socialImageLink.files, lesson.slug, 'social')
-        }
+        // console.log('Going Into: socialImageLink', lesson.socialImageLink)
+        // if (lesson.socialImageLink) {
+        //     // @ts-ignore
+        //     lesson.socialImageLink = get_img(lesson.socialImageLink.files, lesson.slug, 'social')
+        // }
 
         lesson.notionId = row.id
         lesson.slug = slugify(lesson.name)
         //    add notionId to DB
         // await db(TABLES.credentials).insert([{notion_id: lesson.notionId}]).onConflict('notion_id')
-        lessons[index] = lesson
-        console.log('LEssonYeeting', [lesson, index, lesson[index]])
+        lessons.push(lesson)
     })
 
-    Promise.allSettled(promiseArray).then(() => {
-        console.log('YeetLessonsMultiple', lessons)
+    axios.all(promiseArray).then(() => {
         const FILE_CONTENT = `/* eslint-disable no-useless-escape */
 import { LessonType } from 'entities/lesson'
 

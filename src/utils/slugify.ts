@@ -1,4 +1,4 @@
-export default (text) =>
+export default (text: string): string =>
   text
     .toLowerCase()
     .replace(/<[^>]*>?/gm, '') // remove tags

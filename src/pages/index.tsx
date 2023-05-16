@@ -83,7 +83,7 @@ const HomePage = (): JSX.Element => {
                   size="lg"
                   style={{ padding: '0 23px', marginTop: '20px' }}
                 >
-                  Explore Lessons
+                  Ver Cursos
                 </Button>
               </InternalLink>
             </Box>
@@ -97,11 +97,20 @@ const HomePage = (): JSX.Element => {
               </Heading>
               <Box fontSize="lg" mt="6">
                 <Box mt={2}>
-                  La academy de InnovAcción tene como misión asegurarse de que cada persona en Puerto Rico 
+                  La academia de InnovAcción tene como misión asegurarse de que cada persona en Puerto Rico 
                   esté preparado el futuro. Usando la plataforma de la Academia, darás el primer paso con confianza 
                   hacia la nueva frontera, antes de sumergirte en tu propio camino de aprendizaje único y 
                   prepararte para abrir nuevos caminos en el espacio de web3, inteligencia artificial y el metaverso. ¡Comencemos!
                 </Box>
+                <InternalLink href={`/lessons`}>
+                <Button
+                  variant="primary"
+                  size="lg"
+                  style={{ padding: '0 23px', marginTop: '20px' }}
+                >
+                  Ver Cursos
+                </Button>
+              </InternalLink>
               </Box>
               <SimpleGrid
             columns={{ sm: 1, md: 3, lg: 3 }}

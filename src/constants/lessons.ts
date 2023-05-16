@@ -3,7 +3,7 @@ import { LessonType } from 'entities/lesson'
 
 const LESSONS: LessonType[] = [
   {
-    kudosImageLink: '/badges/badge.png',
+    kudosImageLink: '/badges/badge-celebrate.png',
     lessonImageLink: '/courses/course-wallet.png',
     socialImageLink: '/lesson/wallet-basics/social-230cc260.jpg',
     learningActions: 'Create and manage your own wallet\nConnect your wallet to a web3 website',
@@ -221,11 +221,11 @@ const LESSONS: LessonType[] = [
           id: 'wallet-basics-8'
         }
       },
-      {
-        type: 'QUEST',
-        title: 'Billeteras',
-        component: 'WalletBasics'
-      },
+      // {
+      //   type: 'QUEST',
+      //   title: 'Billeteras',
+      //   component: 'WalletBasics'
+      // },
       {
         type: 'END',
         title: 'Certificado'

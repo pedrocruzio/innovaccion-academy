@@ -218,11 +218,11 @@ const Lesson = ({
     localStorage.setItem(lesson.slug, currentSlide.toString())
   }, [currentSlide])
 
-  useEffect((): void => {
-    if (address) setConnectWalletPopupLS(false)
-    if ((slide.type === 'QUEST' || slide.type === 'END') && !address)
-      setConnectWalletPopupLS(true)
-  }, [address, slide])
+  // useEffect((): void => {
+  //   if (address) setConnectWalletPopupLS(false)
+  //   if ((slide.type === 'QUEST' || slide.type === 'END') && !address)
+  //     setConnectWalletPopupLS(true)
+  // }, [address, slide])
 
   useEffect(() => {
     Mixpanel.track('open_lesson', { lesson: lesson?.name })
@@ -407,7 +407,7 @@ const Lesson = ({
         </Box>
         <Box color={slide.type === 'END' ? theme.colors.secondary : 'unset'}>
           {slide.type === 'QUIZ' ? (
-            <>Preuba de Conocimiento</>
+            <>Prueba de Conocimiento</>
           ) : (
             <>{ReactHtmlParser(slide.title, { transform })}</>
           )}

@@ -237,7 +237,7 @@ const MintKudos = ({
   const ConnectFirst = (
     <>
       <Heading as="h2" size="xl" textAlign="center" pt="8">
-        Para reclamar tu certificado, conecta tu wallet
+        ¡Felicidades! Completaste el curso. Pronto vamos a anunciar como puedes conseguir tu certificado.
       </Heading>
     </>
   )

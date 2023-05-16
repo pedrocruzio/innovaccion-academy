@@ -139,9 +139,9 @@ const parseProperties = (database: QueryDatabaseResponse) => {
                 // @ts-ignore With description
                 return row.properties[k].url
               case 'Name':
-                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-                // @ts-ignore With description
                 return (
+                  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                  // @ts-ignore With description
                   row.properties[k]?.name?.title[0]?.text?.content || 'No Name'
                 )
               case 'Kudos ID':
@@ -151,6 +151,7 @@ const parseProperties = (database: QueryDatabaseResponse) => {
                 return row.properties[k].number
               case 'Social image':
               case 'Kudos image':
+              case 'Lesson image':
                 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
                 // @ts-ignore With description
                 return row.properties[k]?.files[0]?.name || ''

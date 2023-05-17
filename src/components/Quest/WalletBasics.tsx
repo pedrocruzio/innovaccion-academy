@@ -20,14 +20,14 @@ const WalletBasics = (
       <>
         <Box display={isSmallScreen ? 'block' : 'flex'}>
           <div className="bloc1">
-            <h2>How to setup a MetaMask wallet</h2>
+          <h2>Cómo configurar una billetera MetaMask</h2>
             <p>
-              For convenience and ease of access throughout this lesson, you
-              will need a MetaMask wallet. Next we will demonstrate how to set
-              up a MetaMask wallet.
+              Para comodidad y facilidad de acceso durante esta lección,
+              necesitarás una billetera MetaMask. A continuación, demostraremos cómo
+              configurar una billetera MetaMask.
             </p>
             <p>
-              Download the browser extension from the official website:&nbsp;
+              Descarga la extensión del navegador desde el sitio web oficial:&nbsp;
               <ExternalLink href="https://metamask.io/download">
                 https://metamask.io/download
               </ExternalLink>
@@ -40,13 +40,13 @@ const WalletBasics = (
               boxShadow="none !important"
             >
               {account
-                ? 'Congrats for connecting your wallet! 👏🙂'
-                : 'Waiting to detect your wallet ...'}
+                ? 'Felicidades por conectar tu wallet! 👏🙂'
+                : 'Esperando la conexión de tu wallet ...'}
             </Button>
           </div>
           <div className="bloc2">
             <iframe
-              src="https://www.youtube.com/embed/PjBY0pVFnQ8?rel=0"
+              src="https://www.youtube.com/embed/YVgfHZMFFFQ?rel=0"
               allowFullScreen
             ></iframe>
           </div>

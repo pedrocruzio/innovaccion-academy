@@ -9,7 +9,7 @@ export const IS_WHITELABEL = !!WHITELABEL?.project_name
 
 export const LESSONS = IS_WHITELABEL ? WHITELABEL_LESSONS : DEFAULT_LESSONS
 
-export const PROJECT_NAME = WHITELABEL?.project_name || 'InovvAccion Academy'
+export const PROJECT_NAME = WHITELABEL?.project_name || 'InnovAcción Academy'
 
 export const DOMAIN_PROD =
   WHITELABEL?.domain_prod || 'https://innovaccionpr.org/'
@@ -23,7 +23,7 @@ export const DEFAULT_METADATA: MetaData = {
   title: PROJECT_NAME,
   description:
     WHITELABEL?.default_metadata_description ||
-    'Level up your knowledge of Web3 and DeFi',
+    'Edúcate en tecnologías revolucionarias',
   image: `${DOMAIN_URL}${
     WHITELABEL?.default_metadata_image || '/images/logo-horz-blue.png'
   }`,
@@ -40,7 +40,7 @@ export const LOGO = WHITELABEL?.logo || '/images/logo-horz-blue.png'
 export const LOGO_SMALL = WHITELABEL?.logo_small || '/images/logo-horz-blue.png'
 
 export const HOMEPAGE_BACKGROUND =
-  WHITELABEL?.homepage_background || '/images/logo-horz-blue.png'
+  WHITELABEL?.homepage_background || '/images/hero-img.png'
 
 export const UMAMI_PROD =
   WHITELABEL?.umami_prod || '62d1cf48-425d-4658-9b86-3eea78ac9714'

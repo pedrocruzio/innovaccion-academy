@@ -83,14 +83,14 @@ const Nav: React.FC = () => {
             )}
           </Box>
           <Spacer />
-          <HStack spacing={2} justifyContent="space-between">
+          {/* <HStack spacing={2} justifyContent="space-between">
             <SwitchNetworkButton isSmallScreen={isSmallScreen} />
             <ConnectWalletButton isSmallScreen={isSmallScreen} />
             <OptionMenu
               isSmallScreen={isSmallScreen}
               isWebApp={webapp === 'true'}
             />
-          </HStack>
+          </HStack> */}
         </Flex>
       </Box>
     </header>

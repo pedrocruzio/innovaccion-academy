@@ -44,7 +44,7 @@ function Lessons(): JSX.Element {
   return (
     <Container maxW="container.xl">
       <StyledHeading as="h1" size="2xl" textAlign="center" my={8}>
-        <Text color={'#FFA500'}>Lesson Selection</Text>
+        <Text color={'#FFA500'}>Cursos</Text>
       </StyledHeading>
       <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={4} my={8} gap={6}>
         <LessonCards />

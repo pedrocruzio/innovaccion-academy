@@ -237,7 +237,7 @@ const MintKudos = ({
   const ConnectFirst = (
     <>
       <Heading as="h2" size="xl" textAlign="center" pt="8">
-        To claim rewards, you must connect your wallet.
+        ¡Felicidades! Completaste el curso. Pronto vamos a anunciar como puedes conseguir tu certificado.
       </Heading>
     </>
   )
@@ -357,7 +357,7 @@ Join the journey and level up your #web3 knowledge! 👨‍🚀🚀`
                 <>
                   <Box>
                     <Heading as="h2" size="xl" textAlign="center">
-                      {`To claim rewards you need a `}
+                      {`Para reclamar tu certificado `}
                       <Button
                         variant="primary"
                         onClick={onOpen}

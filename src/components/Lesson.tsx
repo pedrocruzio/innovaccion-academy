@@ -218,11 +218,11 @@ const Lesson = ({
     localStorage.setItem(lesson.slug, currentSlide.toString())
   }, [currentSlide])
 
-  useEffect((): void => {
-    if (address) setConnectWalletPopupLS(false)
-    if ((slide.type === 'QUEST' || slide.type === 'END') && !address)
-      setConnectWalletPopupLS(true)
-  }, [address, slide])
+  // useEffect((): void => {
+  //   if (address) setConnectWalletPopupLS(false)
+  //   if ((slide.type === 'QUEST' || slide.type === 'END') && !address)
+  //     setConnectWalletPopupLS(true)
+  // }, [address, slide])
 
   useEffect(() => {
     Mixpanel.track('open_lesson', { lesson: lesson?.name })
@@ -407,7 +407,7 @@ const Lesson = ({
         </Box>
         <Box color={slide.type === 'END' ? theme.colors.secondary : 'unset'}>
           {slide.type === 'QUIZ' ? (
-            <>Knowledge Check</>
+            <>Prueba de Conocimiento</>
           ) : (
             <>{ReactHtmlParser(slide.title, { transform })}</>
           )}
@@ -580,7 +580,7 @@ const Lesson = ({
           {slide.type === 'QUEST' && !Quest?.isQuestCompleted ? (
             <Tooltip
               hasArrow
-              label="By skipping this quest you won't be able to claim the lesson badge"
+              label="Si omites esta misión, no podrás reclamar tu certificado de este curso"
             >
               <Button
                 variant="outline"
@@ -588,11 +588,11 @@ const Lesson = ({
                   setCurrentSlide(currentSlide + 1)
                 }}
               >
-                Skip Quest
+                Skip
               </Button>
             </Tooltip>
           ) : null}
-          {!embed && isLastSlide && lesson.communityDiscussionLink && (
+          {/* {!embed && isLastSlide && lesson.communityDiscussionLink && (
             <ExternalLink
               href={lesson.communityDiscussionLink}
               alt={`${lesson.name} community discussion`}
@@ -606,7 +606,7 @@ const Lesson = ({
                 </Button>
               </Tooltip>
             </ExternalLink>
-          )}
+          )} */}
           {!isLastSlide || (lesson.endOfLessonText && !embed) ? (
             <Button
               ref={buttonRightRef}
@@ -619,7 +619,7 @@ const Lesson = ({
               onClick={goToNextSlide}
               rightIcon={<ArrowForwardIcon />}
             >
-              {isBeforeLastSlide ? 'Finish' : 'Next'}
+              {isBeforeLastSlide ? 'Terminar' : 'Próximo'}
             </Button>
           ) : (
             <>
@@ -630,7 +630,7 @@ const Lesson = ({
                       lesson.kudosId && !isKudosMintedLS ? 'outline' : 'primary'
                     }
                   >
-                    Explore more Lessons
+                    Ver más cursos
                   </Button>
                 </InternalLink>
               )}

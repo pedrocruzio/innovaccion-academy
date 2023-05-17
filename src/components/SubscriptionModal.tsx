@@ -43,7 +43,7 @@ const SubscriptionModal = ({
       >
         <ModalHeader>
           {lesson
-            ? `Subscribe to '${lesson.name}' notifications`
+            ? `Subscríbete a '${lesson.name}' para notificaciones`
             : 'Newsletter'}
         </ModalHeader>
         <ModalCloseButton />

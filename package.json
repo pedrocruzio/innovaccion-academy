@@ -1,5 +1,5 @@
 {
-  "name": "bankless-academy",
+  "name": "innovaccion-academy",
   "author": "@didierkrux",
   "license": "MIT",
   "version": "1.0.0",
@@ -15,21 +15,12 @@
     "import-poaps": "node import-poaps.js",
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write .",
-    "lint": "eslint . --ext ts --ext tsx --ext js",
     "test": "jest",
-    "test-all": "yarn lint && yarn type-check && yarn test"
+    "test-all": "yarn type-check && yarn test"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "yarn run type-check"
     }
-  },
-  "lint-staged": {
-    "*.@(ts|tsx)": [
-      "yarn lint --fix",
-      "yarn format"
-    ]
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.15",

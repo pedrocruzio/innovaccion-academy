@@ -181,7 +181,7 @@ const LessonCards: React.FC = () => {
                     variant="outline"
                     iskudosminted={isKudosMinted?.toString()}
                   >
-                    {isKudosMinted ? 'Done' : `${lesson.duration} minutes`}
+                    {isKudosMinted ? 'Done' : `${lesson.duration} minutos`}
                     {isKudosMinted ? (
                       <TagRightIcon as={CircleWavyCheck} weight="bold" />
                     ) : null}
@@ -232,22 +232,23 @@ const LessonCards: React.FC = () => {
                 justifyContent="space-between"
               >
                 {lesson.publicationStatus === 'planned' && all === undefined ? (
-                  <Button
-                    variant={isNotified ? 'outline' : 'primary'}
-                    onClick={() => {
-                      if (isNotified) return
-                      setSelectedLesson(lesson)
-                      onOpen()
-                      Mixpanel.track('click_internal_link', {
-                        link: 'modal',
-                        name: 'Lesson notification',
-                        lesson: lesson.name,
-                      })
-                    }}
-                    cursor={isNotified ? 'default' : 'pointer'}
-                  >
-                    {isNotified ? 'Subscribed' : 'Notify me'}
-                  </Button>
+                  <>Pronto...</>
+                  // <Button
+                  //   variant={isNotified ? 'outline' : 'primary'}
+                  //   onClick={() => {
+                  //     if (isNotified) return
+                  //     setSelectedLesson(lesson)
+                  //     onOpen()
+                  //     Mixpanel.track('click_internal_link', {
+                  //       link: 'modal',
+                  //       name: 'Lesson notification',
+                  //       lesson: lesson.name,
+                  //     })
+                  //   }}
+                  //   cursor={isNotified ? 'default' : 'pointer'}
+                  // >
+                  //   {isNotified ? 'Pronto' : 'Pronto'}
+                  // </Button>
                 ) : (
                   <InternalLink
                     href={`/lessons/${lesson.slug}`}
@@ -263,10 +264,10 @@ const LessonCards: React.FC = () => {
                       {lesson?.isArticle
                         ? 'Read Entry'
                         : isKudosMinted
-                        ? 'Revisit Lesson'
+                        ? 'Revisitar Curso'
                         : isLessonStarted
-                        ? 'Resume Lesson'
-                        : 'Start Lesson'}
+                        ? 'Terminar Curso'
+                        : 'Comenzar Curso'}
                     </Button>
                   </InternalLink>
                 )}

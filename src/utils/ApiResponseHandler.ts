@@ -1,5 +1,11 @@
+import { NextApiRequest, NextApiResponse } from 'next'
+
 export default class ApiResponseHandler {
-  static async success(req, res, payload) {
+  static async success(
+    req: NextApiRequest,
+    res: NextApiResponse,
+    payload: unknown
+  ): Promise<void> {
     if (payload !== undefined) {
       res.status(200).json({
         success: true,
@@ -13,7 +19,11 @@ export default class ApiResponseHandler {
     }
   }
 
-  static async error(req, res, error) {
+  static async error(
+    req: NextApiRequest,
+    res: NextApiResponse,
+    error: { code: number; message: string }
+  ): Promise<void> {
     if (error && [400, 401, 403, 404].includes(error.code)) {
       console.error(error)
       res.status(error.code).json({ success: false, error: error.message })

@@ -32,6 +32,10 @@ import { HOMEPAGE_BACKGROUND, IS_WHITELABEL } from 'constants/index'
 import { Mixpanel } from 'utils/index'
 import SubscriptionModal from 'components/SubscriptionModal'
 import { useSmallScreen } from 'hooks/index'
+// import {queryDatabase} from "@notionhq/client/build/src/api-endpoints";
+// import { parseProperties } from "../utils/notion";
+// import { queryDatabase } from "./api/queryNotion";
+// import { PageObjectResponse, PartialPageObjectResponse } from "@notionhq/client/build/src/api-endpoints";
 
 const Card = styled(Box)`
   border: 1px solid #72757b;
@@ -54,7 +58,19 @@ const NewsletterButton = styled(Button)`
   }
 `
 
+// export async function getStaticProps(): Promise<{ props: { posts: (PageObjectResponse | PartialPageObjectResponse)[] } }> {
+//   const database = await queryDatabase();
+//   const posts = parseProperties(database);
+//
+//   return {
+//     props: {
+//       posts
+//     }
+//   };
+// }
+
 const HomePage = (): JSX.Element => {
+  // console.log("DidIGetAny", props.posts);
   const [isSmallScreen] = useSmallScreen()
   const { isOpen, onOpen, onClose } = useDisclosure()
 

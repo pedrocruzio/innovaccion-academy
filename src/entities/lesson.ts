@@ -3,6 +3,17 @@ import { QuestComponentType } from 'components/Quest/QuestComponent'
 export type SlideType = 'LEARN' | 'QUIZ' | 'QUEST' | 'END'
 
 export interface LessonType {
+  '0'?: string
+  '1'?: string
+  '2'?: string
+  '3'?: string
+  '4'?: string
+  '5'?: string
+  '6'?: string
+  '7'?: string
+  '8'?: string
+  '9'?: string
+  '10'?: string
   name: string
   slug: string
   notionId: string

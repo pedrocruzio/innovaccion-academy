@@ -26,11 +26,11 @@ const KEY_MATCHING = {
   'Kudos ID': 'kudosId',
   'Duration in minutes': 'duration',
   'What will you learn from this?': 'learnings',
-  Difficulty: 'difficulty',
-  Description: 'description',
-  Name: 'name',
-  Module: 'moduleId',
-  Quest: 'quest',
+  'Difficulty': 'difficulty',
+  'Description': 'description',
+  'Name': 'name',
+  'Module': 'moduleId',
+  'Quest': 'quest',
   'Publication status': 'publicationStatus',
   'Featured order on homepage': 'featuredOrderOnHomepage',
   'Enable Comments': 'isCommentsEnabled',
@@ -99,8 +99,8 @@ axios
           Object.assign(obj, {
             // transform to number if the string contains a number
             [KEY_MATCHING[k]]: Number.isNaN(parseInt(notion.fields[k])) ||
-              // ignore type transform for ModuleId & mirrorNFTAddress
-              (k === 'Module' || k === 'Mirror NFT address')
+            // ignore type transform for ModuleId & mirrorNFTAddress
+            (k === 'Module' || k === 'Mirror NFT address')
               ? notion.fields[k]
               : parseInt(notion.fields[k]),
           }),
@@ -108,7 +108,7 @@ axios
       )
       if (lesson.publicationStatus === undefined) return
       notion.id = notion.id.replace(/-/g, '')
-      console.log('Notion lesson link: ', `${POTION_API}/html?id=${notion.id}`)
+      // console.log('Notion lesson link: ', `${POTION_API}/html?id=${notion.id}`)
 
       if (lesson.description === undefined) lesson.description = ''
       if (lesson.socialImageLink === undefined) delete lesson.socialImageLink
@@ -128,8 +128,6 @@ axios
       if (lesson.communityDiscussionLink === undefined) delete lesson.communityDiscussionLink
       if (lesson.mirrorLink === undefined || lesson.mirrorLink === null) delete lesson.mirrorLink
       if (lesson.mirrorNFTAddress === undefined || lesson.mirrorNFTAddress === null) delete lesson.mirrorNFTAddress
-
-      // console.log(lesson)
 
       const mirrorId = lesson.mirrorLink?.split('/')?.pop()
       if (lesson.mirrorLink && mirrorId) {
@@ -164,18 +162,15 @@ axios
           }
         }).then((result) => {
           const arweaveTxId = result?.data?.data?.transactions?.edges[0]?.node?.id
+            console.log("What is arweave?", result.data.transactions?.edges || "")
           console.log('Mirror article: ', arweaveTxId)
           if (arweaveTxId) {
             return axios
               .get(`https://arweave.net/${arweaveTxId}`)
               .then(async ({ data }) => {
-                // console.log(data)
-                // console.log(data?.content?.body)
-                // console.log(data?.content?.title)
                 lesson.articleContent = data?.content?.body
                   .replace(/\\\[/g, "[")
                   .replace(/\\\]/g, "]")
-                // console.log('lesson', lesson)
 
                 if (lesson.articleContent.includes('\n\n\n---\n\n')) {
                   const articleContentArray = lesson.articleContent.split('\n\n\n---\n\n')

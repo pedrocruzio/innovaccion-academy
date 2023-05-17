@@ -1,5 +1,10 @@
 import { Client } from '@notionhq/client'
-import { QueryDatabaseResponse } from '@notionhq/client/build/src/api-endpoints'
+import {
+  PageObjectResponse,
+  PartialPageObjectResponse,
+  QueryDatabaseResponse,
+} from '@notionhq/client/build/src/api-endpoints'
+// NOTE: For use within the pages and api directory of the project.
 
 const NOTION_API_KEY = (process.env.NOTION_API_KEY as string) ?? ''
 
@@ -39,18 +44,9 @@ if (process.env.NODE_ENV !== 'production') globalNotion.notion = notion
 //   featuredOrderOnHomepage?: number
 // }
 
-export type Post = {
-  title: string
-  id: string
-}
-
-export const parseProperties = (database: QueryDatabaseResponse): Post[] => {
-  return database.results.map((row) => {
-    const id = row.id
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
-    const titleCell = row?.properties.Title.title
-    const title = titleCell?.[0].plain_text
-    return { id, title }
-  })
+// TODO: Utilizxe DidIGetAny console log to parse the properties like above.
+export const parseProperties = (
+  database: QueryDatabaseResponse
+): (PageObjectResponse | PartialPageObjectResponse)[] => {
+  return database.results
 }

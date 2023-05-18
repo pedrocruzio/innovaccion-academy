@@ -14,6 +14,7 @@ export interface LessonType {
   '8'?: string
   '9'?: string
   '10'?: string
+  url?: string
   name: string
   slug: string
   notionId: string

@@ -169,6 +169,9 @@ const parseProperties = (database: QueryDatabaseResponse) => {
                 {}
             )
         )
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore With description
+        lesson.url = row.url
 
         // const mirrorId = lesson.mirrorLink?.includes('/') && lesson.mirrorLink?.split('/')?.pop()
         // console.log('Going Into: InsideMirrorLink', lesson.mirrorLink)
@@ -243,11 +246,42 @@ export default LESSONS
             )
         })
         .catch((error) => console.error(error))
+    return lessons
 }
+
+// const parsePages = async (lessons: LessonType[]) => {
+//     for (const item of lessons) {
+//         if (item.name === 'Intro to DeFi') {
+//             const response = await notion.blocks.retrieve({block_id: item.notionId})
+//             // console.log('SLides??', response)
+//             // @ts-ignore
+//             if (response?.has_children) {
+//                 const childrenResponse = await notion.blocks.children.list({
+//                     block_id: response.id
+//                 })
+//
+//                 childrenResponse.results.forEach((block: any, index) => {
+//                     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+//                     // @ts-ignore With description
+//                     // console.log('Children Blocks', [block.type, block[block.type]])
+//                     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+//                     // @ts-ignore With description
+//                     if (block.type !== 'image') {
+//                         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+//                         // @ts-ignore With description
+//                         console.log('Rich_text', block[block.type] ?? 'Not Here')
+//                     }
+//                 })
+//             }
+//         }
+//     }
+//     return ''
+// }
 
 const importNotion = async () => {
     const database = await queryDatabase()
-    return parseProperties(database)
+    const lessons = parseProperties(database)
+    // await parsePages(lessons)
 }
 
 importNotion()

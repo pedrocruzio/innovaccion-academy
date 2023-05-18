@@ -1,0 +1,197 @@
+[
+  {
+    type: 'LEARN',
+    notionId: '0bf15ec24615455b9349774527410d81',
+    title: '¿Qué es un billetera?',
+    content: '<div class="bloc1"><p><strong>¡Saludos!</strong></p><p>Bienvenido a la academia de Web3. Estamos emocionados de guiarte en tu viaje al <code>Web3</code>. Para comenzar, necesitarás un equipo esencial: una billetera digital.</p><p>Una billetera digital es tu pasaporte para explorar los diversos mundos del Web3. Esta herramienta te permite acceder a increíbles nuevas posibilidades mientras proteges tus activos e identidad.</p><p>En esta lección, te presentaremos las billeteras digitales, cómo funcionan y cómo configurar la tuya para embarcarte de manera segura en tu viaje Web3.</p><p>¡Empecemos!</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/wallet-intro-7b45d75e.png\'></div>'
+  },
+  {
+    type: 'LEARN',
+    notionId: 'baf157b016ba48a890eb4cacb4b903e5',
+    title: 'Billetera',
+    content: '<div class="bloc1"><p>En el mundo de las criptomonedas, una billetera se refiere a una aplicación o dispositivo que puedes utilizar para interactuar con una <code>blockchain</code>.</p><p>Tu <code>billetera</code> funciona como una caja de seguridad que protege tu acceso a la blockchain.</p><p>Cuando tu billetera está conectada a una blockchain, puedes realizar compras, transferir activos digitales, interactuar con aplicaciones y más.</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/wallet-definition-e8f8f9a8.svg\'></div>'
+  },
+  {
+    type: 'QUIZ',
+    notionId: '100f6d3d7cd542889814cf17733e9960',
+    title: 'Prueba de Conocimiento',
+    quiz: {
+      question: '¿Qué es un billetera?',
+      rightAnswerNumber: 4,
+      answers: [
+        'Un dispositivo equipado con tecnología RFID',
+        'Un dispositivo billetera bi-fold con cierre de velcro',
+        'Una cuenta que protege mis activos',
+        'Una aplicación o dispositivo utilizado para interactuar con una cadena de bloques'
+      ],
+      id: 'wallet-basics-1'
+    }
+  },
+  {
+    type: 'LEARN',
+    notionId: 'f764c92b0620495981b32bd34dd1fc62',
+    title: 'Frase de Recuperación',
+    content: '<div class="bloc1"><p>Cuando configuras una nueva <code>billetera</code>, el software genera una <code>frase de recuperación</code> única que es específica de esa cuenta de billetera.</p><p>También llamada a veces una <em>frase de semilla</em> o <em>frase de recuperación secreta</em>, su frase de recuperación se puede usar para acceder a su billetera y activos de criptomonedas si:</p><ul><li>Su aplicación de billetera o hardware falla inesperadamente o se daña.</li><li>No puede acceder a ella debido a extravío o robo.</li><li>Desea acceder a su cuenta de billetera a través de la aplicación de billetera en una computadora o dispositivo diferente.</li></ul><p>La mayoría de las frases de recuperación son una lista de 12 a 24 palabras que representan una pieza única de datos. Esa información se utiliza para generar la <code>clave pública</code> y <code>clave privada</code> de su billetera.</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/recovery-phrase-c2d8fa26.svg\'></div>'
+  },
+  {
+    type: 'QUIZ',
+    notionId: '9d0454d30e60454397b0926523f7e73c',
+    title: 'Prueba de Conocimiento',
+    quiz: {
+      question: '¿Qué puedes hacer con tu frase de recuperación?',
+      rightAnswerNumber: 3,
+      answers: [
+        '[A] Recuperar tu billetera si se pierde, se roba o se daña',
+        '[B] Acceder a tu billetera en múltiples dispositivos',
+        '[C] Ambas opciones A y B',
+        '[D] Ninguna de las anteriores'
+      ],
+      id: 'wallet-basics-2'
+    }
+  },
+  {
+    type: 'LEARN',
+    notionId: 'bf1bf37ca61845c5a4257cbaeff0e13c',
+    title: 'Clave Pública',
+    content: '<div class="bloc1"><p>Acabas de aprender cómo tu <code>frase de recuperación</code> se relaciona con una <code>clave pública</code> y <code>clave privada</code>.</p><p>Ten en cuenta que una billetera puede contener varias cuentas, y <em>cada cuenta</em> tiene un par único de claves pública y privada.</p><p>Imagina una clave pública como tu dirección de casa. Es pública, cualquier persona puede verla, e identifica la ubicación a la que enviar los activos de criptomonedas.</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/public-key-b6387071.svg\'></div>'
+  },
+  {
+    type: 'LEARN',
+    notionId: 'a6dab3c7c04949baa0c5448f57c91cfe',
+    title: 'Clave Privada',
+    content: '<div class="bloc1"><p>Si tu <code>clave pública</code> es como tu dirección de casa, entonces tu <code>clave privada</code> es como tu llave de casa.</p><p>Se llama privada porque <em>sólo tú</em> deberías tener acceso a ella.</p><p>La clave privada desbloquea el acceso a tu billetera y tus activos de criptomonedas, permitiéndote enviarlos a otras direcciones de billetera.</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/private-key-ca271641.svg\'></div>'
+  },
+  {
+    type: 'QUIZ',
+    notionId: '4997e321e0814dd2931dd21c664533d6',
+    title: 'Prueba de Conocimiento',
+    quiz: {
+      question: 'Tu clave pública es como tu _____ y tu clave privada es como tu _____',
+      rightAnswerNumber: 2,
+      answers: [
+        'Número de ruta / número de cuenta',
+        'Dirección de casa / llave de casa',
+        'Dirección / Código postal',
+        'Número de teléfono / Número de Seguro Social'
+      ],
+      id: 'wallet-basics-3'
+    }
+  },
+  {
+    type: 'LEARN',
+    notionId: 'a92f95a2da2a4429942b6aad2a260e1b',
+    title: 'Billetera Custodial',
+    content: '<div class="bloc1"><p>Dado que tu <code>clave privada</code> desbloquea el acceso a tu <code>wallet</code>, mantenerla privada y segura es muy importante.</p><p>No todos los wallets te permiten controlar tu clave privada. Con un <code>wallet custodial</code>, otra parte la controla. Coinbase y Kraken son ejemplos de wallets custodiales que tienen tu clave privada.</p><p>Esto puede ser todo lo que algunas personas necesiten, pero requiere que confíes en terceros para asegurar tus criptoactivos y darte acceso cuando quieras comerciar o enviarlos a otro lugar. Además, tu acceso al mundo de aplicaciones <code>DeFi</code> será limitado.</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/custodial-wallet-0538644f.svg\'></div>'
+  },
+  {
+    type: 'QUIZ',
+    notionId: '39f830da64fb47608592eff742239223',
+    title: 'Prueba de Conocimiento',
+    quiz: {
+      question: '¿Controlas tu clave privada con un wallet custodial?',
+      rightAnswerNumber: 2,
+      answers: [
+        'Sí',
+        'No'
+      ],
+      id: 'wallet-basics-4'
+    }
+  },
+  {
+    type: 'LEARN',
+    notionId: 'a78db356b36c4bb19a85af61170b2471',
+    title: 'Non-custodial Wallet',
+    content: '<div class="bloc1"><p>Tu pasaporte a los emocionantes mundos de <code>DeFi</code> y <code>Web3</code> - y la mejor manera de proteger tu <code>clave privada</code> es mediante un <code>wallet no custodial</code>.</p><p>Recuerda: si pierdes tu clave privada, no podrás acceder a tu wallet para gastar, retirar o transferir tus activos criptográficos.</p><p>Afortunadamente, aún puedes recuperar tu wallet con tu <code>frase de recuperación</code>. Pero si también pierdes eso, ¡perderás el acceso a tu wallet PARA SIEMPRE!</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/non-custodial-wallet-aee2708b.svg\'></div>'
+  },
+  {
+    type: 'QUIZ',
+    notionId: '4c2cc8a6d61247cc87007cfa636ea77f',
+    title: 'Prueba de Conocimiento',
+    quiz: {
+      question: '¿Eres responsable de tu clave privada con una billetera no custodial?',
+      rightAnswerNumber: 1,
+      answers: [
+        'Sí',
+        'No'
+      ],
+      id: 'wallet-basics-5'
+    }
+  },
+  {
+    type: 'LEARN',
+    notionId: '266abc84862f425bab294dc99dfddb04',
+    title: 'Seguridad con su billetera',
+    content: '<div class="bloc1"><h2>SIEMPRE haga lo siguiente para proteger su frase de recuperación:</h2><p>✅ escriba su frase en papel</p><p>✅ use un material duradero (como papel laminado o metal grabado)</p><p>✅ guárdelo en un lugar seguro</p><h2>NUNCA haga lo siguiente para proteger su frase de recuperación:</h2><p>🛑 guarde su frase de recuperación en un servicio de almacenamiento en línea</p><p>🛑 capture una imagen de su clave privada</p><p>🛑 revele su frase de recuperación a nadie</p></div>'
+  },
+  {
+    type: 'QUIZ',
+    notionId: '8356a2b7d25c420fb4171ee574f7d748',
+    title: 'Prueba de Conocimiento',
+    quiz: {
+      question: '¿Cuál es la forma más segura de proteger su frase de recuperación?',
+      rightAnswerNumber: 4,
+      answers: [
+        'Guardarlo en tu computadora e imprimirlo.',
+        'Tomar una captura de pantalla y guardarla en tu teléfono.',
+        'Guardarlo en tu cuenta de Dropbox.',
+        'Escribirlo en un material duradero y guardarlo en un lugar seguro.'
+      ],
+      id: 'wallet-basics-6'
+    }
+  },
+  {
+    type: 'LEARN',
+    notionId: '6c2cef180a894009807af59ed2d5f27c',
+    title: 'Billetera Caliente',
+    content: '<div class="bloc1"><p>Hay dos tipos principales de <code>billeteras no custodiadas</code>: billeteras de software (también llamadas <code>billeteras calientes</code>) y billeteras de hardware (también llamadas <code>billeteras frías</code>)</p><p>Una billetera de software es una aplicación o extensión de navegador que permanece conectada a internet.</p><ul><li>VENTAJAS 👍: Por lo general, es gratis, fácil de configurar y fácil de usar.</li><li>DESVENTAJAS 👎: Debido a que es un software conectado a internet, es potencialmente un objetivo para los hackers.</li></ul></div><div class="bloc2"><img src=\'/lesson/wallet-basics/hot-wallet-1d444d7c.svg\'></div>'
+  },
+  {
+    type: 'LEARN',
+    notionId: '2db8d9f5695b4b46aa35bef2e17bcb75',
+    title: 'Billetera Fría',
+    content: '<div class="bloc1"><p>Una <code>billetera fría</code>, o billetera de hardware, solo se conecta a Internet cuando la conectas físicamente a una computadora o dispositivo.</p><ul><li>PROS 👍: Es más segura contra amenazas como hacking.</li><li>CONS 👎: No es gratuita, no es ideal para transacciones rápidas y puede ser engorrosa de usar.</li></ul></div><div class="bloc2"><img src=\'/lesson/wallet-basics/cold-wallet-59646edb.svg\'></div>'
+  },
+  {
+    type: 'QUIZ',
+    notionId: 'e331357c6b07425c8451d2a81c20f885',
+    title: 'Prueba de Conocimiento',
+    quiz: {
+      question: '¿Una billetera fría es más segura que una billetera caliente?',
+      rightAnswerNumber: 1,
+      answers: [
+        'Sí',
+        'No'
+      ],
+      id: 'wallet-basics-7'
+    }
+  },
+  {
+    type: 'LEARN',
+    notionId: '66d21ca797f44f02861545e2042582c8',
+    title: 'MetaMask Wallet',
+    content: '<div class="bloc1"><p>Existen varias <code>billeteras calientes</code> <code>no custodiales</code> disponibles hoy en día. Exploraremos la popular Billetera MetaMask para el resto de esta lección ya que:</p><ul><li>Es probable que sea compatible con la mayoría de las aplicaciones de <code>DeFi</code>.</li><li>Tiene una extensión de navegador para los navegadores de internet Chrome, Brave, Edge y Firefox.</li><li>También está disponible como una aplicación móvil para usuarios de Android e iOS.</li></ul></div><div class="bloc2"><img src=\'/lesson/wallet-basics/metamask-wallet-521de184.svg\'></div>'
+  },
+  {
+    type: 'QUIZ',
+    notionId: 'e60c91b7bb054ea8b4e449ddf6f1042b',
+    title: 'Prueba de Conocimiento',
+    quiz: {
+      question: 'Is MetaMask a custodial wallet?',
+      rightAnswerNumber: 2,
+      answers: [
+        'Sí',
+        'No'
+      ],
+      id: 'wallet-basics-8'
+    }
+  },
+  {
+    type: 'QUEST',
+    title: 'Billeteras',
+    component: 'WalletBasics'
+  },
+  {
+    type: 'END',
+    title: 'Certificado'
+  }
+]

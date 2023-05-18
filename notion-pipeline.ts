@@ -65,7 +65,8 @@ const download_image = (url, image_path) =>
   })
 
 const get_img = (imageLink, slug, image_name) => {
-  const [file_name] = imageLink[0].name.split('?')
+  // const [file_name] = imageLink[0].name.split('?')
+  const [file_name] = imageLink.split('?')
   const file_extension = file_name
     .match(/\.(png|svg|jpg|jpeg|webp|mp4|gif)/)[1]
     .replace('jpeg', 'jpg')
@@ -82,7 +83,7 @@ const get_img = (imageLink, slug, image_name) => {
   )}-${hash}.${file_extension}`
   const local_image_path = `public${image_path}`
   if (!fs.existsSync(local_image_path)) {
-    download_image(imageLink[0].name, local_image_path)
+    download_image(imageLink, local_image_path)
     console.log('downloading image: ', local_image_path)
   }
   return image_path
@@ -142,19 +143,19 @@ const parseProperties = (database: QueryDatabaseResponse) => {
                 return (
                   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
                   // @ts-ignore With description
-                  row.properties[k]?.name?.title[0]?.text?.content || 'No Name'
+                  row.properties[k]?.title[0]?.plain_text || 'No Name'
                 )
               case 'Kudos ID':
               case 'Duration in minutes':
                 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
                 // @ts-ignore With description
                 return row.properties[k].number
-              case 'Social image':
-              case 'Kudos image':
+              // case 'Social image':
+              // case 'Kudos image':
               case 'Lesson image':
                 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
                 // @ts-ignore With description
-                return row.properties[k]?.files[0]?.name || ''
+                return row.properties[k]?.files[0] || ''
               // case 'Module':
               // case 'Mirror NFT address':
               // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -182,11 +183,18 @@ const parseProperties = (database: QueryDatabaseResponse) => {
     //     lesson.kudosImageLink = get_img(lesson.kudosImageLink.files, lesson.slug, 'kudos')
     // }
     // console.log('Going Into: lessonImageLink', lesson.lessonImageLink)
-    if (lesson.lessonImageLink) {
+    if ((lesson.lessonImageLink?.file?.url && lesson.lessonImageLink?.file?.url.length > 0)
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore With description
+      || (lesson.lessonImageLink?.name && lesson.lessonImageLink?.name)
+    ) {
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore With description
+      console.log("More than one??",lesson.lessonImageLink?.file?.url || lesson.lessonImageLink.name)
       lesson.lessonImageLink = get_img(
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         // @ts-ignore With description
-        lesson.lessonImageLink.files,
+        lesson.lessonImageLink?.file?.url || lesson.lessonImageLink.name,
         lesson.slug,
         'lesson'
       )

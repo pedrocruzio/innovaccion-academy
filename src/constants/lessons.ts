@@ -14,8 +14,8 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: undefined,
-    socialImageLink: 'https://app.banklessacademy.com/images/intro-to-defi-social.jpg',
+    lessonImageLink: '/lesson/undefined/lesson-97291c9d.png',
+    socialImageLink: undefined,
     learningActions: 'Transfer crypto into your web3 wallet in order to be ready to interact with DeFi later',
     marketingDescription: 'Move beyond centralized exchanges and start exploring the ever-expanding possibilities of decentralized finance.',
     kudosId: 2562,
@@ -23,7 +23,7 @@ const LESSONS: LessonType[] = [
     learnings: undefined,
     difficulty: 'Easy',
     description: 'Understand the basics of decentralized finance.',
-    name: 'No Name',
+    name: 'Intro to DeFi',
     moduleId: undefined,
     quest: 'gBdL',
     publicationStatus: 'publish',
@@ -34,7 +34,7 @@ const LESSONS: LessonType[] = [
     mirrorLink: null,
     mirrorNFTAddress: '',
     notionId: '90a9cf9e-e68c-4afc-8d86-6d2574b09d5c',
-    slug: 'no-name'
+    slug: 'intro-to-defi'
   },
   {
     '0': 'K',
@@ -48,8 +48,8 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: undefined,
-    socialImageLink: 'https://app.banklessacademy.com/images/wallet-basics-social.jpg',
+    lessonImageLink: '/lesson/undefined/lesson-5aa84b59.png',
+    socialImageLink: undefined,
     learningActions: 'Create and manage your own wallet\nConnect your wallet to a web3 website',
     marketingDescription: 'A crypto wallet is essential gear for Web3 and DeFi. Get basic training on how a wallet works and how to get started.',
     kudosId: 2561,
@@ -57,7 +57,7 @@ const LESSONS: LessonType[] = [
     learnings: undefined,
     difficulty: 'Easy',
     description: 'Create and securely manage your first crypto wallet.',
-    name: 'No Name',
+    name: 'Wallet Basics',
     moduleId: undefined,
     quest: 'gBdL',
     publicationStatus: 'publish',
@@ -68,7 +68,7 @@ const LESSONS: LessonType[] = [
     mirrorLink: null,
     mirrorNFTAddress: '',
     notionId: 'cf1301e7-51ee-4e02-a2d7-2c6cee7a75e6',
-    slug: 'no-name'
+    slug: 'wallet-basics'
   },
   {
     '0': 'K',
@@ -82,8 +82,8 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: undefined,
-    socialImageLink: 'explorerHandbook02.png',
+    lessonImageLink: '/lesson/undefined/lesson-71b79973.png',
+    socialImageLink: undefined,
     learningActions: '',
     marketingDescription: '',
     kudosId: null,
@@ -91,7 +91,7 @@ const LESSONS: LessonType[] = [
     learnings: undefined,
     difficulty: 'Easy',
     description: 'Learn how to fund your wallet on L2 via CEXs, third-party onramps, and bridges.',
-    name: 'No Name',
+    name: 'Using Revoke.cash',
     moduleId: undefined,
     quest: 'gBdL',
     publicationStatus: 'planned',
@@ -102,7 +102,7 @@ const LESSONS: LessonType[] = [
     mirrorLink: 'https://mirror.xyz/banklessacademy.eth/zLajMWXQC44H4uQOXK5j9ROZhuC3xwgoddLtAQQo0k0',
     mirrorNFTAddress: '0x235f3dfe5106f137d8b137c1b7fa115076e8b476',
     notionId: 'fab3fc6b-7411-4e02-86c8-8a458a78caaf',
-    slug: 'no-name'
+    slug: 'using-revokecash'
   },
   {
     '0': 'K',
@@ -116,8 +116,8 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: undefined,
-    socialImageLink: '',
+    lessonImageLink: '',
+    socialImageLink: undefined,
     learningActions: '',
     marketingDescription: 'What does it mean to go Bankless? In this lesson, we discuss why millions of people are investing in cryptocurrency - and practical first steps for joining the movement.',
     kudosId: null,
@@ -125,7 +125,7 @@ const LESSONS: LessonType[] = [
     learnings: undefined,
     difficulty: 'Easy',
     description: 'What does it mean to go Bankless? Take your first step, here.',
-    name: 'No Name',
+    name: 'Going Bankless',
     moduleId: undefined,
     quest: 'gBdL',
     publicationStatus: 'hidden',
@@ -136,7 +136,7 @@ const LESSONS: LessonType[] = [
     mirrorLink: null,
     mirrorNFTAddress: '',
     notionId: '13df8d13-d074-46db-a422-bf8c66c0f73c',
-    slug: 'no-name'
+    slug: 'going-bankless'
   },
   {
     '0': 'K',
@@ -150,8 +150,8 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: undefined,
-    socialImageLink: 'explorerHandbook02.png',
+    lessonImageLink: '/lesson/undefined/lesson-71b79973.png',
+    socialImageLink: undefined,
     learningActions: '',
     marketingDescription: '',
     kudosId: null,
@@ -159,7 +159,7 @@ const LESSONS: LessonType[] = [
     learnings: undefined,
     difficulty: 'Easy',
     description: 'Learn how to fund your wallet on L2 via CEXs, third-party onramps, and bridges.',
-    name: 'No Name',
+    name: 'A Guide to Stablecoins',
     moduleId: undefined,
     quest: 'gBdL',
     publicationStatus: 'planned',
@@ -170,7 +170,7 @@ const LESSONS: LessonType[] = [
     mirrorLink: 'https://mirror.xyz/banklessacademy.eth/zLajMWXQC44H4uQOXK5j9ROZhuC3xwgoddLtAQQo0k0',
     mirrorNFTAddress: '0x235f3dfe5106f137d8b137c1b7fa115076e8b476',
     notionId: 'a0b42523-3a23-4df7-abfb-9c1157eab043',
-    slug: 'no-name'
+    slug: 'a-guide-to-stablecoins'
   },
   {
     '0': 'K',
@@ -184,8 +184,8 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: undefined,
-    socialImageLink: 'web3Security_Banner_SocialMedia.jpg',
+    lessonImageLink: '/lesson/undefined/lesson-09017125.png',
+    socialImageLink: undefined,
     learningActions: 'Avoid the scams in web3 and keep your assets safe.',
     marketingDescription: '',
     kudosId: 2565,
@@ -193,7 +193,7 @@ const LESSONS: LessonType[] = [
     learnings: undefined,
     difficulty: 'Easy',
     description: 'Protect yourself and your wallet from the most common scams in web3.',
-    name: 'No Name',
+    name: 'Web3 Security',
     moduleId: undefined,
     quest: 'gBdL',
     publicationStatus: 'publish',
@@ -204,7 +204,7 @@ const LESSONS: LessonType[] = [
     mirrorLink: null,
     mirrorNFTAddress: '',
     notionId: '3242d8f8-549b-41f6-b376-3bbd831669fc',
-    slug: 'no-name'
+    slug: 'web3-security'
   },
   {
     '0': 'K',
@@ -218,8 +218,8 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: undefined,
-    socialImageLink: 'social-template.png',
+    lessonImageLink: '/lesson/undefined/lesson-03a3e86a.png',
+    socialImageLink: undefined,
     learningActions: '',
     marketingDescription: '',
     kudosId: 14067,
@@ -227,7 +227,7 @@ const LESSONS: LessonType[] = [
     learnings: undefined,
     difficulty: 'Easy',
     description: 'For testing purposes only',
-    name: 'No Name',
+    name: 'Kudos testing',
     moduleId: undefined,
     quest: 'gBdL',
     publicationStatus: 'hidden',
@@ -238,7 +238,7 @@ const LESSONS: LessonType[] = [
     mirrorLink: null,
     mirrorNFTAddress: '',
     notionId: '5179bd81-3d39-4eec-8b8e-67f4a1ff0b4e',
-    slug: 'no-name'
+    slug: 'kudos-testing'
   },
   {
     '0': 'K',
@@ -252,8 +252,8 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: undefined,
-    socialImageLink: 'blockchainLayer1s_Banner_SocialMedia.jpg',
+    lessonImageLink: '/lesson/undefined/lesson-dcff6ea3.png',
+    socialImageLink: undefined,
     learningActions: '',
     marketingDescription: '',
     kudosId: 14611,
@@ -261,7 +261,7 @@ const LESSONS: LessonType[] = [
     learnings: undefined,
     difficulty: 'Easy',
     description: 'Understand how Layer 1 blockchains work - and learn their limitations!',
-    name: 'No Name',
+    name: 'Layer 1 Blockchains',
     moduleId: undefined,
     quest: 'gBdL',
     publicationStatus: 'publish',
@@ -272,7 +272,7 @@ const LESSONS: LessonType[] = [
     mirrorLink: null,
     mirrorNFTAddress: '',
     notionId: '3b785456-81f2-4958-97c1-dfb17f19db1f',
-    slug: 'no-name'
+    slug: 'layer-1-blockchains'
   },
   {
     '0': 'K',
@@ -286,8 +286,8 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: undefined,
-    socialImageLink: 'blockchainFundamentals_Banner_SocialMedia.jpeg',
+    lessonImageLink: '/lesson/undefined/lesson-c84db284.png',
+    socialImageLink: undefined,
     learningActions: '',
     marketingDescription: 'Blockchains make cryptocurrency, DeFi, and Web3 possible. Discover how blockchain networks are built and how they work.',
     kudosId: 2563,
@@ -295,7 +295,7 @@ const LESSONS: LessonType[] = [
     learnings: undefined,
     difficulty: 'Easy',
     description: 'Learn about the fundamental architecture of blockchain technology.',
-    name: 'No Name',
+    name: 'Blockchain Basics',
     moduleId: undefined,
     quest: 'gBdL',
     publicationStatus: 'publish',
@@ -306,7 +306,7 @@ const LESSONS: LessonType[] = [
     mirrorLink: null,
     mirrorNFTAddress: '',
     notionId: '2eb7b028-211c-49fe-890e-7c3551026b83',
-    slug: 'no-name'
+    slug: 'blockchain-basics'
   },
   {
     '0': 'K',
@@ -320,8 +320,8 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: undefined,
-    socialImageLink: '',
+    lessonImageLink: '',
+    socialImageLink: undefined,
     learningActions: '',
     marketingDescription: '',
     kudosId: null,
@@ -329,7 +329,7 @@ const LESSONS: LessonType[] = [
     learnings: undefined,
     difficulty: 'Easy',
     description: '',
-    name: 'No Name',
+    name: 'ENS article',
     moduleId: undefined,
     quest: 'gBdL',
     publicationStatus: 'hidden',
@@ -340,7 +340,7 @@ const LESSONS: LessonType[] = [
     mirrorLink: null,
     mirrorNFTAddress: '',
     notionId: '3fc1b46d-8bc2-4fa4-ba4c-2f79e4c7afb9',
-    slug: 'no-name'
+    slug: 'ens-article'
   },
   {
     '0': 'K',
@@ -354,8 +354,8 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: undefined,
-    socialImageLink: '',
+    lessonImageLink: '',
+    socialImageLink: undefined,
     learningActions: '',
     marketingDescription: '',
     kudosId: null,
@@ -363,7 +363,7 @@ const LESSONS: LessonType[] = [
     learnings: undefined,
     difficulty: 'Easy',
     description: 'Learn how to create and associate an ENS Subname to an address',
-    name: 'No Name',
+    name: 'ENS Subname',
     moduleId: undefined,
     quest: 'gBdL',
     publicationStatus: 'hidden',
@@ -374,7 +374,7 @@ const LESSONS: LessonType[] = [
     mirrorLink: null,
     mirrorNFTAddress: '',
     notionId: '76d93164-7e04-426c-932a-d1c1e7ea42b2',
-    slug: 'no-name'
+    slug: 'ens-subname'
   },
   {
     '0': 'K',
@@ -388,8 +388,8 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: undefined,
-    socialImageLink: 'explorerHandbook02.png',
+    lessonImageLink: '/lesson/undefined/lesson-71b79973.png',
+    socialImageLink: undefined,
     learningActions: '',
     marketingDescription: '',
     kudosId: null,
@@ -397,7 +397,7 @@ const LESSONS: LessonType[] = [
     learnings: undefined,
     difficulty: 'Easy',
     description: 'Learn how to fund your wallet on L2 via CEXs, third-party onramps, and bridges.',
-    name: 'No Name',
+    name: 'How to Fund a Wallet on Layer 2',
     moduleId: undefined,
     quest: 'gBdL',
     publicationStatus: 'publish',
@@ -408,7 +408,7 @@ const LESSONS: LessonType[] = [
     mirrorLink: 'https://mirror.xyz/banklessacademy.eth/zLajMWXQC44H4uQOXK5j9ROZhuC3xwgoddLtAQQo0k0',
     mirrorNFTAddress: '0x235f3dfe5106f137d8b137c1b7fa115076e8b476',
     notionId: 'cf70f37e-979e-47c2-8487-ff2a187a5f99',
-    slug: 'no-name'
+    slug: 'how-to-fund-a-wallet-on-layer-2'
   },
   {
     '0': 'K',
@@ -422,8 +422,8 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: undefined,
-    socialImageLink: 'academyCommunity_Banner_SocialMedia.jpeg',
+    lessonImageLink: '/lesson/undefined/lesson-755fe7a3.png',
+    socialImageLink: undefined,
     learningActions: '',
     marketingDescription: '',
     kudosId: 2564,
@@ -431,7 +431,7 @@ const LESSONS: LessonType[] = [
     learnings: undefined,
     difficulty: 'Easy',
     description: 'Join the conversation in our Bankless Explorer Community.',
-    name: 'No Name',
+    name: 'Academy Community',
     moduleId: undefined,
     quest: 'gBdL',
     publicationStatus: 'hidden',
@@ -442,7 +442,7 @@ const LESSONS: LessonType[] = [
     mirrorLink: null,
     mirrorNFTAddress: '',
     notionId: 'a2c5f9d5-a188-4fa0-b69f-a73a8599a311',
-    slug: 'no-name'
+    slug: 'academy-community'
   },
   {
     '0': 'K',
@@ -456,8 +456,8 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: undefined,
-    socialImageLink: 'dexAggregators_Banner_SocialMedia.jpg',
+    lessonImageLink: '/lesson/undefined/lesson-39d1fc1c.png',
+    socialImageLink: undefined,
     learningActions: '',
     marketingDescription: '',
     kudosId: 2608,
@@ -465,7 +465,7 @@ const LESSONS: LessonType[] = [
     learnings: undefined,
     difficulty: 'Easy',
     description: 'Dive into DEX Aggregators, liquidity, and the DeFi exchange landscape.',
-    name: 'No Name',
+    name: 'DEX Aggregators',
     moduleId: undefined,
     quest: 'gBdL',
     publicationStatus: 'publish',
@@ -476,7 +476,7 @@ const LESSONS: LessonType[] = [
     mirrorLink: null,
     mirrorNFTAddress: '',
     notionId: 'e4db9d0b-47db-4dc5-96ba-707f92003632',
-    slug: 'no-name'
+    slug: 'dex-aggregators'
   },
   {
     '0': 'K',
@@ -490,8 +490,8 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: undefined,
-    socialImageLink: 'blockchainLayer2_Banner_SocialMedia.jpg',
+    lessonImageLink: '/lesson/undefined/lesson-29da6288.png',
+    socialImageLink: undefined,
     learningActions: '',
     marketingDescription: 'The Layer 2 revolution has begun. Discover how the Layer 2 ecosystem can boost your transaction speed & reduce gas fees.',
     kudosId: 14886,
@@ -499,7 +499,7 @@ const LESSONS: LessonType[] = [
     learnings: undefined,
     difficulty: 'Easy',
     description: 'Join the Layer 2 ecosystem to boost your transaction speed & reduce fees.',
-    name: 'No Name',
+    name: 'Layer 2 Blockchains',
     moduleId: undefined,
     quest: 'gBdL',
     publicationStatus: 'publish',
@@ -510,7 +510,7 @@ const LESSONS: LessonType[] = [
     mirrorLink: null,
     mirrorNFTAddress: '',
     notionId: 'd79c7a05-e4b5-454f-87ed-97cc0dbdb0e1',
-    slug: 'no-name'
+    slug: 'layer-2-blockchains'
   },
   {
     '0': 'K',
@@ -524,8 +524,8 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: undefined,
-    socialImageLink: '',
+    lessonImageLink: '',
+    socialImageLink: undefined,
     learningActions: '',
     marketingDescription: 'DEXs and AMMs have changed the landscape of traditional market trading. It’s time to understand why, and how you can use this technology to your own advantage.',
     kudosId: null,
@@ -533,7 +533,7 @@ const LESSONS: LessonType[] = [
     learnings: undefined,
     difficulty: 'Easy',
     description: 'Discover how smart-contract exchanges enable permissionless token swaps!',
-    name: 'No Name',
+    name: 'Decentralized Exchanges',
     moduleId: undefined,
     quest: 'gBdL',
     publicationStatus: 'planned',
@@ -544,7 +544,7 @@ const LESSONS: LessonType[] = [
     mirrorLink: null,
     mirrorNFTAddress: '',
     notionId: 'a47ce4a5-6233-4e47-819d-9760c7336daa',
-    slug: 'no-name'
+    slug: 'decentralized-exchanges'
   }
 ]
 

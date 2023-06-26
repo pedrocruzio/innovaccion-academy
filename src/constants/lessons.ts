@@ -245,7 +245,7 @@ const LESSONS: LessonType[] = [
     description: 'Aprende sobre la arquitectura fundamental de la tecnología blockchain.',
     name: 'Fundamentos de Blockchain',
     quest: 'BlockchainBasics',
-    publicationStatus: 'planned',
+    publicationStatus: 'publish',
     featuredOrderOnHomepage: null,
     isCommentsEnabled: false,
     endOfLessonRedirect: null,
@@ -264,175 +264,170 @@ const LESSONS: LessonType[] = [
     ],
     slides: [
       {
-        type: 'LEARN',
-        notionId: '2541f10fa3264827ac57b1cf863254fb',
-        title: '<strong>I</strong><strong>ntroduction</strong>',
-        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src=\'/lesson/blockchain-basics/introduction-6d0b6137.svg\'></div>'
+        type: "LEARN",
+        notionId: "2541f10fa3264827ac57b1cf863254fb",
+        title: "<strong>Introducción</strong>",
+        content: "<div class=bloc1><p><code>La tecnología Blockchain</code> es una forma revolucionaria de almacenar y rastrear datos, a la vez que hace accesibles esos datos para cualquier persona. Es una forma de organizar los datos en una lista pública única de todas las transacciones históricas que cualquiera puede ver pero no puede editar. Esta lista pública de transacciones se conoce colectivamente como el <code>registro</code> de blockchain.</p><p>Después de examinar las capas de una blockchain, usaremos una herramienta de blockchain llamada un <code>explorador de bloques</code> para analizar las especificidades de la estructura de la blockchain de Ethereum; nos centraremos en la blockchain de Ethereum para ver la <strong>lista</strong> de bloques, las <strong>transacciones</strong> dentro de esos bloques, y los <strong>detalles</strong> de cada transacción individual.</p></div><div class=bloc2><img src='/lesson/blockchain-basics/introduction-6d0b6137.svg'></div>"
+      },      
+      {
+        type: "LEARN",
+        notionId: "76f2f8016f44493eb57a3139cb515017",
+        title: "Estructura de Blockchain",
+        content: "<div class=bloc1><p>El término blockchain puede usarse como sustantivo — la blockchain de Bitcoin — o como adjetivo — tecnología blockchain. De cualquier manera, <code>blockchain</code> se refiere a toda la estructura en la que se basan las criptomonedas.</p><p>Si nos acercamos desde el exterior, hay 3 niveles de estructura en una blockchain:</p><ol><li>La <code>blockchain</code> general se compone de bloques que están vinculados en orden</li><li>Los <code>bloques</code> se componen de grupos de transacciones agrupadas </li><li>Las <code>transacciones</code> son cantidades de dinero enviadas entre dos <code>direcciones</code> en la red</li></ol><p>Esta estructura de tres niveles se une para crear un registro criptográfico - un historial inalterable de todas las transacciones realizadas en la red.</p></div><div class=bloc2><img src='/lesson/blockchain-basics/blockchain-structure-346dae14.svg'></div>"
       },
       {
-        type: 'LEARN',
-        notionId: '76f2f8016f44493eb57a3139cb515017',
-        title: 'Blockchain Structure',
-        content: '<div class="bloc1"><p>The term blockchain can be used as a noun — the Bitcoin blockchain — or as an adjective — blockchain technology. Either way, <code>blockchain</code> refers to the entire structure cryptocurrencies are built on.</p><p>Zooming in from the outside, there are 3 levels of structure in a blockchain:</p><ol><li>The overall <code>blockchain</code> is made up of blocks that are linked together in order</li><li><code>Blocks</code> are made up of groups of transactions put together </li><li><code>Transactions</code> are amounts of money sent between two <code>addresses</code> on the network</li></ol><p>This three-tiered structure comes together to create a cryptographic ledger - an unalterable history of all transactions performed on the network.</p></div><div class="bloc2"><img src=\'/lesson/blockchain-basics/blockchain-structure-346dae14.svg\'></div>'
-      },
-      {
-        type: 'QUIZ',
-        notionId: 'f98dfb3cfba44c0ba527d7a60df88aae',
-        title: '✅ quiz',
+        type: "QUIZ",
+        notionId: "f98dfb3cfba44c0ba527d7a60df88aae",
+        title: "Prueba de Conocimiento",
         quiz: {
-          question: 'What is a blockchain?',
+          question: "¿Qué es una blockchain?",
           rightAnswerNumber: 4,
           answers: [
-            'Organized groups of transactions called blocks',
-            'A list of amounts of money sent between two addresses',
-            'Blocks linked together in sequence',
-            'All of the above'
+            "Grupos organizados de transacciones llamados bloques",
+            "Una lista de cantidades de dinero enviadas entre dos direcciones",
+            "Bloques vinculados en secuencia",
+            "Todo lo anterior"
           ],
-          id: 'blockchain-basics-1'
+          id: "blockchain-basics-1"
+        }
+      },      
+      {
+        type: "LEARN",
+        notionId: "edad96fceca6484eb72f5b301f33dea2",
+        title: "Examinando el Libro Mayor",
+        content: "<div class=bloc1><p>En los sistemas monetarios típicos, confiamos en terceros como los bancos para llevar la cuenta de cuánto dinero tiene cada persona. Pero, para ser verdaderamente sin bancos, queremos un sistema que no nos obligue a confiar en una entidad para gestionar el libro mayor.</p><p>El <code>libro mayor</code> es la lista de TODAS las transacciones realizadas en una blockchain, y cualquiera puede verlo para las blockchains <code>públicas</code>. Grupos discretos de transacciones del libro mayor forman los bloques que juntos componen la blockchain.</p><p>Cuando se añaden nuevas transacciones al libro mayor, se actualizan los saldos almacenados en cada <code>dirección</code>; las transacciones pasadas no pueden ser alteradas. Es como permitir que todos miren el historial de transacciones de todas las cuentas bancarias de todos, en cualquier momento, para siempre. </p></div><div class=bloc2><img src='/lesson/blockchain-basics/examining-the-ledger-74e5f072.svg'></div>"
+      },
+      {
+        type: "LEARN",
+        notionId: "1af211fce04445b18b017c8ede82fe09",
+        title: "Transacciones en el Libro Mayor",
+        content: "<div class=bloc1><p>Vamos a ver algunas transacciones de ejemplo:</p><ul><li>Alice envía 5 ETH a Bob</li><li>Bob envía 2 ETH a Charlie</li></ul><p>Las transacciones individuales muestran el <em>cambio</em> en la cantidad de criptomonedas para cada dirección, por lo que el resultado total de todas las transacciones ES la cantidad de criptomonedas que cada dirección tiene.</p><hr><p>⇒ Alice ha perdido 5 ETH</p><p>⇒ Bob ha ganado un total de 3 ETH (recibió 5, envió 2)</p><p>⇒ Charlie ha ganado 2 ETH</p></div><div class=bloc2><img src='/lesson/blockchain-basics/transactions-on-the-ledger-f4f9d470.svg'></div>"
+      },
+      {
+        type: "QUIZ",
+        notionId: "07e7cd73bf0b44af9cc46350430df624",
+        title: "Prueba de Conocimiento",
+        quiz: {
+          question: "¿Cuál de las siguientes afirmaciones es/son verdaderas para los libros mayores de blockchain públicos?",
+          rightAnswerNumber: 4,
+          answers: [
+            "Todas las transacciones son públicas y las transacciones pasadas son inalterables",
+            "El libro mayor rastrea cuánta criptomoneda tiene actualmente cada dirección",
+            "El libro mayor crece a medida que se añaden nuevas transacciones a él",
+            "Todas las anteriores"
+          ],
+          id: "blockchain-basics-2"
         }
       },
       {
-        type: 'LEARN',
-        notionId: 'edad96fceca6484eb72f5b301f33dea2',
-        title: 'Examining the Ledger',
-        content: '<div class="bloc1"><p>In typical money systems, we trust third parties like banks to keep track of how much money each person has. But, to be truly Bankless, we want a system that doesn’t require us to trust one entity to manage the ledger.</p><p>The <code>ledger</code> is the list of ALL transactions ever made on a blockchain, and anyone can see it for <code>public</code> blockchains. Discrete groups of transactions from the ledger form the blocks that together make the blockchain.</p><p>When new transactions are added to the ledger, balances stored at each <code>address</code> get updated; past transactions cannot be altered. It’s like allowing everyone to look at everyone’s all-time bank account transaction history, at any given time, forever. </p></div><div class="bloc2"><img src=\'/lesson/blockchain-basics/examining-the-ledger-74e5f072.svg\'></div>'
+        type: "LEARN",
+        notionId: "c344b7d4cf204ce1a627e1c3ea21d299",
+        title: "Descentralización",
+        content: "<div class=\"bloc1\"><p>Las transacciones incluidas en el registro <code>blockchain</code> no solo son inmutables, sino que también se comparten y distribuyen entre una gran red de computadoras. Para asegurarse de que ninguna entidad tenga el poder de cambiar los datos, el registro de blockchain se almacena en cada dispositivo, llamado <code>nodo</code>, en la red.</p><p>Estos datos compartidos son los que hacen que el registro de blockchain sea <code>descentralizado</code>. Ninguna autoridad o entidad única controla los datos. Blockchains como Ethereum también son <code>públicos</code> porque cualquiera puede ver el registro. </p><p>Veremos detalles específicos sobre cómo se agrega nuevos datos y cómo nos aseguramos de que todos tengan una copia de los mismos datos todo el tiempo en nuestra próxima lección de Teoría de Blockchain. Para esta lección, solo recuerde que los datos del registro son compartidos por cada computadora que ejecuta en la red de Ethereum.</p></div>"
       },
       {
-        type: 'LEARN',
-        notionId: '1af211fce04445b18b017c8ede82fe09',
-        title: 'Transactions on the Ledger',
-        content: '<div class="bloc1"><p>Let’s look at some example transactions:</p><ul><li>Alice sends 5 ETH to Bob</li><li>Bob sends 2 ETH to Charlie</li></ul><p>Individual transactions show the <em>change </em>in the amount of cryptocurrency for each address so the total result of all transactions IS the amount of cryptocurrency each address has.</p><hr><p>⇒ Alice has lost 5 ETH</p><p>⇒ Bob has gained 3 ETH total (received 5, sent 2)</p><p>⇒ Charlie has gained 2 ETH</p></div><div class="bloc2"><img src=\'/lesson/blockchain-basics/transactions-on-the-ledger-f4f9d470.svg\'></div>'
-      },
-      {
-        type: 'QUIZ',
-        notionId: '07e7cd73bf0b44af9cc46350430df624',
-        title: '✅ quiz',
+        type: "QUIZ",
+        notionId: "4073ac46370144d2919367efcef7ee37",
+        title: "Prueba de Conocimiento",
         quiz: {
-          question: 'Which of the following statement(s) is/are true for public blockchain ledgers?',
-          rightAnswerNumber: 4,
-          answers: [
-            'All transactions are public and past transactions are unchangeable',
-            'The ledger tracks how much cryptocurrency each address currently has',
-            'The ledger grows as new transactions are added to it',
-            'All of the above'
-          ],
-          id: 'blockchain-basics-2'
-        }
-      },
-      {
-        type: 'LEARN',
-        notionId: 'c344b7d4cf204ce1a627e1c3ea21d299',
-        title: 'Decentralization',
-        content: '<div class="bloc1"><p>Not only are transactions included on a <code>blockchain</code> ledger unchangeable, they are also shared and distributed amongst a large network of computers. To make sure that no single entity has the power to change the data, the blockchain ledger is stored on every device, called a <code>node</code>, on the network.</p><p>This shared data is what makes the blockchain ledger <code>decentralized</code>. No single authority or entity controls the data. Blockchains like Ethereum are also <code>public</code> because the ledger can be viewed by anyone. </p><p>We will see specifics of how new data is added and how we ensure everyone has a copy of the same data all the time in our upcoming Blockchain Theory lesson. For this lesson, just remember that the ledger data is shared by every computer running on the Ethereum network.</p></div>'
-      },
-      {
-        type: 'QUIZ',
-        notionId: '4073ac46370144d2919367efcef7ee37',
-        title: '✅ quiz',
-        quiz: {
-          question: 'What makes a blockchain decentralized?',
+          question: "¿Qué hace que una blockchain sea descentralizada?",
           rightAnswerNumber: 3,
           answers: [
-            'Only one entity can write to the blockchain',
-            'It meets decentralization requirements set by the government',
-            'No single authority or entity controls the ledger or access to the ledger data because it is distributed on a large network of computers',
-            'The ledger is stored on a single secure server'
+            "Solo una entidad puede escribir en la blockchain",
+            "Cumple con los requisitos de descentralización establecidos por el gobierno",
+            "Ninguna autoridad o entidad única controla el registro ni el acceso a los datos del registro porque se distribuye en una gran red de computadoras",
+            "El registro se almacena en un solo servidor seguro"
           ],
-          id: 'blockchain-basics-3'
+          id: "blockchain-basics-3"
         }
       },
       {
-        type: 'LEARN',
-        notionId: '6d45c90a4b094caa8d1c8d2c71523284',
-        title: 'Block Anatomy',
-        content: '<div class="bloc1"><p>An important feature of blockchains is that past transaction data cannot be changed after it has been included in a block. This is because each block has a unique <code>block hash</code>, like a fingerprint, that is used to link the blocks together one after another. No one can change past transactions without changing that fingerprint and the fingerprint of EVERY block that follows it because each fingerprint depends on the previous one.</p><p>So each <code>block</code> is simply a group of transactions put together in one file along with that block’s <code>block hash</code>. The blocks are chained together because each one references the previous block’s unique fingerprint to form one connected block<strong><em>chain</em></strong>. </p></div><div class="bloc2"><img src=\'/lesson/blockchain-basics/block-anatomy-8ba3bea2.svg\'></div>'
+        type: "LEARN",
+        notionId: "6d45c90a4b094caa8d1c8d2c71523284",
+        title: "Anatomía de un bloque",
+        content: "<div class=\"bloc1\"><p>Una característica importante de las blockchains es que los datos de transacciones pasadas no pueden cambiarse después de haber sido incluidos en un bloque. Esto se debe a que cada bloque tiene un <code>hash de bloque</code> único, como una huella dactilar, que se utiliza para vincular los bloques uno después del otro. Nadie puede cambiar las transacciones pasadas sin cambiar esa huella dactilar y la huella dactilar de CADA bloque que la sigue, porque cada huella dactilar depende de la anterior.</p><p>Entonces cada <code>bloque</code> es simplemente un grupo de transacciones agrupadas en un archivo junto con el <code>hash de bloque</code> de ese bloque. Los bloques están encadenados porque cada uno referencia la huella dactilar única del bloque anterior para formar una cadena de bloques conectada.</p></div><div class=\"bloc2\"><img src='/lesson/blockchain-basics/block-anatomy-8ba3bea2.svg'></div>"
       },
       {
-        type: 'QUIZ',
-        notionId: '47a59ed5d3814cbdb5806331b37d6766',
-        title: '✅ quiz',
+        type: "QUIZ",
+        notionId: "47a59ed5d3814cbdb5806331b37d6766",
+        title: "Prueba de Conocimiento",
         quiz: {
-          question: 'What is the purpose of a block hash?',
+          question: "¿Cuál es el propósito de un hash de bloque?",
           rightAnswerNumber: 2,
           answers: [
-            'To encrypt block data so no one can read it',
-            'To link each block to the previous one and ensure past transaction data doesn’t change',
-            'To ensure transactions are sent to the correct address',
-            'To ensure the blockchain stays decentralized'
+            "Para cifrar los datos del bloque para que nadie pueda leerlos",
+            "Para vincular cada bloque con el anterior y asegurar que los datos de las transacciones pasadas no cambien",
+            "Para asegurar que las transacciones se envíen a la dirección correcta",
+            "Para asegurar que la blockchain permanezca descentralizada"
           ],
-          id: 'blockchain-basics-4'
+          id: "blockchain-basics-4"
         }
       },
       {
-        type: 'LEARN',
-        notionId: '6f1cc1133e8e4b86b3579fb4d4eb4a1c',
-        title: 'Inside a Block',
-        content: '<div class="bloc1"><p>Remember, <code>block</code> data is just a group of transactions put together. Looking within a single block, we see a list of transactions and some data about who created the block. </p><p>From our example earlier when discussing the blockchain ledger, both of those transactions might be grouped within one block, or spread out into multiple blocks over time. But no matter what block they are included in, they are all added to the overall blockchain ledger eventually.</p><ul><li>Alice sends 5 ETH to Bob</li><li>Bob sends 2 ETH to Charlie</li></ul><p>Recall that each block must also reference the past block’s <code>block hash</code> to link the blockchain together.</p></div><div class="bloc2"><img src=\'/lesson/blockchain-basics/inside-a-block-b11c74ce.svg\'></div>'
+        type: "LEARN",
+        notionId: "6f1cc1133e8e4b86b3579fb4d4eb4a1c",
+        title: "Dentro de un Bloque",
+        content: "<div class=\"bloc1\"><p>Recuerda, los datos de un <code>bloque</code> son simplemente un grupo de transacciones agrupadas. Mirando dentro de un solo bloque, vemos una lista de transacciones y algunos datos sobre quién creó el bloque. </p><p>De nuestro ejemplo anterior al discutir el registro de blockchain, ambas transacciones podrían agruparse dentro de un bloque, o distribuirse en varios bloques a lo largo del tiempo. Pero sin importar en qué bloque se incluyan, todos se agregan al registro general de blockchain eventualmente.</p><ul><li>Alice envía 5 ETH a Bob</li><li>Bob envía 2 ETH a Charlie</li></ul><p>Recuerda que cada bloque también debe hacer referencia al <code>hash de bloque</code> del bloque pasado para vincular la blockchain.</p></div><div class=\"bloc2\"><img src='/lesson/blockchain-basics/inside-a-block-b11c74ce.svg'></div>"
       },
       {
-        type: 'QUIZ',
-        notionId: '311096618ecd451ba65677f2c3139823',
-        title: '✅ quiz',
+        type: "QUIZ",
+        notionId: "311096618ecd451ba65677f2c3139823",
+        title: "Prueba de Conocimiento",
         quiz: {
-          question: 'The following information is contained in a block:',
+          question: "La siguiente información se contiene en un bloque:",
           rightAnswerNumber: 3,
           answers: [
-            'All information contained in previous blocks, so the blockchain is always current',
-            'Anything relevant to the blockchain as block size is unlimited',
-            'Transaction data and a reference to the previous block',
-            'All transaction data generated within a fixed timeframe'
+            "Toda la información contenida en los bloques anteriores, para que la blockchain siempre esté actualizada",
+            "Cualquier cosa relevante para la blockchain ya que el tamaño del bloque es ilimitado",
+            "Datos de transacción y una referencia al bloque anterior",
+            "Todos los datos de transacciones generados dentro de un plazo fijo"
           ],
-          id: 'blockchain-basics-5'
+          id: "blockchain-basics-5"
         }
       },
       {
-        type: 'LEARN',
-        notionId: 'a9a1ce74d04c439f97249b2000964e5e',
-        title: 'Individual Transactions',
-        content: '<div class="bloc1"><p>The data on any blockchain is simply a list of <code>transactions</code>, records of currency moved between users. Each transaction must be signed by the sender’s <code>digital signature</code> to be valid. </p><p>This is what you do when you confirm a transaction with a wallet, you are signing with your digital signature to authorize a transaction. You can think of it as the digital equivalent of physically signing a check, receipt, or credit card transaction.</p><p>Transactions can be simple, like sending crypto assets, or more complex, such as swapping crypto assets or even deploying special code that executes when triggered, called <code>smart contracts</code>.</p><p>Finally, each transaction has a unique digital identifier, called its <code>transaction hash</code>, that no other transaction has. This makes it easy to refer to any single transaction later on and ensures that the details of that transaction can’t be changed afterward.</p></div><div class="bloc2"><img src=\'/lesson/blockchain-basics/individual-transactions-2f6bf118.svg\'></div>'
+        type: "LEARN",
+        notionId: "a9a1ce74d04c439f97249b2000964e5e",
+        title: "Transacciones Individuales",
+        content: "<div class=\"bloc1\"><p>Los datos en cualquier blockchain son simplemente una lista de <code>transacciones</code>, registros de moneda movidos entre usuarios. Cada transacción debe ser firmada con la <code>firma digital</code> del remitente para ser válida. </p><p>Esto es lo que haces cuando confirmas una transacción con una billetera, estás firmando con tu firma digital para autorizar la transacción. Cualquiera puede verificar esta firma para confirmar que proviene del titular de la billetera, sin que el titular necesite revelar su clave privada. </p><p>La billetera también calcula la cantidad de <code>gas</code> necesaria para la transacción y te permite ajustar la cantidad de gas y el precio del gas para la transacción. Esta es la tarifa que se paga por incluir la transacción en el blockchain. </p></div><div class=\"bloc2\"><img src='/lesson/blockchain-basics/single-transaction-ffc6b7e2.svg'></div>"
       },
       {
-        type: 'QUIZ',
-        notionId: 'a599d947c638409ca2073e914f11f7f9',
-        title: '✅ quiz',
+        type: "QUIZ",
+        notionId: "a2f62f4553ca46a79e55a290f7a74e91",
+        title: "Prueba de Conocimiento",
         quiz: {
-          question: 'Data on a blockchain is simply a list of transactions grouped into blocks. Examples of such transactions might include:',
+          question: "¿Cuál es la función de la firma digital en una transacción blockchain?",
           rightAnswerNumber: 1,
           answers: [
-            'Sending or receiving crypto assets',
-            'Changing the size of the block',
-            'Editing past blockchain data',
-            'All of the above'
+            "Autoriza la transacción y permite su verificación sin revelar la clave privada del remitente",
+            "Cifra la transacción para que nadie pueda leerla",
+            "Calcula la cantidad de gas necesaria para la transacción",
+            "Actúa como un código PIN para desbloquear la billetera"
           ],
-          id: 'blockchain-basics-6'
+          id: "blockchain-basics-6"
         }
       },
       {
-        type: 'LEARN',
-        notionId: 'b4f0ce31ff20480aa97dd69b2c7b091c',
-        title: 'User Addresses',
-        content: '<div class="bloc1"><p>An <code>address</code> is a public identifier that anyone can look up on the blockchain. Like an email address, anyone can send funds to it but only someone who controls the <code>private key</code> can unlock and use the funds at that address.</p><p>On Ethereum, an address always starts with <em>0x_________</em> and is 42 characters of numbers and letters derived from the <code>public key</code> of that address.</p><p>When looking at a single transaction in a block explorer, we can see the From: and To: addresses. This doesn’t tell us who the <em>people </em>are who control those addresses but allows any user to track the movement of cryptocurrency throughout the blockchain ledger.</p></div><div class="bloc2"><img src=\'/lesson/blockchain-basics/user-addresses-e9456d37.svg\'></div>'
+        type: "LEARN",
+        notionId: "b4f0ce31ff20480aa97dd69b2c7b091c",
+        title: "Direcciones de Usuario",
+        content: "<div class=\"bloc1\"><p>Una <code>dirección</code> es un identificador público que cualquiera puede buscar en la blockchain. Como una dirección de correo electrónico, cualquiera puede enviar fondos a ella, pero solo alguien que controle la <code>llave privada</code> puede desbloquear y usar los fondos de esa dirección.</p><p>En Ethereum, una dirección siempre comienza con <em>0x_________</em> y consta de 42 caracteres de números y letras derivados de la <code>llave pública</code> de esa dirección.</p><p>Cuando se observa una sola transacción en un explorador de bloques, podemos ver las direcciones 'De:' y 'Para:'. Esto no nos dice quiénes son las <em>personas</em> que controlan esas direcciones, pero permite a cualquier usuario rastrear el movimiento de la criptomoneda a través del registro de la blockchain.</p></div><div class=\"bloc2\"><img src='/lesson/blockchain-basics/user-addresses-e9456d37.svg'></div>"
       },
       {
-        type: 'QUIZ',
-        notionId: '5a6cfd2b2a9c4a059253b7f23ba3f74c',
-        title: '✅ quiz',
+        type: "QUIZ",
+        notionId: "5a6cfd2b2a9c4a059253b7f23ba3f74c",
+        title: "Prueba de Conocimiento",
         quiz: {
-          question: 'What is true about blockchain addresses?',
+          question: "¿Qué es cierto sobre las direcciones de blockchain?",
           rightAnswerNumber: 4,
           answers: [
-            'They are the public identifiers of different entities on a blockchain',
-            'They always start with 0x on Ethereum',
-            'Whoever controls the private key for an address can use the funds at that address',
-            'All of the above'
+            "Son los identificadores públicos de diferentes entidades en una blockchain",
+            "Siempre comienzan con 0x en Ethereum",
+            "Quien controla la llave privada de una dirección puede usar los fondos de esa dirección",
+            "Todo lo anterior"
           ],
-          id: 'blockchain-basics-7'
+          id: "blockchain-basics-7"
         }
-      },
-      {
-        type: 'QUEST',
-        title: 'Blockchain Basics Quest',
-        component: 'BlockchainBasics'
       },
       {
         type: 'END',
@@ -453,7 +448,7 @@ const LESSONS: LessonType[] = [
     description: 'Comprende los fundamentos de las finanzas descentralizadas.',
     name: 'DeFi 101',
     quest: 'IntroToDeFi',
-    publicationStatus: 'planned',
+    publicationStatus: 'publish',
     featuredOrderOnHomepage: null,
     isCommentsEnabled: false,
     endOfLessonRedirect: null,
@@ -476,27 +471,27 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: 'abdb330ec2194271a729128226eadb2d',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange. It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/defi-defined-46782447.svg\'></div>'
+        title: 'Definido DeFi',
+        content: '<div class="bloc1"><p>DeFi—abreviatura de <code>finanzas descentralizadas</code>—se refiere al ecosistema de rápido crecimiento de productos financieros, protocolos y aplicaciones que operan en redes <code>blockchain</code> públicas.</p><p>DeFi está transformando rápidamente el mundo de las finanzas con una gama de nuevas herramientas para poner los activos cripto a trabajar. Ofrece oportunidades más allá de simplemente comprar cripto en un intercambio centralizado. Permite a todos y cada uno construir un estilo de vida descentralizado y sin bancos.</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/defi-defined-46782447.svg\'></div>'
       },
       {
         type: 'LEARN',
         notionId: '5d93d188e0274acbb22cc32e433c3b67',
-        title: 'Why DeFi?',
-        content: '<div class="bloc1"><p>DeFi gives anyone with an internet connection access to sophisticated financial tools: Trading, Options, Lending and Borrowing.</p><p>DeFi offers these tools to users transparently and openly. Anyone can look at the code and verify that the contract does what it says it does, unlike what banks do with your money behind closed doors.</p><p>There are no middlemen to intermediate or take a cut of your transactions.</p></div>'
+        title: '¿Por qué DeFi?',
+        content: '<div class="bloc1"><p>DeFi permite a cualquier persona con una conexión a internet tener acceso a sofisticadas herramientas financieras: Trading, Opciones, Préstamos y Endeudamiento.</p><p>DeFi ofrece estas herramientas a los usuarios de manera transparente y abierta. Cualquiera puede ver el código y verificar que el contrato hace lo que dice que hace, a diferencia de lo que los bancos hacen con tu dinero detrás de puertas cerradas.</p><p>No hay intermediarios para mediar o tomar un porcentaje de tus transacciones.</p></div>'
       },
       {
         type: 'QUIZ',
         notionId: '920b875598a34fa59affe46e58ed4e58',
-        title: 'Knowledge Check',
+        title: 'Comprobación de Conocimientos',
         quiz: {
-          question: 'What does DeFi stand for? ',
+          question: '¿Qué significa DeFi? ',
           rightAnswerNumber: 2,
           answers: [
-            'Derivative fiction',
-            'Decentralized finance',
-            'Deregulation field',
-            'Degenerate fishermen'
+            'Ficción derivada',
+            'Finanzas descentralizadas',
+            'Campo de desregulación',
+            'Pescadores degenerados'
           ],
           id: 'intro-to-defi-1'
         }
@@ -504,21 +499,21 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: '772e17d6104145f7969b47fd2e132e68',
-        title: '<strong>Earning Yield</strong>',
-        content: '<div class="bloc1"><p>There are a growing number of <code>DeFi</code> protocols that enable you to earn interest and other rewards by using your crypto assets. You can have access to financial products that you would typically need a bank or financial services firm to get—but without the paperwork, middleman, approval process, and other hassles of the traditional finance world.</p><p>By removing the middleman, you also remove any service fees, dues, and commissions you would typically pay in the traditional finance world. With DeFi, you get to keep all the rewards, or yield earned from your assets. This is why DeFi is popular. </p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/earning-yield-c5f123f8.svg\'></div>'
+        title: '<strong>Yield Farming</strong>',
+        content: '<div class="bloc1"><p>Existe un número creciente de protocolos <code>DeFi</code> que te permiten obtener intereses y otras recompensas utilizando tus activos criptográficos. Puedes tener acceso a productos financieros que normalmente necesitarías de un banco o una firma de servicios financieros para obtener—pero sin el papeleo, intermediarios, proceso de aprobación y otras molestias del mundo financiero tradicional.</p><p>Al eliminar al intermediario, también eliminas cualquier tarifa de servicio, cuotas y comisiones que normalmente pagarías en el mundo financiero tradicional. Con DeFi, te quedas con todas las recompensas, o rendimiento ganado de tus activos. Es por eso que DeFi es popular. </p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/earning-yield-c5f123f8.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: '465a40fdbe24487695394ee1b4a4e97a',
-        title: 'Knowledge Check',
+        title: 'Prueba de Conocimiento',
         quiz: {
-          question: 'How can you earn yield with crypto?',
+          question: '¿Cómo puedes obtener rendimiento con cripto?',
           rightAnswerNumber: 3,
           answers: [
-            '[A] Earning interest by depositing into a DeFi protocol',
-            '[B] Earning rewards by depositing into a DeFi protocol',
-            '[C] Both A and B',
-            '[D] You can’t earn yield on crypto'
+            '[A] Ganar interés depositando en un protocolo DeFi',
+            '[B] Ganar recompensas depositando en un protocolo DeFi',
+            '[C] Ambos, A y B',
+            '[D] No puedes obtener rendimiento en cripto'
           ],
           id: 'intro-to-defi-2'
         }
@@ -526,43 +521,43 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: '153a075b1a004f38a9c177486aa95395',
-        title: 'What You Can Do With DeFi',
-        content: '<div class="bloc1"><p><code>DeFi</code> transactions are <code>permissionless</code>. This refers to a public <code>blockchain</code> that anyone can use to buy, sell, or trade assets. No third party controls or oversees activity. These transactions are carried out by decentralized applications, known as DApps. </p><p><code>DApps</code> and DeFi platforms enable users to make more and more types of financial transactions, 24/7, all over the world. We will introduce four of the most common opportunities used to earn yield in DeFi - investing, trading, lending and borrowing, and staking.</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/what-you-can-do-with-defi-9b17cf2e.svg\'></div>'
+        title: 'Lo que Puedes Hacer Con DeFi',
+        content: '<div class="bloc1"><p>Las transacciones <code>DeFi</code> son <code>sin permiso</code>. Esto se refiere a una <code>blockchain</code> pública que cualquiera puede usar para comprar, vender o intercambiar activos. Ninguna tercera parte controla o supervisa la actividad. Estas transacciones son llevadas a cabo por aplicaciones descentralizadas, conocidas como DApps. </p><p>Las <code>DApps</code> y las plataformas DeFi permiten a los usuarios realizar cada vez más tipos de transacciones financieras, 24/7, en todo el mundo. Presentaremos cuatro de las oportunidades más comunes utilizadas para obtener rendimiento en DeFi - inversión, comercio, préstamos y empréstitos, y staking.</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/what-you-can-do-with-defi-9b17cf2e.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: '3b77e3afde594c788122db7fe4afab6e',
-        title: 'Knowledge Check',
+        title: 'Prueba de Conocimiento',
         quiz: {
-          question: 'Fill in the blank: DeFi transactions are ____.',
+          question: 'Llene el espacio en blanco: Las transacciones DeFi son ____.',
           rightAnswerNumber: 3,
           answers: [
-            'Free',
-            'Controlled',
-            'Permissionless',
-            'Centralized'
+            'Gratis',
+            'Controladas',
+            'Sin permiso',
+            'Centralizadas'
           ],
           id: 'intro-to-defi-3'
         }
-      },
+      },      
       {
         type: 'LEARN',
         notionId: '555dff92a9b34743b498f8a01de6ffa4',
-        title: '<strong>Investing</strong>',
-        content: '<div class="bloc1"><p>The most common <code>DeFi</code> transaction is to purchase some cryptocurrency with the expectation that it will be worth more in the future. This is known as investing.</p><p>HODL is a term used for keeping crypto assets for a long time. Depending on who you ask, the HODL meme either comes from a typo of HOLD or it stands for <strong>H</strong>old <strong>O</strong>n for <strong>D</strong>ear <strong>L</strong>ife.</p><p>DeFi allows early access to coins and tokens to find and invest in, before they are listed on centralized exchanges (CEX).</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/investing-d99a6d1f.svg\'></div>'
+        title: '<strong>Inversiones con DeFi</strong>',
+        content: '<div class="bloc1"><p>La transacción <code>DeFi</code> más común es comprar alguna criptomoneda con la expectativa de que valdrá más en el futuro. Esto se conoce como inversión.</p><p>HODL es un término utilizado para mantener los activos criptográficos durante mucho tiempo. Dependiendo de a quién le preguntes, el meme HODL proviene de un error tipográfico de HOLD o significa <strong>H</strong>old <strong>O</strong>n for <strong>D</strong>ear <strong>L</strong>ife.</p><p>DeFi permite el acceso temprano a monedas y tokens para encontrar e invertir, antes de que se coticen en bolsas centralizadas (CEX).</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/investing-d99a6d1f.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: '6dc82def6bab41e2b54efa5a62f941b7',
-        title: 'Knowledge Check',
+        title: 'Prueba de Conocimiento',
         quiz: {
-          question: 'What does HODL mean?',
+          question: '¿Qué significa HODL?',
           rightAnswerNumber: 4,
           answers: [
-            'It’s a misspelling of HOLD',
+            'Es un error de escritura de HOLD',
             'Hold On for Dear Life',
-            'Keeping crypto for a long time',
-            'All of the above'
+            'Mantener cripto por mucho tiempo',
+            'Todas las anteriores'
           ],
           id: 'intro-to-defi-4'
         }
@@ -570,27 +565,27 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: 'b1da9af463c24fd3a1fb8ce6a5b8dfaf',
-        title: 'Trading',
-        content: '<div class="bloc1"><p>A decentralized exchange (DEX) shows current exchange rates between different crypto tokens and coins and serves as a digital marketplace that facilitates trading one currency for another by bringing together buyers and sellers. </p><p>The parties involved in a DEX trade don’t need to know or trust each other. In fact, it may appear that you are trading with the DEX. However, in most cases, the DEX creates <code>liquidity pools</code> that facilitate the trade between two traders’ <code>wallets</code> in a <code>permissionless</code> fashion.</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/trading-8cd72977.svg\'></div>'
+        title: 'Comercio',
+        content: '<div class="bloc1"><p>Un intercambio descentralizado (DEX) muestra las tasas de cambio actuales entre diferentes tokens y monedas criptográficas y sirve como un mercado digital que facilita el comercio de una moneda por otra al reunir a compradores y vendedores. </p><p>Las partes involucradas en un comercio DEX no necesitan conocerse ni confiar entre sí. De hecho, puede parecer que estás comerciando con el DEX. Sin embargo, en la mayoría de los casos, el DEX crea <code>piscinas de liquidez</code> que facilitan el comercio entre las <code>carteras</code> de dos comerciantes de manera <code>sin permiso</code>.</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/trading-8cd72977.svg\'></div>'
       },
       {
         type: 'LEARN',
         notionId: '4e1e78e61bc240f0836346fcabb49f54',
-        title: 'So What?',
-        content: '<div class="bloc1"><p>Anyone can trade and participate in markets regardless of your net asset worth. Anyone can enter or exit a position via on-chain protocols.</p></div>'
-      },
+        title: '¿Y qué?',
+        content: '<div class="bloc1"><p>Cualquiera puede comerciar y participar en los mercados sin importar su patrimonio neto. Cualquiera puede entrar o salir de una posición a través de protocolos en cadena.</p></div>'
+      },      
       {
         type: 'QUIZ',
         notionId: '1d627556f09143b18edefdf87e059db6',
-        title: 'Knowledge Check',
+        title: 'Prueba de Conocimiento',
         quiz: {
-          question: 'What is a DEX?',
+          question: '¿Qué es un DEX?',
           rightAnswerNumber: 1,
           answers: [
-            'A decentralized exchange',
-            'A digital electric xylophone',
-            'A crypto index fund',
-            'None of the above'
+            'Un intercambio descentralizado',
+            'Un xilófono eléctrico digital',
+            'Un fondo de índice cripto',
+            'Ninguna de las anteriores'
           ],
           id: 'intro-to-defi-5'
         }
@@ -598,42 +593,42 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: '929543eaa9b64ab9b14a6593e95fb9ef',
-        title: '<strong>Lending & Borrowing</strong>',
-        content: '<div class="bloc1"><p>DeFi lending and borrowing offers loans without the need for a bank or intermediary institution. Instead, lending is done on a <code>peer-to-peer</code> level. That means transactions are between two parties and does not require a middleman or controlling entity.</p><p>There are <code>DApps</code> that enable anyone to lend and borrow crypto assets. Similar to traditional loans, a lender will earn interest on the loan and the borrower will need to pay the principal of the loan plus interest.</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/lending-borrowing-4fb1c7c3.svg\'></div>'
+        title: '<strong>Préstamos y Empréstitos</strong>',
+        content: '<div class="bloc1"><p>Los préstamos y empréstitos DeFi ofrecen préstamos sin la necesidad de un banco o institución intermediaria. En cambio, el préstamo se realiza a nivel de <code>peer-to-peer</code>. Eso significa que las transacciones son entre dos partes y no requieren de un intermediario o entidad controladora.</p><p>Existen <code>DApps</code> que permiten a cualquier persona prestar y pedir prestados activos criptográficos. Al igual que los préstamos tradicionales, un prestamista ganará intereses sobre el préstamo y el prestatario deberá pagar el principal del préstamo más los intereses.</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/lending-borrowing-4fb1c7c3.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: '062707cc00eb4fe9830d8f6535e50387',
-        title: 'Knowledge Check',
+        title: 'Prueba de Conocimiento',
         quiz: {
-          question: 'Fill in the blank: DeFi lending is done on a _____ level.',
+          question: 'Rellena el espacio en blanco: Los préstamos DeFi se realizan a nivel _____.',
           rightAnswerNumber: 2,
           answers: [
-            'income to debt',
+            'de ingresos a deuda',
             'peer-to-peer',
-            'banks to customers',
-            'income to interest'
+            'de bancos a clientes',
+            'de ingresos a intereses'
           ],
           id: 'intro-to-defi-6'
-        }
+        }      
       },
       {
         type: 'LEARN',
         notionId: '88ac3e93d3c849db8420b1700884030c',
         title: '<strong>Staking</strong>',
-        content: '<div class="bloc1"><p>DeFi staking is similar to lending, however it\'s a special type of lending. Instead of lending your crypto to another user on a <code>peer-to-peer</code> basis, you lend your crypto to a network or protocol. In exchange for helping secure the network or protocol, you earn rewards.</p><p>Centralized exchanges also offer staking. However, like their trading pairs, the staking opportunities and rewards are limited. With DeFi, there are many more staking possibilities than there are with centralized exchanges. </p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/staking-b4b4319d.svg\'></div>'
+        content: '<div class="bloc1"><p>El staking DeFi es similar al préstamo, sin embargo, es un tipo especial de préstamo. En lugar de prestar tu cripto a otro usuario en una base <code>peer-to-peer</code>, prestas tu cripto a una red o protocolo. A cambio de ayudar a asegurar la red o el protocolo, ganas recompensas.</p><p>Los intercambios centralizados también ofrecen staking. Sin embargo, al igual que sus pares de trading, las oportunidades y recompensas de staking son limitadas. Con DeFi, hay muchas más posibilidades de staking que las que existen con los intercambios centralizados. </p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/staking-b4b4319d.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: 'ae7f5581ae404a1a83e1542eeee9d945',
-        title: 'Knowledge Check',
+        title: 'Prueba de Conocimiento',
         quiz: {
-          question: 'Lending your crypto to a protocol is an example of?',
+          question: '¿Prestar tu cripto a un protocolo es un ejemplo de?',
           rightAnswerNumber: 2,
           answers: [
             'Trading',
             'Staking',
-            'Borrowing',
+            'Préstamo',
             'HODLing'
           ],
           id: 'intro-to-defi-7'
@@ -642,30 +637,25 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: '9b122d2d398a47428a41838e3bc9a521',
-        title: '<strong>DeFi Downsides</strong>',
-        content: '<div class="bloc-ab"><div class="bloc-a"><img src=\'/lesson/intro-to-defi/defi-downsides-51dd6225.svg\'></div><div class="bloc-b"><p><strong>Hackers</strong></p><p>Where there is money and technology, there are people looking for ways to hack the system and take advantage of poor security measures.</p></div></div><div class="bloc-ab"><div class="bloc-a"><img src=\'/lesson/intro-to-defi/defi-downsides-3a6ce496.svg\'></div><div class="bloc-b"><p><strong>Risk</strong></p><p>DeFi, like blockchain technology, runs on code. If there’s an error or loophole in the code, it can be exploited.</p></div></div><div class="bloc-ab"><div class="bloc-a"><img src=\'/lesson/intro-to-defi/defi-downsides-83a9391f.svg\'></div><div class="bloc-b"><p><strong>No recourse</strong></p><p>Being decentralized also means there are no companies or government agencies that you can appeal to for help if something goes wrong.</p></div></div>'
+        title: '<strong>Desventajas de DeFi</strong>',
+        content: '<div class="bloc-ab"><div class="bloc-a"><img src=\'/lesson/intro-to-defi/defi-downsides-51dd6225.svg\'></div><div class="bloc-b"><p><strong>Hackers</strong></p><p>Donde hay dinero y tecnología, hay personas buscando formas de hackear el sistema y aprovecharse de las medidas de seguridad deficientes.</p></div></div><div class="bloc-ab"><div class="bloc-a"><img src=\'/lesson/intro-to-defi/defi-downsides-3a6ce496.svg\'></div><div class="bloc-b"><p><strong>Riesgo</strong></p><p>DeFi, como la tecnología blockchain, funciona con código. Si hay un error o laguna en el código, puede ser explotado.</p></div></div><div class="bloc-ab"><div class="bloc-a"><img src=\'/lesson/intro-to-defi/defi-downsides-83a9391f.svg\'></div><div class="bloc-b"><p><strong>Sin recurso</strong></p><p>Ser descentralizado también significa que no hay empresas ni agencias gubernamentales a las que puedes pedir ayuda si algo sale mal.</p></div></div>'
       },
       {
         type: 'QUIZ',
         notionId: '4b5bd41ee29942ea8cfc577f2e495baa',
-        title: 'Knowledge Check',
+        title: 'Prueba de Conocimiento',
         quiz: {
-          question: 'What is a risk in DeFi?',
+          question: '¿Qué es un riesgo en DeFi?',
           rightAnswerNumber: 4,
           answers: [
-            'There are no risks',
-            'The bank might turn down your loan',
-            'Bad weather could shut down the exchange',
-            'There may be an error in the code'
+            'No hay riesgos',
+            'El banco puede rechazar tu préstamo',
+            'El mal tiempo podría cerrar el intercambio',
+            'Puede haber un error en el código'
           ],
           id: 'intro-to-defi-8'
         }
-      },
-      {
-        type: 'QUEST',
-        title: 'Intro to DeFi Quest',
-        component: 'IntroToDeFi'
-      },
+      },      
       {
         type: 'END',
         title: 'Lesson Reward'
@@ -684,7 +674,7 @@ const LESSONS: LessonType[] = [
     description: '¡Descubre cómo los intercambios de contratos inteligentes permiten intercambios de tokens sin necesidad de permisos!',
     name: 'DEXs and AMMs',
     quest: 'DEXsAndAMMs',
-    publicationStatus: 'planned',
+    publicationStatus: 'publish',
     featuredOrderOnHomepage: null,
     isCommentsEnabled: false,
     endOfLessonRedirect: null,
@@ -695,17 +685,180 @@ const LESSONS: LessonType[] = [
     slides: [
       {
         type: 'LEARN',
-        title: 'TODO',
-        content: '<div class="bloc1"><p>slide content</p></div>'
+        notionId: 'cc07e9a8a87744daa6548a95ae696fd2',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Decentralized Exchanges</code> (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p><ol><li>How DEXs split liquidity and how that can result in reduced trading rates.</li><li>How DEX aggregators enable users to view and use multiple DEXs through one interface.</li><li>Multiple ways a single aggregator interface can save Explorers time and money.</li></ol></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/introduction-ba453b68.svg\'></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '0e59fd1b9b7943a3a70a44abc9e921c1',
+        title: 'How Liquidity Affects Prices',
+        content: '<div class="bloc1"><p>The amount of any token that is available to trade on a single market is called a token’s <code>liquidity</code>. The amount of liquidity available strongly influences the <code>price impact</code> when making trades in DeFi; a large price impact means the trade will cost more, and a low price impact will cost less. Most people prefer to trade in markets with higher liquidity to reduce their price impact. </p><p>You can think of it like a swimming pool; the more water (liquidity) there is, the smaller the <em>change </em>in the water level (price impact) when someone jumps in or leaves. The size of that ‘someone’ (the trade) also affects the <em>change</em> in the water level (price impact).</p></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '8ea31e80fcfc49d3a88ad09d03341c9c',
+        title: 'An Example of How Liquidity Impacts Prices',
+        content: '<div class="bloc1"><p>Let’s look at an example. </p><p>The BanklessDAO token (BANK) has a liquidity amount of ~30 million BANK on Uniswap, but only ~4.5 million BANK on SushiSwap. Uniswap has over 6x the BANK liquidity of SushiSwap.</p><p>If an Explorer was to purchase 10,000 BANK from each pool, they would find that the <code>price impact</code> of their trade would result in a higher trade price in the SushiSwap pool — because their trade has pulled a larger percentage of the pool’s total liquidity.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/an-example-of-how-liquidity-impacts-prices-915b3d84.svg\'></div>'
+      },
+      {
+        type: 'QUIZ',
+        notionId: 'c60d776bd01247b79e037003d737f924',
+        title: '✅ Question',
+        quiz: {
+          question: 'Fill in the blanks: To find the best price, people will want to trade in markets with ________ liquidity to have ________ price impact on their trades.',
+          rightAnswerNumber: 2,
+          answers: [
+            'good, maximum',
+            'high, low',
+            'low, good',
+            'thin, large'
+          ],
+          id: 'dex-aggregators-1'
+        }
+      },
+      {
+        type: 'LEARN',
+        notionId: 'b97afba7b0f44b709f57d6e85ce13cc2',
+        title: 'Shortcomings of Traditional DEXs: Thin Liquidity',
+        content: '<div class="bloc1"><p>DeFi continues to grow, but a problem is emerging for users: As more DEXs launch, the total amount of any individual token gets spread out. This is known as thin liquidity.</p><p>Remember the swimming pool: if the available water (<code>liquidity</code>) is split between multiple pools, the amount of water will be “thinner” in each pool compared to the total in the single original pool.</p><p>In 2020, Uniswap held much of the DEX liquidity to trade in DeFi. When SushiSwap launched the following month, it attracted over $1B worth of liquidity into its DEX from Uniswap, reducing total liquidity on Uniswap. This was just the start. Since then, more and more DEXs have entered the DeFi ecosystem, progressively thinning the liquidity of each pool.</p><p>Thus, any trade has a larger <code>price impact</code> than when Uniswap held most of the ecosystem’s total liquidity. As more DEXs launch, it costs Explorers more to trade on any single DEX without new innovations.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/shortcomings-of-traditional-dexs-thin-liquidity-c9e0b695.svg\'></div>'
+      },
+      {
+        type: 'QUIZ',
+        notionId: 'd9969ae7f6c247a097f7b7d419b6c119',
+        title: '✅ Question',
+        quiz: {
+          question: 'Which two factors determine the price impact of a DEX trade?',
+          rightAnswerNumber: 3,
+          answers: [
+            'The choice of DEX is used to make the trade and size of the trade',
+            'Which token is chosen to trade and which DEX is used to make the trade',
+            'The size of the trade and amount of liquidity available',
+            'The amount of liquidity available and which token is chosen to trade'
+          ],
+          id: 'dex-aggregators-2'
+        }
+      },
+      {
+        type: 'LEARN',
+        notionId: 'c06177fa9ee3428c80a9295a8a09a9f2',
+        title: 'Recombining Liquidity With DEX Aggregators',
+        content: '<div class="bloc1"><p>Large amounts of <code>liquidity</code> are needed to reduce price impact and save you money. DEX aggregators allow users to run trades through multiple DEXs at once and reduce the price impact; a big trade from an Explorer’s wallet gets broken down into multiple small trades across multiple DEXs.</p><p>DEX aggregators can even route trades through an <code>intermediary token</code> , or more than one, if that gets a better result for users — like the way a flight aggregator might suggest an extra stop at another airport if it’s cheaper for the passenger. This discovery of the optimal <code>trade route</code> is done by sophisticated algorithms searching through all possible paths to find the cheapest trade route at that moment.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/recombining-liquidity-with-dex-aggregators-f01777dd.svg\'></div>'
+      },
+      {
+        type: 'QUIZ',
+        notionId: '063815f2667146a2921df5c4c3ca1663',
+        title: '✅ Question',
+        quiz: {
+          question: 'Trade routing in DEX aggregators means:',
+          rightAnswerNumber: 4,
+          answers: [
+            'Trades are routed according to liquidity arrangements with specific DEXs',
+            'Trades are always routed through multiple DEXs',
+            'Trades are routed through a user’s favorite DEX only',
+            'Trades can be routed through multiple DEXs and intermediary tokens'
+          ],
+          id: 'dex-aggregators-3'
+        }
+      },
+      {
+        type: 'LEARN',
+        notionId: '1c2f4199a9254d18897593b371ca4d9e',
+        title: 'How Gas Cost Is Calculated on Ethereum',
+        content: '<div class="bloc1"><p>Let’s refresh how gas is calculated before we go on to see how the optimizations DEX aggregators make can reduce network fees for users.</p><p>Just like gas for a car, <code>gas</code> is the fuel for running blockchain code on Ethereum. The farther you travel, the more gas your car uses. Likewise, the more computations you do, the more gas your code requires. Gas price is measured in very small amounts of Ether called <code>gwei</code>, like cents to a dollar. 1 gwei is 1 billionth of an ether (1 gwei = 0.00000001 ETH). </p><p>Total gas cost is based on how much gas your transaction uses and the unit price of gas at the time of use. The formula for calculating the price of a transaction is as follows:<br><em>Amount of gas used * Gas price = Total gas cost</em></p><p>As an example, let’s say gas costs are at 22 gwei per gas unit and the transaction uses 120-thousand units:<br><em>120,000 * 22 gwei = 2,640,000 gwei </em><em><strong>or</strong></em><em> 0.00264 ETH</em></p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/how-gas-cost-is-calculated-on-ethereum-c34efe86.svg\'></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '7196f021bcc541929d68b9bd0c018ac3',
+        title: 'How Aggregators Reduce Gas Costs for Users',
+        content: '<div class="bloc1"><p>Trade splitting would result in more transaction fees from the extra on-chain activity, except that advanced aggregators plan for transaction fees and include them in their calculations of the trade route. They simulate trades off chain, including <code>gas</code> costs, to find <code>trade routes</code> that leave Explorers with the most value at the end of the interaction.</p><p>Some aggregators go even further: they may refund some of the network transaction fees from using their protocol. 1inch currently offers rebates in their token for a portion of gas costs from trading through their <code>dApp</code> on Ethereum mainnet.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/how-aggregators-reduce-gas-costs-for-users-28d6f207.svg\'></div>'
+      },
+      {
+        type: 'QUIZ',
+        notionId: '2cf155ee9e3a4d4fb0a9c78f888d2373',
+        title: '✅ Question',
+        quiz: {
+          question: 'Which of the following is NOT a way DEX aggregators try to reduce transaction costs for users?',
+          rightAnswerNumber: 2,
+          answers: [
+            'Simulate transactions off-chain prior to trade execution',
+            'Ask DEXs to lower network fees for their users',
+            'Account for gas cost in trade routing',
+            'Token rebates on gas costs'
+          ],
+          id: 'dex-aggregators-4'
+        }
+      },
+      {
+        type: 'LEARN',
+        notionId: '19eb7c5516fd4da383c48661d21e34a1',
+        title: 'Meta-Aggregators',
+        content: '<div class="bloc1"><p>There are even meta-aggregators of DEX aggregators! These platforms search through all competing DEX aggregators and serve price quotes to users. An example of this is the in-app swap function in the MetaMask wallet. This feature is actually a meta-aggregator that relies on DEX aggregators like 1inch to function.</p><p>Note: While convenient, <code>meta-aggregator</code> services can add extra costs on top of network transaction fees, increasing the overall cost for users. Explorers: make sure that your trades don’t end up more expensive than you intended. </p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/meta-aggregators-100793fd.svg\'></div>'
+      },
+      {
+        type: 'QUIZ',
+        notionId: '7abcec930d924ca997d5f4221fae9ad6',
+        title: '✅ Question',
+        quiz: {
+          question: 'Meta-aggregators cross-reference multiple DEX aggregators to find the best prices for their users.',
+          rightAnswerNumber: 1,
+          answers: [
+            'True',
+            'False'
+          ],
+          id: 'dex-aggregators-5'
+        }
+      },
+      {
+        type: 'LEARN',
+        notionId: '44acd0c428aa49e8880b26f1ffffd0b0',
+        title: 'Avoiding Sandwich Attacks',
+        content: '<div class="bloc1"><p>Users swapping directly through <code>DEXs</code> can lose value up to the limit of their <code>slippage tolerance</code> due to price changes coordinated by block producers — these kinds of losses are called <code>sandwich attacks</code>. Did you know that sandwich attacks led users to a total loss of $235,000,000 during 2021? Explorers can protect themselves by keeping a low slippage tolerance when swapping tokens.</p><p>Fortunately, because of the recombined liquidity offered by DEX aggregators, the price impact of a trade is reduced. Explorers can keep their slippage tolerance low while saving more with DEX aggregators, as opposed to trading directly on a DEX.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/avoiding-sandwich-attacks-75f6ae82.svg\'></div>'
+      },
+      {
+        type: 'QUIZ',
+        notionId: '9864a66638a3473ca13f8ee2dc8c4b1f',
+        title: '✅ Question',
+        quiz: {
+          question: 'To protect yourself, you should keep your slippage tolerance:',
+          rightAnswerNumber: 1,
+          answers: [
+            'low',
+            'high'
+          ],
+          id: 'dex-aggregators-6'
+        }
+      },
+      {
+        type: 'LEARN',
+        notionId: 'b1756984326242d4ad5e4ab2cbe2eb32',
+        title: 'More Protection From Sandwiches: OTC Trades',
+        content: '<div class="bloc1"><p>Some aggregators like 1inch even offer specialized <code>OTC</code> (<code>Over The Counter</code>) services that provide total protection against sandwich attacks. These optional services enable direct trading with other users, rather than facilitating trades through DeFi <code>liquidity pools</code>. Anyone can engage in <code>OTC</code> trades to fully remove the threat of sandwich attacks — providing another great way for Explorers to save.</p><p>CoWSwap is a Meta-Aggregator that also offers sandwich-resistant services, enabled by default, to ensure trades are 100% protected against sandwich attacks.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/more-protection-from-sandwiches-otc-trades-04ef66c9.svg\'></div>'
+      },
+      {
+        type: 'QUIZ',
+        notionId: '18f1f2c0e7b84cfbafe1b26e139f0c25',
+        title: '✅ Question',
+        quiz: {
+          question: 'Many DEX aggregators offer which tool(s) to save their users money?',
+          rightAnswerNumber: 4,
+          answers: [
+            'Routing trades through aggregated liquidity from multiple DEXs to reduce price impact.',
+            'OTC trades that fully protect against sandwich attacks.',
+            'Account for gas cost when building the best trade routes.',
+            'All of the above'
+          ],
+          id: 'dex-aggregators-7'
+        }
       },
       {
         type: 'QUEST',
-        title: 'DEXs and AMMs Quest',
-        component: 'DEXsAndAMMs'
+        title: 'DEX Aggregators Quest',
+        component: 'DEXAggregators'
       },
       {
         type: 'END',
-        title: 'End of lesson'
+        title: 'Lesson Reward'
       }
     ]
   },

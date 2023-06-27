@@ -686,55 +686,55 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: 'cc07e9a8a87744daa6548a95ae696fd2',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Decentralized Exchanges</code> (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p><ol><li>How DEXs split liquidity and how that can result in reduced trading rates.</li><li>How DEX aggregators enable users to view and use multiple DEXs through one interface.</li><li>Multiple ways a single aggregator interface can save Explorers time and money.</li></ol></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/introduction-ba453b68.svg\'></div>'
+        title: 'Introducción',
+        content: '<div class="bloc1"><p>Los <code>Intercambios Descentralizados</code> (DEXs) eliminan los costos de los intermediarios y ahorran dinero a los Exploradores cuando intercambian activos. </p><p>Pero, ¿sabías, Explorador, que hay más formas de ahorrar con la tecnología DeFi? Utilizando <code>agregadores DEX</code>, puedes escanear todas las operaciones posibles en varias plataformas DEX simultáneamente y ejecutar la mejor ruta de comercio, todo en una sola acción. Te ayudan a obtener el mejor trato cuando haces un <code>swap</code> de tokens. Al igual que los agregadores de vuelos de aerolíneas te ayudan a encontrar el vuelo más barato, los agregadores DEX te ayudan a maximizar el valor de tu operación.</p><p>Esta lección mostrará:</p><ol><li>Cómo los DEX dividen la liquidez y cómo eso puede resultar en tasas de negociación reducidas.</li><li>Cómo los agregadores DEX permiten a los usuarios ver y usar varios DEX a través de una única interfaz.</li><li>Múltiples formas en que una única interfaz de agregador puede ahorrar tiempo y dinero a los Exploradores.</li></ol></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/introduction-ba453b68.svg\'></div>'
       },
       {
         type: 'LEARN',
         notionId: '0e59fd1b9b7943a3a70a44abc9e921c1',
-        title: 'How Liquidity Affects Prices',
-        content: '<div class="bloc1"><p>The amount of any token that is available to trade on a single market is called a token’s <code>liquidity</code>. The amount of liquidity available strongly influences the <code>price impact</code> when making trades in DeFi; a large price impact means the trade will cost more, and a low price impact will cost less. Most people prefer to trade in markets with higher liquidity to reduce their price impact. </p><p>You can think of it like a swimming pool; the more water (liquidity) there is, the smaller the <em>change </em>in the water level (price impact) when someone jumps in or leaves. The size of that ‘someone’ (the trade) also affects the <em>change</em> in the water level (price impact).</p></div>'
+        title: 'Cómo la Liquidez Afecta los Precios',
+        content: '<div class="bloc1"><p>La cantidad de cualquier token que está disponible para negociar en un solo mercado se llama <code>liquidez</code> del token. La cantidad de liquidez disponible influye fuertemente en el <code>impacto del precio</code> al hacer operaciones en DeFi; un gran impacto en el precio significa que la operación costará más, y un bajo impacto en el precio costará menos. La mayoría de las personas prefieren operar en mercados con mayor liquidez para reducir su impacto en el precio. </p><p>Puedes pensar en ello como una piscina; cuanta más agua (liquidez) hay, menor es el <em>cambio </em>en el nivel del agua (impacto en el precio) cuando alguien salta o sale. El tamaño de ese "alguien" (la operación) también afecta el <em>cambio</em> en el nivel del agua (impacto en el precio).</p></div>'
       },
       {
         type: 'LEARN',
         notionId: '8ea31e80fcfc49d3a88ad09d03341c9c',
-        title: 'An Example of How Liquidity Impacts Prices',
-        content: '<div class="bloc1"><p>Let’s look at an example. </p><p>The BanklessDAO token (BANK) has a liquidity amount of ~30 million BANK on Uniswap, but only ~4.5 million BANK on SushiSwap. Uniswap has over 6x the BANK liquidity of SushiSwap.</p><p>If an Explorer was to purchase 10,000 BANK from each pool, they would find that the <code>price impact</code> of their trade would result in a higher trade price in the SushiSwap pool — because their trade has pulled a larger percentage of the pool’s total liquidity.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/an-example-of-how-liquidity-impacts-prices-915b3d84.svg\'></div>'
+        title: 'Un Ejemplo de Cómo la Liquidez Impacta los Precios',
+        content: '<div class="bloc1"><p>Vamos a ver un ejemplo. </p><p>El token de BanklessDAO (BANK) tiene una cantidad de liquidez de ~30 millones de BANK en Uniswap, pero solo ~4.5 millones de BANK en SushiSwap. Uniswap tiene más de 6 veces la liquidez de BANK que SushiSwap.</p><p>Si un Explorador fuera a comprar 10,000 BANK de cada pool, encontraría que el <code>impacto en el precio</code> de su operación resultaría en un precio de comercio más alto en la pool de SushiSwap, porque su operación ha extraído un porcentaje mayor de la liquidez total de la pool.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/an-example-of-how-liquidity-impacts-prices-915b3d84.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: 'c60d776bd01247b79e037003d737f924',
-        title: '✅ Question',
+        title: '✅ Pregunta',
         quiz: {
-          question: 'Fill in the blanks: To find the best price, people will want to trade in markets with ________ liquidity to have ________ price impact on their trades.',
+          question: 'Completa los espacios en blanco: Para encontrar el mejor precio, la gente querrá operar en mercados con ________ liquidez para tener ________ impacto en el precio en sus operaciones.',
           rightAnswerNumber: 2,
           answers: [
-            'good, maximum',
-            'high, low',
-            'low, good',
-            'thin, large'
+            'buena, máximo',
+            'alta, bajo',
+            'baja, buena',
+            'escasa, grande'
           ],
           id: 'dex-aggregators-1'
         }
-      },
+      },      
       {
         type: 'LEARN',
         notionId: 'b97afba7b0f44b709f57d6e85ce13cc2',
-        title: 'Shortcomings of Traditional DEXs: Thin Liquidity',
-        content: '<div class="bloc1"><p>DeFi continues to grow, but a problem is emerging for users: As more DEXs launch, the total amount of any individual token gets spread out. This is known as thin liquidity.</p><p>Remember the swimming pool: if the available water (<code>liquidity</code>) is split between multiple pools, the amount of water will be “thinner” in each pool compared to the total in the single original pool.</p><p>In 2020, Uniswap held much of the DEX liquidity to trade in DeFi. When SushiSwap launched the following month, it attracted over $1B worth of liquidity into its DEX from Uniswap, reducing total liquidity on Uniswap. This was just the start. Since then, more and more DEXs have entered the DeFi ecosystem, progressively thinning the liquidity of each pool.</p><p>Thus, any trade has a larger <code>price impact</code> than when Uniswap held most of the ecosystem’s total liquidity. As more DEXs launch, it costs Explorers more to trade on any single DEX without new innovations.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/shortcomings-of-traditional-dexs-thin-liquidity-c9e0b695.svg\'></div>'
+        title: 'Limitaciones de los DEX Tradicionales: Liquidez Escasa',
+        content: '<div class="bloc1"><p>DeFi continúa creciendo, pero está surgiendo un problema para los usuarios: A medida que se lanzan más DEX, la cantidad total de cualquier token individual se dispersa. Esto se conoce como liquidez escasa.</p><p>Recuerda la piscina: si el agua disponible (<code>liquidez</code>) se divide entre varias piscinas, la cantidad de agua será "más escasa" en cada piscina en comparación con el total en la única piscina original.</p><p>En 2020, Uniswap tenía gran parte de la liquidez DEX para operar en DeFi. Cuando SushiSwap se lanzó el mes siguiente, atrajo más de $1B en liquidez a su DEX de Uniswap, reduciendo la liquidez total en Uniswap. Esto fue solo el comienzo. Desde entonces, cada vez más DEX han entrado en el ecosistema DeFi, adelgazando progresivamente la liquidez de cada pool.</p><p>Por lo tanto, cualquier operación tiene un mayor <code>impacto en el precio</code> que cuando Uniswap tenía la mayoría de la liquidez total del ecosistema. A medida que se lanzan más DEX, cuesta más a los Exploradores operar en cualquier DEX individual sin nuevas innovaciones.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/shortcomings-of-traditional-dexs-thin-liquidity-c9e0b695.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: 'd9969ae7f6c247a097f7b7d419b6c119',
-        title: '✅ Question',
+        title: '✅ Pregunta',
         quiz: {
-          question: 'Which two factors determine the price impact of a DEX trade?',
+          question: '¿Qué dos factores determinan el impacto en el precio de una operación en DEX?',
           rightAnswerNumber: 3,
           answers: [
-            'The choice of DEX is used to make the trade and size of the trade',
-            'Which token is chosen to trade and which DEX is used to make the trade',
-            'The size of the trade and amount of liquidity available',
-            'The amount of liquidity available and which token is chosen to trade'
+            'La elección del DEX que se utiliza para realizar la operación y el tamaño de la operación',
+            'Qué token se elige para intercambiar y qué DEX se utiliza para realizar la operación',
+            'El tamaño de la operación y la cantidad de liquidez disponible',
+            'La cantidad de liquidez disponible y qué token se elige para intercambiar'
           ],
           id: 'dex-aggregators-2'
         }
@@ -742,49 +742,49 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: 'c06177fa9ee3428c80a9295a8a09a9f2',
-        title: 'Recombining Liquidity With DEX Aggregators',
-        content: '<div class="bloc1"><p>Large amounts of <code>liquidity</code> are needed to reduce price impact and save you money. DEX aggregators allow users to run trades through multiple DEXs at once and reduce the price impact; a big trade from an Explorer’s wallet gets broken down into multiple small trades across multiple DEXs.</p><p>DEX aggregators can even route trades through an <code>intermediary token</code> , or more than one, if that gets a better result for users — like the way a flight aggregator might suggest an extra stop at another airport if it’s cheaper for the passenger. This discovery of the optimal <code>trade route</code> is done by sophisticated algorithms searching through all possible paths to find the cheapest trade route at that moment.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/recombining-liquidity-with-dex-aggregators-f01777dd.svg\'></div>'
+        title: 'Recombinando la Liquidez con los Agregadores DEX',
+        content: '<div class="bloc1"><p>Se necesitan grandes cantidades de <code>liquidez</code> para reducir el impacto en el precio y ahorrar dinero. Los agregadores DEX permiten a los usuarios realizar operaciones a través de varios DEX a la vez y reducir el impacto en el precio; una gran operación desde la billetera de un Explorador se divide en múltiples operaciones pequeñas en múltiples DEX.</p><p>Los agregadores DEX incluso pueden dirigir las operaciones a través de un <code>token intermediario</code>, o más de uno, si eso proporciona un mejor resultado para los usuarios, al igual que un agregador de vuelos podría sugerir una parada extra en otro aeropuerto si es más barato para el pasajero. Este descubrimiento de la <code>ruta comercial</code> óptima lo realizan algoritmos sofisticados que buscan entre todas las rutas posibles para encontrar la ruta comercial más barata en ese momento.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/recombining-liquidity-with-dex-aggregators-f01777dd.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: '063815f2667146a2921df5c4c3ca1663',
-        title: '✅ Question',
+        title: '✅ Pregunta',
         quiz: {
-          question: 'Trade routing in DEX aggregators means:',
+          question: 'El enrutamiento de operaciones en los agregadores DEX significa:',
           rightAnswerNumber: 4,
           answers: [
-            'Trades are routed according to liquidity arrangements with specific DEXs',
-            'Trades are always routed through multiple DEXs',
-            'Trades are routed through a user’s favorite DEX only',
-            'Trades can be routed through multiple DEXs and intermediary tokens'
+            'Las operaciones se dirigen de acuerdo con los acuerdos de liquidez con DEX específicos',
+            'Las operaciones siempre se dirigen a través de varios DEX',
+            'Las operaciones se dirigen solo a través del DEX favorito del usuario',
+            'Las operaciones pueden ser dirigidas a través de múltiples DEX y tokens intermediarios'
           ],
           id: 'dex-aggregators-3'
         }
-      },
+      },      
       {
         type: 'LEARN',
         notionId: '1c2f4199a9254d18897593b371ca4d9e',
-        title: 'How Gas Cost Is Calculated on Ethereum',
-        content: '<div class="bloc1"><p>Let’s refresh how gas is calculated before we go on to see how the optimizations DEX aggregators make can reduce network fees for users.</p><p>Just like gas for a car, <code>gas</code> is the fuel for running blockchain code on Ethereum. The farther you travel, the more gas your car uses. Likewise, the more computations you do, the more gas your code requires. Gas price is measured in very small amounts of Ether called <code>gwei</code>, like cents to a dollar. 1 gwei is 1 billionth of an ether (1 gwei = 0.00000001 ETH). </p><p>Total gas cost is based on how much gas your transaction uses and the unit price of gas at the time of use. The formula for calculating the price of a transaction is as follows:<br><em>Amount of gas used * Gas price = Total gas cost</em></p><p>As an example, let’s say gas costs are at 22 gwei per gas unit and the transaction uses 120-thousand units:<br><em>120,000 * 22 gwei = 2,640,000 gwei </em><em><strong>or</strong></em><em> 0.00264 ETH</em></p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/how-gas-cost-is-calculated-on-ethereum-c34efe86.svg\'></div>'
+        title: 'Cómo se calcula el costo del gas en Ethereum',
+        content: '<div class="bloc1"><p>Antes de ver cómo las optimizaciones que hacen los agregadores de DEX pueden reducir las tarifas de red para los usuarios, refresquemos cómo se calcula el gas.</p><p>Al igual que la gasolina para un automóvil, el <code>gas</code> es el combustible para ejecutar el código blockchain en Ethereum. Cuanto más lejos viajes, más gas consume tu automóvil. Del mismo modo, cuantas más operaciones hagas, más gas requiere tu código. El precio del gas se mide en cantidades muy pequeñas de Ether llamadas <code>gwei</code>, como los centavos para un dólar. 1 gwei es mil millonésima parte de un ether (1 gwei = 0.00000001 ETH).</p><p>El costo total del gas se basa en la cantidad de gas que usa tu transacción y el precio unitario del gas en el momento de uso. La fórmula para calcular el precio de una transacción es la siguiente:<br><em>Cantidad de gas utilizado * Precio del gas = Costo total del gas</em></p><p>Como ejemplo, digamos que los costos del gas están en 22 gwei por unidad de gas y la transacción usa 120 mil unidades:<br><em>120,000 * 22 gwei = 2,640,000 gwei </em><em><strong>o</strong></em><em> 0.00264 ETH</em></p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/how-gas-cost-is-calculated-on-ethereum-c34efe86.svg\'></div>'
       },
       {
         type: 'LEARN',
         notionId: '7196f021bcc541929d68b9bd0c018ac3',
-        title: 'How Aggregators Reduce Gas Costs for Users',
-        content: '<div class="bloc1"><p>Trade splitting would result in more transaction fees from the extra on-chain activity, except that advanced aggregators plan for transaction fees and include them in their calculations of the trade route. They simulate trades off chain, including <code>gas</code> costs, to find <code>trade routes</code> that leave Explorers with the most value at the end of the interaction.</p><p>Some aggregators go even further: they may refund some of the network transaction fees from using their protocol. 1inch currently offers rebates in their token for a portion of gas costs from trading through their <code>dApp</code> on Ethereum mainnet.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/how-aggregators-reduce-gas-costs-for-users-28d6f207.svg\'></div>'
+        title: 'Cómo los Agregadores Reducen los Costos del Gas para los Usuarios',
+        content: '<div class="bloc1"><p>La división de operaciones resultaría en más tarifas de transacción debido a la actividad extra en la cadena, excepto que los agregadores avanzados planifican las tarifas de transacción y las incluyen en sus cálculos de la ruta comercial. Simulan las operaciones fuera de la cadena, incluyendo los costos de <code>gas</code>, para encontrar <code>rutas comerciales</code> que dejen a los Exploradores con el mayor valor al final de la interacción.</p><p>Algunos agregadores van aún más lejos: pueden reembolsar algunas de las tarifas de transacción de red por usar su protocolo. 1inch actualmente ofrece reembolsos en su token por una parte de los costos del gas al operar a través de su <code>dApp</code> en la red principal de Ethereum.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/how-aggregators-reduce-gas-costs-for-users-28d6f207.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: '2cf155ee9e3a4d4fb0a9c78f888d2373',
-        title: '✅ Question',
+        title: '✅ Pregunta',
         quiz: {
-          question: 'Which of the following is NOT a way DEX aggregators try to reduce transaction costs for users?',
+          question: '¿Cuál de las siguientes NO es una forma en que los agregadores de DEX intentan reducir los costos de transacción para los usuarios?',
           rightAnswerNumber: 2,
           answers: [
-            'Simulate transactions off-chain prior to trade execution',
-            'Ask DEXs to lower network fees for their users',
-            'Account for gas cost in trade routing',
-            'Token rebates on gas costs'
+            'Simulan las transacciones fuera de la cadena antes de la ejecución de la operación',
+            'Piden a los DEX que reduzcan las tarifas de red para sus usuarios',
+            'Toman en cuenta el costo del gas en el enrutamiento de las operaciones',
+            'Reembolsos de tokens en los costos del gas'
           ],
           id: 'dex-aggregators-4'
         }
@@ -792,19 +792,19 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: '19eb7c5516fd4da383c48661d21e34a1',
-        title: 'Meta-Aggregators',
-        content: '<div class="bloc1"><p>There are even meta-aggregators of DEX aggregators! These platforms search through all competing DEX aggregators and serve price quotes to users. An example of this is the in-app swap function in the MetaMask wallet. This feature is actually a meta-aggregator that relies on DEX aggregators like 1inch to function.</p><p>Note: While convenient, <code>meta-aggregator</code> services can add extra costs on top of network transaction fees, increasing the overall cost for users. Explorers: make sure that your trades don’t end up more expensive than you intended. </p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/meta-aggregators-100793fd.svg\'></div>'
+        title: 'Meta-Agregadores',
+        content: '<div class="bloc1"><p>¡Incluso existen meta-agregadores de agregadores DEX! Estas plataformas buscan en todos los agregadores DEX competidores y proporcionan cotizaciones de precios a los usuarios. Un ejemplo de esto es la función de cambio en la aplicación en la billetera MetaMask. Esta característica es en realidad un meta-agregador que se basa en agregadores DEX como 1inch para funcionar.</p><p>Nota: Aunque son convenientes, los servicios de <code>meta-agregadores</code> pueden añadir costos extra encima de las tarifas de transacción de la red, aumentando el costo total para los usuarios. Exploradores: asegúrense de que sus operaciones no terminen siendo más caras de lo que pretendían. </p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/meta-aggregators-100793fd.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: '7abcec930d924ca997d5f4221fae9ad6',
-        title: '✅ Question',
+        title: '✅ Pregunta',
         quiz: {
-          question: 'Meta-aggregators cross-reference multiple DEX aggregators to find the best prices for their users.',
+          question: 'Los meta-agregadores contrastan múltiples agregadores DEX para encontrar los mejores precios para sus usuarios.',
           rightAnswerNumber: 1,
           answers: [
-            'True',
-            'False'
+            'Verdadero',
+            'Falso'
           ],
           id: 'dex-aggregators-5'
         }
@@ -812,19 +812,19 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: '44acd0c428aa49e8880b26f1ffffd0b0',
-        title: 'Avoiding Sandwich Attacks',
-        content: '<div class="bloc1"><p>Users swapping directly through <code>DEXs</code> can lose value up to the limit of their <code>slippage tolerance</code> due to price changes coordinated by block producers — these kinds of losses are called <code>sandwich attacks</code>. Did you know that sandwich attacks led users to a total loss of $235,000,000 during 2021? Explorers can protect themselves by keeping a low slippage tolerance when swapping tokens.</p><p>Fortunately, because of the recombined liquidity offered by DEX aggregators, the price impact of a trade is reduced. Explorers can keep their slippage tolerance low while saving more with DEX aggregators, as opposed to trading directly on a DEX.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/avoiding-sandwich-attacks-75f6ae82.svg\'></div>'
+        title: 'Evitando Ataques Sandwich',
+        content: '<div class="bloc1"><p>Los usuarios que intercambian directamente a través de los <code>DEX</code> pueden perder valor hasta el límite de su <code>tolerancia al deslizamiento</code> debido a los cambios de precios coordinados por los productores de bloques, este tipo de pérdidas se llaman <code>ataques sandwich</code>. ¿Sabías que los ataques sandwich llevaron a los usuarios a una pérdida total de $235,000,000 durante 2021? Los Exploradores pueden protegerse manteniendo una baja tolerancia al deslizamiento al intercambiar tokens.</p><p>Afortunadamente, debido a la liquidez recombinada ofrecida por los agregadores de DEX, el impacto del precio de una operación se reduce. Los Exploradores pueden mantener su tolerancia al deslizamiento baja mientras ahorran más con los agregadores de DEX, en lugar de operar directamente en un DEX.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/avoiding-sandwich-attacks-75f6ae82.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: '9864a66638a3473ca13f8ee2dc8c4b1f',
-        title: '✅ Question',
+        title: '✅ Pregunta',
         quiz: {
-          question: 'To protect yourself, you should keep your slippage tolerance:',
+          question: 'Para protegerte, deberías mantener tu tolerancia al deslizamiento:',
           rightAnswerNumber: 1,
           answers: [
-            'low',
-            'high'
+            'baja',
+            'alta'
           ],
           id: 'dex-aggregators-6'
         }
@@ -832,30 +832,25 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: 'b1756984326242d4ad5e4ab2cbe2eb32',
-        title: 'More Protection From Sandwiches: OTC Trades',
-        content: '<div class="bloc1"><p>Some aggregators like 1inch even offer specialized <code>OTC</code> (<code>Over The Counter</code>) services that provide total protection against sandwich attacks. These optional services enable direct trading with other users, rather than facilitating trades through DeFi <code>liquidity pools</code>. Anyone can engage in <code>OTC</code> trades to fully remove the threat of sandwich attacks — providing another great way for Explorers to save.</p><p>CoWSwap is a Meta-Aggregator that also offers sandwich-resistant services, enabled by default, to ensure trades are 100% protected against sandwich attacks.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/more-protection-from-sandwiches-otc-trades-04ef66c9.svg\'></div>'
+        title: 'Más Protección Contra Los Sandwiches: Operaciones OTC',
+        content: '<div class="bloc1"><p>Algunos agregadores como 1inch incluso ofrecen servicios <code>OTC</code> (<code>Over The Counter</code> o Sobre El Mostrador) especializados que proporcionan protección total contra los ataques sandwich. Estos servicios opcionales permiten el comercio directo con otros usuarios, en lugar de facilitar las operaciones a través de <code>piscinas de liquidez</code> DeFi. Cualquiera puede participar en operaciones <code>OTC</code> para eliminar completamente la amenaza de los ataques sandwich, proporcionando otra gran manera para que los Exploradores ahorren.</p><p>CoWSwap es un Meta-Agregador que también ofrece servicios resistentes a los sandwiches, habilitados por defecto, para asegurar que las operaciones estén 100% protegidas contra los ataques sandwich.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/more-protection-from-sandwiches-otc-trades-04ef66c9.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: '18f1f2c0e7b84cfbafe1b26e139f0c25',
-        title: '✅ Question',
+        title: '✅ Pregunta',
         quiz: {
-          question: 'Many DEX aggregators offer which tool(s) to save their users money?',
+          question: 'Muchos agregadores de DEX ofrecen ¿qué herramienta(s) para ahorrar dinero a sus usuarios?',
           rightAnswerNumber: 4,
           answers: [
-            'Routing trades through aggregated liquidity from multiple DEXs to reduce price impact.',
-            'OTC trades that fully protect against sandwich attacks.',
-            'Account for gas cost when building the best trade routes.',
-            'All of the above'
+            'Enrutan las operaciones a través de la liquidez agregada de múltiples DEX para reducir el impacto del precio.',
+            'Operaciones OTC que protegen totalmente contra los ataques sandwich.',
+            'Toman en cuenta el costo del gas al construir las mejores rutas de operación.',
+            'Todas las anteriores'
           ],
           id: 'dex-aggregators-7'
         }
-      },
-      {
-        type: 'QUEST',
-        title: 'DEX Aggregators Quest',
-        component: 'DEXAggregators'
-      },
+      },      
       {
         type: 'END',
         title: 'Lesson Reward'

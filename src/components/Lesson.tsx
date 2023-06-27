@@ -537,7 +537,7 @@ const Lesson = ({
                       goToPrevSlide={goToPrevSlide}
                     />
                   ) : (
-                    <h2>{`Congrats on finishing our "${lesson.name}" lesson! 🥳`}</h2>
+                    <h2>{`Felicidades por completar nuestro curso de "${lesson.name}" 🥳`}</h2>
                   )}
                   <p>
                     {!embed && lesson.endOfLessonText && lesson.endOfLessonText}

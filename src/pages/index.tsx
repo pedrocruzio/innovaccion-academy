@@ -83,7 +83,7 @@ const HomePage = (): JSX.Element => {
                   size="lg"
                   style={{ padding: '0 23px', marginTop: '20px' }}
                 >
-                  Ver Cursos
+                  View Courses
                 </Button>
               </InternalLink>
             </Box>
@@ -108,7 +108,7 @@ const HomePage = (): JSX.Element => {
                   size="lg"
                   style={{ padding: '0 23px', marginTop: '20px' }}
                 >
-                  Ver Cursos
+                  View Courses
                 </Button>
               </InternalLink>
               </Box>

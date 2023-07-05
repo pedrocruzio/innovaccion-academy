@@ -630,7 +630,7 @@ const Lesson = ({
                       lesson.kudosId && !isKudosMintedLS ? 'outline' : 'primary'
                     }
                   >
-                    Ver más cursos
+                    View more courses
                   </Button>
                 </InternalLink>
               )}

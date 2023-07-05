@@ -218,7 +218,7 @@ const parseProperties = (database: QueryDatabaseResponse) => {
         //    add notionId to DB
         // await db(TABLES.credentials).insert([{notion_id: lesson.notionId}]).onConflict('notion_id')
         // lesson.slides = SLIDES[lesson.name] || []
-        lesson.slides = await parsePages([lesson], lesson.name)
+        lesson.slides = await parsePages(lesson, lesson.name)
         lesson.imageLinks = IMAGELINKS[lesson.name] || []
         lessons.push(lesson)
     })
@@ -252,7 +252,7 @@ export default LESSONS
     return lessons
 }
 
-const parsePages = async (lessons: LessonType[], name: string) => {
+const parsePages = async (lesson: LessonType, name: string) => {
     let blockResponse = {
         response: {},
         childBlockResponse: {}
@@ -260,9 +260,7 @@ const parsePages = async (lessons: LessonType[], name: string) => {
     const SLIDESMAPPING = {
         [name]: []
     }
-    for (const item of lessons) {
-        // SLIDESMAPPING.set(item.name, [])
-        const response = await notion.blocks.retrieve({block_id: item.notionId})
+        const response = await notion.blocks.retrieve({block_id: lesson.notionId})
         blockResponse.response = response
 
         // @ts-ignore
@@ -277,35 +275,29 @@ const parsePages = async (lessons: LessonType[], name: string) => {
                 let slidesIndex = 0
                 let slide = {}
                 if (setOfSlides[0].heading_1.rich_text[0].plain_text === 'Knowledge Check') {
-                    slide = createQuizSlide(setOfSlides, `${item.name.toLowerCase().replace(' ', '-')}-${slidesIndex}`)
+                    slide = createQuizSlide(setOfSlides, `${lesson.name.toLowerCase().replace(' ', '-')}-${slidesIndex}`)
                 } else {
                     slide = createLearnSlide(setOfSlides)
                 }
 
-                console.log(`New Slide for ${item.name}`, slide)
-                // SLIDESMAPPING.set(item.name, [...SLIDESMAPPING?.get(item.name), slide])
+                console.log(`New Slide for ${lesson.name}`, slide)
                 SLIDESMAPPING[name].push(slide)
                 childrenResponse.results.splice(0, setOfSlides.length - 1)
             }
-            // SLIDESMAPPING.set(item.name, [...SLIDESMAPPING?.get(item.name), {
-            //     type: 'END',
-            //     title: 'Lesson Reward'
-            // }])
             SLIDESMAPPING[name].push({
                 type: 'END',
                 title: 'Lesson Reward'
             })
         }
-        // }
-        //     fs.writeFileSync("./allLessons.ts", `
-        // const walletBasicsChildBlocks = ${JSON.stringify(blockResponse)}
-        //
-        // export default walletBasicsChildBlocks`)
-    }
-    fs.writeFileSync("./SLIDESMAP.json", JSON.stringify(SLIDESMAPPING))
 
-    // return SLIDESMAPPING.get(lessons[0].name)
-    return SLIDESMAPPING[lessons[0].name]
+        const jsonData = fs.readFileSync('./SLIDESMAP.json', 'utf-8');
+        const existingData = JSON.parse(jsonData)
+
+    existingData[lesson.name] = SLIDESMAPPING[lesson.name]
+    const updatedJsonData = JSON.stringify(existingData, null, 2)
+    fs.writeFileSync("./SLIDESMAP.json", updatedJsonData, 'utf-8')
+
+    return SLIDESMAPPING[lesson.name]
 }
 
 const importNotion = async () => {

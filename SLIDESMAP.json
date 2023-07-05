@@ -1,104 +1,18 @@
 {
+  "Academy Community": [
+    {
+      "type": "LEARN",
+      "notionId": "14fa12a6-413b-4059-b711-0df1ee87108e",
+      "title": "You’re one step away, Explorer.",
+      "content": "<div class=\"bloc1\"><p>Now that you have your digital wallet, let’s use it to join the Academy Community.</p><p>Wallets don’t only serve the purpose of keeping your digital assets, but also as a means of decentralized verification. </p><p>Thanks to its web3 native nature - wallet login, token-holder roles, and more! - we’ve chosen gm.xyz as our community home. To participate in the conversation, you must sign in with your wallet. We can walk you through it in our video at the end of the lesson.</p><p>Ready to start your community journey? Let’s go Explorer!</p></div><div class=\"bloc2\"><img src=\"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject\"></div>"
+    }
+  ],
   "Wallet Basics": [
     {
       "type": "LEARN",
-      "notionId": "3991d16f-1b54-411a-bd56-e24ce7a6b0df",
+      "notionId": "0bf15ec24615455b9349774527410d81",
       "title": "Wallet Intro",
-      "content": "<div class=\"bloc1\"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class=\"bloc2\"><img src=\"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject\"></div>"
-    },
-    {
-      "type": "LEARN",
-      "notionId": "3991d16f-1b54-411a-bd56-e24ce7a6b0df",
-      "title": "Wallet Intro",
-      "content": "<div class=\"bloc1\"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class=\"bloc2\"><img src=\"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject\"></div>"
-    },
-    {
-      "type": "LEARN",
-      "notionId": "3991d16f-1b54-411a-bd56-e24ce7a6b0df",
-      "title": "Wallet Intro",
-      "content": "<div class=\"bloc1\"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class=\"bloc2\"><img src=\"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject\"></div>"
-    },
-    {
-      "type": "LEARN",
-      "notionId": "3991d16f-1b54-411a-bd56-e24ce7a6b0df",
-      "title": "Wallet Intro",
-      "content": "<div class=\"bloc1\"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class=\"bloc2\"><img src=\"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject\"></div>"
-    },
-    {
-      "type": "LEARN",
-      "notionId": "3991d16f-1b54-411a-bd56-e24ce7a6b0df",
-      "title": "Wallet Intro",
-      "content": "<div class=\"bloc1\"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class=\"bloc2\"><img src=\"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject\"></div>"
-    },
-    {
-      "type": "LEARN",
-      "notionId": "3991d16f-1b54-411a-bd56-e24ce7a6b0df",
-      "title": "Wallet Intro",
-      "content": "<div class=\"bloc1\"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class=\"bloc2\"><img src=\"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject\"></div>"
-    },
-    {
-      "type": "LEARN",
-      "notionId": "3991d16f-1b54-411a-bd56-e24ce7a6b0df",
-      "title": "Wallet Intro",
-      "content": "<div class=\"bloc1\"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class=\"bloc2\"><img src=\"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject\"></div>"
-    },
-    {
-      "type": "LEARN",
-      "notionId": "3991d16f-1b54-411a-bd56-e24ce7a6b0df",
-      "title": "Wallet Intro",
-      "content": "<div class=\"bloc1\"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class=\"bloc2\"><img src=\"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject\"></div>"
-    },
-    {
-      "type": "LEARN",
-      "notionId": "3991d16f-1b54-411a-bd56-e24ce7a6b0df",
-      "title": "Wallet Intro",
-      "content": "<div class=\"bloc1\"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class=\"bloc2\"><img src=\"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject\"></div>"
-    },
-    {
-      "type": "LEARN",
-      "notionId": "3991d16f-1b54-411a-bd56-e24ce7a6b0df",
-      "title": "Wallet Intro",
-      "content": "<div class=\"bloc1\"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class=\"bloc2\"><img src=\"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject\"></div>"
-    },
-    {
-      "type": "LEARN",
-      "notionId": "3991d16f-1b54-411a-bd56-e24ce7a6b0df",
-      "title": "Wallet Intro",
-      "content": "<div class=\"bloc1\"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class=\"bloc2\"><img src=\"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject\"></div>"
-    },
-    {
-      "type": "LEARN",
-      "notionId": "3991d16f-1b54-411a-bd56-e24ce7a6b0df",
-      "title": "Wallet Intro",
-      "content": "<div class=\"bloc1\"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class=\"bloc2\"><img src=\"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject\"></div>"
-    },
-    {
-      "type": "LEARN",
-      "notionId": "3991d16f-1b54-411a-bd56-e24ce7a6b0df",
-      "title": "Wallet Intro",
-      "content": "<div class=\"bloc1\"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class=\"bloc2\"><img src=\"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject\"></div>"
-    },
-    {
-      "type": "LEARN",
-      "notionId": "3991d16f-1b54-411a-bd56-e24ce7a6b0df",
-      "title": "Wallet Intro",
-      "content": "<div class=\"bloc1\"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class=\"bloc2\"><img src=\"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject\"></div>"
-    },
-    {
-      "type": "LEARN",
-      "notionId": "3991d16f-1b54-411a-bd56-e24ce7a6b0df",
-      "title": "Wallet Intro",
-      "content": "<div class=\"bloc1\"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class=\"bloc2\"><img src=\"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject\"></div>"
-    },
-    {
-      "type": "LEARN",
-      "notionId": "3991d16f-1b54-411a-bd56-e24ce7a6b0df",
-      "title": "Wallet Intro",
-      "content": "<div class=\"bloc1\"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class=\"bloc2\"><img src=\"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject\"></div>"
-    },
-    {
-      "type": "END",
-      "title": "Lesson Reward"
+      "content": '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/wallet-intro-7b45d75e.png\'></div>'
     }
   ]
 }

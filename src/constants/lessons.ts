@@ -51,48 +51,6 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: '',
-    socialImageLink: undefined,
-    learningActions: '',
-    marketingDescription: '',
-    kudosId: null,
-    duration: null,
-    learnings: undefined,
-    difficulty: 'Easy',
-    description: '',
-    name: 'ENS article',
-    moduleId: undefined,
-    quest: 'gBdL',
-    publicationStatus: 'hidden',
-    featuredOrderOnHomepage: null,
-    isCommentsEnabled: false,
-    endOfLessonRedirect: null,
-    endOfLessonText: '',
-    mirrorLink: null,
-    mirrorNFTAddress: '',
-    url: 'https://www.notion.so/ENS-article-3fc1b46d8bc24fa4ba4c2f79e4c7afb9',
-    notionId: '3fc1b46d-8bc2-4fa4-ba4c-2f79e4c7afb9',
-    slug: 'ens-article',
-    slides: [
-      {
-        type: 'END',
-        title: 'Lesson Reward'
-      }
-    ],
-    imageLinks: []
-  },
-  {
-    '0': 'K',
-    '1': 'u',
-    '2': 'd',
-    '3': 'o',
-    '4': 's',
-    '5': ' ',
-    '6': 'i',
-    '7': 'm',
-    '8': 'a',
-    '9': 'g',
-    '10': 'e',
     lessonImageLink: '/lesson/undefined/lesson-71b79973.png',
     socialImageLink: undefined,
     learningActions: '',
@@ -135,323 +93,29 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: '',
+    lessonImageLink: '/lesson/undefined/lesson-03a3e86a.png',
     socialImageLink: undefined,
     learningActions: '',
-    marketingDescription: 'DEXs and AMMs have changed the landscape of traditional market trading. It’s time to understand why, and how you can use this technology to your own advantage.',
-    kudosId: null,
-    duration: 15,
+    marketingDescription: '',
+    kudosId: 14067,
+    duration: null,
     learnings: undefined,
     difficulty: 'Easy',
-    description: 'Discover how smart-contract exchanges enable permissionless token swaps!',
-    name: 'Decentralized Exchanges',
+    description: 'For testing purposes only',
+    name: 'Kudos testing',
     moduleId: undefined,
     quest: 'gBdL',
-    publicationStatus: 'planned',
+    publicationStatus: 'hidden',
     featuredOrderOnHomepage: null,
     isCommentsEnabled: false,
     endOfLessonRedirect: null,
     endOfLessonText: '',
     mirrorLink: null,
     mirrorNFTAddress: '',
-    url: 'https://www.notion.so/Decentralized-Exchanges-a47ce4a562334e47819d9760c7336daa',
-    notionId: 'a47ce4a5-6233-4e47-819d-9760c7336daa',
-    slug: 'decentralized-exchanges',
+    url: 'https://www.notion.so/Kudos-testing-5179bd813d394eec8b8e67f4a1ff0b4e',
+    notionId: '5179bd81-3d39-4eec-8b8e-67f4a1ff0b4e',
+    slug: 'kudos-testing',
     slides: [
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"><ul><li><strong>What are the primary DEX use cases?</strong></li></ul><ul><li><strong>What are the primary DEX use cases?</strong></li></ul><li><strong>Why would you exchange tokens?</strong></li></ul></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
-        title: 'What is a Decentralized Exchange?',
-        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=ed925d8d929277f573d3d724ea42bc3b637e48e5aababe07273fc707fa5b09ef&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
       {
         type: 'END',
         title: 'Lesson Reward'
@@ -471,166 +135,214 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: '',
+    lessonImageLink: '/lesson/undefined/lesson-97291c9d.png',
     socialImageLink: undefined,
-    learningActions: '',
-    marketingDescription: 'What does it mean to go Bankless? In this lesson, we discuss why millions of people are investing in cryptocurrency - and practical first steps for joining the movement.',
-    kudosId: null,
+    learningActions: 'Transfer crypto into your web3 wallet in order to be ready to interact with DeFi later',
+    marketingDescription: 'Move beyond centralized exchanges and start exploring the ever-expanding possibilities of decentralized finance.',
+    kudosId: 2562,
     duration: 10,
     learnings: undefined,
     difficulty: 'Easy',
-    description: 'What does it mean to go Bankless? Take your first step, here.',
-    name: 'Going Bankless',
+    description: 'Understand the basics of decentralized finance.',
+    name: 'Intro to DeFi',
     moduleId: undefined,
     quest: 'gBdL',
-    publicationStatus: 'hidden',
+    publicationStatus: 'publish',
     featuredOrderOnHomepage: null,
     isCommentsEnabled: false,
     endOfLessonRedirect: null,
     endOfLessonText: '',
     mirrorLink: null,
     mirrorNFTAddress: '',
-    url: 'https://www.notion.so/Going-Bankless-13df8d13d07446dba422bf8c66c0f73c',
-    notionId: '13df8d13-d074-46db-a422-bf8c66c0f73c',
-    slug: 'going-bankless',
+    url: 'https://www.notion.so/Intro-to-DeFi-90a9cf9ee68c4afc8d866d2574b09d5c',
+    notionId: '90a9cf9e-e68c-4afc-8d86-6d2574b09d5c',
+    slug: 'intro-to-defi',
     slides: [
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
-        title: 'Intro',
-        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
+        title: 'DeFi Defined',
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=1edecf23706938d8bd05b7fc655890825495a846b0d2fcb436b5ed77d2ad19ca&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'END',
@@ -638,9 +350,622 @@ const LESSONS: LessonType[] = [
       }
     ],
     imageLinks: [
-      '/lesson/going-bankless/welcome-to-InnovAccion-cf9ea670.png',
-      '/lesson/going-bankless/upgrading-humanitys-coordination-protocols-2ef0d764.png',
-      '/lesson/going-bankless/your-bankless-journey-9736d072.png'
+      '/lesson/intro-to-defi/defi-defined-46782447.svg',
+      '/lesson/intro-to-defi/earning-yield-c5f123f8.svg',
+      '/lesson/intro-to-defi/what-you-can-do-with-defi-9b17cf2e.svg',
+      '/lesson/intro-to-defi/investing-d99a6d1f.svg',
+      '/lesson/intro-to-defi/trading-8cd72977.svg',
+      '/lesson/intro-to-defi/lending-borrowing-4fb1c7c3.svg',
+      '/lesson/intro-to-defi/staking-b4b4319d.svg',
+      '/lesson/intro-to-defi/defi-downsides-51dd6225.svg',
+      '/lesson/intro-to-defi/defi-downsides-3a6ce496.svg',
+      '/lesson/intro-to-defi/defi-downsides-83a9391f.svg'
+    ]
+  },
+  {
+    '0': 'K',
+    '1': 'u',
+    '2': 'd',
+    '3': 'o',
+    '4': 's',
+    '5': ' ',
+    '6': 'i',
+    '7': 'm',
+    '8': 'a',
+    '9': 'g',
+    '10': 'e',
+    lessonImageLink: '/lesson/undefined/lesson-dcff6ea3.png',
+    socialImageLink: undefined,
+    learningActions: '',
+    marketingDescription: '',
+    kudosId: 14611,
+    duration: 15,
+    learnings: undefined,
+    difficulty: 'Easy',
+    description: 'Understand how Layer 1 blockchains work - and learn their limitations!',
+    name: 'Layer 1 Blockchains',
+    moduleId: undefined,
+    quest: 'gBdL',
+    publicationStatus: 'publish',
+    featuredOrderOnHomepage: null,
+    isCommentsEnabled: false,
+    endOfLessonRedirect: null,
+    endOfLessonText: '',
+    mirrorLink: null,
+    mirrorNFTAddress: '',
+    url: 'https://www.notion.so/Layer-1-Blockchains-3b78545681f2495897c1dfb17f19db1f',
+    notionId: '3b785456-81f2-4958-97c1-dfb17f19db1f',
+    slug: 'layer-1-blockchains',
+    slides: [
+      {
+        type: 'LEARN',
+        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=b309a499f2c391f78b393c587462aca5a3cc2a0187445e93caec9581003c8ba6&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=b309a499f2c391f78b393c587462aca5a3cc2a0187445e93caec9581003c8ba6&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=b309a499f2c391f78b393c587462aca5a3cc2a0187445e93caec9581003c8ba6&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=b309a499f2c391f78b393c587462aca5a3cc2a0187445e93caec9581003c8ba6&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=b309a499f2c391f78b393c587462aca5a3cc2a0187445e93caec9581003c8ba6&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=b309a499f2c391f78b393c587462aca5a3cc2a0187445e93caec9581003c8ba6&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=b309a499f2c391f78b393c587462aca5a3cc2a0187445e93caec9581003c8ba6&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=b309a499f2c391f78b393c587462aca5a3cc2a0187445e93caec9581003c8ba6&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=b309a499f2c391f78b393c587462aca5a3cc2a0187445e93caec9581003c8ba6&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=b309a499f2c391f78b393c587462aca5a3cc2a0187445e93caec9581003c8ba6&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=b309a499f2c391f78b393c587462aca5a3cc2a0187445e93caec9581003c8ba6&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=b309a499f2c391f78b393c587462aca5a3cc2a0187445e93caec9581003c8ba6&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=b309a499f2c391f78b393c587462aca5a3cc2a0187445e93caec9581003c8ba6&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=b309a499f2c391f78b393c587462aca5a3cc2a0187445e93caec9581003c8ba6&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=b309a499f2c391f78b393c587462aca5a3cc2a0187445e93caec9581003c8ba6&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=b309a499f2c391f78b393c587462aca5a3cc2a0187445e93caec9581003c8ba6&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=b309a499f2c391f78b393c587462aca5a3cc2a0187445e93caec9581003c8ba6&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=b309a499f2c391f78b393c587462aca5a3cc2a0187445e93caec9581003c8ba6&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=b309a499f2c391f78b393c587462aca5a3cc2a0187445e93caec9581003c8ba6&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'END',
+        title: 'Lesson Reward'
+      }
+    ],
+    imageLinks: [
+      '/lesson/layer-1-blockchains/introduction-e0da8469.svg',
+      '/lesson/layer-1-blockchains/blockchain-trilemma-31329f66.svg',
+      '/lesson/layer-1-blockchains/security-and-consensus-5e1f03b6.svg',
+      '/lesson/layer-1-blockchains/security-and-attacks-7d35acf6.svg',
+      '/lesson/layer-1-blockchains/scalability-throughput-4b140ad0.svg',
+      '/lesson/layer-1-blockchains/scalability-finality-161f7e2b.svg',
+      '/lesson/layer-1-blockchains/decentralization-distributes-power-829f91a2.svg',
+      '/lesson/layer-1-blockchains/is-it-decentralized-4b5bf857.svg',
+      '/lesson/layer-1-blockchains/some-examples-523b9b96.svg',
+      '/lesson/layer-1-blockchains/so-what-can-be-done-50592b46.svg',
+      '/lesson/layer-1-blockchains/the-future-of-ethereum-2b64fd6b.svg'
+    ]
+  },
+  {
+    '0': 'K',
+    '1': 'u',
+    '2': 'd',
+    '3': 'o',
+    '4': 's',
+    '5': ' ',
+    '6': 'i',
+    '7': 'm',
+    '8': 'a',
+    '9': 'g',
+    '10': 'e',
+    lessonImageLink: '/lesson/undefined/lesson-39d1fc1c.png',
+    socialImageLink: undefined,
+    learningActions: '',
+    marketingDescription: '',
+    kudosId: 2608,
+    duration: 15,
+    learnings: undefined,
+    difficulty: 'Easy',
+    description: 'Dive into DEX Aggregators, liquidity, and the DeFi exchange landscape.',
+    name: 'DEX Aggregators',
+    moduleId: undefined,
+    quest: 'gBdL',
+    publicationStatus: 'publish',
+    featuredOrderOnHomepage: 3,
+    isCommentsEnabled: false,
+    endOfLessonRedirect: null,
+    endOfLessonText: '',
+    mirrorLink: null,
+    mirrorNFTAddress: '',
+    url: 'https://www.notion.so/DEX-Aggregators-e4db9d0b47db4dc596ba707f92003632',
+    notionId: 'e4db9d0b-47db-4dc5-96ba-707f92003632',
+    slug: 'dex-aggregators',
+    slides: [
+      {
+        type: 'LEARN',
+        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=5667fd3ff3b52a7514c2186f6e06f863829b253dccb67aa60b2b2009c67fba53&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=5667fd3ff3b52a7514c2186f6e06f863829b253dccb67aa60b2b2009c67fba53&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=5667fd3ff3b52a7514c2186f6e06f863829b253dccb67aa60b2b2009c67fba53&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=5667fd3ff3b52a7514c2186f6e06f863829b253dccb67aa60b2b2009c67fba53&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=5667fd3ff3b52a7514c2186f6e06f863829b253dccb67aa60b2b2009c67fba53&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=5667fd3ff3b52a7514c2186f6e06f863829b253dccb67aa60b2b2009c67fba53&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=5667fd3ff3b52a7514c2186f6e06f863829b253dccb67aa60b2b2009c67fba53&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=5667fd3ff3b52a7514c2186f6e06f863829b253dccb67aa60b2b2009c67fba53&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=5667fd3ff3b52a7514c2186f6e06f863829b253dccb67aa60b2b2009c67fba53&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=5667fd3ff3b52a7514c2186f6e06f863829b253dccb67aa60b2b2009c67fba53&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=5667fd3ff3b52a7514c2186f6e06f863829b253dccb67aa60b2b2009c67fba53&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=5667fd3ff3b52a7514c2186f6e06f863829b253dccb67aa60b2b2009c67fba53&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'END',
+        title: 'Lesson Reward'
+      }
+    ],
+    imageLinks: [
+      '/lesson/dex-aggregators/introduction-ba453b68.svg',
+      '/lesson/dex-aggregators/an-example-of-how-liquidity-impacts-prices-915b3d84.svg',
+      '/lesson/dex-aggregators/shortcomings-of-traditional-dexs-thin-liquidity-c9e0b695.svg',
+      '/lesson/dex-aggregators/recombining-liquidity-with-dex-aggregators-f01777dd.svg',
+      '/lesson/dex-aggregators/how-gas-cost-is-calculated-on-ethereum-c34efe86.svg',
+      '/lesson/dex-aggregators/how-aggregators-reduce-gas-costs-for-users-28d6f207.svg',
+      '/lesson/dex-aggregators/meta-aggregators-100793fd.svg',
+      '/lesson/dex-aggregators/avoiding-sandwich-attacks-75f6ae82.svg',
+      '/lesson/dex-aggregators/more-protection-from-sandwiches-otc-trades-04ef66c9.svg'
+    ]
+  },
+  {
+    '0': 'K',
+    '1': 'u',
+    '2': 'd',
+    '3': 'o',
+    '4': 's',
+    '5': ' ',
+    '6': 'i',
+    '7': 'm',
+    '8': 'a',
+    '9': 'g',
+    '10': 'e',
+    lessonImageLink: '/lesson/undefined/lesson-c84db284.png',
+    socialImageLink: undefined,
+    learningActions: '',
+    marketingDescription: 'Blockchains make cryptocurrency, DeFi, and Web3 possible. Discover how blockchain networks are built and how they work.',
+    kudosId: 2563,
+    duration: 15,
+    learnings: undefined,
+    difficulty: 'Easy',
+    description: 'Learn about the fundamental architecture of blockchain technology.',
+    name: 'Blockchain Basics',
+    moduleId: undefined,
+    quest: 'gBdL',
+    publicationStatus: 'publish',
+    featuredOrderOnHomepage: null,
+    isCommentsEnabled: false,
+    endOfLessonRedirect: null,
+    endOfLessonText: '',
+    mirrorLink: null,
+    mirrorNFTAddress: '',
+    url: 'https://www.notion.so/Blockchain-Basics-2eb7b028211c49fe890e7c3551026b83',
+    notionId: '2eb7b028-211c-49fe-890e-7c3551026b83',
+    slug: 'blockchain-basics',
+    slides: [
+      {
+        type: 'LEARN',
+        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=083381bc848401c125c5cae2e8c13b1946fbfd457c7890190168b9c9c2d09908&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=083381bc848401c125c5cae2e8c13b1946fbfd457c7890190168b9c9c2d09908&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=083381bc848401c125c5cae2e8c13b1946fbfd457c7890190168b9c9c2d09908&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=083381bc848401c125c5cae2e8c13b1946fbfd457c7890190168b9c9c2d09908&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=083381bc848401c125c5cae2e8c13b1946fbfd457c7890190168b9c9c2d09908&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=083381bc848401c125c5cae2e8c13b1946fbfd457c7890190168b9c9c2d09908&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=083381bc848401c125c5cae2e8c13b1946fbfd457c7890190168b9c9c2d09908&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=083381bc848401c125c5cae2e8c13b1946fbfd457c7890190168b9c9c2d09908&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=083381bc848401c125c5cae2e8c13b1946fbfd457c7890190168b9c9c2d09908&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=083381bc848401c125c5cae2e8c13b1946fbfd457c7890190168b9c9c2d09908&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=083381bc848401c125c5cae2e8c13b1946fbfd457c7890190168b9c9c2d09908&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=083381bc848401c125c5cae2e8c13b1946fbfd457c7890190168b9c9c2d09908&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=083381bc848401c125c5cae2e8c13b1946fbfd457c7890190168b9c9c2d09908&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=083381bc848401c125c5cae2e8c13b1946fbfd457c7890190168b9c9c2d09908&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=083381bc848401c125c5cae2e8c13b1946fbfd457c7890190168b9c9c2d09908&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=083381bc848401c125c5cae2e8c13b1946fbfd457c7890190168b9c9c2d09908&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=083381bc848401c125c5cae2e8c13b1946fbfd457c7890190168b9c9c2d09908&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=083381bc848401c125c5cae2e8c13b1946fbfd457c7890190168b9c9c2d09908&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
+        title: 'Introduction',
+        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004759Z&X-Amz-Expires=3600&X-Amz-Signature=083381bc848401c125c5cae2e8c13b1946fbfd457c7890190168b9c9c2d09908&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'END',
+        title: 'Lesson Reward'
+      }
+    ],
+    imageLinks: [
+      '/lesson/blockchain-basics/introduction-6d0b6137.svg',
+      '/lesson/blockchain-basics/blockchain-structure-346dae14.svg',
+      '/lesson/blockchain-basics/examining-the-ledger-74e5f072.svg',
+      '/lesson/blockchain-basics/transactions-on-the-ledger-f4f9d470.svg',
+      '/lesson/blockchain-basics/block-anatomy-8ba3bea2.svg',
+      '/lesson/blockchain-basics/inside-a-block-b11c74ce.svg',
+      '/lesson/blockchain-basics/individual-transactions-2f6bf118.svg',
+      '/lesson/blockchain-basics/user-addresses-e9456d37.svg'
+    ]
+  },
+  {
+    '0': 'K',
+    '1': 'u',
+    '2': 'd',
+    '3': 'o',
+    '4': 's',
+    '5': ' ',
+    '6': 'i',
+    '7': 'm',
+    '8': 'a',
+    '9': 'g',
+    '10': 'e',
+    lessonImageLink: '/lesson/undefined/lesson-5aa84b59.png',
+    socialImageLink: undefined,
+    learningActions: 'Create and manage your own wallet\nConnect your wallet to a web3 website',
+    marketingDescription: 'A crypto wallet is essential gear for Web3 and DeFi. Get basic training on how a wallet works and how to get started.',
+    kudosId: 2561,
+    duration: 15,
+    learnings: undefined,
+    difficulty: 'Easy',
+    description: 'Create and securely manage your first crypto wallet.',
+    name: 'Wallet Basics',
+    moduleId: undefined,
+    quest: 'gBdL',
+    publicationStatus: 'publish',
+    featuredOrderOnHomepage: null,
+    isCommentsEnabled: false,
+    endOfLessonRedirect: null,
+    endOfLessonText: '',
+    mirrorLink: null,
+    mirrorNFTAddress: '',
+    url: 'https://www.notion.so/Wallet-Basics-cf1301e751ee4e02a2d72c6cee7a75e6',
+    notionId: 'cf1301e7-51ee-4e02-a2d7-2c6cee7a75e6',
+    slug: 'wallet-basics',
+    slides: [
+      {
+        type: 'LEARN',
+        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
+        title: 'Wallet Intro',
+        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=43e03a00696f3b031cdabb5f3db45d4f032cbfa88d978da28ffbab0d27a9539d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
+        title: 'Wallet Intro',
+        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=43e03a00696f3b031cdabb5f3db45d4f032cbfa88d978da28ffbab0d27a9539d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
+        title: 'Wallet Intro',
+        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=43e03a00696f3b031cdabb5f3db45d4f032cbfa88d978da28ffbab0d27a9539d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
+        title: 'Wallet Intro',
+        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=43e03a00696f3b031cdabb5f3db45d4f032cbfa88d978da28ffbab0d27a9539d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
+        title: 'Wallet Intro',
+        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=43e03a00696f3b031cdabb5f3db45d4f032cbfa88d978da28ffbab0d27a9539d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
+        title: 'Wallet Intro',
+        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=43e03a00696f3b031cdabb5f3db45d4f032cbfa88d978da28ffbab0d27a9539d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
+        title: 'Wallet Intro',
+        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=43e03a00696f3b031cdabb5f3db45d4f032cbfa88d978da28ffbab0d27a9539d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
+        title: 'Wallet Intro',
+        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=43e03a00696f3b031cdabb5f3db45d4f032cbfa88d978da28ffbab0d27a9539d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
+        title: 'Wallet Intro',
+        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=43e03a00696f3b031cdabb5f3db45d4f032cbfa88d978da28ffbab0d27a9539d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
+        title: 'Wallet Intro',
+        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=43e03a00696f3b031cdabb5f3db45d4f032cbfa88d978da28ffbab0d27a9539d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
+        title: 'Wallet Intro',
+        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=43e03a00696f3b031cdabb5f3db45d4f032cbfa88d978da28ffbab0d27a9539d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
+        title: 'Wallet Intro',
+        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=43e03a00696f3b031cdabb5f3db45d4f032cbfa88d978da28ffbab0d27a9539d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
+        title: 'Wallet Intro',
+        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=43e03a00696f3b031cdabb5f3db45d4f032cbfa88d978da28ffbab0d27a9539d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
+        title: 'Wallet Intro',
+        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=43e03a00696f3b031cdabb5f3db45d4f032cbfa88d978da28ffbab0d27a9539d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
+        title: 'Wallet Intro',
+        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=43e03a00696f3b031cdabb5f3db45d4f032cbfa88d978da28ffbab0d27a9539d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
+        title: 'Wallet Intro',
+        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=43e03a00696f3b031cdabb5f3db45d4f032cbfa88d978da28ffbab0d27a9539d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'END',
+        title: 'Lesson Reward'
+      }
+    ],
+    imageLinks: [
+      '/lesson/wallet-basics/wallet-intro-7b45d75e.png',
+      '/lesson/wallet-basics/wallet-definition-e8f8f9a8.svg',
+      '/lesson/wallet-basics/recovery-phrase-c2d8fa26.svg',
+      '/lesson/wallet-basics/public-key-b6387071.svg',
+      '/lesson/wallet-basics/private-key-ca271641.svg',
+      '/lesson/wallet-basics/custodial-wallet-29ed2b65.svg',
+      '/lesson/wallet-basics/non-custodial-wallet-aee2708b.svg',
+      '/lesson/wallet-basics/hot-wallet-1d444d7c.svg',
+      '/lesson/wallet-basics/cold-wallet-59646edb.svg',
+      '/lesson/wallet-basics/metamask-wallet-521de184.svg'
     ]
   },
   {
@@ -887,161 +1212,35 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: '/lesson/undefined/lesson-dcff6ea3.png',
+    lessonImageLink: '/lesson/undefined/lesson-71b79973.png',
     socialImageLink: undefined,
     learningActions: '',
     marketingDescription: '',
-    kudosId: 14611,
-    duration: 15,
+    kudosId: null,
+    duration: 5,
     learnings: undefined,
     difficulty: 'Easy',
-    description: 'Understand how Layer 1 blockchains work - and learn their limitations!',
-    name: 'Layer 1 Blockchains',
+    description: 'Learn how to fund your wallet on L2 via CEXs, third-party onramps, and bridges.',
+    name: 'A Guide to Stablecoins',
     moduleId: undefined,
     quest: 'gBdL',
-    publicationStatus: 'publish',
-    featuredOrderOnHomepage: null,
+    publicationStatus: 'planned',
+    featuredOrderOnHomepage: 1,
     isCommentsEnabled: false,
     endOfLessonRedirect: null,
     endOfLessonText: '',
-    mirrorLink: null,
-    mirrorNFTAddress: '',
-    url: 'https://www.notion.so/Layer-1-Blockchains-3b78545681f2495897c1dfb17f19db1f',
-    notionId: '3b785456-81f2-4958-97c1-dfb17f19db1f',
-    slug: 'layer-1-blockchains',
+    mirrorLink: 'https://mirror.xyz/banklessacademy.eth/zLajMWXQC44H4uQOXK5j9ROZhuC3xwgoddLtAQQo0k0',
+    mirrorNFTAddress: '0x235f3dfe5106f137d8b137c1b7fa115076e8b476',
+    url: 'https://www.notion.so/A-Guide-to-Stablecoins-a0b425233a234df7abfb9c1157eab043',
+    notionId: 'a0b42523-3a23-4df7-abfb-9c1157eab043',
+    slug: 'a-guide-to-stablecoins',
     slides: [
-      {
-        type: 'LEARN',
-        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=00fcf2e621fa8cf10012d15ddc3265fea6392e5956130c578893e470f7b4d389&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=00fcf2e621fa8cf10012d15ddc3265fea6392e5956130c578893e470f7b4d389&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=00fcf2e621fa8cf10012d15ddc3265fea6392e5956130c578893e470f7b4d389&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=00fcf2e621fa8cf10012d15ddc3265fea6392e5956130c578893e470f7b4d389&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=00fcf2e621fa8cf10012d15ddc3265fea6392e5956130c578893e470f7b4d389&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=00fcf2e621fa8cf10012d15ddc3265fea6392e5956130c578893e470f7b4d389&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=00fcf2e621fa8cf10012d15ddc3265fea6392e5956130c578893e470f7b4d389&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=00fcf2e621fa8cf10012d15ddc3265fea6392e5956130c578893e470f7b4d389&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=00fcf2e621fa8cf10012d15ddc3265fea6392e5956130c578893e470f7b4d389&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=00fcf2e621fa8cf10012d15ddc3265fea6392e5956130c578893e470f7b4d389&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=00fcf2e621fa8cf10012d15ddc3265fea6392e5956130c578893e470f7b4d389&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=00fcf2e621fa8cf10012d15ddc3265fea6392e5956130c578893e470f7b4d389&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=00fcf2e621fa8cf10012d15ddc3265fea6392e5956130c578893e470f7b4d389&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=00fcf2e621fa8cf10012d15ddc3265fea6392e5956130c578893e470f7b4d389&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=00fcf2e621fa8cf10012d15ddc3265fea6392e5956130c578893e470f7b4d389&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=00fcf2e621fa8cf10012d15ddc3265fea6392e5956130c578893e470f7b4d389&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=00fcf2e621fa8cf10012d15ddc3265fea6392e5956130c578893e470f7b4d389&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=00fcf2e621fa8cf10012d15ddc3265fea6392e5956130c578893e470f7b4d389&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '5c181d50-50c3-409d-905d-c10261acd5a4',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p>Problems emerge when more users want to use a <code>blockchain</code> network than it can handle. Large demand for <code>blockspace</code> can be temporary or can last as long as users continue to have a strong desire to use the blockchain. In times of high demand, Ethereum users can pay skyrocketing fees to still have their transactions processed quickly— ultimately pricing out users with less capital.</p><p>This lesson explores why Ethereum and other blockchains are subject to the <code>Blockchain Trilemma</code>, how the Trilemma is the root cause of the problems described above, and how the Trilemma affects Ethereum’s plans for serving the needs of all its users. We will look at the tradeoffs several blockchains have made concerning the Blockchain Trilemma, and what those tradeoffs mean for Academy Explorers.</p><p></p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2cf1a5-5dc6-4f4e-8ed2-62acb7d84c5b/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=00fcf2e621fa8cf10012d15ddc3265fea6392e5956130c578893e470f7b4d389&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
       {
         type: 'END',
         title: 'Lesson Reward'
       }
     ],
-    imageLinks: [
-      '/lesson/layer-1-blockchains/introduction-e0da8469.svg',
-      '/lesson/layer-1-blockchains/blockchain-trilemma-31329f66.svg',
-      '/lesson/layer-1-blockchains/security-and-consensus-5e1f03b6.svg',
-      '/lesson/layer-1-blockchains/security-and-attacks-7d35acf6.svg',
-      '/lesson/layer-1-blockchains/scalability-throughput-4b140ad0.svg',
-      '/lesson/layer-1-blockchains/scalability-finality-161f7e2b.svg',
-      '/lesson/layer-1-blockchains/decentralization-distributes-power-829f91a2.svg',
-      '/lesson/layer-1-blockchains/is-it-decentralized-4b5bf857.svg',
-      '/lesson/layer-1-blockchains/some-examples-523b9b96.svg',
-      '/lesson/layer-1-blockchains/so-what-can-be-done-50592b46.svg',
-      '/lesson/layer-1-blockchains/the-future-of-ethereum-2b64fd6b.svg'
-    ]
+    imageLinks: []
   },
   {
     '0': 'K',
@@ -1187,90 +1386,6 @@ const LESSONS: LessonType[] = [
     '8': 'a',
     '9': 'g',
     '10': 'e',
-    lessonImageLink: '/lesson/undefined/lesson-71b79973.png',
-    socialImageLink: undefined,
-    learningActions: '',
-    marketingDescription: '',
-    kudosId: null,
-    duration: 5,
-    learnings: undefined,
-    difficulty: 'Easy',
-    description: 'Learn how to fund your wallet on L2 via CEXs, third-party onramps, and bridges.',
-    name: 'A Guide to Stablecoins',
-    moduleId: undefined,
-    quest: 'gBdL',
-    publicationStatus: 'planned',
-    featuredOrderOnHomepage: 1,
-    isCommentsEnabled: false,
-    endOfLessonRedirect: null,
-    endOfLessonText: '',
-    mirrorLink: 'https://mirror.xyz/banklessacademy.eth/zLajMWXQC44H4uQOXK5j9ROZhuC3xwgoddLtAQQo0k0',
-    mirrorNFTAddress: '0x235f3dfe5106f137d8b137c1b7fa115076e8b476',
-    url: 'https://www.notion.so/A-Guide-to-Stablecoins-a0b425233a234df7abfb9c1157eab043',
-    notionId: 'a0b42523-3a23-4df7-abfb-9c1157eab043',
-    slug: 'a-guide-to-stablecoins',
-    slides: [
-      {
-        type: 'END',
-        title: 'Lesson Reward'
-      }
-    ],
-    imageLinks: []
-  },
-  {
-    '0': 'K',
-    '1': 'u',
-    '2': 'd',
-    '3': 'o',
-    '4': 's',
-    '5': ' ',
-    '6': 'i',
-    '7': 'm',
-    '8': 'a',
-    '9': 'g',
-    '10': 'e',
-    lessonImageLink: '/lesson/undefined/lesson-03a3e86a.png',
-    socialImageLink: undefined,
-    learningActions: '',
-    marketingDescription: '',
-    kudosId: 14067,
-    duration: null,
-    learnings: undefined,
-    difficulty: 'Easy',
-    description: 'For testing purposes only',
-    name: 'Kudos testing',
-    moduleId: undefined,
-    quest: 'gBdL',
-    publicationStatus: 'hidden',
-    featuredOrderOnHomepage: null,
-    isCommentsEnabled: false,
-    endOfLessonRedirect: null,
-    endOfLessonText: '',
-    mirrorLink: null,
-    mirrorNFTAddress: '',
-    url: 'https://www.notion.so/Kudos-testing-5179bd813d394eec8b8e67f4a1ff0b4e',
-    notionId: '5179bd81-3d39-4eec-8b8e-67f4a1ff0b4e',
-    slug: 'kudos-testing',
-    slides: [
-      {
-        type: 'END',
-        title: 'Lesson Reward'
-      }
-    ],
-    imageLinks: []
-  },
-  {
-    '0': 'K',
-    '1': 'u',
-    '2': 'd',
-    '3': 'o',
-    '4': 's',
-    '5': ' ',
-    '6': 'i',
-    '7': 'm',
-    '8': 'a',
-    '9': 'g',
-    '10': 'e',
     lessonImageLink: '/lesson/undefined/lesson-29da6288.png',
     socialImageLink: undefined,
     learningActions: '',
@@ -1298,133 +1413,133 @@ const LESSONS: LessonType[] = [
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'LEARN',
         notionId: '9f58a39d-1f12-45be-a3b3-c456a1fb6ff1',
         title: 'Introduction',
-        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004147Z&X-Amz-Expires=3600&X-Amz-Signature=accb5ce00c588813d265862404f34f51572b5d9be63e4b030dd37f5c19d7bbc5&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+        content: '<div class="bloc1"><p>The desired operational state for any blockchain is to be as decentralized, secure, and scalable as possible. Building a blockchain that handles all three aspects well has proven to be a challenge, as yet unsolved. This challenge has been given a name: the <code>Blockchain Trilemma</code>. </p><p>Bitcoin and Ethereum are both fairly decentralized and secure, but they don’t scale well, as is evident from the high transaction fees and long transaction queues when the network is busy. To circumvent these issues, Explorers can make use of various technologies which drastically reduce transaction costs and increase transaction speed. These are collectively known as Layer 2 (L2) scaling solutions.</p><p>The Lightning Network is Bitcoin’s best-known scaling solution, and it relies on a technology called <code>payment channels</code> to scale payments between parties. Ethereum has plans to eventually ease the Blockchain Trilemma through the use of sharding technology, but for the immediate future the network is relying on various L2 solutions to improve scalability.\n</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/15a9ebee-3115-439f-b61d-91167eb55797/001_Introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004800Z&X-Amz-Expires=3600&X-Amz-Signature=b4aca8930ad2e6e6938ae03fd45d3b4ea8da39d02b53152409059039fcec55d8&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
       },
       {
         type: 'END',
@@ -1441,6 +1556,568 @@ const LESSONS: LessonType[] = [
       '/lesson/layer-2-blockchains/zk-rollups-bc7c293e.svg',
       '/lesson/layer-2-blockchains/cross-chain-dapp-compatibility-eeb2b414.svg',
       '/lesson/layer-2-blockchains/start-your-layer-2-journey-with-optimism--7999722b.svg'
+    ]
+  },
+  {
+    '0': 'K',
+    '1': 'u',
+    '2': 'd',
+    '3': 'o',
+    '4': 's',
+    '5': ' ',
+    '6': 'i',
+    '7': 'm',
+    '8': 'a',
+    '9': 'g',
+    '10': 'e',
+    lessonImageLink: '',
+    socialImageLink: undefined,
+    learningActions: '',
+    marketingDescription: '',
+    kudosId: null,
+    duration: null,
+    learnings: undefined,
+    difficulty: 'Easy',
+    description: '',
+    name: 'ENS article',
+    moduleId: undefined,
+    quest: 'gBdL',
+    publicationStatus: 'hidden',
+    featuredOrderOnHomepage: null,
+    isCommentsEnabled: false,
+    endOfLessonRedirect: null,
+    endOfLessonText: '',
+    mirrorLink: null,
+    mirrorNFTAddress: '',
+    url: 'https://www.notion.so/ENS-article-3fc1b46d8bc24fa4ba4c2f79e4c7afb9',
+    notionId: '3fc1b46d-8bc2-4fa4-ba4c-2f79e4c7afb9',
+    slug: 'ens-article',
+    slides: [
+      {
+        type: 'END',
+        title: 'Lesson Reward'
+      }
+    ],
+    imageLinks: []
+  },
+  {
+    '0': 'K',
+    '1': 'u',
+    '2': 'd',
+    '3': 'o',
+    '4': 's',
+    '5': ' ',
+    '6': 'i',
+    '7': 'm',
+    '8': 'a',
+    '9': 'g',
+    '10': 'e',
+    lessonImageLink: '',
+    socialImageLink: undefined,
+    learningActions: '',
+    marketingDescription: 'DEXs and AMMs have changed the landscape of traditional market trading. It’s time to understand why, and how you can use this technology to your own advantage.',
+    kudosId: null,
+    duration: 15,
+    learnings: undefined,
+    difficulty: 'Easy',
+    description: 'Discover how smart-contract exchanges enable permissionless token swaps!',
+    name: 'Decentralized Exchanges',
+    moduleId: undefined,
+    quest: 'gBdL',
+    publicationStatus: 'planned',
+    featuredOrderOnHomepage: null,
+    isCommentsEnabled: false,
+    endOfLessonRedirect: null,
+    endOfLessonText: '',
+    mirrorLink: null,
+    mirrorNFTAddress: '',
+    url: 'https://www.notion.so/Decentralized-Exchanges-a47ce4a562334e47819d9760c7336daa',
+    notionId: 'a47ce4a5-6233-4e47-819d-9760c7336daa',
+    slug: 'decentralized-exchanges',
+    slides: [
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"><ul><li><strong>What are the primary DEX use cases?</strong></li></ul><ul><li><strong>What are the primary DEX use cases?</strong></li></ul><li><strong>Why would you exchange tokens?</strong></li></ul></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '16ba7264-c99c-481a-8fff-5965ede927c2',
+        title: 'What is a Decentralized Exchange?',
+        content: '<div class="bloc1"></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b78d5c20-bb20-42e5-b6a2-7f9839ef9ab3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004801Z&X-Amz-Expires=3600&X-Amz-Signature=2593ceb757ccac74b38c4ac4ac48cce8d24f9d0b54bdfd49117c5efc9e1bc12a&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'END',
+        title: 'Lesson Reward'
+      }
+    ],
+    imageLinks: []
+  },
+  {
+    '0': 'K',
+    '1': 'u',
+    '2': 'd',
+    '3': 'o',
+    '4': 's',
+    '5': ' ',
+    '6': 'i',
+    '7': 'm',
+    '8': 'a',
+    '9': 'g',
+    '10': 'e',
+    lessonImageLink: '',
+    socialImageLink: undefined,
+    learningActions: '',
+    marketingDescription: 'What does it mean to go Bankless? In this lesson, we discuss why millions of people are investing in cryptocurrency - and practical first steps for joining the movement.',
+    kudosId: null,
+    duration: 10,
+    learnings: undefined,
+    difficulty: 'Easy',
+    description: 'What does it mean to go Bankless? Take your first step, here.',
+    name: 'Going Bankless',
+    moduleId: undefined,
+    quest: 'gBdL',
+    publicationStatus: 'hidden',
+    featuredOrderOnHomepage: null,
+    isCommentsEnabled: false,
+    endOfLessonRedirect: null,
+    endOfLessonText: '',
+    mirrorLink: null,
+    mirrorNFTAddress: '',
+    url: 'https://www.notion.so/Going-Bankless-13df8d13d07446dba422bf8c66c0f73c',
+    notionId: '13df8d13-d074-46db-a422-bf8c66c0f73c',
+    slug: 'going-bankless',
+    slides: [
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'd380e75f-1f38-4719-afc6-ca36f5a12f88',
+        title: 'Intro',
+        content: '<div class="bloc1"><p>What is the Bankless movement in 1-2 phrases.</p><p>What is Bankless Academy: scalable learning platform to learn the basic on how to become Bankless.</p><p>The usual way of learning Bankless Academy: learning slides + quiz, practice via quests, then after completion receive an onchain lesson badge that proves your knowledge.</p><p>Requirement (who is this for?): web3 and tech curious + interest in self sovereignty</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230703T180818Z&X-Amz-Expires=3600&X-Amz-Signature=073162f47a6e16f61f49654f61ad33a7afbff139b6398737a9d6737744a94fdd&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
+      },
+      {
+        type: 'END',
+        title: 'Lesson Reward'
+      }
+    ],
+    imageLinks: [
+      '/lesson/going-bankless/welcome-to-InnovAccion-cf9ea670.png',
+      '/lesson/going-bankless/upgrading-humanitys-coordination-protocols-2ef0d764.png',
+      '/lesson/going-bankless/your-bankless-journey-9736d072.png'
     ]
   },
   {
@@ -1508,683 +2185,6 @@ const LESSONS: LessonType[] = [
       }
     ],
     imageLinks: []
-  },
-  {
-    '0': 'K',
-    '1': 'u',
-    '2': 'd',
-    '3': 'o',
-    '4': 's',
-    '5': ' ',
-    '6': 'i',
-    '7': 'm',
-    '8': 'a',
-    '9': 'g',
-    '10': 'e',
-    lessonImageLink: '/lesson/undefined/lesson-97291c9d.png',
-    socialImageLink: undefined,
-    learningActions: 'Transfer crypto into your web3 wallet in order to be ready to interact with DeFi later',
-    marketingDescription: 'Move beyond centralized exchanges and start exploring the ever-expanding possibilities of decentralized finance.',
-    kudosId: 2562,
-    duration: 10,
-    learnings: undefined,
-    difficulty: 'Easy',
-    description: 'Understand the basics of decentralized finance.',
-    name: 'Intro to DeFi',
-    moduleId: undefined,
-    quest: 'gBdL',
-    publicationStatus: 'publish',
-    featuredOrderOnHomepage: null,
-    isCommentsEnabled: false,
-    endOfLessonRedirect: null,
-    endOfLessonText: '',
-    mirrorLink: null,
-    mirrorNFTAddress: '',
-    url: 'https://www.notion.so/Intro-to-DeFi-90a9cf9ee68c4afc8d866d2574b09d5c',
-    notionId: '90a9cf9e-e68c-4afc-8d86-6d2574b09d5c',
-    slug: 'intro-to-defi',
-    slides: [
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '9defd424-9954-40e2-9898-b5ee8dfea638',
-        title: 'DeFi Defined',
-        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized</code> finance—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools for putting crypto assets to work. It offers opportunities beyond simply buying crypto on a centralized exchange.  It allows anyone and everyone to build a decentralized, Bankless lifestyle.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/86daf5d2-3457-4abe-a55a-4c27bf35d0a9/defiVerbs.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004148Z&X-Amz-Expires=3600&X-Amz-Signature=68e112944983a40c7bd09ea69ee3877c8433f5a1da36cd42757fb961df2ce040&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'END',
-        title: 'Lesson Reward'
-      }
-    ],
-    imageLinks: [
-      '/lesson/intro-to-defi/defi-defined-46782447.svg',
-      '/lesson/intro-to-defi/earning-yield-c5f123f8.svg',
-      '/lesson/intro-to-defi/what-you-can-do-with-defi-9b17cf2e.svg',
-      '/lesson/intro-to-defi/investing-d99a6d1f.svg',
-      '/lesson/intro-to-defi/trading-8cd72977.svg',
-      '/lesson/intro-to-defi/lending-borrowing-4fb1c7c3.svg',
-      '/lesson/intro-to-defi/staking-b4b4319d.svg',
-      '/lesson/intro-to-defi/defi-downsides-51dd6225.svg',
-      '/lesson/intro-to-defi/defi-downsides-3a6ce496.svg',
-      '/lesson/intro-to-defi/defi-downsides-83a9391f.svg'
-    ]
-  },
-  {
-    '0': 'K',
-    '1': 'u',
-    '2': 'd',
-    '3': 'o',
-    '4': 's',
-    '5': ' ',
-    '6': 'i',
-    '7': 'm',
-    '8': 'a',
-    '9': 'g',
-    '10': 'e',
-    lessonImageLink: '/lesson/undefined/lesson-c84db284.png',
-    socialImageLink: undefined,
-    learningActions: '',
-    marketingDescription: 'Blockchains make cryptocurrency, DeFi, and Web3 possible. Discover how blockchain networks are built and how they work.',
-    kudosId: 2563,
-    duration: 15,
-    learnings: undefined,
-    difficulty: 'Easy',
-    description: 'Learn about the fundamental architecture of blockchain technology.',
-    name: 'Blockchain Basics',
-    moduleId: undefined,
-    quest: 'gBdL',
-    publicationStatus: 'publish',
-    featuredOrderOnHomepage: null,
-    isCommentsEnabled: false,
-    endOfLessonRedirect: null,
-    endOfLessonText: '',
-    mirrorLink: null,
-    mirrorNFTAddress: '',
-    url: 'https://www.notion.so/Blockchain-Basics-2eb7b028211c49fe890e7c3551026b83',
-    notionId: '2eb7b028-211c-49fe-890e-7c3551026b83',
-    slug: 'blockchain-basics',
-    slides: [
-      {
-        type: 'LEARN',
-        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004150Z&X-Amz-Expires=3600&X-Amz-Signature=781e53ab9bc430da5b7ea9459e7336fbdd3cd28a1dc01f86d44ebc0c8d807eee&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004150Z&X-Amz-Expires=3600&X-Amz-Signature=781e53ab9bc430da5b7ea9459e7336fbdd3cd28a1dc01f86d44ebc0c8d807eee&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004150Z&X-Amz-Expires=3600&X-Amz-Signature=781e53ab9bc430da5b7ea9459e7336fbdd3cd28a1dc01f86d44ebc0c8d807eee&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004150Z&X-Amz-Expires=3600&X-Amz-Signature=781e53ab9bc430da5b7ea9459e7336fbdd3cd28a1dc01f86d44ebc0c8d807eee&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004150Z&X-Amz-Expires=3600&X-Amz-Signature=781e53ab9bc430da5b7ea9459e7336fbdd3cd28a1dc01f86d44ebc0c8d807eee&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004150Z&X-Amz-Expires=3600&X-Amz-Signature=781e53ab9bc430da5b7ea9459e7336fbdd3cd28a1dc01f86d44ebc0c8d807eee&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004150Z&X-Amz-Expires=3600&X-Amz-Signature=781e53ab9bc430da5b7ea9459e7336fbdd3cd28a1dc01f86d44ebc0c8d807eee&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004150Z&X-Amz-Expires=3600&X-Amz-Signature=781e53ab9bc430da5b7ea9459e7336fbdd3cd28a1dc01f86d44ebc0c8d807eee&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004150Z&X-Amz-Expires=3600&X-Amz-Signature=781e53ab9bc430da5b7ea9459e7336fbdd3cd28a1dc01f86d44ebc0c8d807eee&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004150Z&X-Amz-Expires=3600&X-Amz-Signature=781e53ab9bc430da5b7ea9459e7336fbdd3cd28a1dc01f86d44ebc0c8d807eee&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004150Z&X-Amz-Expires=3600&X-Amz-Signature=781e53ab9bc430da5b7ea9459e7336fbdd3cd28a1dc01f86d44ebc0c8d807eee&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004150Z&X-Amz-Expires=3600&X-Amz-Signature=781e53ab9bc430da5b7ea9459e7336fbdd3cd28a1dc01f86d44ebc0c8d807eee&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004150Z&X-Amz-Expires=3600&X-Amz-Signature=781e53ab9bc430da5b7ea9459e7336fbdd3cd28a1dc01f86d44ebc0c8d807eee&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004150Z&X-Amz-Expires=3600&X-Amz-Signature=781e53ab9bc430da5b7ea9459e7336fbdd3cd28a1dc01f86d44ebc0c8d807eee&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004150Z&X-Amz-Expires=3600&X-Amz-Signature=781e53ab9bc430da5b7ea9459e7336fbdd3cd28a1dc01f86d44ebc0c8d807eee&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004150Z&X-Amz-Expires=3600&X-Amz-Signature=781e53ab9bc430da5b7ea9459e7336fbdd3cd28a1dc01f86d44ebc0c8d807eee&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004150Z&X-Amz-Expires=3600&X-Amz-Signature=781e53ab9bc430da5b7ea9459e7336fbdd3cd28a1dc01f86d44ebc0c8d807eee&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004150Z&X-Amz-Expires=3600&X-Amz-Signature=781e53ab9bc430da5b7ea9459e7336fbdd3cd28a1dc01f86d44ebc0c8d807eee&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'a5304e46-1156-4124-bf54-9564ee91dda5',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Blockchain</code> technology is a revolutionary way of storing and tracking data, while also making that data accessible to anyone. It is a way of organizing data in a single public list of all historical transactions that anyone can view but cannot edit. This public list of transactions is collectively known as the blockchain <code>ledger</code>.</p><p>After examining the layers of a blockchain, we will be using a blockchain tool called a <code>block explorer</code> to look into the specifics of the Ethereum blockchain structure; we will zoom in on the Ethereum blockchain to view the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec662b2c-45a0-4a6b-968c-e36b24d4ad67/blockchain.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004150Z&X-Amz-Expires=3600&X-Amz-Signature=781e53ab9bc430da5b7ea9459e7336fbdd3cd28a1dc01f86d44ebc0c8d807eee&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'END',
-        title: 'Lesson Reward'
-      }
-    ],
-    imageLinks: [
-      '/lesson/blockchain-basics/introduction-6d0b6137.svg',
-      '/lesson/blockchain-basics/blockchain-structure-346dae14.svg',
-      '/lesson/blockchain-basics/examining-the-ledger-74e5f072.svg',
-      '/lesson/blockchain-basics/transactions-on-the-ledger-f4f9d470.svg',
-      '/lesson/blockchain-basics/block-anatomy-8ba3bea2.svg',
-      '/lesson/blockchain-basics/inside-a-block-b11c74ce.svg',
-      '/lesson/blockchain-basics/individual-transactions-2f6bf118.svg',
-      '/lesson/blockchain-basics/user-addresses-e9456d37.svg'
-    ]
-  },
-  {
-    '0': 'K',
-    '1': 'u',
-    '2': 'd',
-    '3': 'o',
-    '4': 's',
-    '5': ' ',
-    '6': 'i',
-    '7': 'm',
-    '8': 'a',
-    '9': 'g',
-    '10': 'e',
-    lessonImageLink: '/lesson/undefined/lesson-39d1fc1c.png',
-    socialImageLink: undefined,
-    learningActions: '',
-    marketingDescription: '',
-    kudosId: 2608,
-    duration: 15,
-    learnings: undefined,
-    difficulty: 'Easy',
-    description: 'Dive into DEX Aggregators, liquidity, and the DeFi exchange landscape.',
-    name: 'DEX Aggregators',
-    moduleId: undefined,
-    quest: 'gBdL',
-    publicationStatus: 'publish',
-    featuredOrderOnHomepage: 3,
-    isCommentsEnabled: false,
-    endOfLessonRedirect: null,
-    endOfLessonText: '',
-    mirrorLink: null,
-    mirrorNFTAddress: '',
-    url: 'https://www.notion.so/DEX-Aggregators-e4db9d0b47db4dc596ba707f92003632',
-    notionId: 'e4db9d0b-47db-4dc5-96ba-707f92003632',
-    slug: 'dex-aggregators',
-    slides: [
-      {
-        type: 'LEARN',
-        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004202Z&X-Amz-Expires=3600&X-Amz-Signature=3512fb07564fba8cc4d79b3d327d400012dd221949f56be9be3894b6ae04819d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004202Z&X-Amz-Expires=3600&X-Amz-Signature=3512fb07564fba8cc4d79b3d327d400012dd221949f56be9be3894b6ae04819d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004202Z&X-Amz-Expires=3600&X-Amz-Signature=3512fb07564fba8cc4d79b3d327d400012dd221949f56be9be3894b6ae04819d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004202Z&X-Amz-Expires=3600&X-Amz-Signature=3512fb07564fba8cc4d79b3d327d400012dd221949f56be9be3894b6ae04819d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004202Z&X-Amz-Expires=3600&X-Amz-Signature=3512fb07564fba8cc4d79b3d327d400012dd221949f56be9be3894b6ae04819d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004202Z&X-Amz-Expires=3600&X-Amz-Signature=3512fb07564fba8cc4d79b3d327d400012dd221949f56be9be3894b6ae04819d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004202Z&X-Amz-Expires=3600&X-Amz-Signature=3512fb07564fba8cc4d79b3d327d400012dd221949f56be9be3894b6ae04819d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004202Z&X-Amz-Expires=3600&X-Amz-Signature=3512fb07564fba8cc4d79b3d327d400012dd221949f56be9be3894b6ae04819d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004202Z&X-Amz-Expires=3600&X-Amz-Signature=3512fb07564fba8cc4d79b3d327d400012dd221949f56be9be3894b6ae04819d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004202Z&X-Amz-Expires=3600&X-Amz-Signature=3512fb07564fba8cc4d79b3d327d400012dd221949f56be9be3894b6ae04819d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004202Z&X-Amz-Expires=3600&X-Amz-Signature=3512fb07564fba8cc4d79b3d327d400012dd221949f56be9be3894b6ae04819d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'cff7adc3-fb94-4bb4-8223-0353e2e935f0',
-        title: 'Introduction',
-        content: '<div class="bloc1"><p><code>Decentralized Exchange</code>s (DEXs) eliminate the costs of intermediaries and save Explorers money when trading assets. </p><p>But did you know, Explorer, that there’s more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on various DEX platforms simultaneously and execute the best trade route — all in one action. They help you get the best deal when doing a token <code>swap</code>. Just like airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize the value of your trade.</p><p>This lesson will show:</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/181783e5-4ec4-46f8-abcf-854977ec461c/001_introduction.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004202Z&X-Amz-Expires=3600&X-Amz-Signature=3512fb07564fba8cc4d79b3d327d400012dd221949f56be9be3894b6ae04819d&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'END',
-        title: 'Lesson Reward'
-      }
-    ],
-    imageLinks: [
-      '/lesson/dex-aggregators/introduction-ba453b68.svg',
-      '/lesson/dex-aggregators/an-example-of-how-liquidity-impacts-prices-915b3d84.svg',
-      '/lesson/dex-aggregators/shortcomings-of-traditional-dexs-thin-liquidity-c9e0b695.svg',
-      '/lesson/dex-aggregators/recombining-liquidity-with-dex-aggregators-f01777dd.svg',
-      '/lesson/dex-aggregators/how-gas-cost-is-calculated-on-ethereum-c34efe86.svg',
-      '/lesson/dex-aggregators/how-aggregators-reduce-gas-costs-for-users-28d6f207.svg',
-      '/lesson/dex-aggregators/meta-aggregators-100793fd.svg',
-      '/lesson/dex-aggregators/avoiding-sandwich-attacks-75f6ae82.svg',
-      '/lesson/dex-aggregators/more-protection-from-sandwiches-otc-trades-04ef66c9.svg'
-    ]
-  },
-  {
-    '0': 'K',
-    '1': 'u',
-    '2': 'd',
-    '3': 'o',
-    '4': 's',
-    '5': ' ',
-    '6': 'i',
-    '7': 'm',
-    '8': 'a',
-    '9': 'g',
-    '10': 'e',
-    lessonImageLink: '/lesson/undefined/lesson-5aa84b59.png',
-    socialImageLink: undefined,
-    learningActions: 'Create and manage your own wallet\nConnect your wallet to a web3 website',
-    marketingDescription: 'A crypto wallet is essential gear for Web3 and DeFi. Get basic training on how a wallet works and how to get started.',
-    kudosId: 2561,
-    duration: 15,
-    learnings: undefined,
-    difficulty: 'Easy',
-    description: 'Create and securely manage your first crypto wallet.',
-    name: 'Wallet Basics',
-    moduleId: undefined,
-    quest: 'gBdL',
-    publicationStatus: 'publish',
-    featuredOrderOnHomepage: null,
-    isCommentsEnabled: false,
-    endOfLessonRedirect: null,
-    endOfLessonText: '',
-    mirrorLink: null,
-    mirrorNFTAddress: '',
-    url: 'https://www.notion.so/Wallet-Basics-cf1301e751ee4e02a2d72c6cee7a75e6',
-    notionId: 'cf1301e7-51ee-4e02-a2d7-2c6cee7a75e6',
-    slug: 'wallet-basics',
-    slides: [
-      {
-        type: 'LEARN',
-        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
-        title: 'Wallet Intro',
-        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
-        title: 'Wallet Intro',
-        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
-        title: 'Wallet Intro',
-        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
-        title: 'Wallet Intro',
-        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
-        title: 'Wallet Intro',
-        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
-        title: 'Wallet Intro',
-        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
-        title: 'Wallet Intro',
-        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
-        title: 'Wallet Intro',
-        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
-        title: 'Wallet Intro',
-        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
-        title: 'Wallet Intro',
-        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
-        title: 'Wallet Intro',
-        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
-        title: 'Wallet Intro',
-        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
-        title: 'Wallet Intro',
-        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
-        title: 'Wallet Intro',
-        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
-        title: 'Wallet Intro',
-        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '3991d16f-1b54-411a-bd56-e24ce7a6b0df',
-        title: 'Wallet Intro',
-        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to Bankless Academy. We’re excited to guide you on your journey into <code>Web3</code>. To get started, you will need some essential equipment: a digital wallet.</p><p>A digital wallet is your passport to exploring the various worlds of Web3. This tool grants you access to incredible new possibilities while safeguarding your assets and identity.</p><p>In this lesson, we’ll introduce you to digital wallets, how they work, and how to set yours up to safely embark on your Web3 journey.</p><p>Let’s get started!</p></div><div class="bloc2"><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8c73987-3c95-40b6-93c8-a9f347b230c6/Instructor_-_Medium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230705%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230705T004223Z&X-Amz-Expires=3600&X-Amz-Signature=e642a04b14ceb2214ad0b5ad99e251df5bd24c5f7610d1dacccadbfe7658da79&X-Amz-SignedHeaders=host&x-id=GetObject"></div>'
-      },
-      {
-        type: 'END',
-        title: 'Lesson Reward'
-      }
-    ],
-    imageLinks: [
-      '/lesson/wallet-basics/wallet-intro-7b45d75e.png',
-      '/lesson/wallet-basics/wallet-definition-e8f8f9a8.svg',
-      '/lesson/wallet-basics/recovery-phrase-c2d8fa26.svg',
-      '/lesson/wallet-basics/public-key-b6387071.svg',
-      '/lesson/wallet-basics/private-key-ca271641.svg',
-      '/lesson/wallet-basics/custodial-wallet-29ed2b65.svg',
-      '/lesson/wallet-basics/non-custodial-wallet-aee2708b.svg',
-      '/lesson/wallet-basics/hot-wallet-1d444d7c.svg',
-      '/lesson/wallet-basics/cold-wallet-59646edb.svg',
-      '/lesson/wallet-basics/metamask-wallet-521de184.svg'
-    ]
   }
 ]
 

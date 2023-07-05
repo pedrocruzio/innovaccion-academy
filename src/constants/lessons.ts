@@ -864,7 +864,7 @@ const LESSONS: LessonType[] = [
     learningActions: 'Create and manage your own wallet\nConnect your wallet to a web3 website',
     marketingDescription: 'A crypto wallet is essential gear for Web3 and DeFi. Get basic training on how a wallet works and how to get started.',
     kudosId: 2561,
-    duration: 15,
+    duration: 20,
     learnings: '',
     difficulty: 'Easy',
     description: 'Aprende sobre el desarrollo de apps de Web3 (Dapps).',
@@ -918,6 +918,202 @@ const LESSONS: LessonType[] = [
           id: 'web3-dev-1'
         }
       },
+      // Cryptography
+{
+  type: 'LEARN',
+  notionId: 'notion2',
+  title: 'Criptografía en Web3',
+  content: '<div class="bloc1"><p>La criptografía es una piedra angular de la seguridad y la funcionalidad de la Web3. A lo largo de esta sección, te introduciremos en los conceptos básicos de la criptografía, cómo se aplica en la blockchain y en las DApps.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+// Criptografía en Blockchain
+{
+  type: 'LEARN',
+  notionId: 'notion3',
+  title: 'Criptografía en Blockchain',
+  content: '<div class="bloc1"><p>La criptografía es esencial para la seguridad y la funcionalidad de la blockchain. Las transacciones, la creación de nuevos bloques y la garantía de integridad de los datos dependen todas de la criptografía. Vamos a explorar cómo se implementa la criptografía en un blockchain, y por qué es tan crítica.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+
+// Criptografía en DApps
+{
+  type: 'LEARN',
+  notionId: 'notion4',
+  title: 'Criptografía en DApps',
+  content: '<div class="bloc1"><p>En las DApps, la criptografía no solo protege las transacciones, sino que también puede jugar un papel en la lógica de la aplicación, como en los contratos inteligentes. A lo largo de esta sección, veremos cómo se puede aplicar la criptografía en las DApps y por qué es importante para su funcionamiento.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+
+{
+  type: 'QUIZ',
+  notionId: 'quiz2',
+  title: 'Prueba de Conocimiento',
+  quiz: {
+    question: '¿Por qué es importante la criptografía en la Web3?',
+    rightAnswerNumber: 2,
+    answers: [
+      'Para cifrar los mensajes de correo electrónico',
+      'Para garantizar la seguridad y la funcionalidad de la blockchain y las DApps',
+      'Para proteger contra los virus de computadora',
+      'Para mejorar el rendimiento del sistema'
+    ],
+    id: 'crypto-intro-1'
+  }
+},
+      // SHA-256 en Criptografía
+      {
+        type: 'LEARN',
+        notionId: 'notion5',
+        title: 'SHA-256 en Criptografía',
+        content: '<div class="bloc1"><p><code>SHA-256</code>, que significa Secure Hash Algorithm 256, es un algoritmo de hash criptográfico comúnmente utilizado en la blockchain. En términos simples, toma cualquier entrada y la convierte en una cadena alfanumérica única de longitud fija.</p><p>Este algoritmo es fundamental para garantizar la integridad y la seguridad de los datos en la blockchain. Cada transacción se pasa a través del algoritmo SHA-256 y se convierte en un hash. Este hash se utiliza luego para crear el sello digital de la transacción, permitiendo que cualquier cambio en la transacción se detecte fácilmente, ya que cambiaría el hash resultante.</p><p>La blockchain de Bitcoin, por ejemplo, utiliza SHA-256 para la creación de nuevos bloques y para asegurar las transacciones.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+      },
+      // Introducción a Ethereum
+{
+  type: 'LEARN',
+  notionId: 'notion8',
+  title: 'Introducción a Ethereum',
+  content: '<div class="bloc1"><p>Ethereum es una blockchain de código abierto que permite la creación de contratos inteligentes. Estos contratos son programas que se ejecutan en la Máquina Virtual Ethereum (EVM), y pueden automatizar la transferencia de criptomonedas bajo ciertas condiciones.</p><p>Ethereum amplía las posibilidades de blockchain más allá de la simple transferencia de valor. Con Ethereum, los desarrolladores pueden crear una variedad de aplicaciones, desde juegos hasta plataformas financieras.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+
+      // Criptografía en Ethereum
+{
+  type: 'LEARN',
+  notionId: 'notion6',
+  title: 'Criptografía en Ethereum',
+  content: '<div class="bloc1"><p>La red de Ethereum, similar a Bitcoin, también utiliza criptografía para garantizar la seguridad e integridad de las transacciones. Aunque Ethereum utiliza el algoritmo Ethash para el minado de sus bloques en lugar de SHA-256, emplea criptografía de la misma manera crucial para la seguridad de las transacciones.</p><p>Cada cuenta en Ethereum tiene una clave pública y una clave privada. La clave privada se utiliza para firmar transacciones: cuando envías Ether o interactúas con un contrato inteligente, firmas la transacción con tu clave privada.</p><p>Esta firma puede ser verificada con la clave pública, pero es matemáticamente inviable derivar la clave privada a partir de la clave pública o de la firma. Esto permite que las transacciones sean seguras: sólo el poseedor de la clave privada puede firmar transacciones, pero cualquier persona puede verificar esas transacciones con la clave pública.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+// Hashes en Ethereum
+{
+  type: 'LEARN',
+  notionId: 'notion7',
+  title: 'Hashes en Ethereum',
+  content: '<div class="bloc1"><p>Los hashes juegan un papel fundamental en la seguridad de Ethereum y de otras blockchains. Un hash es una función que toma una entrada de cualquier tamaño y produce una salida de tamaño fijo. En el caso de Ethereum, la función de hash produce una salida de 256 bits.</p><p>Las funciones de hash tienen una propiedad clave: la misma entrada siempre producirá la misma salida, pero cualquier cambio, incluso minúsculo, en la entrada producirá una salida completamente diferente. Esto es útil para verificar la integridad de los datos. Por ejemplo, Ethereum utiliza hashes para verificar la integridad de los bloques y las transacciones.</p><p>Además, los hashes se utilizan para crear direcciones en Ethereum. Cuando se crea una nueva cuenta, se genera un par de claves pública y privada. La clave pública se pasa por una función de hash para crear la dirección de la cuenta.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+
+// Quiz
+{
+  type: 'QUIZ',
+  notionId: 'quiz2',
+  title: 'Prueba de Conocimiento',
+  quiz: {
+    question: '¿Cómo se utiliza la criptografía en Ethereum?',
+    rightAnswerNumber: 4,
+    answers: [
+      'Para crear direcciones a partir de claves públicas',
+      'Para firmar transacciones con claves privadas',
+      'Para verificar la integridad de los datos utilizando hashes',
+      'Todas las anteriores'
+    ],
+    id: 'crypto-eth-1'
+  }
+},
+
+// Cómo funciona la EVM
+{
+  type: 'LEARN',
+  notionId: 'notion9',
+  title: 'La Máquina Virtual Ethereum (EVM)',
+  content: '<div class="bloc1"><p>La Máquina Virtual Ethereum (EVM) es el entorno de ejecución para los contratos inteligentes en Ethereum. Es completamente aislada del resto de la red, lo que significa que cualquier operación que se realice dentro de la EVM no afecta a las partes externas de la red.</p><p>La EVM permite la ejecución de código complejo dentro de la blockchain, lo que hace posible la creación de aplicaciones descentralizadas (dApps). Todos los nodos de la red Ethereum tienen una implementación de la EVM y deben ejecutar el mismo código con los mismos resultados para mantener la coherencia de la red.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+
+// Gas, Ether y transacciones en Ethereum
+{
+  type: 'LEARN',
+  notionId: 'notion10',
+  title: 'Gas, Ether y Transacciones en Ethereum',
+  content: '<div class="bloc1"><p>En Ethereum, las operaciones tienen un costo asociado denominado "gas". El gas es una medida de la cantidad de trabajo necesaria para ejecutar una operación específica o un contrato inteligente en la EVM. El costo del gas se paga en Ether, la criptomoneda nativa de Ethereum.</p><p>Cada transacción en Ethereum incluye una cantidad de gas y un precio del gas, que es la cantidad de Ether que el remitente está dispuesto a pagar por cada unidad de gas. Cuanto mayor sea el precio del gas, más atractiva será la transacción para los mineros, lo que podría resultar en una confirmación más rápida de la transacción.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+
+// Quiz
+{
+  type: 'QUIZ',
+  notionId: 'quiz3',
+  title: 'Prueba de Conocimiento',
+  quiz: {
+    question: '¿Qué es el gas en Ethereum?',
+    rightAnswerNumber: 2,
+    answers: [
+      'Es la criptomoneda nativa de Ethereum',
+      'Es una medida del trabajo necesario para ejecutar operaciones',
+      'Es la máquina virtual donde se ejecutan los contratos inteligentes',
+      'Es una herramienta de desarrollo para Ethereum'
+    ],
+    id: 'eth-vm-1'
+  }
+},
+// Sintaxis y conceptos clave de Solidity
+{
+  type: 'LEARN',
+  notionId: 'notion11',
+  title: 'Sintaxis y Conceptos Clave de Solidity',
+  content: '<div class="bloc1"><p>Solidity es un lenguaje de programación orientado a contratos inteligentes y utilizado para Ethereum. Su sintaxis es similar a JavaScript y está diseñado para facilitar la escritura de contratos inteligentes en la Máquina Virtual Ethereum (EVM).</p><p>Algunos conceptos clave de Solidity incluyen tipos de datos, funciones, control de acceso, herencia, y la capacidad de definir tu propio tipo de datos complejos.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+
+// Desarrollo de contratos inteligentes con Solidity
+{
+  type: 'LEARN',
+  notionId: 'notion12',
+  title: 'Desarrollo de Contratos Inteligentes con Solidity',
+  content: '<div class="bloc1"><p>Con Solidity, puedes desarrollar contratos inteligentes que ejecutan operaciones y manejan Ether dentro de la EVM. Un contrato inteligente en Solidity es como una "clase" en otros lenguajes de programación, con funciones y estados propios.</p><p>Además, puedes definir constructores, que son funciones que se ejecutan al desplegar el contrato, y modificadores, que son piezas reutilizables de código en las funciones.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+
+// Pruebas y despliegue de contratos inteligentes
+{
+  type: 'LEARN',
+  notionId: 'notion13',
+  title: 'Pruebas y Despliegue de Contratos Inteligentes',
+  content: '<div class="bloc1"><p>Es crucial probar y verificar la seguridad de tus contratos inteligentes antes de desplegarlos en la red principal de Ethereum. Herramientas como Truffle y Ganache pueden ayudarte a crear un entorno de pruebas para tus contratos.</p><p>Una vez que tus contratos hayan sido probados y auditados, pueden ser desplegados en la red principal de Ethereum, donde otros usuarios pueden interactuar con ellos.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+
+// Quiz
+{
+  type: 'QUIZ',
+  notionId: 'quiz4',
+  title: 'Prueba de Conocimiento',
+  quiz: {
+    question: '¿Qué es Solidity?',
+    rightAnswerNumber: 1,
+    answers: [
+      'Un lenguaje de programación para desarrollar contratos inteligentes en Ethereum',
+      'Una herramienta para probar contratos inteligentes',
+      'Un estándar para tokens en Ethereum',
+      'Una organización autónoma descentralizada'
+    ],
+    id: 'solidity-1'
+  }
+},
+
+// Comprender los estándares ERC y su importancia
+{
+  type: 'LEARN',
+  notionId: 'notion14',
+  title: 'Comprender los Estándares ERC y Su Importancia',
+  content: '<div class="bloc1"><p>Los estándares ERC, o Ethereum Request for Comments, son protocolos técnicos que proporcionan directrices para la creación de tokens y contratos inteligentes en Ethereum. Los estándares ERC más comunes son ERC20, ERC721 y ERC1155.</p><p>Estos estándares ayudan a garantizar la interoperabilidad entre diferentes aplicaciones y contratos inteligentes en Ethereum, facilitando así el desarrollo de DApps y DeFi.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+
+// Profundización en ERC20, ERC721, ERC1155 y su uso en DApps
+{
+  type: 'LEARN',
+  notionId: 'notion15',
+  title: 'Profundización en ERC20, ERC721, ERC1155 y Su Uso en DApps',
+  content: '<div class="bloc1"><p>ERC20 es el estándar para tokens fungibles, o tokens que son intercambiables uno por otro. ERC721 es el estándar para tokens no fungibles (NFTs), que son únicos y no intercambiables. ERC1155 es un estándar más nuevo que permite la creación de tokens fungibles y no fungibles en un solo contrato.</p><p>Estos tokens pueden ser usados en una amplia variedad de DApps, desde juegos hasta plataformas de DeFi, y son una parte integral del ecosistema Ethereum.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+
+// Quiz
+{
+  type: 'QUIZ',
+  notionId: 'quiz5',
+  title: 'Prueba de Conocimiento',
+  quiz: {
+    question: '¿Qué es un token ERC20?',
+    rightAnswerNumber: 2,
+    answers: [
+      'Un contrato inteligente',
+      'Un tipo de token fungible en Ethereum',
+      'Una billetera Ethereum',
+      'Una organización autónoma descentralizada'
+    ],
+    id: 'ercs-1'
+  }
+},
+
       {
         type: 'LEARN',
         notionId: 'f764c92b0620495981b32bd34dd1fc62',
@@ -940,28 +1136,156 @@ const LESSONS: LessonType[] = [
           id: 'web3-dev-2'
         }
       },
+
       {
         type: 'LEARN',
         notionId: '1632e1238db7412590f60b88d8a5c2ad',
-        title: 'Herramientas de Desarrollo Web3',
-        content: '<div class="bloc1"><p>Existen muchas herramientas que facilitan el desarrollo Web3, como <code>Truffle</code>, <code>Ganache</code> y <code>Metamask</code>. Estas herramientas te ayudarán a crear, probar y desplegar tus dApps.</p><p>En las siguientes lecciones, exploraremos cada una de estas herramientas en profundidad y te enseñaremos cómo usarlas para maximizar tu eficiencia de desarrollo.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-      },
-      {
+        title: 'Herramientas de Desarrollo Web3: Remix',
+        content: '<div class="bloc1"><p>Existen muchas herramientas que facilitan el desarrollo Web3. Remix es un entorno de desarrollo ampliamente utilizado para escribir contratos inteligentes en Solidity, el lenguaje de programación utilizado por Ethereum.</p><p>Remix ofrece un entorno de desarrollo de contratos inteligentes completo y fácil de usar en tu navegador. Además, Remix se integra con Metamask, lo que facilita las pruebas y el despliegue de tus contratos.</p><p>Es importante mencionar que existen otras herramientas útiles como Hardhat, un entorno de desarrollo de Ethereum que ayuda en la compilación, despliegue, pruebas y depuración de tus contratos inteligentes.</p><p>En las siguientes lecciones, exploraremos más profundamente cómo usar Remix para maximizar tu eficiencia de desarrollo.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+    },
+    {
         type: 'QUIZ',
         notionId: '4eb4acacd7c9494386a77e5fb37bdf7d',
         title: 'Prueba de Conocimiento',
         quiz: {
-          question: '¿Qué herramientas facilitan el desarrollo Web3?',
-          rightAnswerNumber: 2,
+          question: '¿Qué es Remix en el contexto del desarrollo Web3?',
+          rightAnswerNumber: 1,
           answers: [
-            'Photoshop y Illustrator',
-            'Truffle, Ganache y Metamask',
-            'Microsoft Word y Excel',
-            'Slack y Zoom'
+            'Un entorno de desarrollo en el navegador para contratos inteligentes en Solidity',
+            'Una aplicación de edición de música',
+            'Un servicio de alojamiento de archivos en la nube',
+            'Una herramienta de gestión de proyectos'
           ],
           id: 'web3-dev-3'
         }
-      }
+    },
+
+// Concepto y beneficios de las DAOs
+{
+  type: 'LEARN',
+  notionId: 'notion16',
+  title: 'Concepto y Beneficios de las DAOs',
+  content: '<div class="bloc1"><p>Una Organización Autónoma Descentralizada (DAO) es una organización que es gobernada por código y cuya operación y toma de decisiones están automatizadas y descentralizadas.</p><p>Las DAOs tienen el potencial de crear organizaciones transparentes y justas, donde todos los participantes tienen voz en la toma de decisiones y el control no está centralizado en una sola entidad.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+
+// Cómo se estructuran y operan las DAOs
+{
+  type: 'LEARN',
+  notionId: 'notion17',
+  title: 'Cómo se Estructuran y Operan las DAOs',
+  content: '<div class="bloc1"><p>Las DAOs están formadas por contratos inteligentes en Ethereum. Estos contratos automatizan la operación de la DAO, desde la toma de decisiones hasta la distribución de fondos.</p><p>Las decisiones en una DAO suelen tomarse mediante un proceso de votación, donde los miembros de la DAO pueden votar en propuestas basadas en la cantidad de tokens de gobernanza que poseen.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+
+// Crear y gestionar una DAO
+{
+  type: 'LEARN',
+  notionId: 'notion18',
+  title: 'Crear y Gestionar una DAO',
+  content: '<div class="bloc1"><p>Crear una DAO implica el desarrollo de contratos inteligentes que definen las reglas y operaciones de la DAO. Existen frameworks como Aragon y DAOstack que facilitan la creación de DAOs.</p><p>La gestión de una DAO implica la propuesta y votación de decisiones, así como la interacción con otros miembros de la DAO para llegar a consensos y avanzar en los objetivos de la DAO.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+
+// Quiz
+{
+  type: 'QUIZ',
+  notionId: 'quiz6',
+  title: 'Prueba de Conocimiento',
+  quiz: {
+    question: '¿Qué es una DAO?',
+    rightAnswerNumber: 1,
+    answers: [
+      'Una organización gobernada por código y descentralizada',
+      'Un token en Ethereum',
+      'Una herramienta de desarrollo de contratos inteligentes',
+      'Un estándar para tokens no fungibles'
+    ],
+    id: 'daos-1'
+  }
+},
+
+// Problemas con el almacenamiento de datos tradicional
+{
+  type: 'LEARN',
+  notionId: 'notion19',
+  title: 'Problemas con el Almacenamiento de Datos Tradicional',
+  content: '<div class="bloc1"><p>El almacenamiento de datos tradicional suele ser centralizado, lo que significa que los datos están almacenados en servidores controlados por una sola entidad. Esto puede llevar a problemas de seguridad, ya que los datos pueden ser vulnerables a ataques. Además, los usuarios a menudo tienen que confiar en terceros para mantener sus datos seguros, lo que puede llevar a problemas de privacidad.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+
+// Soluciones de almacenamiento de datos descentralizadas
+{
+  type: 'LEARN',
+  notionId: 'notion20',
+  title: 'Soluciones de Almacenamiento de Datos Descentralizadas',
+  content: '<div class="bloc1"><p>Las soluciones de almacenamiento de datos descentralizadas, como IPFS y Filecoin, ofrecen una alternativa a las soluciones de almacenamiento de datos centralizadas. Estas soluciones permiten el almacenamiento de datos en una red descentralizada de nodos, lo que aumenta la seguridad y la resistencia a los ataques. Además, ya que los datos están descentralizados, los usuarios tienen un mayor control sobre sus propios datos.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+
+// Integrar el almacenamiento de datos descentralizado en las DApps
+{
+  type: 'LEARN',
+  notionId: 'notion21',
+  title: 'Integrar el Almacenamiento de Datos Descentralizado en las DApps',
+  content: '<div class="bloc1"><p>El almacenamiento de datos descentralizado puede ser integrado en las DApps para mejorar su seguridad y privacidad. Por ejemplo, una DApp podría utilizar IPFS para almacenar los datos del usuario de manera descentralizada, lo que permitiría al usuario mantener el control total sobre sus datos.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+
+// Quiz
+{
+  type: 'QUIZ',
+  notionId: 'quiz7',
+  title: 'Prueba de Conocimiento',
+  quiz: {
+    question: '¿Qué es IPFS?',
+    rightAnswerNumber: 1,
+    answers: [
+      'Un sistema de almacenamiento de datos descentralizado',
+      'Un lenguaje de programación',
+      'Un contrato inteligente en Ethereum',
+      'Un tipo de criptomoneda'
+    ],
+    id: 'decentralized-data-storage-1'
+  }
+},
+
+// Desafíos de escalabilidad en blockchain
+{
+  type: 'LEARN',
+  notionId: 'notion22',
+  title: 'Desafíos de Escalabilidad en Blockchain',
+  content: '<div class="bloc1"><p>Una de las mayores preocupaciones en blockchain es la escalabilidad. A medida que más usuarios se unen a una blockchain, el tiempo y los recursos necesarios para procesar transacciones pueden aumentar. Esto puede llevar a tiempos de transacción lentos y altos costos de gas en redes como Ethereum.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+
+// Qué son las sidechains y cómo ayudan con la escalabilidad
+{
+  type: 'LEARN',
+  notionId: 'notion23',
+  title: 'Sidechains y la Escalabilidad',
+  content: '<div class="bloc1"><p>Las sidechains son cadenas de bloques independientes que se ejecutan en paralelo a la cadena de bloques principal. Permiten el procesamiento de transacciones fuera de la cadena principal, lo que puede mejorar la escalabilidad al reducir la carga en la cadena principal. Ejemplos de sidechains y soluciones de segunda capa incluyen Polygon, Arbitrum, Optimism, y Binance Smart Chain.</p></div>'
+  },
+
+// Implementar sidechains en DApps
+{
+  type: 'LEARN',
+  notionId: 'notion24',
+  title: 'Implementar Sidechains en DApps',
+  content: '<div class="bloc1"><p>Las DApps pueden aprovechar las sidechains para mejorar su escalabilidad. Por ejemplo, una DApp podría utilizar una sidechain para procesar transacciones rápidas y de bajo costo, mientras que las transacciones más importantes podrían ser procesadas en la cadena de bloques principal.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+},
+
+// Quiz
+{
+  type: 'QUIZ',
+  notionId: 'quiz8',
+  title: 'Prueba de Conocimiento',
+  quiz: {
+    question: '¿Cómo ayudan las sidechains con la escalabilidad en blockchain?',
+    rightAnswerNumber: 3,
+    answers: [
+      'Incrementando el tamaño del bloque',
+      'Reduciendo el tiempo de bloque',
+      'Permitiendo el procesamiento de transacciones fuera de la cadena principal',
+      'Incrementando el costo del gas'
+    ],
+    id: 'sidechains-1'
+  }
+},
+       
     ]
     
   },

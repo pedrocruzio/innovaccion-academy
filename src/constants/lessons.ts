@@ -672,7 +672,7 @@ const LESSONS: LessonType[] = [
     learnings: '',
     difficulty: undefined,
     description: '¡Descubre cómo los intercambios de contratos inteligentes permiten intercambios de tokens sin necesidad de permisos!',
-    name: 'DEXs and AMMs',
+    name: 'Intercambios Descentralizados (DEXs)',
     quest: 'DEXsAndAMMs',
     publicationStatus: 'publish',
     featuredOrderOnHomepage: null,
@@ -704,7 +704,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: 'c60d776bd01247b79e037003d737f924',
-        title: '✅ Pregunta',
+        title: 'Prueba de Conocimiento',
         quiz: {
           question: 'Completa los espacios en blanco: Para encontrar el mejor precio, la gente querrá operar en mercados con ________ liquidez para tener ________ impacto en el precio en sus operaciones.',
           rightAnswerNumber: 2,
@@ -726,7 +726,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: 'd9969ae7f6c247a097f7b7d419b6c119',
-        title: '✅ Pregunta',
+        title: 'Prueba de Conocimiento',
         quiz: {
           question: '¿Qué dos factores determinan el impacto en el precio de una operación en DEX?',
           rightAnswerNumber: 3,
@@ -748,7 +748,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '063815f2667146a2921df5c4c3ca1663',
-        title: '✅ Pregunta',
+        title: 'Prueba de Conocimiento',
         quiz: {
           question: 'El enrutamiento de operaciones en los agregadores DEX significa:',
           rightAnswerNumber: 4,
@@ -776,7 +776,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '2cf155ee9e3a4d4fb0a9c78f888d2373',
-        title: '✅ Pregunta',
+        title: 'Prueba de Conocimiento',
         quiz: {
           question: '¿Cuál de las siguientes NO es una forma en que los agregadores de DEX intentan reducir los costos de transacción para los usuarios?',
           rightAnswerNumber: 2,
@@ -798,7 +798,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '7abcec930d924ca997d5f4221fae9ad6',
-        title: '✅ Pregunta',
+        title: 'Prueba de Conocimiento',
         quiz: {
           question: 'Los meta-agregadores contrastan múltiples agregadores DEX para encontrar los mejores precios para sus usuarios.',
           rightAnswerNumber: 1,
@@ -818,7 +818,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '9864a66638a3473ca13f8ee2dc8c4b1f',
-        title: '✅ Pregunta',
+        title: 'Prueba de Conocimiento',
         quiz: {
           question: 'Para protegerte, deberías mantener tu tolerancia al deslizamiento:',
           rightAnswerNumber: 1,
@@ -838,7 +838,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '18f1f2c0e7b84cfbafe1b26e139f0c25',
-        title: '✅ Pregunta',
+        title: 'Prueba de Conocimiento',
         quiz: {
           question: 'Muchos agregadores de DEX ofrecen ¿qué herramienta(s) para ahorrar dinero a sus usuarios?',
           rightAnswerNumber: 4,
@@ -856,6 +856,114 @@ const LESSONS: LessonType[] = [
         title: 'Lesson Reward'
       }
     ]
+  },
+  {
+    kudosImageLink: '/badges/badge-celebrate.png',
+    lessonImageLink: '/courses/course-web3dev.png',
+    socialImageLink: '/lesson/wallet-basics/social-230cc260.jpg',
+    learningActions: 'Create and manage your own wallet\nConnect your wallet to a web3 website',
+    marketingDescription: 'A crypto wallet is essential gear for Web3 and DeFi. Get basic training on how a wallet works and how to get started.',
+    kudosId: 2561,
+    duration: 15,
+    learnings: '',
+    difficulty: 'Easy',
+    description: 'Aprende sobre el desarrollo de apps de Web3 (Dapps).',
+    name: 'Desarrollo de Apps Web3',
+    quest: 'WalletBasics',
+    publicationStatus: 'publish',
+    featuredOrderOnHomepage: null,
+    isCommentsEnabled: false,
+    endOfLessonRedirect: null,
+    endOfLessonText: undefined,
+    notionId: '98405bd0f2b94bb2a3079eed504a011e',
+    slug: 'web3-apps',
+    imageLinks: [
+      '/lesson/wallet-basics/wallet-intro-7b45d75e.png',
+      '/lesson/wallet-basics/wallet-definition-e8f8f9a8.svg',
+      '/lesson/wallet-basics/recovery-phrase-c2d8fa26.svg',
+      '/lesson/wallet-basics/public-key-b6387071.svg',
+      '/lesson/wallet-basics/private-key-ca271641.svg',
+      '/lesson/wallet-basics/custodial-wallet-29ed2b65.svg',
+      '/lesson/wallet-basics/non-custodial-wallet-aee2708b.svg',
+      '/lesson/wallet-basics/hot-wallet-1d444d7c.svg',
+      '/lesson/wallet-basics/cold-wallet-59646edb.svg',
+      '/lesson/wallet-basics/metamask-wallet-521de184.svg'
+    ],
+    slides: [
+      {
+        type: 'LEARN',
+        notionId: '0bf15ec24615455b9349774527410d81',
+        title: 'Bienvenido al Desarrollo de DApps con Web3',
+        content: '<div class="bloc1"><p><strong>¡Saludos!</strong></p><p>Bienvenido al curso de Desarrollo de Aplicaciones Descentralizadas (DApps) con Web3. Estamos emocionados de ayudarte a navegar por este emocionante e innovador campo de la tecnología blockchain. Este curso está diseñado para enseñarte los fundamentos de DApps utilizando las tecnologías de Web3.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'baf157b016ba48a890eb4cacb4b903e5',
+        title: 'Blockchain y Contratos Inteligentes',
+        content: '<div class="bloc1"><p>Web3 se basa en tecnologías blockchain y contratos inteligentes. El <code>blockchain</code> es una base de datos descentralizada, y los contratos inteligentes son programas que se ejecutan en esta base de datos.</p><p>Los contratos inteligentes permiten la creación de aplicaciones descentralizadas (dApps) que funcionan en la cadena de bloques y no están controladas por una entidad única.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+      },
+      {
+        type: 'QUIZ',
+        notionId: '100f6d3d7cd542889814cf17733e9960',
+        title: 'Prueba de Conocimiento',
+        quiz: {
+          question: '¿Qué es un contrato inteligente?',
+          rightAnswerNumber: 3,
+          answers: [
+            'Un acuerdo legal digital',
+            'Un contrato que requiere una firma digital',
+            'Un programa que se ejecuta en la cadena de bloques',
+            'Un contrato con una entidad de inteligencia artificial'
+          ],
+          id: 'web3-dev-1'
+        }
+      },
+      {
+        type: 'LEARN',
+        notionId: 'f764c92b0620495981b32bd34dd1fc62',
+        title: 'Desarrollo de dApps',
+        content: '<div class="bloc1"><p>Una parte crucial del desarrollo Web3 es la creación de dApps, siglas en inglés de Decentralized Applications (Aplicaciones Descentralizadas). Estas son aplicaciones que corren sobre una blockchain, aprovechando la seguridad y la descentralización que proporciona la cadena de bloques.</p><p>Las dApps pueden ser de cualquier tipo, desde juegos hasta plataformas financieras, y están transformando la forma en que interactuamos con el software.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+      },
+      {
+        type: 'QUIZ',
+        notionId: '9d0454d30e60454397b0926523f7e73c',
+        title: 'Prueba de Conocimiento',
+        quiz: {
+          question: '¿Qué es una dApp?',
+          rightAnswerNumber: 1,
+          answers: [
+            'Una aplicación que se ejecuta en la cadena de bloques',
+            'Una aplicación de Apple',
+            'Una aplicación para Android',
+            'Una aplicación para desarrolladores'
+          ],
+          id: 'web3-dev-2'
+        }
+      },
+      {
+        type: 'LEARN',
+        notionId: '1632e1238db7412590f60b88d8a5c2ad',
+        title: 'Herramientas de Desarrollo Web3',
+        content: '<div class="bloc1"><p>Existen muchas herramientas que facilitan el desarrollo Web3, como <code>Truffle</code>, <code>Ganache</code> y <code>Metamask</code>. Estas herramientas te ayudarán a crear, probar y desplegar tus dApps.</p><p>En las siguientes lecciones, exploraremos cada una de estas herramientas en profundidad y te enseñaremos cómo usarlas para maximizar tu eficiencia de desarrollo.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+      },
+      {
+        type: 'QUIZ',
+        notionId: '4eb4acacd7c9494386a77e5fb37bdf7d',
+        title: 'Prueba de Conocimiento',
+        quiz: {
+          question: '¿Qué herramientas facilitan el desarrollo Web3?',
+          rightAnswerNumber: 2,
+          answers: [
+            'Photoshop y Illustrator',
+            'Truffle, Ganache y Metamask',
+            'Microsoft Word y Excel',
+            'Slack y Zoom'
+          ],
+          id: 'web3-dev-3'
+        }
+      }
+    ]
+    
   },
   {
     kudosImageLink: '/lesson/kudos-testing/kudos-5e4cda70.png',

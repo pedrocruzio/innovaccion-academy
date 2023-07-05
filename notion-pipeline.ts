@@ -6,6 +6,8 @@ import {Client} from '@notionhq/client'
 // import {db, TABLES} from "./src/utils/db";
 import {LessonType} from './src/entities/lesson'
 import SLIDES from './src/constants/slides'
+import {createLearnSlide, createQuizSlide, extractSlides} from "./src/utils/createSlides";
+import walletBasicsChildBlocks from "./allLessons";
 
 const fs = require('fs')
 const axios = require('axios')
@@ -215,7 +217,8 @@ const parseProperties = (database: QueryDatabaseResponse) => {
 
         //    add notionId to DB
         // await db(TABLES.credentials).insert([{notion_id: lesson.notionId}]).onConflict('notion_id')
-        lesson.slides = SLIDES[lesson.name] || []
+        // lesson.slides = SLIDES[lesson.name] || []
+        lesson.slides = await parsePages([lesson], lesson.name)
         lesson.imageLinks = IMAGELINKS[lesson.name] || []
         lessons.push(lesson)
     })
@@ -249,39 +252,67 @@ export default LESSONS
     return lessons
 }
 
-// const parsePages = async (lessons: LessonType[]) => {
-//     for (const item of lessons) {
-//         if (item.name === 'Intro to DeFi') {
-//             const response = await notion.blocks.retrieve({block_id: item.notionId})
-//             // console.log('SLides??', response)
-//             // @ts-ignore
-//             if (response?.has_children) {
-//                 const childrenResponse = await notion.blocks.children.list({
-//                     block_id: response.id
-//                 })
-//
-//                 childrenResponse.results.forEach((block: any, index) => {
-//                     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-//                     // @ts-ignore With description
-//                     // console.log('Children Blocks', [block.type, block[block.type]])
-//                     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-//                     // @ts-ignore With description
-//                     if (block.type !== 'image') {
-//                         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-//                         // @ts-ignore With description
-//                         console.log('Rich_text', block[block.type] ?? 'Not Here')
-//                     }
-//                 })
-//             }
-//         }
-//     }
-//     return ''
-// }
+const parsePages = async (lessons: LessonType[], name: string) => {
+    let blockResponse = {
+        response: {},
+        childBlockResponse: {}
+    }
+    const SLIDESMAPPING = {
+        [name]: []
+    }
+    for (const item of lessons) {
+        // SLIDESMAPPING.set(item.name, [])
+        const response = await notion.blocks.retrieve({block_id: item.notionId})
+        blockResponse.response = response
+
+        // @ts-ignore
+        if (response?.has_children) {
+            const childrenResponse = await notion.blocks.children.list({
+                block_id: response.id
+            })
+            blockResponse.childBlockResponse = childrenResponse
+
+            const setOfSlides = await extractSlides(childrenResponse.results)
+            while (childrenResponse.results.length > 0) {
+                let slidesIndex = 0
+                let slide = {}
+                if (setOfSlides[0].heading_1.rich_text[0].plain_text === 'Knowledge Check') {
+                    slide = createQuizSlide(setOfSlides, `${item.name.toLowerCase().replace(' ', '-')}-${slidesIndex}`)
+                } else {
+                    slide = createLearnSlide(setOfSlides)
+                }
+
+                console.log(`New Slide for ${item.name}`, slide)
+                // SLIDESMAPPING.set(item.name, [...SLIDESMAPPING?.get(item.name), slide])
+                SLIDESMAPPING[name].push(slide)
+                childrenResponse.results.splice(0, setOfSlides.length - 1)
+            }
+            // SLIDESMAPPING.set(item.name, [...SLIDESMAPPING?.get(item.name), {
+            //     type: 'END',
+            //     title: 'Lesson Reward'
+            // }])
+            SLIDESMAPPING[name].push({
+                type: 'END',
+                title: 'Lesson Reward'
+            })
+        }
+        // }
+        //     fs.writeFileSync("./allLessons.ts", `
+        // const walletBasicsChildBlocks = ${JSON.stringify(blockResponse)}
+        //
+        // export default walletBasicsChildBlocks`)
+    }
+    fs.writeFileSync("./SLIDESMAP.json", JSON.stringify(SLIDESMAPPING))
+
+    // return SLIDESMAPPING.get(lessons[0].name)
+    return SLIDESMAPPING[lessons[0].name]
+}
 
 const importNotion = async () => {
     const database = await queryDatabase()
     const lessons = parseProperties(database)
     // await parsePages(lessons)
+
 }
 
 importNotion()

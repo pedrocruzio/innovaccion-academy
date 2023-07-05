@@ -26,7 +26,7 @@ export function createQuizSlide(slides: any[], title: string): Slide {
     return {
         type: "QUIZ",
         notionId: slides[0].id,
-        title: slides[0].heading_1.rich_text[0].plain_text,
+        title: slides[0]?.heading_1?.rich_text[0]?.plain_text || 'Knowledge Check',
         quiz: {
             question: slides[1].paragraph.rich_text[0].plain_text,
             answers: answers.filter((value) => !!value),
@@ -133,8 +133,8 @@ export function createLearnSlide(slides: any[]): Slide {
 
     return {
         type: 'LEARN',
-        notionId: slides[0].id,
-        title: slides[0].heading_1.rich_text[0].plain_text,
+        notionId: slides[0]?.id || 'undefinedID',
+        title: slides[0]?.heading_1?.rich_text[0]?.plain_text || 'Slide',
         content: joinParagraphs(paragraphs, url)
     }
 

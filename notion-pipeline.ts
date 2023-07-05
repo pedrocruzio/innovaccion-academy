@@ -217,8 +217,8 @@ const parseProperties = (database: QueryDatabaseResponse) => {
 
         //    add notionId to DB
         // await db(TABLES.credentials).insert([{notion_id: lesson.notionId}]).onConflict('notion_id')
-        // lesson.slides = SLIDES[lesson.name] || []
-        lesson.slides = await parsePages(lesson, lesson.name)
+        await parsePages(lesson, lesson.name)
+        lesson.slides = SLIDES[lesson.name] || []
         lesson.imageLinks = IMAGELINKS[lesson.name] || []
         lessons.push(lesson)
     })
@@ -248,54 +248,49 @@ export default LESSONS
                 `export done -> check syntax & typing errors in src/constants/${LESSON_FILENAME}.ts`
             )
         })
-        .catch((error) => console.error(error))
+        .catch((error) => console.error("Error creating lesson: ",error))
     return lessons
 }
 
 const parsePages = async (lesson: LessonType, name: string) => {
-    let blockResponse = {
-        response: {},
-        childBlockResponse: {}
-    }
     const SLIDESMAPPING = {
         [name]: []
     }
-        const response = await notion.blocks.retrieve({block_id: lesson.notionId})
-        blockResponse.response = response
+    const response = await notion.blocks.retrieve({block_id: lesson.notionId})
 
-        // @ts-ignore
-        if (response?.has_children) {
-            const childrenResponse = await notion.blocks.children.list({
-                block_id: response.id
-            })
-            blockResponse.childBlockResponse = childrenResponse
+    // @ts-ignore
+    if (response?.has_children) {
+        const childrenResponse = await notion.blocks.children.list({
+            block_id: response.id
+        })
 
+        while (childrenResponse.results.length > 0) {
             const setOfSlides = await extractSlides(childrenResponse.results)
-            while (childrenResponse.results.length > 0) {
-                let slidesIndex = 0
-                let slide = {}
-                if (setOfSlides[0].heading_1.rich_text[0].plain_text === 'Knowledge Check') {
-                    slide = createQuizSlide(setOfSlides, `${lesson.name.toLowerCase().replace(' ', '-')}-${slidesIndex}`)
-                } else {
-                    slide = createLearnSlide(setOfSlides)
-                }
-
-                console.log(`New Slide for ${lesson.name}`, slide)
-                SLIDESMAPPING[name].push(slide)
-                childrenResponse.results.splice(0, setOfSlides.length - 1)
+            let slidesIndex = 0
+            let slide = {}
+            if (setOfSlides[0]?.heading_1?.rich_text[0]?.plain_text === 'Knowledge Check') {
+                slide = createQuizSlide(setOfSlides, `${lesson.name.toLowerCase().replace(' ', '-')}-${slidesIndex}`)
+            } else {
+                slide = createLearnSlide(setOfSlides)
             }
-            SLIDESMAPPING[name].push({
-                type: 'END',
-                title: 'Lesson Reward'
-            })
-        }
 
-        const jsonData = fs.readFileSync('./SLIDESMAP.json', 'utf-8');
-        const existingData = JSON.parse(jsonData)
+            SLIDESMAPPING[name].push(slide)
+            childrenResponse.results.splice(0, setOfSlides.length - 1)
+        }
+        SLIDESMAPPING[name].push({
+            type: 'END',
+            title: 'Lesson Reward'
+        })
+    }
+
+    const jsonData = fs.readFileSync('./SLIDESMAP.json', 'utf-8');
+    const existingData = JSON.parse(jsonData)
 
     existingData[lesson.name] = SLIDESMAPPING[lesson.name]
     const updatedJsonData = JSON.stringify(existingData, null, 2)
-    fs.writeFileSync("./SLIDESMAP.json", updatedJsonData, 'utf-8')
+    fs.writeFileSync("src/constants/slides.ts", `const SLIDES = ${updatedJsonData}
+    export default SLIDES
+    `, 'utf-8')
 
     return SLIDESMAPPING[lesson.name]
 }
@@ -303,8 +298,6 @@ const parsePages = async (lesson: LessonType, name: string) => {
 const importNotion = async () => {
     const database = await queryDatabase()
     const lessons = parseProperties(database)
-    // await parsePages(lessons)
-
 }
 
 importNotion()

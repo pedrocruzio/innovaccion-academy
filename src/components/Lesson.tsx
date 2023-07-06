@@ -407,7 +407,7 @@ const Lesson = ({
         </Box>
         <Box color={slide.type === 'END' ? theme.colors.secondary : 'unset'}>
           {slide.type === 'QUIZ' ? (
-            <>Prueba de Conocimiento</>
+            <>Knowledge Review</>
           ) : (
             <>{ReactHtmlParser(slide.title, { transform })}</>
           )}
@@ -537,7 +537,7 @@ const Lesson = ({
                       goToPrevSlide={goToPrevSlide}
                     />
                   ) : (
-                    <h2>{`Felicidades por completar nuestro curso de "${lesson.name}" 🥳`}</h2>
+                    <h2>{`Congrats for finishing our course "${lesson.name}" 🥳`}</h2>
                   )}
                   <p>
                     {!embed && lesson.endOfLessonText && lesson.endOfLessonText}
@@ -619,7 +619,7 @@ const Lesson = ({
               onClick={goToNextSlide}
               rightIcon={<ArrowForwardIcon />}
             >
-              {isBeforeLastSlide ? 'Terminar' : 'Próximo'}
+              {isBeforeLastSlide ? 'Finish' : 'Next'}
             </Button>
           ) : (
             <>

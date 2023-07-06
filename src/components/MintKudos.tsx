@@ -237,7 +237,7 @@ const MintKudos = ({
   const ConnectFirst = (
     <>
       <Heading as="h2" size="xl" textAlign="center" pt="8">
-        ¡Felicidades! Completaste el curso. Pronto vamos a anunciar como puedes conseguir tu certificado.
+        Congrats! You finished the course. We'll be launching our certificates soon.
       </Heading>
     </>
   )

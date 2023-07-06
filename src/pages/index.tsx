@@ -93,14 +93,14 @@ const HomePage = (): JSX.Element => {
           <Container maxW="container.lg">
             <Box mt="6">
               <Heading as="h2" size="xl" m="auto">
-              Comienza tu carrera con tecnologías emergentes
+              Kickstart your career with by learning emerging technologies
               </Heading>
               <Box fontSize="lg" mt="6">
                 <Box mt={2}>
-                  La academia de InnovAcción tene como misión asegurarse de que cada persona en Puerto Rico 
-                  esté preparado el futuro. Usando la plataforma de la Academia, darás el primer paso con confianza 
-                  hacia la nueva frontera, antes de sumergirte en tu propio camino de aprendizaje único y 
-                  prepararte para abrir nuevos caminos en el espacio de web3, inteligencia artificial y el metaverso. ¡Comencemos!
+                The mission of InnovAcción Academy is to ensure that every person in Puerto Rico 
+                is prepared for the future. Using the Academy's platform, you will confidently take the first step 
+                towards the new frontier, before immersing yourself in your own unique learning path and 
+                preparing to forge new paths in the space of web3, artificial intelligence, and the metaverse. Let's get started!
                 </Box>
                 <InternalLink href={`/lessons`}>
                 <Button
@@ -118,33 +118,33 @@ const HomePage = (): JSX.Element => {
             my="10"
             mx={isSmallScreen ? '0' : '12'}
           >
-            <Card>
-              <LearnIcon />
-              <Heading size="lg" mt="2">
-                Avanza en tu conocimiento
-              </Heading>
-              <Text fontSize="lg" mt="2">
-                Desde lo básico hasta profundizar, descubre el mundo de web3 con contenido construido junto a expertos líderes.
-              </Text>
-            </Card>
-            <Card>
-              <QuizIcon />
-              <Heading size="lg" mt="2">
-                Prueba tus habilidades
-              </Heading>
-              <Text fontSize="lg" mt="2">
-                Completa actividades que ponen a prueba tu dominio de los conceptos de criptografía.
-              </Text>
-            </Card>
-            <Card>
-              <KudosIcon />
-              <Heading size="lg" mt="2">
-                Certificados NFT
-              </Heading>
-              <Text fontSize="lg" mt="2">
-                Colecciona NFTs al completar lecciones con éxito.
-              </Text>
-            </Card>
+<Card>
+  <LearnIcon />
+  <Heading size="lg" mt="2">
+    Advance your knowledge
+  </Heading>
+  <Text fontSize="lg" mt="2">
+    From the basics to in-depth, discover the world of web3 with content built alongside leading experts.
+  </Text>
+</Card>
+<Card>
+  <QuizIcon />
+  <Heading size="lg" mt="2">
+    Test your skills
+  </Heading>
+  <Text fontSize="lg" mt="2">
+    Complete activities that test your mastery of cryptography concepts.
+  </Text>
+</Card>
+<Card>
+  <KudosIcon />
+  <Heading size="lg" mt="2">
+    NFT Certificates
+  </Heading>
+  <Text fontSize="lg" mt="2">
+    Collect NFTs by successfully completing lessons.
+  </Text>
+</Card>
           </SimpleGrid>
             </Box>
             {/* <Box

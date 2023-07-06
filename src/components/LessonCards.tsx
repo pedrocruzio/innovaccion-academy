@@ -181,7 +181,7 @@ const LessonCards: React.FC = () => {
                     variant="outline"
                     iskudosminted={isKudosMinted?.toString()}
                   >
-                    {isKudosMinted ? 'Done' : `${lesson.duration} minutos`}
+                    {isKudosMinted ? 'Done' : `${lesson.duration} minutes`}
                     {isKudosMinted ? (
                       <TagRightIcon as={CircleWavyCheck} weight="bold" />
                     ) : null}
@@ -264,10 +264,10 @@ const LessonCards: React.FC = () => {
                       {lesson?.isArticle
                         ? 'Read Entry'
                         : isKudosMinted
-                        ? 'Revisitar Curso'
+                        ? 'View Course'
                         : isLessonStarted
-                        ? 'Terminar Curso'
-                        : 'Comenzar Curso'}
+                        ? 'Finish Course'
+                        : 'Start Course'}
                     </Button>
                   </InternalLink>
                 )}

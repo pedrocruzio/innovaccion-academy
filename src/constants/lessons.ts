@@ -12,8 +12,8 @@ const LESSONS: LessonType[] = [
     duration: 15,
     learnings: '',
     difficulty: 'Easy',
-    description: 'Crea y gestiona de forma segura tu primera billetera de criptomonedas.',
-    name: 'Crea tu wallet de crypto',
+    description: 'Securely create and manage your first cryptocurrency wallet.',
+    name: 'Create Your Crypto Wallet',
     quest: 'WalletBasics',
     publicationStatus: 'publish',
     featuredOrderOnHomepage: null,
@@ -38,27 +38,27 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: '0bf15ec24615455b9349774527410d81',
-        title: '¿Qué es un billetera?',
-        content: '<div class="bloc1"><p><strong>¡Saludos!</strong></p><p>Bienvenido a la academia de Web3. Estamos emocionados de guiarte en tu viaje al <code>Web3</code>. Para comenzar, necesitarás un equipo esencial: una billetera digital.</p><p>Una billetera digital es tu pasaporte para explorar los diversos mundos del Web3. Esta herramienta te permite acceder a increíbles nuevas posibilidades mientras proteges tus activos e identidad.</p><p>En esta lección, te presentaremos las billeteras digitales, cómo funcionan y cómo configurar la tuya para embarcarte de manera segura en tu viaje Web3.</p><p>¡Empecemos!</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/wallet-intro-7b45d75e.png\'></div>'
+        title: 'What is a wallet?',
+        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to the Web3 academy. We are excited to guide you on your journey to <code>Web3</code>. To begin, you will need an essential piece of equipment: a digital wallet.</p><p>A digital wallet is your passport to explore the various worlds of Web3. This tool allows you to access incredible new possibilities while protecting your assets and identity.</p><p>In this lesson, we will introduce you to digital wallets, how they work and how to set up yours to safely embark on your Web3 journey.</p><p>Let\'s get started!</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/wallet-intro-7b45d75e.png\'></div>'
       },
       {
         type: 'LEARN',
         notionId: 'baf157b016ba48a890eb4cacb4b903e5',
-        title: 'Billetera',
-        content: '<div class="bloc1"><p>En el mundo de las criptomonedas, una billetera se refiere a una aplicación o dispositivo que puedes utilizar para interactuar con una <code>blockchain</code>.</p><p>Tu <code>billetera</code> funciona como una caja de seguridad que protege tu acceso a la blockchain.</p><p>Cuando tu billetera está conectada a una blockchain, puedes realizar compras, transferir activos digitales, interactuar con aplicaciones y más.</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/wallet-definition-e8f8f9a8.svg\'></div>'
+        title: 'Wallet',
+        content: '<div class="bloc1"><p>In the world of cryptocurrencies, a wallet refers to an application or device that you can use to interact with a <code>blockchain</code>.</p><p>Your <code>wallet</code> acts like a safety deposit box protecting your access to the blockchain.</p><p>When your wallet is connected to a blockchain, you can make purchases, transfer digital assets, interact with applications and more.</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/wallet-definition-e8f8f9a8.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: '100f6d3d7cd542889814cf17733e9960',
-        title: 'Prueba de Conocimiento',
+        title: 'Knowledge Check',
         quiz: {
-          question: '¿Qué es un billetera?',
+          question: 'What is a wallet?',
           rightAnswerNumber: 4,
           answers: [
-            'Un dispositivo equipado con tecnología RFID',
-            'Un dispositivo billetera bi-fold con cierre de velcro',
-            'Una cuenta que protege mis activos',
-            'Una aplicación o dispositivo utilizado para interactuar con una cadena de bloques'
+            'A device equipped with RFID technology',
+            'A bi-fold wallet device with velcro closure',
+            'An account that protects my assets',
+            'An application or device used to interact with a blockchain'
           ],
           id: 'wallet-basics-1'
         }
@@ -66,21 +66,21 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: 'f764c92b0620495981b32bd34dd1fc62',
-        title: 'Frase de Recuperación',
-        content: '<div class="bloc1"><p>Cuando configuras una nueva <code>billetera</code>, el software genera una <code>frase de recuperación</code> única que es específica de esa cuenta de billetera.</p><p>También llamada a veces una <em>frase de semilla</em> o <em>frase de recuperación secreta</em>, su frase de recuperación se puede usar para acceder a su billetera y activos de criptomonedas si:</p><ul><li>Su aplicación de billetera o hardware falla inesperadamente o se daña.</li><li>No puede acceder a ella debido a extravío o robo.</li><li>Desea acceder a su cuenta de billetera a través de la aplicación de billetera en una computadora o dispositivo diferente.</li></ul><p>La mayoría de las frases de recuperación son una lista de 12 a 24 palabras que representan una pieza única de datos. Esa información se utiliza para generar la <code>clave pública</code> y <code>clave privada</code> de su billetera.</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/recovery-phrase-c2d8fa26.svg\'></div>'
+        title: 'Recovery Phrase',
+        content: '<div class="bloc1"><p>When you set up a new <code>wallet</code>, the software generates a unique <code>recovery phrase</code> that is specific to that wallet account.</p><p>Also sometimes called a <em>seed phrase</em> or <em>secret recovery phrase</em>, your recovery phrase can be used to access your wallet and crypto assets if:</p><ul><li>Your wallet app or hardware unexpectedly fails or is damaged.</li><li>You cannot access it due to misplacement or theft.</li><li>You want to access your wallet account through the wallet app on a different computer or device.</li></ul><p>Most recovery phrases are a list of 12 to 24 words representing a unique piece of data. That information is used to generate your wallet\'s <code>public key</code> and <code>private key</code>.</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/recovery-phrase-c2d8fa26.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: '9d0454d30e60454397b0926523f7e73c',
-        title: 'Prueba de Conocimiento',
+        title: 'Knowledge Check',
         quiz: {
-          question: '¿Qué puedes hacer con tu frase de recuperación?',
+          question: 'What can you do with your recovery phrase?',
           rightAnswerNumber: 3,
           answers: [
-          '[A] Recuperar tu billetera si se pierde, se roba o se daña',
-          '[B] Acceder a tu billetera en múltiples dispositivos',
-          '[C] Ambas opciones A y B',
-          '[D] Ninguna de las anteriores'
+          '[A] Recover your wallet if it is lost, stolen, or damaged',
+          '[B] Access your wallet on multiple devices',
+          '[C] Both options A and B',
+          '[D] None of the above'
           ],
           id: 'wallet-basics-2'
           }
@@ -88,27 +88,27 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: 'bf1bf37ca61845c5a4257cbaeff0e13c',
-        title: 'Clave Pública',
-        content: '<div class="bloc1"><p>Acabas de aprender cómo tu <code>frase de recuperación</code> se relaciona con una <code>clave pública</code> y <code>clave privada</code>.</p><p>Ten en cuenta que una billetera puede contener varias cuentas, y <em>cada cuenta</em> tiene un par único de claves pública y privada.</p><p>Imagina una clave pública como tu dirección de casa. Es pública, cualquier persona puede verla, e identifica la ubicación a la que enviar los activos de criptomonedas.</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/public-key-b6387071.svg\'></div>'
+        title: 'Public Key',
+        content: '<div class="bloc1"><p>You just learned how your <code>recovery phrase</code> relates to a <code>public key</code> and <code>private key</code>.</p><p>Keep in mind that a wallet can contain multiple accounts, and <em>each account</em> has a unique pair of public and private keys.</p><p>Imagine a public key as your home address. It is public, anyone can see it, and it identifies the location to send crypto assets to.</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/public-key-b6387071.svg\'></div>'
       },
       {
         type: 'LEARN',
         notionId: 'a6dab3c7c04949baa0c5448f57c91cfe',
-        title: 'Clave Privada',
-        content: '<div class="bloc1"><p>Si tu <code>clave pública</code> es como tu dirección de casa, entonces tu <code>clave privada</code> es como tu llave de casa.</p><p>Se llama privada porque <em>sólo tú</em> deberías tener acceso a ella.</p><p>La clave privada desbloquea el acceso a tu billetera y tus activos de criptomonedas, permitiéndote enviarlos a otras direcciones de billetera.</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/private-key-ca271641.svg\'></div>'
+        title: 'Private Key',
+        content: '<div class="bloc1"><p>If your <code>public key</code> is like your home address, then your <code>private key</code> is like your house key.</p><p>It is called private because <em>only you</em> should have access to it.</p><p>The private key unlocks access to your wallet and your crypto assets, allowing you to send them to other wallet addresses.</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/private-key-ca271641.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: '4997e321e0814dd2931dd21c664533d6',
-        title: 'Prueba de Conocimiento',
+        title: 'Knowledge Check',
         quiz: {
-          question: 'Tu clave pública es como tu _____ y tu clave privada es como tu _____',
+          question: 'Your public key is like your _____ and your private key is like your _____',
           rightAnswerNumber: 2,
           answers: [
-            'Número de ruta / número de cuenta',
-            'Dirección de casa / llave de casa',
-            'Dirección / Código postal',
-            'Número de teléfono / Número de Seguro Social'
+            'Routing number / account number',
+            'Home address / house key',
+            'Address / Zip code',
+            'Phone number / Social Security number'
           ],
           id: 'wallet-basics-3'
         }
@@ -116,18 +116,18 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: 'a92f95a2da2a4429942b6aad2a260e1b',
-        title: 'Billetera Custodial',
-        content: '<div class="bloc1"><p>Dado que tu <code>clave privada</code> desbloquea el acceso a tu <code>wallet</code>, mantenerla privada y segura es muy importante.</p><p>No todos los wallets te permiten controlar tu clave privada. Con un <code>wallet custodial</code>, otra parte la controla. Coinbase y Kraken son ejemplos de wallets custodiales que tienen tu clave privada.</p><p>Esto puede ser todo lo que algunas personas necesiten, pero requiere que confíes en terceros para asegurar tus criptoactivos y darte acceso cuando quieras comerciar o enviarlos a otro lugar. Además, tu acceso al mundo de aplicaciones <code>DeFi</code> será limitado.</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/custodial-wallet-0538644f.svg\'></div>'
+        title: 'Custodial Wallet',
+        content: '<div class="bloc1"><p>Since your <code>private key</code> unlocks access to your <code>wallet</code>, keeping it private and secure is very important.</p><p>Not all wallets allow you to control your private key. With a <code>custodial wallet</code>, another party controls it. Coinbase and Kraken are examples of custodial wallets that hold your private key.</p><p>This might be all some people need, but it requires that you trust third parties to secure your crypto assets and give you access when you want to trade or send them somewhere else. Also, your access to the world of <code>DeFi</code> apps will be limited.</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/custodial-wallet-0538644f.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: '39f830da64fb47608592eff742239223',
-        title: 'Prueba de Conocimiento',
+        title: 'Knowledge Check',
         quiz: {
-          question: '¿Controlas tu clave privada con un wallet custodial?',
+          question: 'Do you control your private key with a custodial wallet?',
           rightAnswerNumber: 2,
           answers: [
-            'Sí',
+            'Yes',
             'No'
           ],
           id: 'wallet-basics-4'
@@ -137,17 +137,17 @@ const LESSONS: LessonType[] = [
         type: 'LEARN',
         notionId: 'a78db356b36c4bb19a85af61170b2471',
         title: 'Non-custodial Wallet',
-        content: '<div class="bloc1"><p>Tu pasaporte a los emocionantes mundos de <code>DeFi</code> y <code>Web3</code> - y la mejor manera de proteger tu <code>clave privada</code> es mediante un <code>wallet no custodial</code>.</p><p>Recuerda: si pierdes tu clave privada, no podrás acceder a tu wallet para gastar, retirar o transferir tus activos criptográficos.</p><p>Afortunadamente, aún puedes recuperar tu wallet con tu <code>frase de recuperación</code>. Pero si también pierdes eso, ¡perderás el acceso a tu wallet PARA SIEMPRE!</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/non-custodial-wallet-aee2708b.svg\'></div>'
+        content: '<div class="bloc1"><p>Your passport to the exciting worlds of <code>DeFi</code> and <code>Web3</code> - and the best way to protect your <code>private key</code> is with a <code>non-custodial wallet</code>.</p><p>Remember: if you lose your private key, you won\'t be able to access your wallet to spend, withdraw or transfer your crypto assets.</p><p>Fortunately, you can still recover your wallet with your <code>recovery phrase</code>. But if you also lose that, you will lose access to your wallet FOREVER!</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/non-custodial-wallet-aee2708b.svg\'></div>'
       },
       {
         type: 'QUIZ',
-        notionId: '4c2cc8a6d61247cc87007cfa636ea77f',
-        title: 'Prueba de Conocimiento',
+        notionId: 'e331357c6b07425c8451d2a81c20f885',
+        title: 'Knowledge Check',
         quiz: {
-          question: '¿Eres responsable de tu clave privada con una billetera no custodial?',
+          question: 'Are you responsible for your private key with a non-custodial wallet?',
           rightAnswerNumber: 1,
           answers: [
-            'Sí',
+            'Yes',
             'No'
           ],
           id: 'wallet-basics-5'
@@ -156,21 +156,21 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: '266abc84862f425bab294dc99dfddb04',
-        title: 'Seguridad con su billetera',
-        content: '<div class="bloc1"><h2>SIEMPRE haga lo siguiente para proteger su frase de recuperación:</h2><p>✅ escriba su frase en papel</p><p>✅ use un material duradero (como papel laminado o metal grabado)</p><p>✅ guárdelo en un lugar seguro</p><h2>NUNCA haga lo siguiente para proteger su frase de recuperación:</h2><p>🛑 guarde su frase de recuperación en un servicio de almacenamiento en línea</p><p>🛑 capture una imagen de su clave privada</p><p>🛑 revele su frase de recuperación a nadie</p></div>'
+        title: 'Wallet Security',
+        content: '<div class="bloc1"><h2>ALWAYS do the following to protect your recovery phrase:</h2><p>✅ write your phrase on paper</p><p>✅ use durable material (like laminated paper or engraved metal)</p><p>✅ store it in a safe place</p><h2>NEVER do the following to protect your recovery phrase:</h2><p>🛑 store your recovery phrase in an online storage service</p><p>🛑 take a screenshot of your private key</p><p>🛑 reveal your recovery phrase to anyone</p></div>'
       },
       {
         type: 'QUIZ',
         notionId: '8356a2b7d25c420fb4171ee574f7d748',
-        title: 'Prueba de Conocimiento',
+        title: 'Knowledge Check',
         quiz: {
-          question: '¿Cuál es la forma más segura de proteger su frase de recuperación?',
+          question: 'What is the safest way to protect your recovery phrase?',
           rightAnswerNumber: 4,
           answers: [
-            'Guardarlo en tu computadora e imprimirlo.',
-            'Tomar una captura de pantalla y guardarla en tu teléfono.',
-            'Guardarlo en tu cuenta de Dropbox.',
-            'Escribirlo en un material duradero y guardarlo en un lugar seguro.'
+            'Store it on your computer and print it out.',
+            'Take a screenshot and store it on your phone.',
+            'Save it in your Dropbox account.',
+            'Write it on durable material and store it in a safe place.'
           ],
           id: 'wallet-basics-6'
         }
@@ -178,24 +178,24 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: '6c2cef180a894009807af59ed2d5f27c',
-        title: 'Billetera Caliente',
-        content: '<div class="bloc1"><p>Hay dos tipos principales de <code>billeteras no custodiadas</code>: billeteras de software (también llamadas <code>billeteras calientes</code>) y billeteras de hardware (también llamadas <code>billeteras frías</code>)</p><p>Una billetera de software es una aplicación o extensión de navegador que permanece conectada a internet.</p><ul><li>VENTAJAS 👍: Por lo general, es gratis, fácil de configurar y fácil de usar.</li><li>DESVENTAJAS 👎: Debido a que es un software conectado a internet, es potencialmente un objetivo para los hackers.</li></ul></div><div class="bloc2"><img src=\'/lesson/wallet-basics/hot-wallet-1d444d7c.svg\'></div>'
+        title: 'Hot Wallet',
+        content: '<div class="bloc1"><p>There are two main types of <code>non-custodial wallets</code>: software wallets (also called <code>hot wallets</code>) and hardware wallets (also called <code>cold wallets</code>)</p><p>A software wallet is an app or browser extension that stays connected to the internet.</p><ul><li>PROS 👍: It is usually free, easy to set up and easy to use.</li><li>CONS 👎: Since it is software connected to the internet, it is potentially a target for hackers.</li></ul></div><div class="bloc2"><img src=\'/lesson/wallet-basics/hot-wallet-1d444d7c.svg\'></div>'
       },
       {
         type: 'LEARN',
         notionId: '2db8d9f5695b4b46aa35bef2e17bcb75',
-        title: 'Billetera Fría',
-        content: '<div class="bloc1"><p>Una <code>billetera fría</code>, o billetera de hardware, solo se conecta a Internet cuando la conectas físicamente a una computadora o dispositivo.</p><ul><li>PROS 👍: Es más segura contra amenazas como hacking.</li><li>CONS 👎: No es gratuita, no es ideal para transacciones rápidas y puede ser engorrosa de usar.</li></ul></div><div class="bloc2"><img src=\'/lesson/wallet-basics/cold-wallet-59646edb.svg\'></div>'
+        title: 'Cold Wallet',
+        content: '<div class="bloc1"><p>A <code>cold wallet</code>, or hardware wallet, only connects to the Internet when you physically connect it to a computer or device.</p><ul><li>PROS 👍: It is more secure against threats such as hacking.</li><li>CONS 👎: It is not free, not ideal for quick transactions, and can be cumbersome to use.</li></ul></div><div class="bloc2"><img src=\'/lesson/wallet-basics/cold-wallet-59646edb.svg\'></div>'
       },
       {
         type: 'QUIZ',
-        notionId: 'e331357c6b07425c8451d2a81c20f885',
-        title: 'Prueba de Conocimiento',
+        notionId: 'e60c91b7bb054ea8b4e449ddf6f1042b',
+        title: 'Knowledge Check',
         quiz: {
-          question: '¿Una billetera fría es más segura que una billetera caliente?',
+          question: 'Is a cold wallet more secure than a hot wallet?',
           rightAnswerNumber: 1,
           answers: [
-            'Sí',
+            'Yes',
             'No'
           ],
           id: 'wallet-basics-7'
@@ -205,17 +205,17 @@ const LESSONS: LessonType[] = [
         type: 'LEARN',
         notionId: '66d21ca797f44f02861545e2042582c8',
         title: 'MetaMask Wallet',
-        content: '<div class="bloc1"><p>Existen varias <code>billeteras calientes</code> <code>no custodiales</code> disponibles hoy en día. Exploraremos la popular Billetera MetaMask para el resto de esta lección ya que:</p><ul><li>Es probable que sea compatible con la mayoría de las aplicaciones de <code>DeFi</code>.</li><li>Tiene una extensión de navegador para los navegadores de internet Chrome, Brave, Edge y Firefox.</li><li>También está disponible como una aplicación móvil para usuarios de Android e iOS.</li></ul></div><div class="bloc2"><img src=\'/lesson/wallet-basics/metamask-wallet-521de184.svg\'></div>'
+        content: '<div class="bloc1"><p>There are several <code>non-custodial hot wallets</code> available today. We will explore the popular MetaMask Wallet for the rest of this lesson because:</p><ul><li>It is likely to be compatible with most <code>DeFi</code> apps.</li><li>It has a browser extension for the Chrome, Brave, Edge, and Firefox internet browsers.</li><li>It is also available as a mobile app for Android and iOS users.</li></ul></div><div class="bloc2"><img src=\'/lesson/wallet-basics/metamask-wallet-521de184.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: 'e60c91b7bb054ea8b4e449ddf6f1042b',
-        title: 'Prueba de Conocimiento',
+        title: 'Knowledge Check',
         quiz: {
           question: 'Is MetaMask a custodial wallet?',
           rightAnswerNumber: 2,
           answers: [
-            'Sí',
+            'Yes',
             'No'
           ],
           id: 'wallet-basics-8'
@@ -223,17 +223,18 @@ const LESSONS: LessonType[] = [
       },
       // {
       //   type: 'QUEST',
-      //   title: 'Billeteras',
+      //   title: 'Wallets',
       //   component: 'WalletBasics'
       // },
       {
         type: 'END',
-        title: 'Certificado'
+        title: 'Certificate'
       }
     ]
+    
   },
   {
-    kudosImageLink: '/lesson/blockchain-basics/kudos-b0048cdb.png',
+    kudosImageLink: '/badges/badge-celebrate.png',
     lessonImageLink: '/courses/course-web3-intro.png',
     socialImageLink: '/lesson/blockchain-basics/social-07ea2639.jpg',
     learningActions: '',
@@ -242,8 +243,8 @@ const LESSONS: LessonType[] = [
     duration: 15,
     learnings: '',
     difficulty: 'Easy',
-    description: 'Aprende sobre la arquitectura fundamental de la tecnología blockchain.',
-    name: 'Fundamentos de Blockchain',
+    description: 'Learn about the fundamental architecture of blockchain technology.',
+    name: 'Blockchain Fundamentals',
     quest: 'BlockchainBasics',
     publicationStatus: 'publish',
     featuredOrderOnHomepage: null,
@@ -266,55 +267,55 @@ const LESSONS: LessonType[] = [
       {
         type: "LEARN",
         notionId: "2541f10fa3264827ac57b1cf863254fb",
-        title: "<strong>Introducción</strong>",
-        content: "<div class=bloc1><p><code>La tecnología Blockchain</code> es una forma revolucionaria de almacenar y rastrear datos, a la vez que hace accesibles esos datos para cualquier persona. Es una forma de organizar los datos en una lista pública única de todas las transacciones históricas que cualquiera puede ver pero no puede editar. Esta lista pública de transacciones se conoce colectivamente como el <code>registro</code> de blockchain.</p><p>Después de examinar las capas de una blockchain, usaremos una herramienta de blockchain llamada un <code>explorador de bloques</code> para analizar las especificidades de la estructura de la blockchain de Ethereum; nos centraremos en la blockchain de Ethereum para ver la <strong>lista</strong> de bloques, las <strong>transacciones</strong> dentro de esos bloques, y los <strong>detalles</strong> de cada transacción individual.</p></div><div class=bloc2><img src='/lesson/blockchain-basics/introduction-6d0b6137.svg'></div>"
-      },      
+        title: "<strong>Introduction</strong>",
+        content: "<div class=bloc1><p><code>Blockchain technology</code> is a revolutionary way of storing and tracking data, while making that data accessible to anyone. It is a way of organizing data into a unique public list of all historical transactions that anyone can see but cannot edit. This public list of transactions is collectively known as the <code>ledger</code> of the blockchain.</p><p>After examining the layers of a blockchain, we will use a blockchain tool called a <code>block explorer</code> to analyze the specifics of the structure of the Ethereum blockchain; we will focus on the Ethereum blockchain to see the <strong>list</strong> of blocks, the <strong>transactions</strong> within those blocks, and the <strong>details</strong> of each individual transaction.</p></div><div class=bloc2><img src='/lesson/blockchain-basics/introduction-6d0b6137.svg'></div>"
+      },
       {
         type: "LEARN",
         notionId: "76f2f8016f44493eb57a3139cb515017",
-        title: "Estructura de Blockchain",
-        content: "<div class=bloc1><p>El término blockchain puede usarse como sustantivo — la blockchain de Bitcoin — o como adjetivo — tecnología blockchain. De cualquier manera, <code>blockchain</code> se refiere a toda la estructura en la que se basan las criptomonedas.</p><p>Si nos acercamos desde el exterior, hay 3 niveles de estructura en una blockchain:</p><ol><li>La <code>blockchain</code> general se compone de bloques que están vinculados en orden</li><li>Los <code>bloques</code> se componen de grupos de transacciones agrupadas </li><li>Las <code>transacciones</code> son cantidades de dinero enviadas entre dos <code>direcciones</code> en la red</li></ol><p>Esta estructura de tres niveles se une para crear un registro criptográfico - un historial inalterable de todas las transacciones realizadas en la red.</p></div><div class=bloc2><img src='/lesson/blockchain-basics/blockchain-structure-346dae14.svg'></div>"
+        title: "Blockchain Structure",
+        content: "<div class=bloc1><p>The term blockchain can be used as a noun — the Bitcoin blockchain — or as an adjective — blockchain technology. Either way, <code>blockchain</code> refers to the entire structure on which cryptocurrencies are based.</p><p>If we approach from the outside, there are 3 levels of structure in a blockchain:</p><ol><li>The general <code>blockchain</code> is composed of blocks that are linked in order</li><li>The <code>blocks</code> are made up of groups of bundled transactions</li><li>The <code>transactions</code> are amounts of money sent between two <code>addresses</code> on the network</li></ol><p>This three-level structure comes together to create a cryptographic record - an unalterable history of all transactions made on the network.</p></div><div class=bloc2><img src='/lesson/blockchain-basics/blockchain-structure-346dae14.svg'></div>"
       },
       {
         type: "QUIZ",
         notionId: "f98dfb3cfba44c0ba527d7a60df88aae",
-        title: "Prueba de Conocimiento",
+        title: "Knowledge Check",
         quiz: {
-          question: "¿Qué es una blockchain?",
+          question: "What is a blockchain?",
           rightAnswerNumber: 4,
           answers: [
-            "Grupos organizados de transacciones llamados bloques",
-            "Una lista de cantidades de dinero enviadas entre dos direcciones",
-            "Bloques vinculados en secuencia",
-            "Todo lo anterior"
+            "Organized groups of transactions called blocks",
+            "A list of amounts of money sent between two addresses",
+            "Blocks linked in sequence",
+            "All of the above"
           ],
           id: "blockchain-basics-1"
         }
-      },      
+      },
       {
         type: "LEARN",
         notionId: "edad96fceca6484eb72f5b301f33dea2",
-        title: "Examinando el Libro Mayor",
-        content: "<div class=bloc1><p>En los sistemas monetarios típicos, confiamos en terceros como los bancos para llevar la cuenta de cuánto dinero tiene cada persona. Pero, para ser verdaderamente sin bancos, queremos un sistema que no nos obligue a confiar en una entidad para gestionar el libro mayor.</p><p>El <code>libro mayor</code> es la lista de TODAS las transacciones realizadas en una blockchain, y cualquiera puede verlo para las blockchains <code>públicas</code>. Grupos discretos de transacciones del libro mayor forman los bloques que juntos componen la blockchain.</p><p>Cuando se añaden nuevas transacciones al libro mayor, se actualizan los saldos almacenados en cada <code>dirección</code>; las transacciones pasadas no pueden ser alteradas. Es como permitir que todos miren el historial de transacciones de todas las cuentas bancarias de todos, en cualquier momento, para siempre. </p></div><div class=bloc2><img src='/lesson/blockchain-basics/examining-the-ledger-74e5f072.svg'></div>"
+        title: "Examining the Ledger",
+        content: "<div class=bloc1><p>In typical monetary systems, we trust third parties like banks to keep track of how much money each person has. But, to be truly bankless, we want a system that does not force us to trust an entity to manage the ledger.</p><p>The <code>ledger</code> is the list of ALL transactions made on a blockchain, and anyone can see it for <code>public</code> blockchains. Discrete groups of transactions from the ledger form the blocks that together make upHere's the continuation of the English translation: the blockchain.</p><p>When new transactions are added to the ledger, the balances stored in each <code>address</code> are updated; past transactions cannot be altered. It's like allowing everyone to look at the transaction history of everyone's bank accounts, at any time, forever.</p></div><div class=bloc2><img src='/lesson/blockchain-basics/examining-the-ledger-74e5f072.svg'></div>"
       },
       {
         type: "LEARN",
         notionId: "1af211fce04445b18b017c8ede82fe09",
-        title: "Transacciones en el Libro Mayor",
-        content: "<div class=bloc1><p>Vamos a ver algunas transacciones de ejemplo:</p><ul><li>Alice envía 5 ETH a Bob</li><li>Bob envía 2 ETH a Charlie</li></ul><p>Las transacciones individuales muestran el <em>cambio</em> en la cantidad de criptomonedas para cada dirección, por lo que el resultado total de todas las transacciones ES la cantidad de criptomonedas que cada dirección tiene.</p><hr><p>⇒ Alice ha perdido 5 ETH</p><p>⇒ Bob ha ganado un total de 3 ETH (recibió 5, envió 2)</p><p>⇒ Charlie ha ganado 2 ETH</p></div><div class=bloc2><img src='/lesson/blockchain-basics/transactions-on-the-ledger-f4f9d470.svg'></div>"
+        title: "Transactions in the Ledger",
+        content: "<div class=bloc1><p>Let's look at some example transactions:</p><ul><li>Alice sends 5 ETH to Bob</li><li>Bob sends 2 ETH to Charlie</li></ul><p>Individual transactions show the <em>change</em> in the amount of cryptocurrency for each address, so the total result of all transactions IS the amount of cryptocurrency that each address has.</p><hr><p>⇒ Alice has lost 5 ETH</p><p>⇒ Bob has gained a total of 3 ETH (received 5, sent 2)</p><p>⇒ Charlie has gained 2 ETH</p></div><div class=bloc2><img src='/lesson/blockchain-basics/transactions-on-the-ledger-f4f9d470.svg'></div>"
       },
       {
         type: "QUIZ",
         notionId: "07e7cd73bf0b44af9cc46350430df624",
-        title: "Prueba de Conocimiento",
+        title: "Knowledge Check",
         quiz: {
-          question: "¿Cuál de las siguientes afirmaciones es/son verdaderas para los libros mayores de blockchain públicos?",
+          question: "Which of the following statements is/are true for public blockchain ledgers?",
           rightAnswerNumber: 4,
           answers: [
-            "Todas las transacciones son públicas y las transacciones pasadas son inalterables",
-            "El libro mayor rastrea cuánta criptomoneda tiene actualmente cada dirección",
-            "El libro mayor crece a medida que se añaden nuevas transacciones a él",
-            "Todas las anteriores"
+            "All transactions are public and past transactions are unalterable",
+            "The ledger tracks how much cryptocurrency each address currently has",
+            "The ledger grows as new transactions are added to it",
+            "All of the above"
           ],
           id: "blockchain-basics-2"
         }
@@ -322,21 +323,21 @@ const LESSONS: LessonType[] = [
       {
         type: "LEARN",
         notionId: "c344b7d4cf204ce1a627e1c3ea21d299",
-        title: "Descentralización",
-        content: "<div class=\"bloc1\"><p>Las transacciones incluidas en el registro <code>blockchain</code> no solo son inmutables, sino que también se comparten y distribuyen entre una gran red de computadoras. Para asegurarse de que ninguna entidad tenga el poder de cambiar los datos, el registro de blockchain se almacena en cada dispositivo, llamado <code>nodo</code>, en la red.</p><p>Estos datos compartidos son los que hacen que el registro de blockchain sea <code>descentralizado</code>. Ninguna autoridad o entidad única controla los datos. Blockchains como Ethereum también son <code>públicos</code> porque cualquiera puede ver el registro. </p><p>Veremos detalles específicos sobre cómo se agrega nuevos datos y cómo nos aseguramos de que todos tengan una copia de los mismos datos todo el tiempo en nuestra próxima lección de Teoría de Blockchain. Para esta lección, solo recuerde que los datos del registro son compartidos por cada computadora que ejecuta en la red de Ethereum.</p></div>"
-      },
+        title: "Decentralization",
+        content: "<div class=\"bloc1\"><p>The transactions included in the <code>blockchain</code> ledger are not only immutable, but they are also shared and distributed across a large network of computers. To ensure that no entity has the power to change the data, the blockchain ledger is stored on each device, called a <code>node</code>, on the network.</p><p>This shared data is what makes the blockchain ledger <code>decentralized</code>. No single authority or entity controls the data. Blockchains like Ethereum are also <code>public</code> because anyone can view the ledger. </p><p>We will look at specific details on how new data is added and how we ensure that everyone has a copy of the same data all the time in our next Blockchain Theory lesson. For this lesson, just remember that the ledger data is shared by every computer running on the Ethereum network.</p></div>"
+      },      
       {
         type: "QUIZ",
         notionId: "4073ac46370144d2919367efcef7ee37",
-        title: "Prueba de Conocimiento",
+        title: "Knowledge Check",
         quiz: {
-          question: "¿Qué hace que una blockchain sea descentralizada?",
+          question: "What makes a blockchain decentralized?",
           rightAnswerNumber: 3,
           answers: [
-            "Solo una entidad puede escribir en la blockchain",
-            "Cumple con los requisitos de descentralización establecidos por el gobierno",
-            "Ninguna autoridad o entidad única controla el registro ni el acceso a los datos del registro porque se distribuye en una gran red de computadoras",
-            "El registro se almacena en un solo servidor seguro"
+            "Only one entity can write to the blockchain",
+            "It meets decentralization requirements set by the government",
+            "No single authority or entity controls the ledger or access to the ledger's data because it is distributed across a large network of computers",
+            "The ledger is stored on a single secure server"
           ],
           id: "blockchain-basics-3"
         }
@@ -344,21 +345,21 @@ const LESSONS: LessonType[] = [
       {
         type: "LEARN",
         notionId: "6d45c90a4b094caa8d1c8d2c71523284",
-        title: "Anatomía de un bloque",
-        content: "<div class=\"bloc1\"><p>Una característica importante de las blockchains es que los datos de transacciones pasadas no pueden cambiarse después de haber sido incluidos en un bloque. Esto se debe a que cada bloque tiene un <code>hash de bloque</code> único, como una huella dactilar, que se utiliza para vincular los bloques uno después del otro. Nadie puede cambiar las transacciones pasadas sin cambiar esa huella dactilar y la huella dactilar de CADA bloque que la sigue, porque cada huella dactilar depende de la anterior.</p><p>Entonces cada <code>bloque</code> es simplemente un grupo de transacciones agrupadas en un archivo junto con el <code>hash de bloque</code> de ese bloque. Los bloques están encadenados porque cada uno referencia la huella dactilar única del bloque anterior para formar una cadena de bloques conectada.</p></div><div class=\"bloc2\"><img src='/lesson/blockchain-basics/block-anatomy-8ba3bea2.svg'></div>"
+        title: "Anatomy of a Block",
+        content: "<div class=\"bloc1\"><p>An important feature of blockchains is that past transaction data cannot be changed once it has been included in a block. This is because each block has a unique <code>block hash</code>, like a fingerprint, that is used to link the blocks one after the other. No one can change past transactions without changing that fingerprint and the fingerprint of EVERY block that follows it, because each fingerprint depends on the previous one.</p><p>So each <code>block</code> is simply a group of transactions bundled into a file along with that block's <code>block hash</code>. The blocks are chained because each one references the unique fingerprint of the previous block to form a connected chain of blocks.</p></div><div class=\"bloc2\"><img src='/lesson/blockchain-basics/block-anatomy-8ba3bea2.svg'></div>"
       },
       {
         type: "QUIZ",
         notionId: "47a59ed5d3814cbdb5806331b37d6766",
-        title: "Prueba de Conocimiento",
+        title: "Knowledge Check",
         quiz: {
-          question: "¿Cuál es el propósito de un hash de bloque?",
+          question: "What is the purpose of a block hash?",
           rightAnswerNumber: 2,
           answers: [
-            "Para cifrar los datos del bloque para que nadie pueda leerlos",
-            "Para vincular cada bloque con el anterior y asegurar que los datos de las transacciones pasadas no cambien",
-            "Para asegurar que las transacciones se envíen a la dirección correcta",
-            "Para asegurar que la blockchain permanezca descentralizada"
+            "To encrypt the block data so no one can read it",
+            "To link each block with the previous and ensure that past transaction data doesn't change",
+            "To ensure transactions are sent to the correct address",
+            "To ensure that the blockchain remains decentralized"
           ],
           id: "blockchain-basics-4"
         }
@@ -366,21 +367,21 @@ const LESSONS: LessonType[] = [
       {
         type: "LEARN",
         notionId: "6f1cc1133e8e4b86b3579fb4d4eb4a1c",
-        title: "Dentro de un Bloque",
-        content: "<div class=\"bloc1\"><p>Recuerda, los datos de un <code>bloque</code> son simplemente un grupo de transacciones agrupadas. Mirando dentro de un solo bloque, vemos una lista de transacciones y algunos datos sobre quién creó el bloque. </p><p>De nuestro ejemplo anterior al discutir el registro de blockchain, ambas transacciones podrían agruparse dentro de un bloque, o distribuirse en varios bloques a lo largo del tiempo. Pero sin importar en qué bloque se incluyan, todos se agregan al registro general de blockchain eventualmente.</p><ul><li>Alice envía 5 ETH a Bob</li><li>Bob envía 2 ETH a Charlie</li></ul><p>Recuerda que cada bloque también debe hacer referencia al <code>hash de bloque</code> del bloque pasado para vincular la blockchain.</p></div><div class=\"bloc2\"><img src='/lesson/blockchain-basics/inside-a-block-b11c74ce.svg'></div>"
+        title: "Inside a Block",
+        content: "<div class=\"bloc1\"><p>Remember, a <code>block</code>'s data are simply a group of transactions bundled together. Looking inside a single block, we see a list of transactions and some data about who created the block. </p><p>From our previous example when discussing the blockchain ledger, both transactions could be bundled inside one block, or spread across several blocks over time. But regardless of which block they're included in, they all get added to the overall blockchain ledger eventually.</p><ul><li>Alice sends 5 ETH to Bob</li><li>Bob sends 2 ETH to Charlie</li></ul><p>Remember, each block also has to reference the previous block's <code>block hash</code> to link the blockchain.</p></div><div class=\"bloc2\"><img src='/lesson/blockchain-basics/inside-a-block-b11c74ce.svg'></div>"
       },
       {
         type: "QUIZ",
         notionId: "311096618ecd451ba65677f2c3139823",
-        title: "Prueba de Conocimiento",
+        title: "Knowledge Check",
         quiz: {
-          question: "La siguiente información se contiene en un bloque:",
+          question: "The following information is contained in a block:",
           rightAnswerNumber: 3,
           answers: [
-            "Toda la información contenida en los bloques anteriores, para que la blockchain siempre esté actualizada",
-            "Cualquier cosa relevante para la blockchain ya que el tamaño del bloque es ilimitado",
-            "Datos de transacción y una referencia al bloque anterior",
-            "Todos los datos de transacciones generados dentro de un plazo fijo"
+            "All the information contained in the previous blocks, so that the blockchain is always up to date",
+            "Anything relevant to the blockchain as the block size is unlimited",
+            "Transaction data and a reference to the previous block",
+            "All transaction data generated within a fixed time frame"
           ],
           id: "blockchain-basics-5"
         }
@@ -388,21 +389,21 @@ const LESSONS: LessonType[] = [
       {
         type: "LEARN",
         notionId: "a9a1ce74d04c439f97249b2000964e5e",
-        title: "Transacciones Individuales",
-        content: "<div class=\"bloc1\"><p>Los datos en cualquier blockchain son simplemente una lista de <code>transacciones</code>, registros de moneda movidos entre usuarios. Cada transacción debe ser firmada con la <code>firma digital</code> del remitente para ser válida. </p><p>Esto es lo que haces cuando confirmas una transacción con una billetera, estás firmando con tu firma digital para autorizar la transacción. Cualquiera puede verificar esta firma para confirmar que proviene del titular de la billetera, sin que el titular necesite revelar su clave privada. </p><p>La billetera también calcula la cantidad de <code>gas</code> necesaria para la transacción y te permite ajustar la cantidad de gas y el precio del gas para la transacción. Esta es la tarifa que se paga por incluir la transacción en el blockchain. </p></div><div class=\"bloc2\"><img src='/lesson/blockchain-basics/single-transaction-ffc6b7e2.svg'></div>"
+        title: "Individual Transactions",
+        content: "<div class=\"bloc1\"><p>The data in any blockchain are simply a list of <code>transactions</code>, records of currency moved between users. Each transaction must be signed with the sender's <code>digital signature</code> to be valid. </p><p>This is what you do when you confirm a transaction with a wallet, you are signing with your digital signature to authorize the transaction. Anyone can verify this signature to confirm that it comes from the wallet holder, without the holder needing to reveal their private key. </p><p>The wallet also calculates the amount of <code>gas</code> needed for the transaction and allows you to adjust the amount of gas and the gas price for the transaction. This is the fee that is paid for including the transaction in the blockchain. </p></div><div class=\"bloc2\"><img src='/lesson/blockchain-basics/single-transaction-ffc6b7e2.svg'></div>"
       },
       {
         type: "QUIZ",
         notionId: "a2f62f4553ca46a79e55a290f7a74e91",
-        title: "Prueba de Conocimiento",
+        title: "Knowledge Check",
         quiz: {
-          question: "¿Cuál es la función de la firma digital en una transacción blockchain?",
+          question: "What is the function of the digital signature in a blockchain transaction?",
           rightAnswerNumber: 1,
           answers: [
-            "Autoriza la transacción y permite su verificación sin revelar la clave privada del remitente",
-            "Cifra la transacción para que nadie pueda leerla",
-            "Calcula la cantidad de gas necesaria para la transacción",
-            "Actúa como un código PIN para desbloquear la billetera"
+            "It authorizes the transaction and allows its verification without revealing the sender's private key",
+            "It encrypts the transaction so that no one can read it",
+            "It calculates the amount of gas needed for the transaction",
+            "It acts as a PIN code to unlock the wallet"
           ],
           id: "blockchain-basics-6"
         }
@@ -410,25 +411,25 @@ const LESSONS: LessonType[] = [
       {
         type: "LEARN",
         notionId: "b4f0ce31ff20480aa97dd69b2c7b091c",
-        title: "Direcciones de Usuario",
-        content: "<div class=\"bloc1\"><p>Una <code>dirección</code> es un identificador público que cualquiera puede buscar en la blockchain. Como una dirección de correo electrónico, cualquiera puede enviar fondos a ella, pero solo alguien que controle la <code>llave privada</code> puede desbloquear y usar los fondos de esa dirección.</p><p>En Ethereum, una dirección siempre comienza con <em>0x_________</em> y consta de 42 caracteres de números y letras derivados de la <code>llave pública</code> de esa dirección.</p><p>Cuando se observa una sola transacción en un explorador de bloques, podemos ver las direcciones 'De:' y 'Para:'. Esto no nos dice quiénes son las <em>personas</em> que controlan esas direcciones, pero permite a cualquier usuario rastrear el movimiento de la criptomoneda a través del registro de la blockchain.</p></div><div class=\"bloc2\"><img src='/lesson/blockchain-basics/user-addresses-e9456d37.svg'></div>"
+        title: "User Addresses",
+        content: "<div class=\"bloc1\"><p>An <code>address</code> is a public identifier that anyone can look up on the blockchain. Like an email address, anyone can send funds to it, but only someone who controls the <code>private key</code> can unlock and use the funds from that address.</p><p>In Ethereum, an address always starts with <em>0x_________</em> and consists of 42 characters of numbers and letters derived from that address's <code>public key</code>.</p><p>When we look at a single transaction in a block explorer, we can see the 'From:' and 'To:' addresses. This doesn't tell us who the <em>people</em> are that control those addresses, but it allows any user to track the movement of cryptocurrency through the blockchain ledger.</p></div><div class=\"bloc2\"><img src='/lesson/blockchain-basics/user-addresses-e9456d37.svg'></div>"
       },
       {
         type: "QUIZ",
         notionId: "5a6cfd2b2a9c4a059253b7f23ba3f74c",
-        title: "Prueba de Conocimiento",
+        title: "Knowledge Check",
         quiz: {
-          question: "¿Qué es cierto sobre las direcciones de blockchain?",
+          question: "What is true about blockchain addresses?",
           rightAnswerNumber: 4,
           answers: [
-            "Son los identificadores públicos de diferentes entidades en una blockchain",
-            "Siempre comienzan con 0x en Ethereum",
-            "Quien controla la llave privada de una dirección puede usar los fondos de esa dirección",
-            "Todo lo anterior"
+            "They are the public identifiers of different entities in a blockchain",
+            "They always start with 0x in Ethereum",
+            "Whoever controls the private key of an address can use the funds from that address",
+            "All of the above"
           ],
           id: "blockchain-basics-7"
         }
-      },
+      },      
       {
         type: 'END',
         title: 'Lesson Reward'
@@ -436,7 +437,7 @@ const LESSONS: LessonType[] = [
     ]
   },
   {
-    kudosImageLink: '/lesson/intro-to-defi/kudos-b4dab2d4.png',
+    kudosImageLink: '/badges/badge-celebrate.png',
     lessonImageLink: '/courses/course-defi.png',
     socialImageLink: '/lesson/intro-to-defi/social-ee8d95a4.jpg',
     learningActions: 'Transfer crypto into your web3 wallet in order to be ready to interact with DeFi later',
@@ -445,7 +446,7 @@ const LESSONS: LessonType[] = [
     duration: 10,
     learnings: '',
     difficulty: 'Easy',
-    description: 'Comprende los fundamentos de las finanzas descentralizadas.',
+    description: 'Understand the basics of decentralized finance.',
     name: 'DeFi 101',
     quest: 'IntroToDeFi',
     publicationStatus: 'publish',
@@ -663,7 +664,7 @@ const LESSONS: LessonType[] = [
     ]
   },
   {
-    kudosImageLink: null,
+    kudosImageLink: '/badges/badge-celebrate.png',
     lessonImageLink: '/courses/course-dex.png',
     learningActions: '',
     marketingDescription: 'DEXs and AMMs have changed the landscape of traditional market trading. It’s time to understand why, and how you can use this technology to your own advantage.',
@@ -671,8 +672,8 @@ const LESSONS: LessonType[] = [
     duration: 15,
     learnings: '',
     difficulty: undefined,
-    description: '¡Descubre cómo los intercambios de contratos inteligentes permiten intercambios de tokens sin necesidad de permisos!',
-    name: 'Intercambios Descentralizados (DEXs)',
+    description: 'Discover how smart contract exchanges enable permissionless token exchanges!',
+    name: 'Decentralized Exchanges (DEXs)',
     quest: 'DEXsAndAMMs',
     publicationStatus: 'publish',
     featuredOrderOnHomepage: null,
@@ -867,8 +868,8 @@ const LESSONS: LessonType[] = [
     duration: 20,
     learnings: '',
     difficulty: 'Easy',
-    description: 'Aprende sobre el desarrollo de apps de Web3 (Dapps).',
-    name: 'Desarrollo de Apps Web3',
+    description: 'Learn about Web3 apps (Dapps) development.',
+    name: 'Web3 Apps Development',
     quest: 'WalletBasics',
     publicationStatus: 'publish',
     featuredOrderOnHomepage: null,
@@ -1290,7 +1291,7 @@ const LESSONS: LessonType[] = [
     
   },
   {
-    kudosImageLink: '/lesson/kudos-testing/kudos-5e4cda70.png',
+    kudosImageLink: '/badges/badge-celebrate.png',
     lessonImageLink: '/lesson/kudos-testing/lesson-03a3e86a.png',
     socialImageLink: '/lesson/kudos-testing/social-17fed266.png',
     learningActions: '',

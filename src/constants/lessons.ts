@@ -233,7 +233,7 @@ const LESSONS: LessonType[] = [
     ]
   },
   {
-    kudosImageLink: '/lesson/blockchain-basics/kudos-b0048cdb.png',
+    kudosImageLink: '/badges/badge-celebrate.png',
     lessonImageLink: '/courses/course-web3-intro.png',
     socialImageLink: '/lesson/blockchain-basics/social-07ea2639.jpg',
     learningActions: '',
@@ -436,7 +436,7 @@ const LESSONS: LessonType[] = [
     ]
   },
   {
-    kudosImageLink: '/lesson/intro-to-defi/kudos-b4dab2d4.png',
+    kudosImageLink: '/badges/badge-celebrate.png',
     lessonImageLink: '/courses/course-defi.png',
     socialImageLink: '/lesson/intro-to-defi/social-ee8d95a4.jpg',
     learningActions: 'Transfer crypto into your web3 wallet in order to be ready to interact with DeFi later',
@@ -663,7 +663,7 @@ const LESSONS: LessonType[] = [
     ]
   },
   {
-    kudosImageLink: null,
+    kudosImageLink: '/badges/badge-celebrate.png',
     lessonImageLink: '/courses/course-dex.png',
     learningActions: '',
     marketingDescription: 'DEXs and AMMs have changed the landscape of traditional market trading. It’s time to understand why, and how you can use this technology to your own advantage.',
@@ -1290,7 +1290,7 @@ const LESSONS: LessonType[] = [
     
   },
   {
-    kudosImageLink: '/lesson/kudos-testing/kudos-5e4cda70.png',
+    kudosImageLink: '/badges/badge-celebrate.png',
     lessonImageLink: '/lesson/kudos-testing/lesson-03a3e86a.png',
     socialImageLink: '/lesson/kudos-testing/social-17fed266.png',
     learningActions: '',

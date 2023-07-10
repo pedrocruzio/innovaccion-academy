@@ -271,7 +271,7 @@ const parsePages = async (lesson: LessonType, name: string) => {
             const setOfSlides = await extractSlides(childrenResponse.results)
             let slidesIndex = 0
             let slide = {}
-            if (setOfSlides[0]?.heading_1?.rich_text[0]?.plain_text === 'Knowledge Check') {
+            if (setOfSlides[0]?.heading_1?.rich_text[0]?.plain_text.includes('Knowledge Check')) {
                 slide = createQuizSlide(setOfSlides, `${lesson.name.toLowerCase().replace(' ', '-')}-${slidesIndex}`)
             } else {
                 slide = createLearnSlide(setOfSlides)

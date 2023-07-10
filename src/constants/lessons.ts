@@ -117,7 +117,7 @@ const LESSONS: LessonType[] = [
         type: 'LEARN',
         notionId: 'a92f95a2da2a4429942b6aad2a260e1b',
         title: 'Billetera Custodial',
-        content: '<div class="bloc1"><p>Dado que tu <code>clave privada</code> desbloquea el acceso a tu <code>wallet</code>, mantenerla privada y segura es muy importante.</p><p>No todos los wallets te permiten controlar tu clave privada. Con un <code>wallet custodial</code>, otra parte la controla. Coinbase y Kraken son ejemplos de wallets custodiales que tienen tu clave privada.</p><p>Esto puede ser todo lo que algunas personas necesiten, pero requiere que confíes en terceros para asegurar tus criptoactivos y darte acceso cuando quieras comerciar o enviarlos a otro lugar. Además, tu acceso al mundo de aplicaciones <code>DeFi</code> será limitado.</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/custodial-wallet-0538644f.svg\'></div>'
+        content: '<div class="bloc1"><p>Dado que tu <code>clave privada</code> desbloquea el acceso a tu <code>billetera</code>, mantenerla privada y segura es muy importante.</p><p>No todos las billeteras te permiten controlar tu clave privada. Con un <code>billetera custodial</code>, otra parte la controla. Coinbase y Kraken son ejemplos de billeteras custodiales que tienen tu clave privada.</p><p>Esto puede ser todo lo que algunas personas necesiten, pero requiere que confíes en terceros para asegurar tus criptoactivos y darte acceso cuando quieras comerciar o enviarlos a otro lugar. Además, tu acceso al mundo de aplicaciones <code>DeFi</code> será limitado.</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/custodial-wallet-0538644f.svg\'></div>'
       },
       {
         type: 'QUIZ',
@@ -136,7 +136,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: 'a78db356b36c4bb19a85af61170b2471',
-        title: 'Non-custodial Wallet',
+        title: 'Billetera Sin Custodia',
         content: '<div class="bloc1"><p>Tu pasaporte a los emocionantes mundos de <code>DeFi</code> y <code>Web3</code> - y la mejor manera de proteger tu <code>clave privada</code> es mediante un <code>wallet no custodial</code>.</p><p>Recuerda: si pierdes tu clave privada, no podrás acceder a tu wallet para gastar, retirar o transferir tus activos criptográficos.</p><p>Afortunadamente, aún puedes recuperar tu wallet con tu <code>frase de recuperación</code>. Pero si también pierdes eso, ¡perderás el acceso a tu wallet PARA SIEMPRE!</p></div><div class="bloc2"><img src=\'/lesson/wallet-basics/non-custodial-wallet-aee2708b.svg\'></div>'
       },
       {
@@ -204,7 +204,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: '66d21ca797f44f02861545e2042582c8',
-        title: 'MetaMask Wallet',
+        title: 'MetaMask',
         content: '<div class="bloc1"><p>Existen varias <code>billeteras calientes</code> <code>no custodiales</code> disponibles hoy en día. Exploraremos la popular Billetera MetaMask para el resto de esta lección ya que:</p><ul><li>Es probable que sea compatible con la mayoría de las aplicaciones de <code>DeFi</code>.</li><li>Tiene una extensión de navegador para los navegadores de internet Chrome, Brave, Edge y Firefox.</li><li>También está disponible como una aplicación móvil para usuarios de Android e iOS.</li></ul></div><div class="bloc2"><img src=\'/lesson/wallet-basics/metamask-wallet-521de184.svg\'></div>'
       },
       {
@@ -212,7 +212,7 @@ const LESSONS: LessonType[] = [
         notionId: 'e60c91b7bb054ea8b4e449ddf6f1042b',
         title: 'Prueba de Conocimiento',
         quiz: {
-          question: 'Is MetaMask a custodial wallet?',
+          question: '¿Metamask es una cartera custodial?',
           rightAnswerNumber: 2,
           answers: [
             'Sí',
@@ -471,7 +471,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: 'abdb330ec2194271a729128226eadb2d',
-        title: 'Definido DeFi',
+        title: 'Definiendo DeFi',
         content: '<div class="bloc1"><p>DeFi—abreviatura de <code>finanzas descentralizadas</code>—se refiere al ecosistema de rápido crecimiento de productos financieros, protocolos y aplicaciones que operan en redes <code>blockchain</code> públicas.</p><p>DeFi está transformando rápidamente el mundo de las finanzas con una gama de nuevas herramientas para poner los activos cripto a trabajar. Ofrece oportunidades más allá de simplemente comprar cripto en un intercambio centralizado. Permite a todos y cada uno construir un estilo de vida descentralizado y sin bancos.</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/defi-defined-46782447.svg\'></div>'
       },
       {
@@ -499,7 +499,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: '772e17d6104145f7969b47fd2e132e68',
-        title: '<strong>Yield Farming</strong>',
+        title: '<strong>Cultivo de Rendimiento (Yield Farming)</strong>',
         content: '<div class="bloc1"><p>Existe un número creciente de protocolos <code>DeFi</code> que te permiten obtener intereses y otras recompensas utilizando tus activos criptográficos. Puedes tener acceso a productos financieros que normalmente necesitarías de un banco o una firma de servicios financieros para obtener—pero sin el papeleo, intermediarios, proceso de aprobación y otras molestias del mundo financiero tradicional.</p><p>Al eliminar al intermediario, también eliminas cualquier tarifa de servicio, cuotas y comisiones que normalmente pagarías en el mundo financiero tradicional. Con DeFi, te quedas con todas las recompensas, o rendimiento ganado de tus activos. Es por eso que DeFi es popular. </p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/earning-yield-c5f123f8.svg\'></div>'
       },
       {
@@ -699,7 +699,7 @@ const LESSONS: LessonType[] = [
         type: 'LEARN',
         notionId: '8ea31e80fcfc49d3a88ad09d03341c9c',
         title: 'Un Ejemplo de Cómo la Liquidez Impacta los Precios',
-        content: '<div class="bloc1"><p>Vamos a ver un ejemplo. </p><p>El token de BanklessDAO (BANK) tiene una cantidad de liquidez de ~30 millones de BANK en Uniswap, pero solo ~4.5 millones de BANK en SushiSwap. Uniswap tiene más de 6 veces la liquidez de BANK que SushiSwap.</p><p>Si un Explorador fuera a comprar 10,000 BANK de cada pool, encontraría que el <code>impacto en el precio</code> de su operación resultaría en un precio de comercio más alto en la pool de SushiSwap, porque su operación ha extraído un porcentaje mayor de la liquidez total de la pool.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/an-example-of-how-liquidity-impacts-prices-915b3d84.svg\'></div>'
+        content: '<div class="bloc1"><p>Vamos a ver un ejemplo. </p><p>El token de BanklessDAO (BANK) tiene una cantidad de liquidez de ~30 millones de BANK en Uniswap, pero solo ~4.5 millones de BANK en SushiSwap. Uniswap tiene más de 6 veces la liquidez de BANK que SushiSwap.</p><p>Si un Explorador fuera a comprar 10,000 BANK de cada piscina, encontraría que el <code>impacto en el precio</code> de su operación resultaría en un precio de comercio más alto en la piscina de SushiSwap, porque su operación ha extraído un porcentaje mayor de la liquidez total de la piscina.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/an-example-of-how-liquidity-impacts-prices-915b3d84.svg\'></div>'
       },
       {
         type: 'QUIZ',
@@ -721,7 +721,7 @@ const LESSONS: LessonType[] = [
         type: 'LEARN',
         notionId: 'b97afba7b0f44b709f57d6e85ce13cc2',
         title: 'Limitaciones de los DEX Tradicionales: Liquidez Escasa',
-        content: '<div class="bloc1"><p>DeFi continúa creciendo, pero está surgiendo un problema para los usuarios: A medida que se lanzan más DEX, la cantidad total de cualquier token individual se dispersa. Esto se conoce como liquidez escasa.</p><p>Recuerda la piscina: si el agua disponible (<code>liquidez</code>) se divide entre varias piscinas, la cantidad de agua será "más escasa" en cada piscina en comparación con el total en la única piscina original.</p><p>En 2020, Uniswap tenía gran parte de la liquidez DEX para operar en DeFi. Cuando SushiSwap se lanzó el mes siguiente, atrajo más de $1B en liquidez a su DEX de Uniswap, reduciendo la liquidez total en Uniswap. Esto fue solo el comienzo. Desde entonces, cada vez más DEX han entrado en el ecosistema DeFi, adelgazando progresivamente la liquidez de cada pool.</p><p>Por lo tanto, cualquier operación tiene un mayor <code>impacto en el precio</code> que cuando Uniswap tenía la mayoría de la liquidez total del ecosistema. A medida que se lanzan más DEX, cuesta más a los Exploradores operar en cualquier DEX individual sin nuevas innovaciones.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/shortcomings-of-traditional-dexs-thin-liquidity-c9e0b695.svg\'></div>'
+        content: '<div class="bloc1"><p>DeFi continúa creciendo, pero está surgiendo un problema para los usuarios: A medida que se lanzan más DEX, la cantidad total de cualquier token individual se dispersa. Esto se conoce como liquidez escasa.</p><p>Recuerda la piscina: si el agua disponible (<code>liquidez</code>) se divide entre varias piscinas, la cantidad de agua será "más escasa" en cada piscina en comparación con el total en la única piscina original.</p><p>En 2020, Uniswap tenía gran parte de la liquidez DEX para operar en DeFi. Cuando SushiSwap se lanzó el mes siguiente, atrajo más de $1B en liquidez a su DEX de Uniswap, reduciendo la liquidez total en Uniswap. Esto fue solo el comienzo. Desde entonces, cada vez más DEX han entrado en el ecosistema DeFi, adelgazando progresivamente la liquidez de cada piscina.</p><p>Por lo tanto, cualquier operación tiene un mayor <code>impacto en el precio</code> que cuando Uniswap tenía la mayoría de la liquidez total del ecosistema. A medida que se lanzan más DEX, cuesta más a los Exploradores operar en cualquier DEX individual sin nuevas innovaciones.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/shortcomings-of-traditional-dexs-thin-liquidity-c9e0b695.svg\'></div>'
       },
       {
         type: 'QUIZ',

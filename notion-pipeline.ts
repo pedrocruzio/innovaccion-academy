@@ -218,7 +218,10 @@ const parseProperties = (database: QueryDatabaseResponse) => {
         //    add notionId to DB
         // await db(TABLES.credentials).insert([{notion_id: lesson.notionId}]).onConflict('notion_id')
         await parsePages(lesson, lesson.name)
-        lesson.slides = SLIDES[lesson.name] || []
+        const jsonData = fs.readFileSync('./SLIDESMAP.json', 'utf-8');
+        const JSONSLIDES = JSON.parse(jsonData)
+
+        lesson.slides = JSONSLIDES[lesson.name] || []
         lesson.imageLinks = IMAGELINKS[lesson.name] || []
         lessons.push(lesson)
     })
@@ -248,7 +251,7 @@ export default LESSONS
                 `export done -> check syntax & typing errors in src/constants/${LESSON_FILENAME}.ts`
             )
         })
-        .catch((error) => console.error("Error creating lesson: ",error))
+        .catch((error) => console.error("Error creating lesson: ", error))
     return lessons
 }
 
@@ -288,9 +291,11 @@ const parsePages = async (lesson: LessonType, name: string) => {
 
     existingData[lesson.name] = SLIDESMAPPING[lesson.name]
     const updatedJsonData = JSON.stringify(existingData, null, 2)
-    fs.writeFileSync("src/constants/slides.ts", `const SLIDES = ${updatedJsonData}
-    export default SLIDES
-    `, 'utf-8')
+    fs.writeFileSync('./SLIDESMAP.json', updatedJsonData, 'utf-8')
+    // const updatedJsonData = JSON.stringify(existingData, null, 2)
+    // fs.writeFileSync("src/constants/slides.ts", `const SLIDES = ${updatedJsonData}
+    // export default SLIDES
+    // `, 'utf-8')
 
     return SLIDESMAPPING[lesson.name]
 }

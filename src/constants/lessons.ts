@@ -472,7 +472,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: 'abdb330ec2194271a729128226eadb2d',
-        title: 'Definido DeFi',
+        title: 'Defining DeFi',
         content: '<div class="bloc1"><p>DeFi—abreviatura de <code>finanzas descentralizadas</code>—se refiere al ecosistema de rápido crecimiento de productos financieros, protocolos y aplicaciones que operan en redes <code>blockchain</code> públicas.</p><p>DeFi está transformando rápidamente el mundo de las finanzas con una gama de nuevas herramientas para poner los activos cripto a trabajar. Ofrece oportunidades más allá de simplemente comprar cripto en un intercambio centralizado. Permite a todos y cada uno construir un estilo de vida descentralizado y sin bancos.</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/defi-defined-46782447.svg\'></div>'
       },
       {

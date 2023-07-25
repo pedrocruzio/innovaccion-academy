@@ -86,10 +86,10 @@ const Head = ({ metadata }: { metadata: MetaData }): React.ReactElement => {
         <noscript>You need to enable JavaScript to run this app.</noscript>
       </NextHead>
       {/* Hotjar */}
-      {typeof window !== 'undefined' &&
+      {/* {typeof window !== 'undefined' &&
       window.location.hostname === 'app.banklessacademy.com'
         ? hotjar.initialize(2568813, 6)
-        : null}
+        : null} */}
       {/* Umami */}
       <Script
         async

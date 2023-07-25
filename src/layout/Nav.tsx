@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Box, Image, HStack, Spacer, Flex } from '@chakra-ui/react'
+import { Box, Image, HStack, Spacer, Flex, Button } from '@chakra-ui/react'
 import { isMobile } from 'react-device-detect'
 import queryString from 'query-string'
 
@@ -83,14 +83,22 @@ const Nav: React.FC = () => {
             )}
           </Box>
           <Spacer />
-          {/* <HStack spacing={2} justifyContent="space-between">
-            <SwitchNetworkButton isSmallScreen={isSmallScreen} />
-            <ConnectWalletButton isSmallScreen={isSmallScreen} />
+          <HStack spacing={2} justifyContent="space-between">
+            {/* <SwitchNetworkButton isSmallScreen={isSmallScreen} />
+            <ConnectWalletButton isSmallScreen={isSmallScreen} /> */}
+            <InternalLink href={`/lessons`}>
+            <Button
+              variant="primary"
+              size="lg"
+            >
+              Ver Cursos
+            </Button>
+          </InternalLink>
             <OptionMenu
               isSmallScreen={isSmallScreen}
               isWebApp={webapp === 'true'}
             />
-          </HStack> */}
+          </HStack>
         </Flex>
       </Box>
     </header>

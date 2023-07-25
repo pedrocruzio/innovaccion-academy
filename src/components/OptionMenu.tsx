@@ -42,11 +42,14 @@ const OptionMenu = ({
           ...
         </MenuButton>
         <MenuList css={{ background: '#6064fc' }}>
+        <ExternalLink href="https://innovaccionpr.org" color="white">
+            <MenuItem>English</MenuItem>
+          </ExternalLink>
           <ExternalLink href="https://innovaccionpr.org" color="white">
-            <MenuItem>Back to Home Page</MenuItem>
+            <MenuItem>Regresar al home page</MenuItem>
           </ExternalLink>
           <ExternalLink href="https://prblockchain.org" color="white">
-            <MenuItem>PRBTA Website</MenuItem>
+            <MenuItem>Página de PRBTA</MenuItem>
           </ExternalLink>
         </MenuList>
       </Menu>

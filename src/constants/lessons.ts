@@ -432,7 +432,7 @@ const LESSONS: LessonType[] = [
       },      
       {
         type: 'END',
-        title: 'Lesson Reward'
+        title: 'Certificate'
       }
     ]
   },
@@ -473,26 +473,26 @@ const LESSONS: LessonType[] = [
         type: 'LEARN',
         notionId: 'abdb330ec2194271a729128226eadb2d',
         title: 'Defining DeFi',
-        content: '<div class="bloc1"><p>DeFi—abreviatura de <code>finanzas descentralizadas</code>—se refiere al ecosistema de rápido crecimiento de productos financieros, protocolos y aplicaciones que operan en redes <code>blockchain</code> públicas.</p><p>DeFi está transformando rápidamente el mundo de las finanzas con una gama de nuevas herramientas para poner los activos cripto a trabajar. Ofrece oportunidades más allá de simplemente comprar cripto en un intercambio centralizado. Permite a todos y cada uno construir un estilo de vida descentralizado y sin bancos.</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/defi-defined-46782447.svg\'></div>'
+        content: '<div class="bloc1"><p>DeFi—short for <code>decentralized finance</code>—refers to the fast-growing ecosystem of financial products, protocols, and applications that operate on public <code>blockchain</code> networks.</p><p>DeFi is rapidly transforming the world of finance with a range of new tools to put crypto assets to work. It offers opportunities beyond just buying crypto on a centralized exchange. It allows each and every one to build a decentralized, bankless lifestyle.</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/defi-defined-46782447.svg\'></div>'
       },
       {
         type: 'LEARN',
         notionId: '5d93d188e0274acbb22cc32e433c3b67',
-        title: '¿Por qué DeFi?',
-        content: '<div class="bloc1"><p>DeFi permite a cualquier persona con una conexión a internet tener acceso a sofisticadas herramientas financieras: Trading, Opciones, Préstamos y Endeudamiento.</p><p>DeFi ofrece estas herramientas a los usuarios de manera transparente y abierta. Cualquiera puede ver el código y verificar que el contrato hace lo que dice que hace, a diferencia de lo que los bancos hacen con tu dinero detrás de puertas cerradas.</p><p>No hay intermediarios para mediar o tomar un porcentaje de tus transacciones.</p></div>'
+        title: 'Why DeFi?',
+        content: '<div class="bloc1"><p>DeFi allows anyone with an internet connection to have access to sophisticated financial tools: Trading, Options, Loans, and Debt.</p><p>DeFi offers these tools to users transparently and openly. Anyone can see the code and verify that the contract does what it says it does, unlike what banks do with your money behind closed doors.</p><p>There are no intermediaries to mediate or take a percentage of your transactions.</p></div>'
       },
       {
         type: 'QUIZ',
         notionId: '920b875598a34fa59affe46e58ed4e58',
-        title: 'Comprobación de Conocimientos',
+        title: 'Knowledge Check',
         quiz: {
-          question: '¿Qué significa DeFi? ',
+          question: 'What does DeFi mean? ',
           rightAnswerNumber: 2,
           answers: [
-            'Ficción derivada',
-            'Finanzas descentralizadas',
-            'Campo de desregulación',
-            'Pescadores degenerados'
+            'Derived fiction',
+            'Decentralized finance',
+            'Deregulation field',
+            'Degenerate fishermen'
           ],
           id: 'intro-to-defi-1'
         }
@@ -501,20 +501,20 @@ const LESSONS: LessonType[] = [
         type: 'LEARN',
         notionId: '772e17d6104145f7969b47fd2e132e68',
         title: '<strong>Yield Farming</strong>',
-        content: '<div class="bloc1"><p>Existe un número creciente de protocolos <code>DeFi</code> que te permiten obtener intereses y otras recompensas utilizando tus activos criptográficos. Puedes tener acceso a productos financieros que normalmente necesitarías de un banco o una firma de servicios financieros para obtener—pero sin el papeleo, intermediarios, proceso de aprobación y otras molestias del mundo financiero tradicional.</p><p>Al eliminar al intermediario, también eliminas cualquier tarifa de servicio, cuotas y comisiones que normalmente pagarías en el mundo financiero tradicional. Con DeFi, te quedas con todas las recompensas, o rendimiento ganado de tus activos. Es por eso que DeFi es popular. </p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/earning-yield-c5f123f8.svg\'></div>'
+        content: '<div class="bloc1"><p>There are a growing number of <code>DeFi</code> protocols that allow you to earn interest and other rewards using your crypto assets. You can have access to financial products that you would normally need a bank or a financial services firm to obtain—but without the paperwork, intermediaries, approval process, and other hassles of the traditional financial world.</p><p>By eliminating the middleman, you also eliminate any service fees, quotas, and commissions you would normally pay in the traditional financial world. With DeFi, you keep all the rewards, or yield earned from your assets. That\'s why DeFi is popular. </p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/earning-yield-c5f123f8.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: '465a40fdbe24487695394ee1b4a4e97a',
-        title: 'Prueba de Conocimiento',
+        title: 'Knowledge Check',
         quiz: {
-          question: '¿Cómo puedes obtener rendimiento con cripto?',
+          question: 'How can you earn yield with crypto?',
           rightAnswerNumber: 3,
           answers: [
-            '[A] Ganar interés depositando en un protocolo DeFi',
-            '[B] Ganar recompensas depositando en un protocolo DeFi',
-            '[C] Ambos, A y B',
-            '[D] No puedes obtener rendimiento en cripto'
+            '[A] Earning interest by depositing in a DeFi protocol',
+            '[B] Earning rewards by depositing in a DeFi protocol',
+            '[C] Both, A and B',
+            '[D] You cannot earn yield in crypto'
           ],
           id: 'intro-to-defi-2'
         }
@@ -522,21 +522,21 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: '153a075b1a004f38a9c177486aa95395',
-        title: 'Lo que Puedes Hacer Con DeFi',
-        content: '<div class="bloc1"><p>Las transacciones <code>DeFi</code> son <code>sin permiso</code>. Esto se refiere a una <code>blockchain</code> pública que cualquiera puede usar para comprar, vender o intercambiar activos. Ninguna tercera parte controla o supervisa la actividad. Estas transacciones son llevadas a cabo por aplicaciones descentralizadas, conocidas como DApps. </p><p>Las <code>DApps</code> y las plataformas DeFi permiten a los usuarios realizar cada vez más tipos de transacciones financieras, 24/7, en todo el mundo. Presentaremos cuatro de las oportunidades más comunes utilizadas para obtener rendimiento en DeFi - inversión, comercio, préstamos y empréstitos, y staking.</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/what-you-can-do-with-defi-9b17cf2e.svg\'></div>'
+        title: 'What You Can Do With DeFi',
+        content: '<div class="bloc1"><p>DeFi transactions are <code>permissionless</code>. This refers to a public <code>blockchain</code> that anyone can use to buy, sell, or exchange assets. No third party controls or oversees the activity. These transactions are carried out by decentralized applications, known as DApps. </p><p>DeFi platforms and DApps allow users to carry out increasingly diverse types of financial transactions, 24/7, worldwide. We will introduce four of the most commonly used opportunities to earn yield in DeFi - investing, trading, lending and borrowing, and staking.</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/what-you-can-do-with-defi-9b17cf2e.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: '3b77e3afde594c788122db7fe4afab6e',
-        title: 'Prueba de Conocimiento',
+        title: 'Knowledge Check',
         quiz: {
-          question: 'Llene el espacio en blanco: Las transacciones DeFi son ____.',
+          question: 'Fill in the blank: DeFi transactions are ____.',
           rightAnswerNumber: 3,
           answers: [
-            'Gratis',
-            'Controladas',
-            'Sin permiso',
-            'Centralizadas'
+            'Free',
+            'Controlled',
+            'Permissionless',
+            'Centralized'
           ],
           id: 'intro-to-defi-3'
         }
@@ -544,21 +544,21 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: '555dff92a9b34743b498f8a01de6ffa4',
-        title: '<strong>Inversiones con DeFi</strong>',
-        content: '<div class="bloc1"><p>La transacción <code>DeFi</code> más común es comprar alguna criptomoneda con la expectativa de que valdrá más en el futuro. Esto se conoce como inversión.</p><p>HODL es un término utilizado para mantener los activos criptográficos durante mucho tiempo. Dependiendo de a quién le preguntes, el meme HODL proviene de un error tipográfico de HOLD o significa <strong>H</strong>old <strong>O</strong>n for <strong>D</strong>ear <strong>L</strong>ife.</p><p>DeFi permite el acceso temprano a monedas y tokens para encontrar e invertir, antes de que se coticen en bolsas centralizadas (CEX).</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/investing-d99a6d1f.svg\'></div>'
+        title: '<strong>Investing with DeFi</strong>',
+        content: '<div class="bloc1"><p>The most common <code>DeFi</code> transaction is buying some cryptocurrency with the expectation that it will be worth more in the future. This is known as investing.</p><p>HODL is a term used to hold crypto assets for a long time. Depending on who you ask, the HODL meme comes from a typo of HOLD or means <strong>H</strong>old <strong>O</strong>n for <strong>D</strong>ear <strong>L</strong>ife.</p><p>DeFi allows early access to coins and tokens to find and invest, before they are listed on centralized exchanges (CEX).</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/investing-d99a6d1f.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: '6dc82def6bab41e2b54efa5a62f941b7',
-        title: 'Prueba de Conocimiento',
+        title: 'Knowledge Check',
         quiz: {
-          question: '¿Qué significa HODL?',
+          question: 'What does HODL mean?',
           rightAnswerNumber: 4,
           answers: [
-            'Es un error de escritura de HOLD',
+            'It is a typo of HOLD',
             'Hold On for Dear Life',
-            'Mantener cripto por mucho tiempo',
-            'Todas las anteriores'
+            'Hold crypto for a long time',
+            'All of the above'
           ],
           id: 'intro-to-defi-4'
         }
@@ -566,27 +566,27 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: 'b1da9af463c24fd3a1fb8ce6a5b8dfaf',
-        title: 'Comercio',
-        content: '<div class="bloc1"><p>Un intercambio descentralizado (DEX) muestra las tasas de cambio actuales entre diferentes tokens y monedas criptográficas y sirve como un mercado digital que facilita el comercio de una moneda por otra al reunir a compradores y vendedores. </p><p>Las partes involucradas en un comercio DEX no necesitan conocerse ni confiar entre sí. De hecho, puede parecer que estás comerciando con el DEX. Sin embargo, en la mayoría de los casos, el DEX crea <code>piscinas de liquidez</code> que facilitan el comercio entre las <code>carteras</code> de dos comerciantes de manera <code>sin permiso</code>.</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/trading-8cd72977.svg\'></div>'
+        title: 'Trading',
+        content: '<div class="bloc1"><p>A decentralized exchange (DEX) displays the current exchange rates between different tokens and cryptocurrencies and serves as a digital marketplace that facilitates the trade of one currency for another by bringing together buyers and sellers. </p><p>The parties involved in a DEX trade do not need to know or trust each other. In fact, it may seem like you\'re trading with the DEX. However, in most cases, the DEX creates <code>liquidity pools</code> that facilitate trade between the <code>wallets</code> of two traders in a <code>permissionless</code> manner.</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/trading-8cd72977.svg\'></div>'
       },
       {
         type: 'LEARN',
         notionId: '4e1e78e61bc240f0836346fcabb49f54',
-        title: '¿Y qué?',
-        content: '<div class="bloc1"><p>Cualquiera puede comerciar y participar en los mercados sin importar su patrimonio neto. Cualquiera puede entrar o salir de una posición a través de protocolos en cadena.</p></div>'
+        title: 'So what?',
+        content: '<div class="bloc1"><p>Anyone can trade and participate in the markets regardless of their net worth. Anyone can enter or exit a position through on-chain protocols.</p></div>'
       },      
       {
         type: 'QUIZ',
         notionId: '1d627556f09143b18edefdf87e059db6',
-        title: 'Prueba de Conocimiento',
+        title: 'Knowledge Check',
         quiz: {
-          question: '¿Qué es un DEX?',
+          question: 'What is a DEX?',
           rightAnswerNumber: 1,
           answers: [
-            'Un intercambio descentralizado',
-            'Un xilófono eléctrico digital',
-            'Un fondo de índice cripto',
-            'Ninguna de las anteriores'
+            'A decentralized exchange',
+            'A digital electric xylophone',
+            'A crypto index fund',
+            'None of the above'
           ],
           id: 'intro-to-defi-5'
         }
@@ -594,21 +594,21 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: '929543eaa9b64ab9b14a6593e95fb9ef',
-        title: '<strong>Préstamos y Empréstitos</strong>',
-        content: '<div class="bloc1"><p>Los préstamos y empréstitos DeFi ofrecen préstamos sin la necesidad de un banco o institución intermediaria. En cambio, el préstamo se realiza a nivel de <code>peer-to-peer</code>. Eso significa que las transacciones son entre dos partes y no requieren de un intermediario o entidad controladora.</p><p>Existen <code>DApps</code> que permiten a cualquier persona prestar y pedir prestados activos criptográficos. Al igual que los préstamos tradicionales, un prestamista ganará intereses sobre el préstamo y el prestatario deberá pagar el principal del préstamo más los intereses.</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/lending-borrowing-4fb1c7c3.svg\'></div>'
+        title: '<strong>Lending and Borrowing</strong>',
+        content: '<div class="bloc1"><p>DeFi lending and borrowing offer loans without the need for a bank or intermediary institution. Instead, the loan is done on a <code>peer-to-peer</code> basis. That means that transactions are between two parties and do not require an intermediary or controlling entity.</p><p>There are <code>DApps</code> that allow anyone to lend and borrow crypto assets. Like traditional loans, a lender will earn interest on the loan and the borrower will have to repay the principal of the loan plus interest.</p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/lending-borrowing-4fb1c7c3.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: '062707cc00eb4fe9830d8f6535e50387',
-        title: 'Prueba de Conocimiento',
+        title: 'Knowledge Check',
         quiz: {
-          question: 'Rellena el espacio en blanco: Los préstamos DeFi se realizan a nivel _____.',
+          question: 'Fill in the blank: DeFi loans are done on a _____ basis.',
           rightAnswerNumber: 2,
           answers: [
-            'de ingresos a deuda',
+            'income to debt',
             'peer-to-peer',
-            'de bancos a clientes',
-            'de ingresos a intereses'
+            'banks to customers',
+            'income to interest'
           ],
           id: 'intro-to-defi-6'
         }      
@@ -617,19 +617,19 @@ const LESSONS: LessonType[] = [
         type: 'LEARN',
         notionId: '88ac3e93d3c849db8420b1700884030c',
         title: '<strong>Staking</strong>',
-        content: '<div class="bloc1"><p>El staking DeFi es similar al préstamo, sin embargo, es un tipo especial de préstamo. En lugar de prestar tu cripto a otro usuario en una base <code>peer-to-peer</code>, prestas tu cripto a una red o protocolo. A cambio de ayudar a asegurar la red o el protocolo, ganas recompensas.</p><p>Los intercambios centralizados también ofrecen staking. Sin embargo, al igual que sus pares de trading, las oportunidades y recompensas de staking son limitadas. Con DeFi, hay muchas más posibilidades de staking que las que existen con los intercambios centralizados. </p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/staking-b4b4319d.svg\'></div>'
+        content: '<div class="bloc1"><p>DeFi staking is similar to lending, however, it is a special type of lending. Instead of lending your crypto to another user on a <code>peer-to-peer</code> basis, you lend your crypto to a network or protocol. In return for helping to secure the network or protocol, you earn rewards.</p><p>Centralized exchanges also offer staking. However, like their trading peers, staking opportunities and rewards are limited. With DeFi, there are many more staking possibilities than exist with centralized exchanges. </p></div><div class="bloc2"><img src=\'/lesson/intro-to-defi/staking-b4b4319d.svg\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: 'ae7f5581ae404a1a83e1542eeee9d945',
-        title: 'Prueba de Conocimiento',
+        title: 'Knowledge Check',
         quiz: {
-          question: '¿Prestar tu cripto a un protocolo es un ejemplo de?',
-          rightAnswerNumber: 2,
+          question: 'Lending your crypto to a protocol is an example of?',
+          rightAnswerNumber: 3,
           answers: [
             'Trading',
+            'Lending',
             'Staking',
-            'Préstamo',
             'HODLing'
           ],
           id: 'intro-to-defi-7'
@@ -638,21 +638,21 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: '9b122d2d398a47428a41838e3bc9a521',
-        title: '<strong>Desventajas de DeFi</strong>',
-        content: '<div class="bloc-ab"><div class="bloc-a"><img src=\'/lesson/intro-to-defi/defi-downsides-51dd6225.svg\'></div><div class="bloc-b"><p><strong>Hackers</strong></p><p>Donde hay dinero y tecnología, hay personas buscando formas de hackear el sistema y aprovecharse de las medidas de seguridad deficientes.</p></div></div><div class="bloc-ab"><div class="bloc-a"><img src=\'/lesson/intro-to-defi/defi-downsides-3a6ce496.svg\'></div><div class="bloc-b"><p><strong>Riesgo</strong></p><p>DeFi, como la tecnología blockchain, funciona con código. Si hay un error o laguna en el código, puede ser explotado.</p></div></div><div class="bloc-ab"><div class="bloc-a"><img src=\'/lesson/intro-to-defi/defi-downsides-83a9391f.svg\'></div><div class="bloc-b"><p><strong>Sin recurso</strong></p><p>Ser descentralizado también significa que no hay empresas ni agencias gubernamentales a las que puedes pedir ayuda si algo sale mal.</p></div></div>'
+        title: '<strong>Downsides of DeFi</strong>',
+        content: '<div class="bloc-ab"><div class="bloc-a"><img src=\'/lesson/intro-to-defi/defi-downsides-51dd6225.svg\'></div><div class="bloc-b"><p><strong>Hackers</strong></p><p>Where there is money and technology, there are people looking for ways to hack the system and take advantage of deficient security measures.</p></div></div><div class="bloc-ab"><div class="bloc-a"><img src=\'/lesson/intro-to-defi/defi-downsides-3a6ce496.svg\'></div><div class="bloc-b"><p><strong>Risk</strong></p><p>DeFi, like blockchain technology, operates on code. If there is a mistake or loophole in the code, it can be exploited.</p></div></div><div class="bloc-ab"><div class="bloc-a"><img src=\'/lesson/intro-to-defi/defi-downsides-83a9391f.svg\'></div><div class="bloc-b"><p><strong>No recourse</strong></p><p>Being decentralized also means that there are no companies or government agencies you can ask for help if something goes wrong.</p></div></div>'
       },
       {
         type: 'QUIZ',
         notionId: '4b5bd41ee29942ea8cfc577f2e495baa',
-        title: 'Prueba de Conocimiento',
+        title: 'Knowledge Check',
         quiz: {
-          question: '¿Qué es un riesgo en DeFi?',
+          question: 'What is a risk in DeFi?',
           rightAnswerNumber: 4,
           answers: [
-            'No hay riesgos',
-            'El banco puede rechazar tu préstamo',
-            'El mal tiempo podría cerrar el intercambio',
-            'Puede haber un error en el código'
+            'There are no risks',
+            'The bank may reject your loan',
+            'Bad weather could close the exchange',
+            'There can be a mistake in the code'
           ],
           id: 'intro-to-defi-8'
         }
@@ -662,6 +662,7 @@ const LESSONS: LessonType[] = [
         title: 'Lesson Reward'
       }
     ]
+    
   },
   {
     kudosImageLink: '/badges/badge-celebrate.png',
@@ -685,178 +686,179 @@ const LESSONS: LessonType[] = [
     imageLinks: [],
     slides: [
       {
-        type: 'LEARN',
-        notionId: 'cc07e9a8a87744daa6548a95ae696fd2',
-        title: 'Introducción',
-        content: '<div class="bloc1"><p>Los <code>Intercambios Descentralizados</code> (DEXs) eliminan los costos de los intermediarios y ahorran dinero a los Exploradores cuando intercambian activos. </p><p>Pero, ¿sabías, Explorador, que hay más formas de ahorrar con la tecnología DeFi? Utilizando <code>agregadores DEX</code>, puedes escanear todas las operaciones posibles en varias plataformas DEX simultáneamente y ejecutar la mejor ruta de comercio, todo en una sola acción. Te ayudan a obtener el mejor trato cuando haces un <code>swap</code> de tokens. Al igual que los agregadores de vuelos de aerolíneas te ayudan a encontrar el vuelo más barato, los agregadores DEX te ayudan a maximizar el valor de tu operación.</p><p>Esta lección mostrará:</p><ol><li>Cómo los DEX dividen la liquidez y cómo eso puede resultar en tasas de negociación reducidas.</li><li>Cómo los agregadores DEX permiten a los usuarios ver y usar varios DEX a través de una única interfaz.</li><li>Múltiples formas en que una única interfaz de agregador puede ahorrar tiempo y dinero a los Exploradores.</li></ol></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/introduction-ba453b68.svg\'></div>'
+        "type": "LEARN",
+        "notionId": "cc07e9a8a87744daa6548a95ae696fd2",
+        "title": "Introduction",
+        "content": "<div class=\"bloc1\"><p><code>Decentralized Exchanges</code> (DEXs) eliminate intermediary costs and save Explorers money when they trade assets. </p><p>But did you know, Explorer, that there are more ways to save with DeFi technology? Using <code>DEX aggregators</code>, you can scan all possible trades on multiple DEX platforms simultaneously and execute the best trading route, all in one action. They help you get the best deal when you do a <code>swap</code> of tokens. Just as airline flight aggregators help you find the cheapest flight, DEX aggregators help you maximize your trade's value.</p><p>This lesson will show:</p><ol><li>How DEXs split liquidity and how this can result in reduced trading rates.</li><li>How DEX aggregators allow users to view and use multiple DEXs through a single interface.</li><li>Multiple ways in which a single aggregator interface can save Explorers time and money.</li></ol></div><div class=\"bloc2\"><img src='/lesson/dex-aggregators/introduction-ba453b68.svg'></div>"
       },
       {
-        type: 'LEARN',
-        notionId: '0e59fd1b9b7943a3a70a44abc9e921c1',
-        title: 'Cómo la Liquidez Afecta los Precios',
-        content: '<div class="bloc1"><p>La cantidad de cualquier token que está disponible para negociar en un solo mercado se llama <code>liquidez</code> del token. La cantidad de liquidez disponible influye fuertemente en el <code>impacto del precio</code> al hacer operaciones en DeFi; un gran impacto en el precio significa que la operación costará más, y un bajo impacto en el precio costará menos. La mayoría de las personas prefieren operar en mercados con mayor liquidez para reducir su impacto en el precio. </p><p>Puedes pensar en ello como una piscina; cuanta más agua (liquidez) hay, menor es el <em>cambio </em>en el nivel del agua (impacto en el precio) cuando alguien salta o sale. El tamaño de ese "alguien" (la operación) también afecta el <em>cambio</em> en el nivel del agua (impacto en el precio).</p></div>'
+        "type": "LEARN",
+        "notionId": "0e59fd1b9b7943a3a70a44abc9e921c1",
+        "title": "How Liquidity Affects Prices",
+        "content": "<div class=\"bloc1\"><p>The amount of any token that is available for trading in a single market is called the token's <code>liquidity</code>. The amount of liquidity available strongly influences the <code>price impact</code> when making trades in DeFi; a large price impact means the trade will cost more, and a low price impact will cost less. Most people prefer to trade in markets with higher liquidity to reduce their price impact. </p><p>You can think of it like a pool; the more water (liquidity) there is, the smaller the <em>change</em> in the water level (price impact) when someone jumps in or out. The size of that \"someone\" (the trade) also affects the <em>change</em> in the water level (price impact).</p></div>"
       },
       {
-        type: 'LEARN',
-        notionId: '8ea31e80fcfc49d3a88ad09d03341c9c',
-        title: 'Un Ejemplo de Cómo la Liquidez Impacta los Precios',
-        content: '<div class="bloc1"><p>Vamos a ver un ejemplo. </p><p>El token de BanklessDAO (BANK) tiene una cantidad de liquidez de ~30 millones de BANK en Uniswap, pero solo ~4.5 millones de BANK en SushiSwap. Uniswap tiene más de 6 veces la liquidez de BANK que SushiSwap.</p><p>Si un Explorador fuera a comprar 10,000 BANK de cada pool, encontraría que el <code>impacto en el precio</code> de su operación resultaría en un precio de comercio más alto en la pool de SushiSwap, porque su operación ha extraído un porcentaje mayor de la liquidez total de la pool.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/an-example-of-how-liquidity-impacts-prices-915b3d84.svg\'></div>'
+        "type": "LEARN",
+        "notionId": "8ea31e80fcfc49d3a88ad09d03341c9c",
+        "title": "An Example of How Liquidity Impacts Prices",
+        "content": "<div class=\"bloc1\"><p>Let's take a look at an example. </p><p>The Wrapped Bitcoin token (WBTC) has a liquidity amount of ~30 million WBTC on Uniswap, but only ~4.5 million WBTC on SushiSwap. Uniswap has over 6 times the WBTC liquidity that SushiSwap does.</p><p>If an Explorer were to buy 10,000 WBTC from each pool, they would find that the <code>price impact</code> of their trade would result in a higher trading price in the SushiSwap pool, because their trade has drawn a larger percentage of the pool's total liquidity.</p></div><div class=\"bloc2\"><img src='/lesson/dex-aggregators/an-example-of-how-liquidity-impacts-prices-915b3d84.svg'></div>"
       },
       {
-        type: 'QUIZ',
-        notionId: 'c60d776bd01247b79e037003d737f924',
-        title: 'Prueba de Conocimiento',
-        quiz: {
-          question: 'Completa los espacios en blanco: Para encontrar el mejor precio, la gente querrá operar en mercados con ________ liquidez para tener ________ impacto en el precio en sus operaciones.',
-          rightAnswerNumber: 2,
-          answers: [
-            'buena, máximo',
-            'alta, bajo',
-            'baja, buena',
-            'escasa, grande'
+        "type": "QUIZ",
+        "notionId": "c60d776bd01247b79e037003d737f924",
+        "title": "Knowledge Check",
+        "quiz": {
+          "question": "Fill in the blanks: To find the best price, people will want to trade in markets with ________ liquidity to have ________ price impact on their trades.",
+          "rightAnswerNumber": 2,
+          "answers": [
+            "good, maximum",
+            "high, low",
+            "low, good",
+            "scarce, large"
           ],
-          id: 'dex-aggregators-1'
+          "id": "dex-aggregators-1"
         }
       },      
       {
-        type: 'LEARN',
-        notionId: 'b97afba7b0f44b709f57d6e85ce13cc2',
-        title: 'Limitaciones de los DEX Tradicionales: Liquidez Escasa',
-        content: '<div class="bloc1"><p>DeFi continúa creciendo, pero está surgiendo un problema para los usuarios: A medida que se lanzan más DEX, la cantidad total de cualquier token individual se dispersa. Esto se conoce como liquidez escasa.</p><p>Recuerda la piscina: si el agua disponible (<code>liquidez</code>) se divide entre varias piscinas, la cantidad de agua será "más escasa" en cada piscina en comparación con el total en la única piscina original.</p><p>En 2020, Uniswap tenía gran parte de la liquidez DEX para operar en DeFi. Cuando SushiSwap se lanzó el mes siguiente, atrajo más de $1B en liquidez a su DEX de Uniswap, reduciendo la liquidez total en Uniswap. Esto fue solo el comienzo. Desde entonces, cada vez más DEX han entrado en el ecosistema DeFi, adelgazando progresivamente la liquidez de cada pool.</p><p>Por lo tanto, cualquier operación tiene un mayor <code>impacto en el precio</code> que cuando Uniswap tenía la mayoría de la liquidez total del ecosistema. A medida que se lanzan más DEX, cuesta más a los Exploradores operar en cualquier DEX individual sin nuevas innovaciones.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/shortcomings-of-traditional-dexs-thin-liquidity-c9e0b695.svg\'></div>'
+        "type": "LEARN",
+        "notionId": "b97afba7b0f44b709f57d6e85ce13cc2",
+        "title": "Limitations of Traditional DEXs: Thin Liquidity",
+        "content": "<div class=\"bloc1\"><p>DeFi continues to grow, but a problem is emerging for users: As more DEXs are launched, the total amount of any individual token is dispersed. This is known as thin liquidity.</p><p>Remember the pool: if the available water (<code>liquidity</code>) is divided between several pools, the amount of water will be \"thinner\" in each pool compared to the total in the original single pool.</p><p>In 2020, Uniswap had much of the DEX liquidity for trading in DeFi. When SushiSwap launched the following month, it attracted over $1B in liquidity to its DEX from Uniswap, reducing Uniswap's total liquidity. This was just the beginning. Since then, more and more DEXs have entered the DeFi ecosystem, progressively thinning the liquidity of each pool.</p><p>Therefore, any trade has a higher <code>price impact</code> than when Uniswap had the majority of the ecosystem's total liquidity. As more DEXs are launched, it costs Explorers more to trade on any individual DEX without new innovations.</p></div><div class=\"bloc2\"><img src='/lesson/dex-aggregators/shortcomings-of-traditional-dexs-thin-liquidity-c9e0b695.svg'></div>"
       },
       {
-        type: 'QUIZ',
-        notionId: 'd9969ae7f6c247a097f7b7d419b6c119',
-        title: 'Prueba de Conocimiento',
-        quiz: {
-          question: '¿Qué dos factores determinan el impacto en el precio de una operación en DEX?',
-          rightAnswerNumber: 3,
-          answers: [
-            'La elección del DEX que se utiliza para realizar la operación y el tamaño de la operación',
-            'Qué token se elige para intercambiar y qué DEX se utiliza para realizar la operación',
-            'El tamaño de la operación y la cantidad de liquidez disponible',
-            'La cantidad de liquidez disponible y qué token se elige para intercambiar'
+        "type": "QUIZ",
+        "notionId": "d9969ae7f6c247a097f7b7d419b6c119",
+        "title": "Knowledge Check",
+        "quiz": {
+          "question": "What two factors determine the price impact of a trade on DEX?",
+          "rightAnswerNumber": 3,
+          "answers": [
+            "The choice of DEX used to make the trade and the size of the trade",
+            "Which token is chosen to swap and what DEX is used to make the trade",
+            "The size of the trade and the amount of available liquidity",
+            "The amount of available liquidity and which token is chosen to swap"
           ],
-          id: 'dex-aggregators-2'
+          "id": "dex-aggregators-2"
         }
       },
       {
-        type: 'LEARN',
-        notionId: 'c06177fa9ee3428c80a9295a8a09a9f2',
-        title: 'Recombinando la Liquidez con los Agregadores DEX',
-        content: '<div class="bloc1"><p>Se necesitan grandes cantidades de <code>liquidez</code> para reducir el impacto en el precio y ahorrar dinero. Los agregadores DEX permiten a los usuarios realizar operaciones a través de varios DEX a la vez y reducir el impacto en el precio; una gran operación desde la billetera de un Explorador se divide en múltiples operaciones pequeñas en múltiples DEX.</p><p>Los agregadores DEX incluso pueden dirigir las operaciones a través de un <code>token intermediario</code>, o más de uno, si eso proporciona un mejor resultado para los usuarios, al igual que un agregador de vuelos podría sugerir una parada extra en otro aeropuerto si es más barato para el pasajero. Este descubrimiento de la <code>ruta comercial</code> óptima lo realizan algoritmos sofisticados que buscan entre todas las rutas posibles para encontrar la ruta comercial más barata en ese momento.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/recombining-liquidity-with-dex-aggregators-f01777dd.svg\'></div>'
+        "type": "LEARN",
+        "notionId": "c06177fa9ee3428c80a9295a8a09a9f2",
+        "title": "Recombining Liquidity with DEX Aggregators",
+        "content": "<div class=\"bloc1\"><p>Large amounts of <code>liquidity</code> are needed to reduce price impact and save money. DEX aggregators allow users to execute trades across multiple DEXs at once and reduce the price impact; a large trade from an Explorer's wallet is split into multiple smaller trades on multiple DEXs.</p><p>DEX aggregators can even route trades through an <code>intermediary token</code>, or more than one, if that provides a better outcome for users, just like a flight aggregator might suggest an extra stop at another airport if it's cheaper for the passenger. This discovery of the optimal <code>trade route</code> is performed by sophisticated algorithms that search among all possible routes to find the cheapest trade route at that moment.</p></div><div class=\"bloc2\"><img src='/lesson/dex-aggregators/recombining-liquidity-with-dex-aggregators-f01777dd.svg'></div>"
       },
       {
-        type: 'QUIZ',
-        notionId: '063815f2667146a2921df5c4c3ca1663',
-        title: 'Prueba de Conocimiento',
-        quiz: {
-          question: 'El enrutamiento de operaciones en los agregadores DEX significa:',
-          rightAnswerNumber: 4,
-          answers: [
-            'Las operaciones se dirigen de acuerdo con los acuerdos de liquidez con DEX específicos',
-            'Las operaciones siempre se dirigen a través de varios DEX',
-            'Las operaciones se dirigen solo a través del DEX favorito del usuario',
-            'Las operaciones pueden ser dirigidas a través de múltiples DEX y tokens intermediarios'
+        "type": "QUIZ",
+        "notionId": "063815f2667146a2921df5c4c3ca1663",
+        "title": "Knowledge Check",
+        "quiz": {
+          "question": "Trade routing in DEX aggregators means:",
+          "rightAnswerNumber": 4,
+          "answers": [
+            "Trades are directed according to liquidity agreements with specific DEXs",
+            "Trades are always routed through multiple DEXs",
+            "Trades are directed only through the user's favorite DEX",
+            "Trades can be routed through multiple DEXs and intermediary tokens"
           ],
-          id: 'dex-aggregators-3'
-        }
-      },      
-      {
-        type: 'LEARN',
-        notionId: '1c2f4199a9254d18897593b371ca4d9e',
-        title: 'Cómo se calcula el costo del gas en Ethereum',
-        content: '<div class="bloc1"><p>Antes de ver cómo las optimizaciones que hacen los agregadores de DEX pueden reducir las tarifas de red para los usuarios, refresquemos cómo se calcula el gas.</p><p>Al igual que la gasolina para un automóvil, el <code>gas</code> es el combustible para ejecutar el código blockchain en Ethereum. Cuanto más lejos viajes, más gas consume tu automóvil. Del mismo modo, cuantas más operaciones hagas, más gas requiere tu código. El precio del gas se mide en cantidades muy pequeñas de Ether llamadas <code>gwei</code>, como los centavos para un dólar. 1 gwei es mil millonésima parte de un ether (1 gwei = 0.00000001 ETH).</p><p>El costo total del gas se basa en la cantidad de gas que usa tu transacción y el precio unitario del gas en el momento de uso. La fórmula para calcular el precio de una transacción es la siguiente:<br><em>Cantidad de gas utilizado * Precio del gas = Costo total del gas</em></p><p>Como ejemplo, digamos que los costos del gas están en 22 gwei por unidad de gas y la transacción usa 120 mil unidades:<br><em>120,000 * 22 gwei = 2,640,000 gwei </em><em><strong>o</strong></em><em> 0.00264 ETH</em></p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/how-gas-cost-is-calculated-on-ethereum-c34efe86.svg\'></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '7196f021bcc541929d68b9bd0c018ac3',
-        title: 'Cómo los Agregadores Reducen los Costos del Gas para los Usuarios',
-        content: '<div class="bloc1"><p>La división de operaciones resultaría en más tarifas de transacción debido a la actividad extra en la cadena, excepto que los agregadores avanzados planifican las tarifas de transacción y las incluyen en sus cálculos de la ruta comercial. Simulan las operaciones fuera de la cadena, incluyendo los costos de <code>gas</code>, para encontrar <code>rutas comerciales</code> que dejen a los Exploradores con el mayor valor al final de la interacción.</p><p>Algunos agregadores van aún más lejos: pueden reembolsar algunas de las tarifas de transacción de red por usar su protocolo. 1inch actualmente ofrece reembolsos en su token por una parte de los costos del gas al operar a través de su <code>dApp</code> en la red principal de Ethereum.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/how-aggregators-reduce-gas-costs-for-users-28d6f207.svg\'></div>'
-      },
-      {
-        type: 'QUIZ',
-        notionId: '2cf155ee9e3a4d4fb0a9c78f888d2373',
-        title: 'Prueba de Conocimiento',
-        quiz: {
-          question: '¿Cuál de las siguientes NO es una forma en que los agregadores de DEX intentan reducir los costos de transacción para los usuarios?',
-          rightAnswerNumber: 2,
-          answers: [
-            'Simulan las transacciones fuera de la cadena antes de la ejecución de la operación',
-            'Piden a los DEX que reduzcan las tarifas de red para sus usuarios',
-            'Toman en cuenta el costo del gas en el enrutamiento de las operaciones',
-            'Reembolsos de tokens en los costos del gas'
-          ],
-          id: 'dex-aggregators-4'
-        }
-      },
-      {
-        type: 'LEARN',
-        notionId: '19eb7c5516fd4da383c48661d21e34a1',
-        title: 'Meta-Agregadores',
-        content: '<div class="bloc1"><p>¡Incluso existen meta-agregadores de agregadores DEX! Estas plataformas buscan en todos los agregadores DEX competidores y proporcionan cotizaciones de precios a los usuarios. Un ejemplo de esto es la función de cambio en la aplicación en la billetera MetaMask. Esta característica es en realidad un meta-agregador que se basa en agregadores DEX como 1inch para funcionar.</p><p>Nota: Aunque son convenientes, los servicios de <code>meta-agregadores</code> pueden añadir costos extra encima de las tarifas de transacción de la red, aumentando el costo total para los usuarios. Exploradores: asegúrense de que sus operaciones no terminen siendo más caras de lo que pretendían. </p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/meta-aggregators-100793fd.svg\'></div>'
-      },
-      {
-        type: 'QUIZ',
-        notionId: '7abcec930d924ca997d5f4221fae9ad6',
-        title: 'Prueba de Conocimiento',
-        quiz: {
-          question: 'Los meta-agregadores contrastan múltiples agregadores DEX para encontrar los mejores precios para sus usuarios.',
-          rightAnswerNumber: 1,
-          answers: [
-            'Verdadero',
-            'Falso'
-          ],
-          id: 'dex-aggregators-5'
-        }
-      },
-      {
-        type: 'LEARN',
-        notionId: '44acd0c428aa49e8880b26f1ffffd0b0',
-        title: 'Evitando Ataques Sandwich',
-        content: '<div class="bloc1"><p>Los usuarios que intercambian directamente a través de los <code>DEX</code> pueden perder valor hasta el límite de su <code>tolerancia al deslizamiento</code> debido a los cambios de precios coordinados por los productores de bloques, este tipo de pérdidas se llaman <code>ataques sandwich</code>. ¿Sabías que los ataques sandwich llevaron a los usuarios a una pérdida total de $235,000,000 durante 2021? Los Exploradores pueden protegerse manteniendo una baja tolerancia al deslizamiento al intercambiar tokens.</p><p>Afortunadamente, debido a la liquidez recombinada ofrecida por los agregadores de DEX, el impacto del precio de una operación se reduce. Los Exploradores pueden mantener su tolerancia al deslizamiento baja mientras ahorran más con los agregadores de DEX, en lugar de operar directamente en un DEX.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/avoiding-sandwich-attacks-75f6ae82.svg\'></div>'
-      },
-      {
-        type: 'QUIZ',
-        notionId: '9864a66638a3473ca13f8ee2dc8c4b1f',
-        title: 'Prueba de Conocimiento',
-        quiz: {
-          question: 'Para protegerte, deberías mantener tu tolerancia al deslizamiento:',
-          rightAnswerNumber: 1,
-          answers: [
-            'baja',
-            'alta'
-          ],
-          id: 'dex-aggregators-6'
-        }
-      },
-      {
-        type: 'LEARN',
-        notionId: 'b1756984326242d4ad5e4ab2cbe2eb32',
-        title: 'Más Protección Contra Los Sandwiches: Operaciones OTC',
-        content: '<div class="bloc1"><p>Algunos agregadores como 1inch incluso ofrecen servicios <code>OTC</code> (<code>Over The Counter</code> o Sobre El Mostrador) especializados que proporcionan protección total contra los ataques sandwich. Estos servicios opcionales permiten el comercio directo con otros usuarios, en lugar de facilitar las operaciones a través de <code>piscinas de liquidez</code> DeFi. Cualquiera puede participar en operaciones <code>OTC</code> para eliminar completamente la amenaza de los ataques sandwich, proporcionando otra gran manera para que los Exploradores ahorren.</p><p>CoWSwap es un Meta-Agregador que también ofrece servicios resistentes a los sandwiches, habilitados por defecto, para asegurar que las operaciones estén 100% protegidas contra los ataques sandwich.</p></div><div class="bloc2"><img src=\'/lesson/dex-aggregators/more-protection-from-sandwiches-otc-trades-04ef66c9.svg\'></div>'
-      },
-      {
-        type: 'QUIZ',
-        notionId: '18f1f2c0e7b84cfbafe1b26e139f0c25',
-        title: 'Prueba de Conocimiento',
-        quiz: {
-          question: 'Muchos agregadores de DEX ofrecen ¿qué herramienta(s) para ahorrar dinero a sus usuarios?',
-          rightAnswerNumber: 4,
-          answers: [
-            'Enrutan las operaciones a través de la liquidez agregada de múltiples DEX para reducir el impacto del precio.',
-            'Operaciones OTC que protegen totalmente contra los ataques sandwich.',
-            'Toman en cuenta el costo del gas al construir las mejores rutas de operación.',
-            'Todas las anteriores'
-          ],
-          id: 'dex-aggregators-7'
+          "id": "dex-aggregators-3"
         }
       },      
       {
-        type: 'END',
-        title: 'Lesson Reward'
+        "type": "LEARN",
+        "notionId": "1c2f4199a9254d18897593b371ca4d9e",
+        "title": "How Gas Cost is Calculated on Ethereum",
+        "content": "<div class=\"bloc1\"><p>Before we look at how the optimizations made by DEX aggregators can reduce network fees for users, let's refresh on how gas is calculated.</p><p>Just like gasoline for a car, <code>gas</code> is the fuel to run the blockchain code on Ethereum. The further you travel, the more gas your car uses. Similarly, the more operations you do, the more gas your code requires. The price of gas is measured in very small amounts of Ether called <code>gwei</code>, like cents for a dollar. 1 gwei is a billionth of an ether (1 gwei = 0.00000001 ETH).</p><p>The total gas cost is based on the amount of gas your transaction uses and the unit price of gas at the time of use. The formula to calculate the price of a transaction is the following:<br><em>Amount of gas used * Gas price = Total gas cost</em></p><p>As an example, say the gas costs are at 22 gwei per unit of gas and the transaction uses 120 thousand units:<br><em>120,000 * 22 gwei = 2,640,000 gwei </em><em><strong>or</strong></em><em> 0.00264 ETH</em></p></div><div class=\"bloc2\"><img src='/lesson/dex-aggregators/how-gas-cost-is-calculated-on-ethereum-c34efe86.svg'></div>"
+      },
+      {
+        "type": "LEARN",
+        "notionId": "7196f021bcc541929d68b9bd0c018ac3",
+        "title": "How Aggregators Reduce Gas Costs for Users",
+        "content": "<div class=\"bloc1\"><p>Splitting trades would result in more transaction fees due to the extra on-chain activity, except that advanced aggregators plan transaction fees and include them in their trade route calculations. They simulate the trades off-chain, including <code>gas</code> costs, to find <code>trade routes</code> that leave Explorers with the most value at the end of the interaction.</p><p>Some aggregators go even further: they may refund some of the network transaction fees for using their protocol. 1inch currently offers refunds in their token for a portion of gas costs when trading through their <code>dApp</code> on the Ethereum main network.</p></div><div class=\"bloc2\"><img src='/lesson/dex-aggregators/how-aggregators-reduce-gas-costs-for-users-28d6f207.svg'></div>"
+      },
+      {
+        "type": "QUIZ",
+        "notionId": "2cf155ee9e3a4d4fb0a9c78f888d2373",
+        "title": "Knowledge Check",
+        "quiz": {
+          "question": "Which of the following is NOT a way DEX aggregators attempt to reduce transaction costs for users?",
+          "rightAnswerNumber": 2,
+          "answers": [
+            "They simulate transactions off-chain before execution of the trade",
+            "They ask DEXs to reduce network fees for their users",
+            "They take into account the cost of gas in routing trades",
+            "Token refunds on gas costs"
+          ],
+          "id": "dex-aggregators-4"
+        }
+      },
+      {
+        "type": "LEARN",
+        "notionId": "19eb7c5516fd4da383c48661d21e34a1",
+        "title": "Meta-Aggregators",
+        "content": "<div class=\"bloc1\"><p>There are even meta-aggregators of DEX aggregators! These platforms search all competitor DEX aggregators and provide price quotes to users. An example of this is the swap feature in the MetaMask wallet app. This feature is actually a meta-aggregator that relies on DEX aggregators like 1inch to function.</p><p>Note: While they are convenient, <code>meta-aggregator</code> services can add extra costs on top of network transaction fees, increasing the total cost for users. Explorers: make sure your trades don't end up costing more than you intended. </p></div><div class=\"bloc2\"><img src='/lesson/dex-aggregators/meta-aggregators-100793fd.svg'></div>"
+      },
+      {
+        "type": "QUIZ",
+        "notionId": "7abcec930d924ca997d5f4221fae9ad6",
+        "title": "Knowledge Check",
+        "quiz": {
+          "question": "Meta-aggregators contrast multiple DEX aggregators to find the best prices for their users.",
+          "rightAnswerNumber": 1,
+          "answers": [
+            "True",
+            "False"
+          ],
+          "id": "dex-aggregators-5"
+        }
+      },
+      {
+        "type": "LEARN",
+        "notionId": "44acd0c428aa49e8880b26f1ffffd0b0",
+        "title": "Avoiding Sandwich Attacks",
+        "content": "<div class=\"bloc1\"><p>Users trading directly through <code>DEXs</code> can lose value up to the limit of their <code>slippage tolerance</code> due to coordinated price changes by block producers, these kind of losses are called <code>sandwich attacks</code>. Did you know sandwich attacks led users to a total loss of $235,000,000 during 2021? Explorers can protect themselves by keeping a low slippage tolerance when swapping tokens.</p><p>Thankfully, because of the recombined liquidity offered by DEX aggregators, the price impact of a trade is reduced. Explorers can keep their slippage tolerance low while saving more with DEX aggregators, rather than trading directly on a DEX.</p></div><div class=\"bloc2\"><img src='/lesson/dex-aggregators/avoiding-sandwich-attacks-75f6ae82.svg'></div>"
+      },
+      {
+        "type": "QUIZ",
+        "notionId": "9864a66638a3473ca13f8ee2dc8c4b1f",
+        "title": "Knowledge Check",
+        "quiz": {
+          "question": "To protect yourself, you should keep your slippage tolerance:",
+          "rightAnswerNumber": 1,
+          "answers": [
+            "low",
+            "high"
+          ],
+          "id": "dex-aggregators-6"
+        }
+      },
+      {
+        "type": "LEARN",
+        "notionId": "b1756984326242d4ad5e4ab2cbe2eb32",
+        "title": "More Sandwich Protection: OTC Trades",
+        "content": "<div class=\"bloc1\"><p>Some aggregators like 1inch even offer specialized <code>OTC</code> (Over The Counter) services that provide total protection against sandwich attacks. These optional services allow direct trading with other users, instead of facilitating trades through DeFi <code>liquidity pools</code>. Anyone can participate in <code>OTC</code> trades to completely eliminate the threat of sandwich attacks, providing yet another great way for Explorers to save.</p><p>CoWSwap is a Meta-Aggregator that also offers sandwich-resistant services, enabled by default, to ensure trades are 100% protected against sandwich attacks.</p></div><div class=\"bloc2\"><img src='/lesson/dex-aggregators/more-protection-from-sandwiches-otc-trades-04ef66c9.svg'></div>"
+      },
+      {
+        "type": "QUIZ",
+        "notionId": "18f1f2c0e7b84cfbafe1b26e139f0c25",
+        "title": "Knowledge Check",
+        "quiz": {
+          "question": "Many DEX aggregators offer what tool(s) to save money for their users?",
+          "rightAnswerNumber": 4,
+          "answers": [
+            "They route trades through the combined liquidity of multiple DEXs to reduce price impact.",
+            "OTC trades that fully protect against sandwich attacks.",
+            "They account for gas cost in constructing the best trade routes.",
+            "All of the above"
+          ],
+          "id": "dex-aggregators-7"
+        }
+      },      
+      {
+        "type": "END",
+        "title": "Certificate"
       }
     ]
+    
   },
   {
     kudosImageLink: '/badges/badge-celebrate.png',
@@ -894,401 +896,175 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: '0bf15ec24615455b9349774527410d81',
-        title: 'Bienvenido al Desarrollo de DApps con Web3',
-        content: '<div class="bloc1"><p><strong>¡Saludos!</strong></p><p>Bienvenido al curso de Desarrollo de Aplicaciones Descentralizadas (DApps) con Web3. Estamos emocionados de ayudarte a navegar por este emocionante e innovador campo de la tecnología blockchain. Este curso está diseñado para enseñarte los fundamentos de DApps utilizando las tecnologías de Web3.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+        title: 'Welcome to DApps Development with Web3',
+        content: '<div class="bloc1"><p><strong>Greetings!</strong></p><p>Welcome to the Decentralized Applications (DApps) Development with Web3 course. We are excited to help you navigate this exciting and innovative field of blockchain technology. This course is designed to teach you the fundamentals of DApps using Web3 technologies.</p></div>'
       },
       {
         type: 'LEARN',
         notionId: 'baf157b016ba48a890eb4cacb4b903e5',
-        title: 'Blockchain y Contratos Inteligentes',
-        content: '<div class="bloc1"><p>Web3 se basa en tecnologías blockchain y contratos inteligentes. El <code>blockchain</code> es una base de datos descentralizada, y los contratos inteligentes son programas que se ejecutan en esta base de datos.</p><p>Los contratos inteligentes permiten la creación de aplicaciones descentralizadas (dApps) que funcionan en la cadena de bloques y no están controladas por una entidad única.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+        title: 'Blockchain and Smart Contracts',
+        content: '<div class="bloc1"><p>Web3 is based on blockchain technologies and smart contracts. The <code>blockchain</code> is a decentralized database, and smart contracts are programs that run on this database.</p><p>Smart contracts allow the creation of decentralized applications (dApps) that operate on the blockchain and are not controlled by a single entity.</p></div>'
       },
       {
         type: 'QUIZ',
         notionId: '100f6d3d7cd542889814cf17733e9960',
-        title: 'Prueba de Conocimiento',
+        title: 'Knowledge Test',
         quiz: {
-          question: '¿Qué es un contrato inteligente?',
+          question: 'What is a smart contract?',
           rightAnswerNumber: 3,
           answers: [
-            'Un acuerdo legal digital',
-            'Un contrato que requiere una firma digital',
-            'Un programa que se ejecuta en la cadena de bloques',
-            'Un contrato con una entidad de inteligencia artificial'
+            'A digital legal agreement',
+            'A contract that requires a digital signature',
+            'A program that runs on the blockchain',
+            'A contract with an artificial intelligence entity'
           ],
           id: 'web3-dev-1'
         }
       },
       // Cryptography
-{
-  type: 'LEARN',
-  notionId: 'notion2',
-  title: 'Criptografía en Web3',
-  content: '<div class="bloc1"><p>La criptografía es una piedra angular de la seguridad y la funcionalidad de la Web3. A lo largo de esta sección, te introduciremos en los conceptos básicos de la criptografía, cómo se aplica en la blockchain y en las DApps.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-// Criptografía en Blockchain
-{
-  type: 'LEARN',
-  notionId: 'notion3',
-  title: 'Criptografía en Blockchain',
-  content: '<div class="bloc1"><p>La criptografía es esencial para la seguridad y la funcionalidad de la blockchain. Las transacciones, la creación de nuevos bloques y la garantía de integridad de los datos dependen todas de la criptografía. Vamos a explorar cómo se implementa la criptografía en un blockchain, y por qué es tan crítica.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-
-// Criptografía en DApps
-{
-  type: 'LEARN',
-  notionId: 'notion4',
-  title: 'Criptografía en DApps',
-  content: '<div class="bloc1"><p>En las DApps, la criptografía no solo protege las transacciones, sino que también puede jugar un papel en la lógica de la aplicación, como en los contratos inteligentes. A lo largo de esta sección, veremos cómo se puede aplicar la criptografía en las DApps y por qué es importante para su funcionamiento.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-
-{
-  type: 'QUIZ',
-  notionId: 'quiz2',
-  title: 'Prueba de Conocimiento',
-  quiz: {
-    question: '¿Por qué es importante la criptografía en la Web3?',
-    rightAnswerNumber: 2,
-    answers: [
-      'Para cifrar los mensajes de correo electrónico',
-      'Para garantizar la seguridad y la funcionalidad de la blockchain y las DApps',
-      'Para proteger contra los virus de computadora',
-      'Para mejorar el rendimiento del sistema'
-    ],
-    id: 'crypto-intro-1'
-  }
-},
-      // SHA-256 en Criptografía
+      {
+        type: 'LEARN',
+        notionId: 'notion2',
+        title: 'Cryptography in Web3',
+        content: '<div class="bloc1"><p>Cryptography is a cornerstone of the security and functionality of Web3. Throughout this section, we will introduce you to the basic concepts of cryptography, how it applies in blockchain and in DApps.</p></div>'
+      },
+      // Cryptography in Blockchain
+      {
+        type: 'LEARN',
+        notionId: 'notion3',
+        title: 'Cryptography in Blockchain',
+        content: '<div class="bloc1"><p>Cryptography is essential for the security and functionality of the blockchain. Transactions, the creation of new blocks and data integrity assurance all depend on cryptography. Let\'s explore how cryptography is implemented in a blockchain, and why it\'s so critical.</p></div>'
+      },
+      // Cryptography in DApps
+      {
+        type: 'LEARN',
+        notionId: 'notion4',
+        title: 'Cryptography in DApps',
+        content: '<div class="bloc1"><p>In DApps, cryptography not only protects transactions, but can also play a role in application logic, such as in smart contracts. Throughout this section, we will see how cryptography can be applied in DApps and why it is important for their operation.</p></div>'
+      },
+      {
+        type: 'QUIZ',
+        notionId: 'quiz2',
+        title: 'Knowledge Test',
+        quiz: {
+          question: 'Why is cryptography important in Web3?',
+          rightAnswerNumber: 2,
+          answers: [
+            'To encrypt email messages',
+            'To ensure the security and functionality of blockchain and DApps',
+            'To protect against computer viruses',
+            'To improve system performance'
+          ],
+          id: 'crypto-intro-1'
+        }
+      },
+      // SHA-256 in Cryptography
       {
         type: 'LEARN',
         notionId: 'notion5',
-        title: 'SHA-256 en Criptografía',
-        content: '<div class="bloc1"><p><code>SHA-256</code>, que significa Secure Hash Algorithm 256, es un algoritmo de hash criptográfico comúnmente utilizado en la blockchain. En términos simples, toma cualquier entrada y la convierte en una cadena alfanumérica única de longitud fija.</p><p>Este algoritmo es fundamental para garantizar la integridad y la seguridad de los datos en la blockchain. Cada transacción se pasa a través del algoritmo SHA-256 y se convierte en un hash. Este hash se utiliza luego para crear el sello digital de la transacción, permitiendo que cualquier cambio en la transacción se detecte fácilmente, ya que cambiaría el hash resultante.</p><p>La blockchain de Bitcoin, por ejemplo, utiliza SHA-256 para la creación de nuevos bloques y para asegurar las transacciones.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+        title: 'SHA-256 in Cryptography',
+        content: '<div class="bloc1"><p><code>SHA-256</code>, which stands for Secure Hash Algorithm 256, is a cryptographic hash algorithm commonly used in blockchain. In simple terms, it takes any input and converts it into a unique alphanumeric string of fixed length.</p><p>This algorithm is fundamental to ensuring data integrity and security in the blockchain. Each transaction is passed through the SHA-256 algorithm and converted into a hash. This hash is then used to create the digital seal of the transaction, allowing any changes in the transaction to be easily detected as it would change the resulting hash.</p><p>The Bitcoin blockchain, for example, uses SHA-256 for the creation of new blocks and to secure transactions.</p></div>'
       },
-      // Introducción a Ethereum
-{
-  type: 'LEARN',
-  notionId: 'notion8',
-  title: 'Introducción a Ethereum',
-  content: '<div class="bloc1"><p>Ethereum es una blockchain de código abierto que permite la creación de contratos inteligentes. Estos contratos son programas que se ejecutan en la Máquina Virtual Ethereum (EVM), y pueden automatizar la transferencia de criptomonedas bajo ciertas condiciones.</p><p>Ethereum amplía las posibilidades de blockchain más allá de la simple transferencia de valor. Con Ethereum, los desarrolladores pueden crear una variedad de aplicaciones, desde juegos hasta plataformas financieras.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-
-      // Criptografía en Ethereum
-{
-  type: 'LEARN',
-  notionId: 'notion6',
-  title: 'Criptografía en Ethereum',
-  content: '<div class="bloc1"><p>La red de Ethereum, similar a Bitcoin, también utiliza criptografía para garantizar la seguridad e integridad de las transacciones. Aunque Ethereum utiliza el algoritmo Ethash para el minado de sus bloques en lugar de SHA-256, emplea criptografía de la misma manera crucial para la seguridad de las transacciones.</p><p>Cada cuenta en Ethereum tiene una clave pública y una clave privada. La clave privada se utiliza para firmar transacciones: cuando envías Ether o interactúas con un contrato inteligente, firmas la transacción con tu clave privada.</p><p>Esta firma puede ser verificada con la clave pública, pero es matemáticamente inviable derivar la clave privada a partir de la clave pública o de la firma. Esto permite que las transacciones sean seguras: sólo el poseedor de la clave privada puede firmar transacciones, pero cualquier persona puede verificar esas transacciones con la clave pública.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-// Hashes en Ethereum
-{
-  type: 'LEARN',
-  notionId: 'notion7',
-  title: 'Hashes en Ethereum',
-  content: '<div class="bloc1"><p>Los hashes juegan un papel fundamental en la seguridad de Ethereum y de otras blockchains. Un hash es una función que toma una entrada de cualquier tamaño y produce una salida de tamaño fijo. En el caso de Ethereum, la función de hash produce una salida de 256 bits.</p><p>Las funciones de hash tienen una propiedad clave: la misma entrada siempre producirá la misma salida, pero cualquier cambio, incluso minúsculo, en la entrada producirá una salida completamente diferente. Esto es útil para verificar la integridad de los datos. Por ejemplo, Ethereum utiliza hashes para verificar la integridad de los bloques y las transacciones.</p><p>Además, los hashes se utilizan para crear direcciones en Ethereum. Cuando se crea una nueva cuenta, se genera un par de claves pública y privada. La clave pública se pasa por una función de hash para crear la dirección de la cuenta.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-
-// Quiz
-{
-  type: 'QUIZ',
-  notionId: 'quiz2',
-  title: 'Prueba de Conocimiento',
-  quiz: {
-    question: '¿Cómo se utiliza la criptografía en Ethereum?',
-    rightAnswerNumber: 4,
-    answers: [
-      'Para crear direcciones a partir de claves públicas',
-      'Para firmar transacciones con claves privadas',
-      'Para verificar la integridad de los datos utilizando hashes',
-      'Todas las anteriores'
-    ],
-    id: 'crypto-eth-1'
-  }
-},
-
-// Cómo funciona la EVM
-{
-  type: 'LEARN',
-  notionId: 'notion9',
-  title: 'La Máquina Virtual Ethereum (EVM)',
-  content: '<div class="bloc1"><p>La Máquina Virtual Ethereum (EVM) es el entorno de ejecución para los contratos inteligentes en Ethereum. Es completamente aislada del resto de la red, lo que significa que cualquier operación que se realice dentro de la EVM no afecta a las partes externas de la red.</p><p>La EVM permite la ejecución de código complejo dentro de la blockchain, lo que hace posible la creación de aplicaciones descentralizadas (dApps). Todos los nodos de la red Ethereum tienen una implementación de la EVM y deben ejecutar el mismo código con los mismos resultados para mantener la coherencia de la red.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-
-// Gas, Ether y transacciones en Ethereum
-{
-  type: 'LEARN',
-  notionId: 'notion10',
-  title: 'Gas, Ether y Transacciones en Ethereum',
-  content: '<div class="bloc1"><p>En Ethereum, las operaciones tienen un costo asociado denominado "gas". El gas es una medida de la cantidad de trabajo necesaria para ejecutar una operación específica o un contrato inteligente en la EVM. El costo del gas se paga en Ether, la criptomoneda nativa de Ethereum.</p><p>Cada transacción en Ethereum incluye una cantidad de gas y un precio del gas, que es la cantidad de Ether que el remitente está dispuesto a pagar por cada unidad de gas. Cuanto mayor sea el precio del gas, más atractiva será la transacción para los mineros, lo que podría resultar en una confirmación más rápida de la transacción.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-
-// Quiz
-{
-  type: 'QUIZ',
-  notionId: 'quiz3',
-  title: 'Prueba de Conocimiento',
-  quiz: {
-    question: '¿Qué es el gas en Ethereum?',
-    rightAnswerNumber: 2,
-    answers: [
-      'Es la criptomoneda nativa de Ethereum',
-      'Es una medida del trabajo necesario para ejecutar operaciones',
-      'Es la máquina virtual donde se ejecutan los contratos inteligentes',
-      'Es una herramienta de desarrollo para Ethereum'
-    ],
-    id: 'eth-vm-1'
-  }
-},
-// Sintaxis y conceptos clave de Solidity
-{
-  type: 'LEARN',
-  notionId: 'notion11',
-  title: 'Sintaxis y Conceptos Clave de Solidity',
-  content: '<div class="bloc1"><p>Solidity es un lenguaje de programación orientado a contratos inteligentes y utilizado para Ethereum. Su sintaxis es similar a JavaScript y está diseñado para facilitar la escritura de contratos inteligentes en la Máquina Virtual Ethereum (EVM).</p><p>Algunos conceptos clave de Solidity incluyen tipos de datos, funciones, control de acceso, herencia, y la capacidad de definir tu propio tipo de datos complejos.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-
-// Desarrollo de contratos inteligentes con Solidity
-{
-  type: 'LEARN',
-  notionId: 'notion12',
-  title: 'Desarrollo de Contratos Inteligentes con Solidity',
-  content: '<div class="bloc1"><p>Con Solidity, puedes desarrollar contratos inteligentes que ejecutan operaciones y manejan Ether dentro de la EVM. Un contrato inteligente en Solidity es como una "clase" en otros lenguajes de programación, con funciones y estados propios.</p><p>Además, puedes definir constructores, que son funciones que se ejecutan al desplegar el contrato, y modificadores, que son piezas reutilizables de código en las funciones.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-
-// Pruebas y despliegue de contratos inteligentes
-{
-  type: 'LEARN',
-  notionId: 'notion13',
-  title: 'Pruebas y Despliegue de Contratos Inteligentes',
-  content: '<div class="bloc1"><p>Es crucial probar y verificar la seguridad de tus contratos inteligentes antes de desplegarlos en la red principal de Ethereum. Herramientas como Truffle y Ganache pueden ayudarte a crear un entorno de pruebas para tus contratos.</p><p>Una vez que tus contratos hayan sido probados y auditados, pueden ser desplegados en la red principal de Ethereum, donde otros usuarios pueden interactuar con ellos.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-
-// Quiz
-{
-  type: 'QUIZ',
-  notionId: 'quiz4',
-  title: 'Prueba de Conocimiento',
-  quiz: {
-    question: '¿Qué es Solidity?',
-    rightAnswerNumber: 1,
-    answers: [
-      'Un lenguaje de programación para desarrollar contratos inteligentes en Ethereum',
-      'Una herramienta para probar contratos inteligentes',
-      'Un estándar para tokens en Ethereum',
-      'Una organización autónoma descentralizada'
-    ],
-    id: 'solidity-1'
-  }
-},
-
-// Comprender los estándares ERC y su importancia
-{
-  type: 'LEARN',
-  notionId: 'notion14',
-  title: 'Comprender los Estándares ERC y Su Importancia',
-  content: '<div class="bloc1"><p>Los estándares ERC, o Ethereum Request for Comments, son protocolos técnicos que proporcionan directrices para la creación de tokens y contratos inteligentes en Ethereum. Los estándares ERC más comunes son ERC20, ERC721 y ERC1155.</p><p>Estos estándares ayudan a garantizar la interoperabilidad entre diferentes aplicaciones y contratos inteligentes en Ethereum, facilitando así el desarrollo de DApps y DeFi.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-
-// Profundización en ERC20, ERC721, ERC1155 y su uso en DApps
-{
-  type: 'LEARN',
-  notionId: 'notion15',
-  title: 'Profundización en ERC20, ERC721, ERC1155 y Su Uso en DApps',
-  content: '<div class="bloc1"><p>ERC20 es el estándar para tokens fungibles, o tokens que son intercambiables uno por otro. ERC721 es el estándar para tokens no fungibles (NFTs), que son únicos y no intercambiables. ERC1155 es un estándar más nuevo que permite la creación de tokens fungibles y no fungibles en un solo contrato.</p><p>Estos tokens pueden ser usados en una amplia variedad de DApps, desde juegos hasta plataformas de DeFi, y son una parte integral del ecosistema Ethereum.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-
-// Quiz
-{
-  type: 'QUIZ',
-  notionId: 'quiz5',
-  title: 'Prueba de Conocimiento',
-  quiz: {
-    question: '¿Qué es un token ERC20?',
-    rightAnswerNumber: 2,
-    answers: [
-      'Un contrato inteligente',
-      'Un tipo de token fungible en Ethereum',
-      'Una billetera Ethereum',
-      'Una organización autónoma descentralizada'
-    ],
-    id: 'ercs-1'
-  }
-},
-
+      // Introduction to Ethereum
       {
         type: 'LEARN',
-        notionId: 'f764c92b0620495981b32bd34dd1fc62',
-        title: 'Desarrollo de dApps',
-        content: '<div class="bloc1"><p>Una parte crucial del desarrollo Web3 es la creación de dApps, siglas en inglés de Decentralized Applications (Aplicaciones Descentralizadas). Estas son aplicaciones que corren sobre una blockchain, aprovechando la seguridad y la descentralización que proporciona la cadena de bloques.</p><p>Las dApps pueden ser de cualquier tipo, desde juegos hasta plataformas financieras, y están transformando la forma en que interactuamos con el software.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
+        notionId: 'notion8',
+        title: 'Introduction to Ethereum',
+        content: '<div class="bloc1"><p>Ethereum is an open-source blockchain that allows the creation of smart contracts. These contracts are programs that run on the Ethereum Virtual Machine (EVM), and can automate the transfer of cryptocurrencies under certain conditions.</p><p>Ethereum extends the possibilities of blockchain beyond simple value transfer. With Ethereum, developers can create a variety of applications, from games to financial platforms.</p></div>'
+      },
+      // Cryptography in Ethereum
+      {
+        type: 'LEARN',
+        notionId: 'notion6',
+        title: 'Cryptography in Ethereum',
+        content: '<div class="bloc1"><p>The Ethereum network, similar to Bitcoin, also uses cryptography to ensure the security and integrity of transactions. Although Ethereum uses the Ethash algorithm for mining its blocks instead of SHA-256, it employs cryptography in the same crucial way for transaction security.</p><p>Each account on Ethereum has a public key and a private key. The private key is used to sign transactions: when you send Ether or interact with a smart contract, you sign the transaction with your private key.</p><p>This signature can be verified with the public key, but it is mathematically unfeasible to derive the private key from the public key or the signature. This allows transactions to be secure: only the holder of the private key can sign transactions, but anyone can verify those transactions with the public key.</p></div>'
+      },
+      // Hashes in Ethereum
+      {
+        type: 'LEARN',
+        notionId: 'notion7',
+        title: 'Hashes in Ethereum',
+        content: '<div class="bloc1"><p>Ethereum uses two cryptographic hash functions: KECCAK-256 and RIPEMD-160. KECCAK-256, also known as SHA-3, is used for most cryptographic operations in Ethereum, including securing transactions and creating addresses.</p><p>KECCAK-256 is very similar to SHA-256 in that it takes any input and outputs a unique hash of fixed length. This hash is then used to create the digital seal of the transaction, allowing any changes in the transaction to be easily detected as it would change the resulting hash.</p><p>RIPEMD-160 is used to create the Ethereum addresses. The public key of an account is passed through KECCAK-256, then the last 20 bytes are taken and passed through RIPEMD-160 to generate the address.</p></div>'
+      },
+      // Smart Contracts in Ethereum
+      {
+        type: 'LEARN',
+        notionId: 'notion9',
+        title: 'Smart Contracts in Ethereum',
+        content: '<div class="bloc1"><p>A smart contract is a program that runs on the Ethereum blockchain. It\'s called a contract because the code that composes it can control digital assets. Smart contracts can read other contracts, make decisions, send transactions, and interact with other contracts.</p><p>They are written in a language called Solidity, which is similar to JavaScript. This language allows the writing of complex contracts that can perform various functions.</p><p>Once a contract is deployed to the Ethereum blockchain, it is immutable, meaning it cannot be modified. Therefore, the writing of smart contracts requires a high degree of accuracy and testing.</p></div>'
+      },
+      // Solidity Basics
+      {
+        type: 'LEARN',
+        notionId: 'notion10',
+        title: 'Solidity Basics',
+        content: '<div class="bloc1"><p>Solidity is a statically typed, contract-oriented programming language. It is the primary language for the development of smart contracts on the Ethereum platform.</p><p>As a statically typed language, the type of each variable must be specified at compile time. As a contract-oriented language, it allows the creation of complex contracts that can interact with each other.</p><p>Solidity is influenced by C++, Python, and JavaScript and is designed to target the Ethereum Virtual Machine (EVM).</p><p>By learning Solidity, you’ll be able to create a wide range of decentralized applications, from simple token contracts to complex decentralized exchanges.</p></div>'
+      },
+      // Solidity Development Environment
+      {
+        type: 'LEARN',
+        notionId: 'notion11',
+        title: 'Solidity Development Environment',
+        content: '<div class="bloc1"><p>When developing with Solidity, there are several tools you can use to make your life easier. These include:</p><ul><li><strong>Remix:</strong> This is a web-based IDE for developing, testing, and deploying smart contracts in Solidity. It also includes a debugger and static analysis tools.</li><li><strong>Truffle:</strong> This is a development framework for Ethereum that helps with contract testing and deployment.</li><li><strong>Ganache:</strong> This is a personal Ethereum blockchain you can use for testing and experimentation. It runs on your local machine and comes with several helpful features.</li><li><strong>MetaMask:</strong> This is a browser-based Ethereum wallet. It allows users to interact with the Ethereum network and DApps from their browser.</li></ul></div>'
+      },
+      // Writing a Simple Smart Contract
+      {
+        type: 'LEARN',
+        notionId: 'notion12',
+        title: 'Writing a Simple Smart Contract',
+        content: '<div class="bloc1"><p>In this section, we’ll walk you through the process of writing a simple smart contract. This contract will store a single number and provide two functions: one to set the number and another to get the number.</p><p>First, let’s define our contract:</p><pre><code class="language-solidity">pragma solidity ^0.5.0;\n\ncontract SimpleStorage {\n    uint storedData;\n\n    function set(uint x) public {\n        storedData = x;\n    }\n\n    function get() public view returns (uint) {\n        return storedData;\n    }\n}</code></pre><p>The <code>set</code> function allows us to set the value of <code>storedData</code>, and the <code>get</code> function allows us to retrieve the value of <code>storedData</code>.</p></div>'
       },
       {
         type: 'QUIZ',
-        notionId: '9d0454d30e60454397b0926523f7e73c',
-        title: 'Prueba de Conocimiento',
+        notionId: 'quiz3',
+        title: 'Knowledge Test',
         quiz: {
-          question: '¿Qué es una dApp?',
-          rightAnswerNumber: 1,
+          question: 'Which of the following best describes Solidity?',
+          rightAnswerNumber: 3,
           answers: [
-            'Una aplicación que se ejecuta en la cadena de bloques',
-            'Una aplicación de Apple',
-            'Una aplicación para Android',
-            'Una aplicación para desarrolladores'
+            'A dynamically typed, object-oriented programming language',
+            'A statically typed, procedural programming language',
+            'A statically typed, contract-oriented programming language',
+            'A dynamically typed, functional programming language'
           ],
-          id: 'web3-dev-2'
+          id: 'solidity-intro-1'
         }
       },
-
+      // Deploying a Smart Contract
       {
         type: 'LEARN',
-        notionId: '1632e1238db7412590f60b88d8a5c2ad',
-        title: 'Herramientas de Desarrollo Web3: Remix',
-        content: '<div class="bloc1"><p>Existen muchas herramientas que facilitan el desarrollo Web3. Remix es un entorno de desarrollo ampliamente utilizado para escribir contratos inteligentes en Solidity, el lenguaje de programación utilizado por Ethereum.</p><p>Remix ofrece un entorno de desarrollo de contratos inteligentes completo y fácil de usar en tu navegador. Además, Remix se integra con Metamask, lo que facilita las pruebas y el despliegue de tus contratos.</p><p>Es importante mencionar que existen otras herramientas útiles como Hardhat, un entorno de desarrollo de Ethereum que ayuda en la compilación, despliegue, pruebas y depuración de tus contratos inteligentes.</p><p>En las siguientes lecciones, exploraremos más profundamente cómo usar Remix para maximizar tu eficiencia de desarrollo.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-    },
-    {
+        notionId: 'notion13',
+        title: 'Deploying a Smart Contract',
+        content: '<div class="bloc1"><p>Once you have written your smart contract, the next step is to deploy it to the Ethereum network. This can be done through various methods, such as using the Remix IDE, Truffle, or the Web3.js library.</p><p>When deploying, you would usually first deploy to a test network, like the Rinkeby or Ropsten network, before deploying to the main Ethereum network. This allows you to test the functionality of the contract and ensure it is working as expected without risking real Ether.</p><p>Deploying a contract requires paying gas, which is the computational cost of executing operations on the Ethereum network. The cost of gas depends on the complexity of the contract and the current demand on the network.</p></div>'
+      },
+      // Interacting with a Smart Contract
+      {
+        type: 'LEARN',
+        notionId: 'notion14',
+        title: 'Interacting with a Smart Contract',
+        content: '<div class="bloc1"><p>Once a contract is deployed, you can interact with it using its address and ABI (Application Binary Interface), which is a specification of how to interact with the contract. The ABI includes the names and types of the contract’s functions and events.</p><p>You can interact with a contract directly from the Ethereum node (if you have one running), or you can use Web3.js or Ethers.js, which are JavaScript libraries that provide a simple and consistent API for interacting with Ethereum.</p><p>You can call the contract’s functions using the call method, and listen to events using the events method. When calling a function that changes the state of the contract, you will need to pay gas.</p></div>'
+      },
+      {
         type: 'QUIZ',
-        notionId: '4eb4acacd7c9494386a77e5fb37bdf7d',
-        title: 'Prueba de Conocimiento',
+        notionId: 'quiz4',
+        title: 'Knowledge Test',
         quiz: {
-          question: '¿Qué es Remix en el contexto del desarrollo Web3?',
+          question: 'What is the purpose of the ABI in a smart contract?',
           rightAnswerNumber: 1,
           answers: [
-            'Un entorno de desarrollo en el navegador para contratos inteligentes en Solidity',
-            'Una aplicación de edición de música',
-            'Un servicio de alojamiento de archivos en la nube',
-            'Una herramienta de gestión de proyectos'
+            'It is a specification of how to interact with the contract',
+            'It is used to compile the contract',
+            'It is used to secure the contract',
+            'It is a digital signature of the contract'
           ],
-          id: 'web3-dev-3'
+          id: 'contract-interact-1'
         }
-    },
-
-// Concepto y beneficios de las DAOs
-{
-  type: 'LEARN',
-  notionId: 'notion16',
-  title: 'Concepto y Beneficios de las DAOs',
-  content: '<div class="bloc1"><p>Una Organización Autónoma Descentralizada (DAO) es una organización que es gobernada por código y cuya operación y toma de decisiones están automatizadas y descentralizadas.</p><p>Las DAOs tienen el potencial de crear organizaciones transparentes y justas, donde todos los participantes tienen voz en la toma de decisiones y el control no está centralizado en una sola entidad.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-
-// Cómo se estructuran y operan las DAOs
-{
-  type: 'LEARN',
-  notionId: 'notion17',
-  title: 'Cómo se Estructuran y Operan las DAOs',
-  content: '<div class="bloc1"><p>Las DAOs están formadas por contratos inteligentes en Ethereum. Estos contratos automatizan la operación de la DAO, desde la toma de decisiones hasta la distribución de fondos.</p><p>Las decisiones en una DAO suelen tomarse mediante un proceso de votación, donde los miembros de la DAO pueden votar en propuestas basadas en la cantidad de tokens de gobernanza que poseen.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-
-// Crear y gestionar una DAO
-{
-  type: 'LEARN',
-  notionId: 'notion18',
-  title: 'Crear y Gestionar una DAO',
-  content: '<div class="bloc1"><p>Crear una DAO implica el desarrollo de contratos inteligentes que definen las reglas y operaciones de la DAO. Existen frameworks como Aragon y DAOstack que facilitan la creación de DAOs.</p><p>La gestión de una DAO implica la propuesta y votación de decisiones, así como la interacción con otros miembros de la DAO para llegar a consensos y avanzar en los objetivos de la DAO.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-
-// Quiz
-{
-  type: 'QUIZ',
-  notionId: 'quiz6',
-  title: 'Prueba de Conocimiento',
-  quiz: {
-    question: '¿Qué es una DAO?',
-    rightAnswerNumber: 1,
-    answers: [
-      'Una organización gobernada por código y descentralizada',
-      'Un token en Ethereum',
-      'Una herramienta de desarrollo de contratos inteligentes',
-      'Un estándar para tokens no fungibles'
-    ],
-    id: 'daos-1'
-  }
-},
-
-// Problemas con el almacenamiento de datos tradicional
-{
-  type: 'LEARN',
-  notionId: 'notion19',
-  title: 'Problemas con el Almacenamiento de Datos Tradicional',
-  content: '<div class="bloc1"><p>El almacenamiento de datos tradicional suele ser centralizado, lo que significa que los datos están almacenados en servidores controlados por una sola entidad. Esto puede llevar a problemas de seguridad, ya que los datos pueden ser vulnerables a ataques. Además, los usuarios a menudo tienen que confiar en terceros para mantener sus datos seguros, lo que puede llevar a problemas de privacidad.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-
-// Soluciones de almacenamiento de datos descentralizadas
-{
-  type: 'LEARN',
-  notionId: 'notion20',
-  title: 'Soluciones de Almacenamiento de Datos Descentralizadas',
-  content: '<div class="bloc1"><p>Las soluciones de almacenamiento de datos descentralizadas, como IPFS y Filecoin, ofrecen una alternativa a las soluciones de almacenamiento de datos centralizadas. Estas soluciones permiten el almacenamiento de datos en una red descentralizada de nodos, lo que aumenta la seguridad y la resistencia a los ataques. Además, ya que los datos están descentralizados, los usuarios tienen un mayor control sobre sus propios datos.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-
-// Integrar el almacenamiento de datos descentralizado en las DApps
-{
-  type: 'LEARN',
-  notionId: 'notion21',
-  title: 'Integrar el Almacenamiento de Datos Descentralizado en las DApps',
-  content: '<div class="bloc1"><p>El almacenamiento de datos descentralizado puede ser integrado en las DApps para mejorar su seguridad y privacidad. Por ejemplo, una DApp podría utilizar IPFS para almacenar los datos del usuario de manera descentralizada, lo que permitiría al usuario mantener el control total sobre sus datos.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-
-// Quiz
-{
-  type: 'QUIZ',
-  notionId: 'quiz7',
-  title: 'Prueba de Conocimiento',
-  quiz: {
-    question: '¿Qué es IPFS?',
-    rightAnswerNumber: 1,
-    answers: [
-      'Un sistema de almacenamiento de datos descentralizado',
-      'Un lenguaje de programación',
-      'Un contrato inteligente en Ethereum',
-      'Un tipo de criptomoneda'
-    ],
-    id: 'decentralized-data-storage-1'
-  }
-},
-
-// Desafíos de escalabilidad en blockchain
-{
-  type: 'LEARN',
-  notionId: 'notion22',
-  title: 'Desafíos de Escalabilidad en Blockchain',
-  content: '<div class="bloc1"><p>Una de las mayores preocupaciones en blockchain es la escalabilidad. A medida que más usuarios se unen a una blockchain, el tiempo y los recursos necesarios para procesar transacciones pueden aumentar. Esto puede llevar a tiempos de transacción lentos y altos costos de gas en redes como Ethereum.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-
-// Qué son las sidechains y cómo ayudan con la escalabilidad
-{
-  type: 'LEARN',
-  notionId: 'notion23',
-  title: 'Sidechains y la Escalabilidad',
-  content: '<div class="bloc1"><p>Las sidechains son cadenas de bloques independientes que se ejecutan en paralelo a la cadena de bloques principal. Permiten el procesamiento de transacciones fuera de la cadena principal, lo que puede mejorar la escalabilidad al reducir la carga en la cadena principal. Ejemplos de sidechains y soluciones de segunda capa incluyen Polygon, Arbitrum, Optimism, y Binance Smart Chain.</p></div>'
-  },
-
-// Implementar sidechains en DApps
-{
-  type: 'LEARN',
-  notionId: 'notion24',
-  title: 'Implementar Sidechains en DApps',
-  content: '<div class="bloc1"><p>Las DApps pueden aprovechar las sidechains para mejorar su escalabilidad. Por ejemplo, una DApp podría utilizar una sidechain para procesar transacciones rápidas y de bajo costo, mientras que las transacciones más importantes podrían ser procesadas en la cadena de bloques principal.</p></div><div class="bloc2"><img src=\'/placeholder-image.svg\'></div>'
-},
-
-// Quiz
-{
-  type: 'QUIZ',
-  notionId: 'quiz8',
-  title: 'Prueba de Conocimiento',
-  quiz: {
-    question: '¿Cómo ayudan las sidechains con la escalabilidad en blockchain?',
-    rightAnswerNumber: 3,
-    answers: [
-      'Incrementando el tamaño del bloque',
-      'Reduciendo el tiempo de bloque',
-      'Permitiendo el procesamiento de transacciones fuera de la cadena principal',
-      'Incrementando el costo del gas'
-    ],
-    id: 'sidechains-1'
-  }
-},
-       
+      },
+      {
+        "type": "END",
+        "title": "Certificate"
+      }
     ]
-    
   },
   {
     kudosImageLink: '/badges/badge-celebrate.png',
@@ -1324,7 +1100,7 @@ const LESSONS: LessonType[] = [
       },
       {
         type: 'END',
-        title: 'Lesson Reward'
+        title: 'Certificate'
       }
     ]
   }

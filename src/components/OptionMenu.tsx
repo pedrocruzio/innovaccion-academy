@@ -42,7 +42,7 @@ const OptionMenu = ({
           ...
         </MenuButton>
         <MenuList css={{ background: '#6064fc' }}>
-        <ExternalLink href="https://en.academy.innovaccionpr.org" color="white">
+        <ExternalLink href="https://academy.innovaccionpr.org" color="white">
             <MenuItem>Español</MenuItem>
           </ExternalLink>
           <ExternalLink href="https://innovaccionpr.org" color="white">

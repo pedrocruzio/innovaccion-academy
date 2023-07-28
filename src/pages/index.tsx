@@ -32,6 +32,7 @@ import { HOMEPAGE_BACKGROUND, IS_WHITELABEL } from 'constants/index'
 import { Mixpanel } from 'utils/index'
 import SubscriptionModal from 'components/SubscriptionModal'
 import { useSmallScreen } from 'hooks/index'
+import LessonCards from 'components/LessonCards'
 
 const Card = styled(Box)`
   border: 1px solid #72757b;
@@ -78,13 +79,6 @@ const HomePage = (): JSX.Element => {
           >
             <Box mt={'20%'}>
               <InternalLink href={`/lessons`}>
-                <Button
-                  variant="primary"
-                  size="lg"
-                  style={{ padding: '0 23px', marginTop: '20px' }}
-                >
-                  Ver Cursos
-                </Button>
               </InternalLink>
             </Box>
           </Stack>
@@ -117,7 +111,9 @@ const HomePage = (): JSX.Element => {
             gap={6}
             my="10"
             mx={isSmallScreen ? '0' : '12'}
-          >
+          >                
+          
+          <InternalLink href={`/lessons`} color="white">
             <Card>
               <LearnIcon />
               <Heading size="lg" mt="2">
@@ -127,15 +123,20 @@ const HomePage = (): JSX.Element => {
                 Desde lo básico hasta profundizar, descubre el mundo de web3 con contenido construido junto a expertos líderes.
               </Text>
             </Card>
+            </InternalLink>
+            <InternalLink href={`/lessons`} color="white">
+
             <Card>
               <QuizIcon />
               <Heading size="lg" mt="2">
                 Prueba tus habilidades
               </Heading>
               <Text fontSize="lg" mt="2">
-                Completa actividades que ponen a prueba tu dominio de los conceptos de criptografía.
+                Completa actividades que ponen a prueba tu dominio de los conceptos de web3.
               </Text>
             </Card>
+            </InternalLink>
+            <InternalLink href={`/lessons`} color="white">
             <Card>
               <KudosIcon />
               <Heading size="lg" mt="2">
@@ -145,6 +146,7 @@ const HomePage = (): JSX.Element => {
                 Colecciona NFTs al completar lecciones con éxito.
               </Text>
             </Card>
+            </InternalLink>
           </SimpleGrid>
             </Box>
             {/* <Box
@@ -263,6 +265,17 @@ const HomePage = (): JSX.Element => {
               </Box>
             </> */}
           </Container>
+          <Box bgColor="#fff" p="4" overflow="hidden">
+          <Container bgColor="#fff" maxW="container.lg">
+          <Heading as="h2" size="xl" m="2" color="#5e62ff" textAlign="center">
+            Cursos de Web3 y Blockchain
+            </Heading>
+            <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={4} my={8} gap={6}>
+            <LessonCards />
+          </SimpleGrid>
+          </Container>
+
+            </Box>
           {/* <Footer /> */}
         </Box>
       </>

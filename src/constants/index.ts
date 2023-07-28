@@ -40,7 +40,7 @@ export const LOGO = WHITELABEL?.logo || '/images/logo-horz-blue.png'
 export const LOGO_SMALL = WHITELABEL?.logo_small || '/images/logo-horz-blue.png'
 
 export const HOMEPAGE_BACKGROUND =
-  WHITELABEL?.homepage_background || '/images/hero-img.png'
+  WHITELABEL?.homepage_background || '/images/hero-img-2.png'
 
 export const UMAMI_PROD =
   WHITELABEL?.umami_prod || '62d1cf48-425d-4658-9b86-3eea78ac9714'
